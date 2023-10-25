@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    
+    <title>Byron的知识花园</title>
+    <description>记录 Bio+IT 相关的知识，沉淀生活，记录点滴。</description>
+    <link>https://doc.weiyan.cc/</link>
+    <atom:link href="https://doc.weiyan.cc/feed_rss_created.xml" rel="self" type="application/rss+xml" />
+
+    
+    <managingEditor>Steven Shum</managingEditor>
+    <docs>https://github.com/shenweiyan/Knowledge-Garden/</docs>
+    <language>en-None</language>
+
+    
+    <pubDate>Wed, 25 Oct 2023 16:46:44 -0000</pubDate>
+    <lastBuildDate>Wed, 25 Oct 2023 16:46:44 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>MkDocs RSS plugin - v1.8.0</generator>
+
+    
+    
+    <image>
+      <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png</url>
+      <title>Byron的知识花园</title>
+      <link>https://doc.weiyan.cc/</link>
+    </image>
+    
+
+    
+    
+    <item>
+      <title>阅读说明</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本知识库基于 &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/&#34;&gt;Material for MkDocs&lt;/a&gt; 进行部署，大部分文章来源于个人的 &lt;strong&gt;&lt;a href=&#34;https://www.yuque.com/shenweiyan&#34;&gt;语雀知识库&lt;/a&gt;&lt;/strong&gt;，是作者关于生物信息学、互联网 IT、运维开发、软件测评使用等相关文章汇总。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Welcome To My Knowledge-Garden&#34; src=&#34;https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/kg-readme-cover.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;!!! abstract &#34;希望所有读到此博客文章的读者都有所收获&#34;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;愿上帝赐予我平静，让我能接纳我无法改变的事；
+
+愿上帝赐予我勇气，让我能改变我可以改变的事；
+
+并赐予我智慧，让我能分辨这两者的不同。用心生活每一天；
+
+用灵魂享受每个时刻；承受磨难，因为它是通向安宁的必经之路。
+
+效法耶稣，看清这个罪恶的世界，
+
+接受它原本的样子，而不是我所期盼的样子；
+
+相信只要服从神的旨意，神就能庇佑一切；
+
+这样，这一生我就有理由得到快乐，并在天堂与您一起得到极乐。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;特别说明&lt;/h2&gt;
+&lt;p&gt;很长一段时间以来，一直都在使用 &lt;a href=&#34;https://www.yuque.com/shenweiyan&#34;&gt;语雀&lt;/a&gt; 来记录个人工作、生活的各种知识。&lt;/p&gt;
+&lt;p&gt;从 2023 年下半年起出于某些原因，开始考虑数据多平台使用+备份+搜索的一些使用场景，几经考虑于是决定开始 All in GitHub 的一些探索，把语雀的一些文章记录同步到这里。同时开始探索 &lt;a href=&#34;https://github.com/shenweiyan/Knowledge-Garden/issues&#34;&gt;Issues&lt;/a&gt; + &lt;a href=&#34;https://github.com/shenweiyan/Knowledge-Garden/discussions&#34;&gt;Discussions&lt;/a&gt; 来替换语雀小记。&lt;/p&gt;
+&lt;p&gt;我希望这是我最后一次折腾个人的站点(博客)，从为知笔记、&lt;a href=&#34;https://leanote.com/&#34;&gt;蚂蚁笔记&lt;/a&gt;、Jekyll/Hexo/Hugo ... 一路过来的人，曾经把太多的时间和精力都花费到 Theme/Html/CSS 的装潢上面了。内容才是核心，老老实实回归最简单的 Issues 和 Discussions 已经足够，另外，需要知道的是，博客其实就是写给自己看的，什么 SEO 流量、关注度、知名度还是需要一颗随缘的心态。&lt;/p&gt;
+&lt;p&gt;至于为什么选择 Mkdocs，尤其是 &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/&#34;&gt;Material for MkDocs&lt;/a&gt;，主要基于下面几点考虑：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;这是一个基于 Python 的静态站点生成器，而自己对 Python 也比较熟悉；&lt;/li&gt;
+&lt;li&gt;支持 Markdown；&lt;/li&gt;
+&lt;li&gt;支持全文搜索；&lt;/li&gt;
+&lt;li&gt;插件丰富；&lt;/li&gt;
+&lt;li&gt;可以直接托管在 GitHub；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/&#34;&gt;Material for MkDocs&lt;/a&gt; 的一些理念(如, &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/insiders/&#34;&gt;Insiders&lt;/a&gt;)。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;如何搜索&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;使用点&lt;a href=&#34;https://doc.weiyan.cc/&#34;&gt;本站&lt;/a&gt;自带的搜索（推荐方法）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 &lt;a href=&#34;https://sourcegraph.com/github.com/shenweiyan/Knowledge-Garden&#34;&gt;Sourcegraph.com&lt;/a&gt; 进行搜索。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 GitHub 自带的搜索。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;致谢&lt;/h2&gt;
+&lt;p&gt;本知识库受 Openbiox &lt;a href=&#34;https://github.com/openbiox/weekly&#34;&gt;《生信爱好者周刊》&lt;/a&gt;启发开始使用 &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/&#34;&gt;Material for MkDocs&lt;/a&gt; 进行部署。&lt;/p&gt;
+&lt;p&gt;感谢 &lt;a href=&#34;https://github.com/LetTTGACO&#34;&gt;LetTTGACO&lt;/a&gt; 提供的 &lt;a href=&#34;https://elog.1874.cool/&#34;&gt;Elog&lt;/a&gt; 工具，提供了一个可以从语雀到本平台的优雅同步方案。&lt;/p&gt;
+&lt;h2&gt;赞赏&lt;/h2&gt;
+&lt;p&gt;如果你觉得到本知识库对你有帮助，欢迎赞赏，有你的支持，我们一定会越来越好！&lt;/p&gt;
+&lt;figure markdown&gt;
+![微信-支付宝赞赏码](https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/donate.jpg &#34;感谢你的一路支持&#34;)
+&lt;figcaption&gt;Random acts of kindness.&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+      <link>https://doc.weiyan.cc/</link>
+      <pubDate>Wed, 25 Oct 2023 16:04:28 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/</guid>
+      
+    </item>
+    
+    <item>
+      <title>语雀</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;语雀，是一个非常优秀的文档和知识库工具，也曾经是个人知识和文档记录的一个非常重要的平台。但由于工作和其他的一些原因，逐渐从语雀转移到了 GitHub，作为历史文章的一个备份，你可以通过下面的链接访问我的语雀花园主页，感谢你的支持，我们一定会越来越好！&lt;/p&gt;
+&lt;p align=center&gt;&lt;b&gt;&lt;a href=&#34;https://www.yuque.com/shenweiyan&#34; target=&#34;_blank&#34;&gt;www.yuque.com/shenweiyan&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description>
+      <link>https://doc.weiyan.cc/YUQUE/</link>
+      <pubDate>Wed, 25 Oct 2023 16:04:28 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/YUQUE/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;
+&lt;p&gt;这是首发于 GitHub Discussion/Issues，并定期同步更新至 Material for MkDocs 上的博客文章。&lt;/p&gt;</description>
+      <link>https://doc.weiyan.cc/blog/</link>
+      <pubDate>Wed, 25 Oct 2023 16:04:28 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/blog/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://doc.weiyan.cc/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Wed, 25 Oct 2023 16:04:28 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://doc.weiyan.cc/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Wed, 25 Oct 2023 16:04:28 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-19 21:51:59 自动生成！&lt;/p&gt;</description>
+      <link>https://doc.weiyan.cc/css/</link>
+      <pubDate>Wed, 25 Oct 2023 16:04:28 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/css/</guid>
+      
+    </item>
+    
+    <item>
+      <title>技术私房菜</title>
+      
+      
+        
+      <author>橘涂拾捌</author>
+        
+      
+      
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Real beauty comes from learning, growing, and loving in the ways of life. That is the Art of Life.&lt;/p&gt;
+&lt;p&gt;真正的美丽源于生命里的学习、成长和热爱。这就是生命的艺术。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这是作者关于生物信息学、互联网 IT、运维开发、软件测评使用等相关的文章集，大部分为原创。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;cookbook image&#34; src=&#34;https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/yq-cookbook-cover.jpg&#34;&gt;&lt;/p&gt;</description>
+      <link>https://doc.weiyan.cc/cookbook/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/cookbook/</guid>
+      
+    </item>
+    
+    <item>
+      <title>随笔乱弹</title>
+      
+      
+        
+      <author>橘涂拾捌</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;strong&gt;随笔乱弹知识库&lt;/strong&gt; —— 记录一些个人的想法，所见，所闻，所感，以及一些有意思的人和事！&lt;/p&gt;
+&lt;figure markdown&gt;
+![Welcome To My Notebook](https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/yq-notebook-cover.jpg)
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+      <link>https://doc.weiyan.cc/notebook/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.weiyan.cc/feed_rss_created.xml">Byron的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.weiyan.cc/notebook/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>
