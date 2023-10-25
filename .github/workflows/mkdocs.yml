@@ -15,8 +15,8 @@ jobs:
 
       - name: 配置Git用户名邮箱
         run: |
-          git config --global user.name "shenweiyan"
-          git config --global user.email "weiyanshum@gmail.com"
+          git config --global user.name "byronlau"
+          git config --global user.email "byronlau666@gmail.com"
 
       - name: Git Pull
         run: git pull
@@ -33,7 +33,7 @@ jobs:
         run: python3 makeindex.py -r -d docs/cookbook
 
       - name: Fetch blog posts
-        run: python3 discussions2MkdocsBlog.py -r shenweiyan/Knowledge-Garden -t ${{ secrets.PERSONAL_ACCESS_TOKEN }} -o docs/blog/posts
+        run: python3 discussions2MkdocsBlog.py -r byronlau/Knowledge-Garden -t ${{ secrets.PERSONAL_ACCESS_TOKEN }} -o docs/blog/posts
 
       - name: Commit files
         run: |
