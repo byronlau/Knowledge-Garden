@@ -1,0 +1,127 @@
+site_name: Byron的知识花园
+site_url: https://doc.weiyan.cc/
+site_description: '记录 Bio+IT 相关的知识，沉淀生活，记录点滴。'
+docs_dir: "docs"
+site_dir: "site"
+extra_css: 
+  - css/extra.css
+  - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
+  - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+theme:
+  favicon: assets/logo.png
+  name: material
+  font:
+    text: "JetBrains Mono"
+    code: "Consolas,Courier,courier new,stkaiti,kaiti,simkai,monospace"
+  language: zh
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.sections
+    - navigation.path          # Sponsors only
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - navigation.footer
+  palette:
+    - scheme: default
+      primary: grey
+      accent: indigo
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to dark mode
+    - scheme: slate
+      primary: grey
+      accent: indigo
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to light mode
+
+# Repository
+repo_name: Knowledge-Garden
+repo_url: https://github.com/shenweiyan/Knowledge-Garden/
+edit_uri: edit/main/docs/
+site_author: Steven Shum
+
+# Copyright
+copyright: 版权所有
+
+nav:
+    - 阅读说明: README.md
+    - 技术: 
+        - cookbook/index.md
+        - 生物信息: cookbook/生物信息
+        - 专栏主题: cookbook/专栏主题
+        - 开发运维: cookbook/开发运维
+        - 数据库: cookbook/数据库
+        - 知识杂项: cookbook/知识杂项
+        - 编程技术: cookbook/编程技术
+        - 数据可视化: cookbook/数据可视化
+    - 随笔: notebook
+    - 语雀: YUQUE.md
+    - RSS: https://shenweiyan.github.io/Knowledge-Garden/feed_rss_created.xml
+    - 博客: 
+        - blog/index.md
+    
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - md_in_html
+    - pymdownx.superfences
+    - smarty
+    - toc:
+        permalink: True
+        separator: "-"
+        toc_depth: 5
+    - pymdownx.highlight
+    
+plugins:
+  - rss:
+      enabled: True
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+      pretty_print: True
+      length: 1000
+      date_from_meta:
+          as_creation: "date"
+          as_update: "date"
+      abstract_chars_count: -1
+  - glightbox:
+      auto_caption: false    
+      caption_position: bottom
+  - search:
+      separator: '[\s\u200b\-]'
+  - git-revision-date-localized:
+      type: iso_date
+      timezone: Asia/Shanghai
+      fallback_to_build_date: true
+      exclude:
+          - blog/archive/*
+          - blog/category/*
+  - include_dir_to_nav:
+      reverse_sort_file: true
+  - blog:
+      blog_dir: blog
+      post_dir: "{blog}/posts"
+      archive: true
+      categories: true
+      pagination: true
+      pagination_per_page: 5
+
+hooks:
+  - hooks.py
+      
+extra:
+  homepage: https://doc.weiyan.cc
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shenweiyan
+      name: GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/weiyanshum
+      name: Twitter      
