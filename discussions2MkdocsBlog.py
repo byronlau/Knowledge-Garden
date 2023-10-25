@@ -144,7 +144,7 @@ def __main__():
 
         comments = f"""
 <script src="https://giscus.app/client.js"
-    data-repo="shenweiyan/Knowledge-Garden"
+    data-repo="byronlau/Knowledge-Garden"
     data-repo-id="R_kgDOKgxWlg"
     data-mapping="number"
     data-term="{discussion_number}"
