@@ -33,7 +33,7 @@ jobs:
         run: python3 makeindex.py -r -d docs/cookbook
 
       - name: Fetch blog posts
-        run: python3 discussions2MkdocsBlog.py -r byronlau/Knowledge-Garden -t ${{ secrets.PERSONAL_ACCESS_TOKEN }} -o docs/blog/posts
+        run: python3 discussions2MkdocsBlog.py -r byronlau/Knowledge-Garden -t ${{ secrets.GITHUB_TOKEN }} -o docs/blog/posts
 
       - name: Commit files
         run: |
@@ -44,7 +44,7 @@ jobs:
       - name: Push Changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
 
       - uses: actions/cache@v3
