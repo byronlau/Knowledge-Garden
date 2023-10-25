@@ -1,7 +1,7 @@
 ---
 title: 随笔乱弹
 urlname: 2023-06-05-notebook-index
-author: 章鱼猫先生
+author: 橘涂拾捌
 date: 2023-06-05
 updated: "2023-06-05 09:42:10"
 ---
