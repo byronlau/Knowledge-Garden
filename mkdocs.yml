@@ -45,7 +45,7 @@ theme:
 
 # Repository
 repo_name: Knowledge-Garden
-repo_url: https://github.com/shenweiyan/Knowledge-Garden/
+repo_url: https://github.com/byronlau/Knowledge-Garden/
 edit_uri: edit/main/docs/
 site_author: Steven Shum
 
@@ -65,7 +65,7 @@ nav:
         - 数据可视化: cookbook/数据可视化
     - 随笔: notebook
     - 语雀: YUQUE.md
-    - RSS: https://shenweiyan.github.io/Knowledge-Garden/feed_rss_created.xml
+    - RSS: https://byronlau.github.io/Knowledge-Garden/feed_rss_created.xml
     - 博客: 
         - blog/index.md
     
