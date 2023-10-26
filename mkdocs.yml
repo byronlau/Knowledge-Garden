@@ -57,7 +57,7 @@ nav:
     - 技术: 
         - cookbook/index.md
         - 专栏主题: cookbook/专栏主题
-        - 编程技术: cookbook/
+        - 编程技术: cookbook/编程技术
         - 数据库: cookbook/数据库
         - 开发运维: cookbook/开发运维
         - 知识杂项: cookbook/知识杂项
