@@ -1,6 +1,6 @@
-site_name: Byron的知识花园
-site_url: https://doc.weiyan.cc/
-site_description: '记录 Bio+IT 相关的知识，沉淀生活，记录点滴。'
+site_name: 橘涂拾捌的知识花园
+site_url: https://doc.mgd2008.com/
+site_description: '记录工作遇到的问题、学习中总结的知识、生活中遇到的趣事。'
 docs_dir: "docs"
 site_dir: "site"
 extra_css: 
@@ -56,13 +56,11 @@ nav:
     - 阅读说明: README.md
     - 技术: 
         - cookbook/index.md
-        - 生物信息: cookbook/生物信息
         - 专栏主题: cookbook/专栏主题
-        - 开发运维: cookbook/开发运维
+        - 编程技术: cookbook/
         - 数据库: cookbook/数据库
+        - 开发运维: cookbook/开发运维
         - 知识杂项: cookbook/知识杂项
-        - 编程技术: cookbook/编程技术
-        - 数据可视化: cookbook/数据可视化
     - 随笔: notebook
     - 语雀: YUQUE.md
     - RSS: https://byronlau.github.io/Knowledge-Garden/feed_rss_created.xml
@@ -117,11 +115,8 @@ hooks:
   - hooks.py
       
 extra:
-  homepage: https://doc.weiyan.cc
+  homepage: https://doc.mgd2008.com
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/shenweiyan
-      name: GitHub
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/weiyanshum
-      name: Twitter      
+      link: https://github.com/byronlau
+      name: GitHub      

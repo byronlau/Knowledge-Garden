@@ -63,7 +63,7 @@ jobs:
 
       - name: 配置Git用户名邮箱
         run: |
-          git config --global user.name "shenweiyan"
+          git config --global user.name "byronlau"
           git config --global user.email "weiyanshum@gmail.com"
 
       - name: 安装Python3
