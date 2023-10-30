@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # vim:et:ts=4:sw=4:
-#!/usr/bin/env python
+# !/usr/bin/env python
 
 import argparse
 import requests
@@ -9,15 +9,17 @@ import json
 from slugify import slugify
 from pathlib import Path
 
+
 def stop_err(msg):
     sys.stderr.write('%s\n' % msg)
     sys.exit()
+
 
 def gen_discussions_query(owner, repo_name, perPage, endCursor, first_n_threads):
     after_endCursor = ""
     if endCursor:
         after_endCursor = 'after: "%s"' % endCursor
-    
+
     return f"""
     query {{
         repository(owner: "{owner}", name: "{repo_name}") {{
@@ -64,6 +66,7 @@ def gen_discussions_query(owner, repo_name, perPage, endCursor, first_n_threads)
     }} # end query
     """
 
+
 def get_discussions(query, url, headers):
     response = requests.post(url, json={"query": query}, headers=headers)
     data = response.json()
@@ -71,6 +74,7 @@ def get_discussions(query, url, headers):
         return ""
     else:
         return data['data']['repository']['discussions']
+
 
 def __main__():
     parser = argparse.ArgumentParser(description="Fetch GitHub discussions data to mkdocs blog")
@@ -80,11 +84,11 @@ def __main__():
     args = parser.parse_args()
 
     gh_token = args.github_token
-    gh_repo  = args.github_repo
+    gh_repo = args.github_repo
 
-    categoriesWhitelist = ['乱弹', '好玩', '资讯']
+    categoriesWhitelist = ['乱弹', '好玩', '资讯', '编程日志', 'Java', 'Python', 'Go', 'Mysql', 'Redis', 'CK', '前端']
 
-    gh_owner     = gh_repo.split("/")[0]
+    gh_owner = gh_repo.split("/")[0]
     gh_repo_name = gh_repo.split("/")[-1]
 
     # 创建目录; 目录存在则先删除 md
@@ -98,54 +102,55 @@ def __main__():
     url = "https://api.github.com/graphql"
     headers = {"Authorization": f"Bearer %s" % gh_token}
 
-    hasNextPage    = True
+    hasNextPage = True
     allDiscussions = []
-    endCursor      = ""  
+    endCursor = ""
     while hasNextPage:
-        query          = gen_discussions_query(gh_owner, gh_repo_name, 5, endCursor, 10)
-        results        = get_discussions(query, url, headers)
-        discussions    = results['nodes']
-        hasNextPage    = results['pageInfo']['hasNextPage']
-        endCursor      = results['pageInfo']['endCursor']
+        query = gen_discussions_query(gh_owner, gh_repo_name, 5, endCursor, 10)
+        results = get_discussions(query, url, headers)
+        discussions = results['nodes']
+        hasNextPage = results['pageInfo']['hasNextPage']
+        endCursor = results['pageInfo']['endCursor']
         allDiscussions = allDiscussions + discussions
 
-    for discussion in sorted(allDiscussions, key=lambda x: x['number']): #fix me
+    for discussion in sorted(allDiscussions, key=lambda x: x['number']):  # fix me
         if not discussion:
             print("Null discussion!")
             continue
-        discussion_title        = discussion['title']
-        discussion_number       = discussion['number']
-        discussion_url          = discussion['url']
-        discussion_createdAt    = discussion['createdAt']
+        discussion_title = discussion['title']
+        discussion_number = discussion['number']
+        discussion_url = discussion['url']
+        discussion_createdAt = discussion['createdAt']
         discussion_lastEditedAt = discussion['lastEditedAt'] if discussion['lastEditedAt'] else 'None'
-        discussion_updatedAt    = discussion['updatedAt']
-        discussion_body         = discussion['body']
-        discussion_author       = discussion['author']['login']
-        discussion_category     = discussion['category']['name'].split()[-1]
-        discussion_labels       = [label['name'] for label in discussion['labels']['nodes']] if discussion['labels']['nodes'] else []
+        discussion_updatedAt = discussion['updatedAt']
+        discussion_body = discussion['body']
+        discussion_author = discussion['author']['login']
+        discussion_category = discussion['category']['name'].split()[-1]
+        discussion_labels = [label['name'] for label in discussion['labels']['nodes']] if discussion['labels'][
+            'nodes'] else []
 
         if not discussion_category in categoriesWhitelist:
             continue
-        
-        md_filename = slugify(discussion_title, allow_unicode=True, lowercase=False)+".md"
+
+        md_filename = slugify(discussion_title, allow_unicode=True, lowercase=False) + ".md"
 
         metadata = "---\ntitle: %s\nnumber: %s\nurl: %s\ndate: %s\ncreatedAt: %s\nlastEditedAt: %s\nupdatedAt: %s\nauthors: [%s]\ncategories: \n  - %s\nlabels: %s\nfilename: %s\n---\n\n" % (
-                    discussion_title,
-                    str(discussion_number),
-                    discussion_url,
-                    discussion_createdAt[0:10],
-                    discussion_createdAt,
-                    discussion_lastEditedAt,
-                    discussion_updatedAt,
-                    discussion_author,
-                    discussion_category,
-                    discussion_labels,
-                    md_filename)
+            discussion_title,
+            str(discussion_number),
+            discussion_url,
+            discussion_createdAt[0:10],
+            discussion_createdAt,
+            discussion_lastEditedAt,
+            discussion_updatedAt,
+            discussion_author,
+            discussion_category,
+            discussion_labels,
+            md_filename)
 
         comments = f"""
 <script src="https://giscus.app/client.js"
     data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKgxWlg"
+    data-repo-id="R_kgDOKkfaDQ"
     data-mapping="number"
     data-term="{discussion_number}"
     data-reactions-enabled="1"
@@ -157,12 +162,13 @@ def __main__():
     async>
 </script>
         """
-        
+
         saved_md_file = os.path.join(outdir, md_filename)
-        with open(saved_md_file, "w") as MD:
+        with open(saved_md_file, "w", encoding="utf8") as MD:
             MD.write(metadata)
             MD.write(discussion_body)
-            MD.write(comments)       
+            MD.write(comments)
+
 
 if __name__ == "__main__":
     __main__()
