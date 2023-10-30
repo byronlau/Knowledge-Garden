@@ -18,6 +18,8 @@
         <link rel="prev" href="../YUQUE/">
       
       
+        <link rel="next" href="category/">
+      
       
         <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../feed_rss_created.xml">
         <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../feed_rss_updated.xml">
@@ -1871,6 +1873,8 @@
       
         
       
+        
+      
     
     
     
@@ -1919,16 +1923,138 @@
   
   
   
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+    
+    
+      
         
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
+            
   
   <span class="md-ellipsis">
     归档
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            归档
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="archive/2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    分类
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            分类
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="category/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    乱弹
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1975,6 +2101,144 @@
 <p>这是首发于 GitHub Discussion/Issues，并定期同步更新至 Material for MkDocs 上的博客文章。</p>
       </header>
       
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-10-30 00:00:00">2023年10月30日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="category/" class="md-meta__link">乱弹</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="pagehelperstream"><a class="toclink" href="2023/10/30/pagehelperstream/">使用pageHelper，在对数据进行对象转换或者使用stream操作之后分页失效</a></h2>
+<blockquote>
+<p>使用pagehelper，在对数据进行对象转换或者使用stream操作之后分页失效</p>
+</blockquote>
+<h4 id="_1"><a class="toclink" href="2023/10/30/pagehelperstream/#_1">问题描述</a></h4>
+<p>使用MyBatis-Plus操作数据库，使用PageHelper插件进行分页操作，直接返回Mapper的分页查询结果数据时分页状态正常，对数据对象进行转换后返回转换后的list则分页出现异常，分页数据的total变成当前返回数据list的size，页数始终为1
+<div class="highlight"><pre><span></span><code><span class="n">PageHelper</span><span class="p">.</span><span class="na">startPage</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span>
+<span class="n">List</span><span class="o">&lt;</span><span class="n">Data</span><span class="o">&gt;</span><span class="w"> </span><span class="n">datas</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dataService</span><span class="p">.</span><span class="na">finddataList</span><span class="p">();</span>
+<span class="c1">// 使用stream处理数据 或者 对象转换dataList = datas.stream().xxxxx;</span>
+<span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PageInfo</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">dataList</span><span class="p">);</span>
+</code></pre></div></p>
+<h4 id="_2"><a class="toclink" href="2023/10/30/pagehelperstream/#_2">问题排查</a></h4>
+<p>【第一步】：分页查询
+分页查询的时候，得到的datas是一个特殊的ArrayList，Page对象，在源码中可以看到
+<div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Page</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Closeable</span><span class="w"> </span><span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div>
+【第二步】：返回PageInfo对象 在返回PageInfo对象的时候，源码中会做如下判断
+<div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="nf">PageInfo</span><span class="p">(</span><span class="n">List</span><span class="w"> </span><span class="n">list</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">navigatePages</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">super</span><span class="p">(</span><span class="n">list</span><span class="p">);</span>
+<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">isFirstPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">isLastPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">hasPreviousPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">hasNextPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">Page</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Page 对象           </span>
+<span class="w">        </span><span class="n">Page</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">Page</span><span class="p">)</span><span class="w"> </span><span class="n">list</span><span class="p">;</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageNum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getPageNum</span><span class="p">();</span>
+<span class="w">        </span><span class="c1">// 正常的pageNum、pageSize 等返回结果            </span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getPageSize</span><span class="p">();</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getPages</span><span class="p">();</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">endRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getStartRow</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1L</span><span class="p">;</span>
+<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">endRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">Collection</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// 非Page 对象  </span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageNum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">// pageNum 设置为了1  </span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
+<span class="w">        </span><span class="c1">// pageSzie 被设置为了列表元素数 </span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pageSize</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">endRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">()</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">Collection</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">calcByNavigatePages</span><span class="p">(</span><span class="n">navigatePages</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+【结论】由于使用stream和类型转换之后对被象收集为了普通的ArrayList对象，并不是Page对象，所以在第二步返回时被判定为非page对象，被当做一个普通的ArrayList设置了pageNum(写死为第一页了)、total等，所以分页就失效了 stream把可正常分页的Page对象(ArrayList的子对象)，转换成了不能分页的ArrayList对象</p>
+<h4 id="_3"><a class="toclink" href="2023/10/30/pagehelperstream/#_3">解决方法</a></h4>
+<p><div class="highlight"><pre><span></span><code><span class="n">Page</span><span class="o">&lt;</span><span class="n">MessageVo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">messageVos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Page</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">  </span>
+<span class="n">BeanUtils</span><span class="p">.</span><span class="na">copyProperties</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span><span class="w"> </span><span class="n">messageVos</span><span class="p">);</span>
+<span class="n">messages</span><span class="p">.</span><span class="na">forEach</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">     </span>
+<span class="n">MessageVo</span><span class="w"> </span><span class="n">nVo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MessageVo</span><span class="p">();</span><span class="w"> </span>
+<span class="n">nVo</span><span class="p">.</span><span class="na">setType</span><span class="p">(</span><span class="n">n</span><span class="p">.</span><span class="na">getType</span><span class="p">());</span><span class="w">     </span>
+<span class="n">nVo</span><span class="p">.</span><span class="na">setTitle</span><span class="p">(</span><span class="n">n</span><span class="p">.</span><span class="na">getTitle</span><span class="p">());</span><span class="w">  </span>
+<span class="p">....</span><span class="w">      </span><span class="n">messageVos</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">nVo</span><span class="p">);</span><span class="w"> </span>
+<span class="p">});</span><span class="w"> </span>
+<span class="n">PageInfo</span><span class="o">&lt;</span><span class="n">MessageVo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pageInfo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PageInfo</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">messageVos</span><span class="p">);</span><span class="w">  </span>
+<span class="k">return</span><span class="w"> </span><span class="n">pageInfo</span><span class="p">;</span>
+</code></pre></div>
+1. 首先新建一个Page<Vo>对象
+2. 将分页查询出来的分页属性结果拷贝进Page中
+3. 增强 for 设置视图属性
+4. 将视图结果放入PageInfo</p>
+<script src="https://giscus.app/client.js"
+    data-repo="byronlau/Knowledge-Garden"
+    data-repo-id="R_kgDOKkfaDQ"
+    data-mapping="number"
+    data-term="5"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
+</script>
+    <nav class="md-post__action">
+      <a href="2023/10/30/pagehelperstream/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  
+</nav>
+        
       
     </div>
   </div>
@@ -2012,6 +2276,22 @@
             </div>
           </a>
         
+        
+          
+          <a href="category/" class="md-footer__link md-footer__link--next" aria-label="下一页: 乱弹">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                乱弹
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
         
       </nav>
     

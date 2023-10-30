@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/2023/10/30/pagehelperstream/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/cookbook/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
@@ -137,6 +142,16 @@
     </url>
     <url>
          <loc>https://doc.mgd2008.com/notebook/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/</loc>
+         <lastmod>2023-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/</loc>
          <lastmod>2023-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
