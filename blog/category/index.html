@@ -2204,7 +2204,7 @@
 </code></pre></div>
 【结论】由于使用stream和类型转换之后对被象收集为了普通的ArrayList对象，并不是Page对象，所以在第二步返回时被判定为非page对象，被当做一个普通的ArrayList设置了pageNum(写死为第一页了)、total等，所以分页就失效了 stream把可正常分页的Page对象(ArrayList的子对象)，转换成了不能分页的ArrayList对象</p>
 <h4 id="_3"><a class="toclink" href="../2023/10/30/pagehelperstream/#_3">解决方法</a></h4>
-<p><div class="highlight"><pre><span></span><code><span class="n">Page</span><span class="o">&lt;</span><span class="n">MessageVo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">messageVos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Page</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">  </span>
+<div class="highlight"><pre><span></span><code><span class="n">Page</span><span class="o">&lt;</span><span class="n">MessageVo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">messageVos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Page</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">  </span>
 <span class="n">BeanUtils</span><span class="p">.</span><span class="na">copyProperties</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span><span class="w"> </span><span class="n">messageVos</span><span class="p">);</span>
 <span class="n">messages</span><span class="p">.</span><span class="na">forEach</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">     </span>
 <span class="n">MessageVo</span><span class="w"> </span><span class="n">nVo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MessageVo</span><span class="p">();</span><span class="w"> </span>
@@ -2215,10 +2215,12 @@
 <span class="n">PageInfo</span><span class="o">&lt;</span><span class="n">MessageVo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pageInfo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PageInfo</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">messageVos</span><span class="p">);</span><span class="w">  </span>
 <span class="k">return</span><span class="w"> </span><span class="n">pageInfo</span><span class="p">;</span>
 </code></pre></div>
-1. 首先新建一个Page<Vo>对象
-2. 将分页查询出来的分页属性结果拷贝进Page中
-3. 增强 for 设置视图属性
-4. 将视图结果放入PageInfo</p>
+<ol>
+<li>首先新建一个Page<Vo>对象；</li>
+<li>将分页查询出来的分页属性结果拷贝进Page中；</li>
+<li>增强 for 设置视图属性；</li>
+<li>将视图结果放入PageInfo；</li>
+</ol>
 <script src="https://giscus.app/client.js"
     data-repo="byronlau/Knowledge-Garden"
     data-repo-id="R_kgDOKkfaDQ"

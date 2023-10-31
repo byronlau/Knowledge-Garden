@@ -13,8 +13,8 @@
     <language>en-None</language>
 
     
-    <pubDate>Mon, 30 Oct 2023 10:02:51 -0000</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2023 10:02:51 -0000</lastBuildDate>
+    <pubDate>Tue, 31 Oct 2023 00:23:45 -0000</pubDate>
+    <lastBuildDate>Tue, 31 Oct 2023 00:23:45 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -39,7 +39,7 @@
       
       <description>&lt;h1&gt;乱弹&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/</link>
-      <pubDate>Mon, 30 Oct 2023 10:02:52 +0000</pubDate>
+      <pubDate>Tue, 31 Oct 2023 00:23:46 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/</guid>
@@ -54,7 +54,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/</link>
-      <pubDate>Mon, 30 Oct 2023 10:02:52 +0000</pubDate>
+      <pubDate>Tue, 31 Oct 2023 00:23:46 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/</guid>
@@ -581,11 +581,13 @@ nVo.setTitle(n.getTitle());
 ....      messageVos.add(nVo); 
 }); 
 PageInfo&amp;lt;MessageVo&amp;gt; pageInfo = new PageInfo&amp;lt;&amp;gt;(messageVos);  
-return pageInfo;&lt;/code&gt;
-1. 首先新建一个Page&lt;Vo&gt;对象
-2. 将分页查询出来的分页属性结果拷贝进Page中
-3. 增强 for 设置视图属性
-4. 将视图结果放入PageInfo&lt;/p&gt;
+return pageInfo;&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先新建一个Page&lt;Vo&gt;对象；&lt;/li&gt;
+&lt;li&gt;将分页查询出来的分页属性结果拷贝进Page中；&lt;/li&gt;
+&lt;li&gt;增强 for 设置视图属性；&lt;/li&gt;
+&lt;li&gt;将视图结果放入PageInfo；&lt;/li&gt;
+&lt;/ol&gt;
 &lt;script src=&#34;https://giscus.app/client.js&#34;
     data-repo=&#34;byronlau/Knowledge-Garden&#34;
     data-repo-id=&#34;R_kgDOKkfaDQ&#34;
