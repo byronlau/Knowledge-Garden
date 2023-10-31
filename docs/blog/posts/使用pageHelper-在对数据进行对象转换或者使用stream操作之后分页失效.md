@@ -4,8 +4,8 @@ number: 5
 url: https://github.com/byronlau/Knowledge-Garden/discussions/5
 date: 2023-10-30
 createdAt: 2023-10-30T07:35:24Z
-lastEditedAt: 2023-10-30T09:53:02Z
-updatedAt: 2023-10-30T09:53:02Z
+lastEditedAt: 2023-10-31T00:20:05Z
+updatedAt: 2023-10-31T00:20:05Z
 authors: [byronlau]
 categories: 
   - 乱弹
@@ -85,10 +85,12 @@ nVo.setTitle(n.getTitle());
 PageInfo<MessageVo> pageInfo = new PageInfo<>(messageVos);  
 return pageInfo;
 ```
-1. 首先新建一个Page<Vo>对象
-2. 将分页查询出来的分页属性结果拷贝进Page中
-3. 增强 for 设置视图属性
-4. 将视图结果放入PageInfo
+
+
+1. 首先新建一个Page<Vo>对象；
+2. 将分页查询出来的分页属性结果拷贝进Page中；
+3. 增强 for 设置视图属性；
+4. 将视图结果放入PageInfo；
 
 <script src="https://giscus.app/client.js"
     data-repo="byronlau/Knowledge-Garden"
