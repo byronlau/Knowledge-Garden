@@ -86,7 +86,7 @@ def __main__():
     gh_token = args.github_token
     gh_repo = args.github_repo
 
-    categoriesWhitelist = ['乱弹', '好玩', '资讯', '编程日志', 'Java', 'Python', 'Go', 'Mysql', 'Redis', 'CK', '前端']
+    categoriesWhitelist = ['旅行', '文化', 'Java', 'Python', 'Go', 'Mysql', 'Redis', 'CK', 'Frontend']
 
     gh_owner = gh_repo.split("/")[0]
     gh_repo_name = gh_repo.split("/")[-1]
@@ -131,6 +131,10 @@ def __main__():
 
         if not discussion_category in categoriesWhitelist:
             continue
+
+        if discussion_category != '文化':
+            continue
+
 
         md_filename = slugify(discussion_title, allow_unicode=True, lowercase=False) + ".md"
 
