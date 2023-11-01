@@ -80,7 +80,7 @@ def __main__():
     parser = argparse.ArgumentParser(description="Fetch GitHub discussions data to mkdocs blog")
     parser.add_argument('-r', '--github_repo', help="GitHub repository name with namespace")
     parser.add_argument('-t', '--github_token', help='GitHub access token.')
-    # parser.add_argument('-o', '--outdir', help='Output directory.')
+    parser.add_argument('-o', '--outdir', help='Output directory.')
     args = parser.parse_args()
 
     gh_token = args.github_token
@@ -89,7 +89,13 @@ def __main__():
 
     gh_owner = gh_repo.split("/")[0]
     gh_repo_name = gh_repo.split("/")[-1]
-
+    # 创建目录; 目录存在则先删除 md
+    outdir = args.outdir if args.outdir else os.getcwd()
+    if os.path.exists(outdir):
+        for file_path in Path(outdir).glob("*.md"):
+            file_path.unlink()
+    else:
+        os.makedirs(outdir)
     url = "https://api.github.com/graphql"
     headers = {"Authorization": f"Bearer %s" % gh_token}
 
@@ -122,18 +128,9 @@ def __main__():
 
         if not discussion_category in categoriesWhitelist:
             continue
-        base_dir = 'docs/blog/posts/'
-        base_dir = base_dir + discussion_category
-
-        # 创建目录; 目录存在则先删除 md
-        outdir = base_dir if base_dir else os.getcwd()
-        if os.path.exists(outdir):
-            for file_path in Path(outdir).glob("*.md"):
-                file_path.unlink()
-        else:
-            os.makedirs(outdir)
 
         md_filename = slugify(discussion_title, allow_unicode=True, lowercase=False) + ".md"
+        # md_filename = slugify(discussion_title) + ".md"
 
         metadata = "---\ntitle: %s\nnumber: %s\nurl: %s\ndate: %s\ncreatedAt: %s\nlastEditedAt: %s\nupdatedAt: %s\nauthors: [%s]\ncategories: \n  - %s\nlabels: %s\nfilename: %s\n---\n\n" % (
             discussion_title,
