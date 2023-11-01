@@ -61,7 +61,7 @@ template: home.html
 如果你觉得到本知识库对你有帮助，欢迎赞赏，有你的支持，我们一定会越来越好！
 
 <figure markdown>
-![微信-支付宝赞赏码](https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/donate.jpg "感谢你的一路支持")
+[//]: # (![微信-支付宝赞赏码]&#40;https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/donate.jpg "感谢你的一路支持"&#41;)
 <figcaption>Random acts of kindness.</figcaption>
 </figure>
 

@@ -67,9 +67,16 @@ nav:
         - 旅行: notebook/travel
     - 语雀: YUQUE.md
     - RSS: https://byronlau.github.io/Knowledge-Garden/feed_rss_created.xml
-    - 博客: 
+    - 编程日志:
         - blog/index.md
-    
+        - Java: blog/Java
+        - Python: blog/Python
+        - Go: blog/Go
+        - 前端: blog/Frontend
+        - 数据库: blog/DB
+        - 缓存: blog/NoDB
+        - 知识杂项: blog/Sundry
+
 markdown_extensions:
     - admonition
     - pymdownx.details
