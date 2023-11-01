@@ -5,4 +5,4 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-include-dir-to-nav==1.2.0
 mkdocs-glightbox
 jieba
-python-slugify=8.0.1
+python-slugify==8.0.1
