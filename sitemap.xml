@@ -16,17 +16,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/2023/10/30/pagehelperstream/</loc>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/androidstudiosdk/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/2023/11/01/mysqlsql/</loc>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/cdn/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/2023/11/01/javascript/</loc>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/dorisjson/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/goiota/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -36,12 +41,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/2023/11/01/mybatis/</loc>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/ip/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/2023/11/01/jedismulti/</loc>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/ipip/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/javascript/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/java-/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/linuxmysql/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/linuxcrontab/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -51,7 +76,77 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mysql/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mybatis/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mysql/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mysql/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mysqlsql/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/2023/11/01/nginxadd_headerproxy_set_header/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/jedismulti/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mybatis/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mysqlnotlike/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/mysql/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/nginx-proxy_pass-host/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/nginxproxy_passhost/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/01/nginxproxy_passurl/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/10/30/pagehelperstream/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/10/31/pc/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -186,32 +281,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/category/db/</loc>
-         <lastmod>2023-11-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://doc.mgd2008.com/blog/category/frontend/</loc>
-         <lastmod>2023-11-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://doc.mgd2008.com/blog/category/go/</loc>
-         <lastmod>2023-11-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://doc.mgd2008.com/blog/category/java/</loc>
-         <lastmod>2023-11-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://doc.mgd2008.com/blog/category/nodb/</loc>
-         <lastmod>2023-11-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://doc.mgd2008.com/blog/category/python/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -221,7 +291,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/category/</loc>
+         <loc>https://doc.mgd2008.com/blog/category/db/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/go/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/frontend/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/python/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/nodb/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -231,7 +321,57 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/page/3/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/page/4/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/page/5/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/page/6/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/archive/2023/page/2/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/page/3/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/page/4/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/page/5/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/page/6/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/sundry/page/2/</loc>
+         <lastmod>2023-11-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/db/page/2/</loc>
          <lastmod>2023-11-01</lastmod>
          <changefreq>daily</changefreq>
     </url>

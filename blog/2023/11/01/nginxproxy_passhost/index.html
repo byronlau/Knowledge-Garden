@@ -12,31 +12,31 @@
         <meta name="author" content="Byron Lau">
       
       
-        <link rel="canonical" href="https://doc.mgd2008.com/blog/category/">
+        <link rel="canonical" href="https://doc.mgd2008.com/blog/2023/11/01/nginxproxy_passhost/">
       
       
-        <link rel="prev" href="sundry/">
+        <link rel="prev" href="../nginxproxy_passurl/">
       
       
-        <link rel="next" href="../archive/2023/">
+        <link rel="next" href="../nginx-proxy_pass-host/">
       
       
-        <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../../feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../feed_rss_updated.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../../../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../../../../feed_rss_updated.xml">
       
-      <link rel="icon" href="../../assets/logo.png">
+      <link rel="icon" href="../../../../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
     
     
       
-        <title>乱弹 - 橘涂拾捌的知识花园</title>
+        <title>nginxproxy_pass后host换成变量后参数无法获取到的问题 - 橘涂拾捌的知识花园</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.4b4a2bd9.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.4b4a2bd9.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -55,11 +55,11 @@
       
     
     
-      <link rel="stylesheet" href="../../css/extra.css">
+      <link rel="stylesheet" href="../../../../../css/extra.css">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -68,7 +68,7 @@
     
     <meta name="referrer" content="no-referrer">
 
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -79,7 +79,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -99,11 +99,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#_1" class="md-skip">
-          跳转至
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -135,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              乱弹
+              nginxproxy_pass后host换成变量后参数无法获取到的问题
             
           </span>
         </div>
@@ -239,7 +234,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../../../.." class="md-tabs__link">
         
   
     
@@ -258,7 +253,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../cookbook/" class="md-tabs__link">
+        <a href="../../../../../cookbook/" class="md-tabs__link">
           
   
     
@@ -278,7 +273,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../notebook/" class="md-tabs__link">
+        <a href="../../../../../notebook/" class="md-tabs__link">
           
   
     
@@ -296,7 +291,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../YUQUE/" class="md-tabs__link">
+      <a href="../../../../../YUQUE/" class="md-tabs__link">
         
   
     
@@ -334,7 +329,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+        <a href="../../../../" class="md-tabs__link">
           
   
     
@@ -358,7 +353,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -398,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -450,7 +447,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/" class="md-nav__link ">
+            <a href="../../../../../cookbook/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -511,7 +508,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -563,7 +560,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -618,7 +615,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -673,7 +670,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -749,7 +746,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -801,7 +798,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -856,7 +853,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -911,7 +908,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -966,7 +963,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1021,7 +1018,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1097,7 +1094,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1149,7 +1146,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1204,7 +1201,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1259,7 +1256,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1314,7 +1311,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1369,7 +1366,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1443,7 +1440,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1495,7 +1492,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1550,7 +1547,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1605,7 +1602,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1660,7 +1657,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1726,7 +1723,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1795,7 +1792,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../notebook/" class="md-nav__link ">
+            <a href="../../../../../notebook/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1827,7 +1824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../notebook/culture" class="md-nav__link">
+      <a href="../../../../../notebook/culture" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1847,7 +1844,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../notebook/travel" class="md-nav__link">
+      <a href="../../../../../notebook/travel" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1874,7 +1871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../YUQUE/" class="md-nav__link">
+      <a href="../../../../../YUQUE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1924,20 +1921,6 @@
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     
@@ -1955,7 +1938,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1986,146 +1969,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../Java" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Java
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Python" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Python
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Go" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Go
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Frontend" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    前端
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../DB" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    数据库
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../NoDB" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    缓存
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sundry" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    知识杂项
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
     
     
       
@@ -2143,10 +1986,10 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
         
           
-          <label class="md-nav__link" for="__nav_6_9" id="__nav_6_9_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -2157,8 +2000,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_9">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
             <span class="md-nav__icon md-icon"></span>
             归档
           </label>
@@ -2170,7 +2013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../archive/2023/" class="md-nav__link">
+      <a href="../../../../archive/2023/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2196,8 +2039,6 @@
                 
   
   
-    
-  
   
     
     
@@ -2216,8 +2057,6 @@
       
         
       
-        
-      
     
     
     
@@ -2225,15 +2064,15 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
         
           
-          <label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -2244,8 +2083,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6_10">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
             分类
           </label>
@@ -2257,67 +2096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    DB
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="frontend/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Frontend
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="go/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Go
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="java/" class="md-nav__link">
+      <a href="../../../../category/java/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2337,11 +2116,11 @@
   
   
     <li class="md-nav__item">
-      <a href="nodb/" class="md-nav__link">
+      <a href="../../../../category/sundry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    NoDB
+    Sundry
   </span>
   
 
@@ -2357,7 +2136,67 @@
   
   
     <li class="md-nav__item">
-      <a href="python/" class="md-nav__link">
+      <a href="../../../../category/db/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/go/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Go
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/frontend/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frontend
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/python/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2377,45 +2216,15 @@
   
   
     <li class="md-nav__item">
-      <a href="sundry/" class="md-nav__link">
+      <a href="../../../../category/nodb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Sundry
+    NoDB
   </span>
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    乱弹
-  </span>
-  
-
-      </a>
-      
     </li>
   
 
@@ -2444,6 +2253,8 @@
             
             
               
+                
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -2453,8 +2264,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -2463,126 +2272,220 @@
             
           
           
-  <div class="md-content" data-md-component="content">
-    <div class="md-content__inner">
-      <header class="md-typeset">
-        <h1 id="_1">乱弹<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-10-30 00:00:00">2023年10月30日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+                  <span class="md-ellipsis">
+                    回到主页
+                  </span>
+                </a>
+              </div>
+            </div>
             
-              <a href="./" class="md-meta__link">乱弹</a></li>
-        
-        
+              <div class="md-post__authors md-typeset">
+                
+                  <div class="md-profile md-post__profile">
+                    <span class="md-author md-author--long">
+                      <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>Byron Lau</strong><br>
+                      Creator
+                    </span>
+                  </div>
+                
+              </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    元数据
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
+                        <time datetime="2023-11-01 00:00:00" class="md-ellipsis">2023年11月1日</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3H9m3 2 4 13 3-1-4-13-3 1M5 5v13h3V5H5M3 19v2h18v-2H3Z"/></svg>
+                          <span class="md-ellipsis">
+                            分类于
+                            
+                              <a href="../../../../category/sundry/">Sundry</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              需要 1 分钟阅读时间
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </nav>
           
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
+        </div>
+      </div>
     </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="pagehelperstream"><a class="toclink" href="../2023/10/30/pagehelperstream/">使用pageHelper，在对数据进行对象转换或者使用stream操作之后分页失效</a></h2>
-<blockquote>
-<p>使用pagehelper，在对数据进行对象转换或者使用stream操作之后分页失效</p>
-</blockquote>
-<h4 id="_1"><a class="toclink" href="../2023/10/30/pagehelperstream/#_1">问题描述</a></h4>
-<p>使用MyBatis-Plus操作数据库，使用PageHelper插件进行分页操作，直接返回Mapper的分页查询结果数据时分页状态正常，对数据对象进行转换后返回转换后的list则分页出现异常，分页数据的total变成当前返回数据list的size，页数始终为1
-<div class="highlight"><pre><span></span><code><span class="n">PageHelper</span><span class="p">.</span><span class="na">startPage</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span>
-<span class="n">List</span><span class="o">&lt;</span><span class="n">Data</span><span class="o">&gt;</span><span class="w"> </span><span class="n">datas</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dataService</span><span class="p">.</span><span class="na">finddataList</span><span class="p">();</span>
-<span class="c1">// 使用stream处理数据 或者 对象转换dataList = datas.stream().xxxxx;</span>
-<span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PageInfo</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">dataList</span><span class="p">);</span>
-</code></pre></div></p>
-<h4 id="_2"><a class="toclink" href="../2023/10/30/pagehelperstream/#_2">问题排查</a></h4>
-<p>【第一步】：分页查询
-分页查询的时候，得到的datas是一个特殊的ArrayList，Page对象，在源码中可以看到
-<div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Page</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">E</span><span class="o">&gt;</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Closeable</span><span class="w"> </span><span class="p">{</span>
+    <article class="md-content__inner md-typeset">
+      
+        
 
-<span class="p">}</span>
-</code></pre></div>
-【第二步】：返回PageInfo对象 在返回PageInfo对象的时候，源码中会做如下判断
-<div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="nf">PageInfo</span><span class="p">(</span><span class="n">List</span><span class="w"> </span><span class="n">list</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">navigatePages</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="kd">super</span><span class="p">(</span><span class="n">list</span><span class="p">);</span>
-<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">isFirstPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
-<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">isLastPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
-<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">hasPreviousPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
-<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">hasNextPage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
-<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">Page</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="c1">// Page 对象           </span>
-<span class="w">        </span><span class="n">Page</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">Page</span><span class="p">)</span><span class="w"> </span><span class="n">list</span><span class="p">;</span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageNum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getPageNum</span><span class="p">();</span>
-<span class="w">        </span><span class="c1">// 正常的pageNum、pageSize 等返回结果            </span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getPageSize</span><span class="p">();</span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getPages</span><span class="p">();</span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
-<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
-<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">endRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
-<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">page</span><span class="p">.</span><span class="na">getStartRow</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1L</span><span class="p">;</span>
-<span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="na">endRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="p">;</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">Collection</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="c1">// 非Page 对象  </span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageNum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
-<span class="w">        </span><span class="c1">// pageNum 设置为了1  </span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pageSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
-<span class="w">        </span><span class="c1">// pageSzie 被设置为了列表元素数 </span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">pages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">pageSize</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">();</span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">startRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">endRow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">()</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="p">.</span><span class="na">size</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="n">L</span><span class="p">;</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">list</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">Collection</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">calcByNavigatePages</span><span class="p">(</span><span class="n">navigatePages</span><span class="p">);</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-【结论】由于使用stream和类型转换之后对被象收集为了普通的ArrayList对象，并不是Page对象，所以在第二步返回时被判定为非page对象，被当做一个普通的ArrayList设置了pageNum(写死为第一页了)、total等，所以分页就失效了 stream把可正常分页的Page对象(ArrayList的子对象)，转换成了不能分页的ArrayList对象</p>
-<h4 id="_3"><a class="toclink" href="../2023/10/30/pagehelperstream/#_3">解决方法</a></h4>
-<div class="highlight"><pre><span></span><code><span class="n">Page</span><span class="o">&lt;</span><span class="n">MessageVo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">messageVos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Page</span><span class="o">&lt;&gt;</span><span class="p">();</span><span class="w">  </span>
-<span class="n">BeanUtils</span><span class="p">.</span><span class="na">copyProperties</span><span class="p">(</span><span class="n">messages</span><span class="p">,</span><span class="w"> </span><span class="n">messageVos</span><span class="p">);</span>
-<span class="n">messages</span><span class="p">.</span><span class="na">forEach</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">     </span>
-<span class="n">MessageVo</span><span class="w"> </span><span class="n">nVo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MessageVo</span><span class="p">();</span><span class="w"> </span>
-<span class="n">nVo</span><span class="p">.</span><span class="na">setType</span><span class="p">(</span><span class="n">n</span><span class="p">.</span><span class="na">getType</span><span class="p">());</span><span class="w">     </span>
-<span class="n">nVo</span><span class="p">.</span><span class="na">setTitle</span><span class="p">(</span><span class="n">n</span><span class="p">.</span><span class="na">getTitle</span><span class="p">());</span><span class="w">  </span>
-<span class="p">....</span><span class="w">      </span><span class="n">messageVos</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="n">nVo</span><span class="p">);</span><span class="w"> </span>
-<span class="p">});</span><span class="w"> </span>
-<span class="n">PageInfo</span><span class="o">&lt;</span><span class="n">MessageVo</span><span class="o">&gt;</span><span class="w"> </span><span class="n">pageInfo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PageInfo</span><span class="o">&lt;&gt;</span><span class="p">(</span><span class="n">messageVos</span><span class="p">);</span><span class="w">  </span>
-<span class="k">return</span><span class="w"> </span><span class="n">pageInfo</span><span class="p">;</span>
-</code></pre></div>
+  
+    <a href="https://github.com/byronlau/Knowledge-Garden/edit/main/docs/blog/posts/nginxproxy-pass后host换成变量后参数无法获取到的问题.md" title="编辑此页" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/byronlau/Knowledge-Garden/raw/main/docs/blog/posts/nginxproxy-pass后host换成变量后参数无法获取到的问题.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
+    </a>
+  
+
+
+  <h1>nginxproxy_pass后host换成变量后参数无法获取到的问题</h1>
+
+<p><head> <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../../../../assets/javascripts/glightbox.min.js"></script></head><body><h3 id="h3-u95EEu9898u80CCu666F"><a class="reference-link" name="问题背景"></a><span class="header-link octicon octicon-link"></span>问题背景</h3><p>a、b来源的客户端GET访问同一个URL如下所示</p></p>
+<blockquote>
+
+<p><a href="http://api.xxx.com/districtAPI/ip/geo/v1/district/?key=123456abcdef&amp;ip=8.8.8.8">http://api.xxx.com/districtAPI/ip/geo/v1/district/?key=123456abcdef&amp;ip=8.8.8.8</a></p>
+
+</blockquote>
+
+<p>a正常访问，因为要对b访问过来的请求进行限流操作，b会在请求头加入自定义的请求头abc-real-ip来传递用户客户端的真实IP。</p>
+
+<h3 id="h3-u89E3u51B3u601Du8DEF"><a class="reference-link" name="解决思路"></a><span class="header-link octicon octicon-link"></span>解决思路</h3>
+<p>后台部署不同的服务，然后通过Nginx获取是否有请求头abc-real-ip`<span class="ne-text">代理到不同的服务</span></p>
+
+<p><strong>最初写法</strong></p>
+
+<pre><code class="language-nginx">set&nbsp;$running&nbsp;"127.0.0.1:18087";
+
+if&nbsp;($http_abc_real_ip){
+
+&nbsp;&nbsp;set&nbsp;$running&nbsp;"192.168.1.19:18087";
+
+}
+
+
+
+location&nbsp;/ip/geo/v1/district/&nbsp;{
+
+&nbsp;&nbsp;&nbsp;&nbsp;add_header&nbsp;Access-Control-Allow-Origin&nbsp;$http_Origin&nbsp;always;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;requestid&nbsp;$request_id;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;realip&nbsp;$remote_addr;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;Host&nbsp;$host;
+
+    &nbsp;&nbsp;proxy_pass&nbsp;http://$running/districtAPI/ip/geo/v1/district/;
+
+}
+
+</code></pre>
+
+<p>这个写法经过测试发现判断abc-real-ip的逻辑是生效了，但是<a href="http://api.xxx.com/districtAPI/ip/geo/v1/district/?key=123456abcdef&amp;ip=8.8.8.8">http://api.xxx.com/districtAPI/ip/geo/v1/district/?key=123456abcdef&amp;ip=8.8.8.8</a> ?后的参数无法获取到，经过分析然后换了一种写法</p>
+
+<pre><code class="language-nginx">location&nbsp;/ip/geo/v1/district/&nbsp;{
+
+&nbsp;&nbsp;&nbsp;&nbsp;add_header&nbsp;Access-Control-Allow-Origin&nbsp;$http_Origin&nbsp;always;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;requestid&nbsp;$request_id;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;realip&nbsp;$remote_addr;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;Host&nbsp;$host;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_pass&nbsp;http://$running/districtAPI/$request_uri;
+
+}
+
+</code></pre>
+
+<p>然后就访问正常了</p>
+
+<p><strong>另一种写法</strong><br>nginx 支持在location块中使用if表达式，然后上述写法就可以简化为</p>
+
+<pre><code class="language-nginx">location&nbsp;/ip/geo/v1/district/&nbsp;{
+
+&nbsp;&nbsp;&nbsp;&nbsp;add_header&nbsp;Access-Control-Allow-Origin&nbsp;$http_Origin&nbsp;always;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;requestid&nbsp;$request_id;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;realip&nbsp;$remote_addr;
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_set_header&nbsp;Host&nbsp;$host;
+
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;($http_abc_real_ip){
+
+&nbsp;&nbsp;&nbsp;&nbsp;proxy_pass&nbsp;http://192.168.1.19:18087/districtAPI/$request_uri;
+
+&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;匹配成功，然后终止之后的逻辑
+
+&nbsp;&nbsp;&nbsp;&nbsp;break;
+
+&nbsp;  &nbsp;}
+
+&nbsp;&nbsp;&nbsp;proxy_pass&nbsp;http://127.0.0.1:18087/districtAPI/ip/geo/v1/district/;
+
+}
+
+</code></pre>
+
+<h3 id="h3--span-class-ne-text-span-"><a name="<span class=">问题补充" class="reference-link"&gt;</a><span class="header-link octicon octicon-link"></span><span class="ne-text">问题补充</span></h3>
 <ol>
-<li>首先新建一个Page<Vo>对象；</li>
-<li>将分页查询出来的分页属性结果拷贝进Page中；</li>
-<li>增强 for 设置视图属性；</li>
-<li>将视图结果放入PageInfo；</li>
-</ol>
+
+<li><span class="ne-text">参数获取失败的原因</span></li><li><span class="ne-text">proxy_pass </span><a href="http://192.168.1.19:18087/districtAPI/$request_uri;"><span class="ne-text">http://192.168.1.19:18087/districtAPI/$request_uri;</span></a><span class="ne-text"> 这种写法就可以</span></li><li><span class="ne-text">nginx 如何解析到了abc-real-ip 请求头—&gt; $http_abc_real_ip；</span></li><li><span class="ne-text">java 的HttpServerltRequest 中，如果客户端传入的请求头是abc_real_ip 不是abc-real-ip 则会无法识别到；</span></li></ol>
+
+<p><a class="glightbox" href="https://blog.mgd2008.com/zb_users/upload/2023/05/202305301234242783578.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="https://blog.mgd2008.com/zb_users/upload/2023/05/202305301234242783578.png"></a></p>
+
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 <script src="https://giscus.app/client.js"
     data-repo="byronlau/Knowledge-Garden"
     data-repo-id="R_kgDOKkfaDQ"
     data-mapping="number"
-    data-term="5"
+    data-term="29"
     data-reactions-enabled="1"
     data-emit-metadata="0"
     data-input-position="bottom"
@@ -2591,26 +2494,26 @@
     crossorigin="anonymous"
     async>
 </script>
-    <nav class="md-post__action">
-      <a href="../2023/10/30/pagehelperstream/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      最后更新:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-11-01</span>
       
-      
-        
-          
+    
+  </small>
+</div>
 
 
 
-<nav class="md-pagination">
   
-</nav>
-        
+
+
+
       
-    </div>
+    </article>
   </div>
 
           
@@ -2628,10 +2531,12 @@
   
     
       
+        
+      
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="sundry/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Sundry">
+          <a href="../nginxproxy_passurl/" class="md-footer__link md-footer__link--prev" aria-label="上一页: nginx反向代理proxy_passurl后加和不加的区别">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2641,20 +2546,20 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                Sundry
+                nginx反向代理proxy_passurl后加和不加的区别
               </div>
             </div>
           </a>
         
         
           
-          <a href="../archive/2023/" class="md-footer__link md-footer__link--next" aria-label="下一页: 2023">
+          <a href="../nginx-proxy_pass-host/" class="md-footer__link md-footer__link--next" aria-label="下一页: nginx proxy_pass 后host换成变量后参数无法获取到的问题">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                2023
+                nginx proxy_pass 后host换成变量后参数无法获取到的问题
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -2704,15 +2609,15 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.aecac24b.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  </body>
 </html>
