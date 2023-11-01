@@ -13,8 +13,8 @@
     <language>en-None</language>
 
     
-    <pubDate>Tue, 31 Oct 2023 00:23:45 -0000</pubDate>
-    <lastBuildDate>Tue, 31 Oct 2023 00:23:45 -0000</lastBuildDate>
+    <pubDate>Wed, 01 Nov 2023 10:15:23 -0000</pubDate>
+    <lastBuildDate>Wed, 01 Nov 2023 10:15:23 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,6 +32,36 @@
     
     
     <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/archive/2023/page/2/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/page/2/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/2/</guid>
+      
+    </item>
+    
+    <item>
       <title>乱弹</title>
       
       
@@ -39,10 +69,115 @@
       
       <description>&lt;h1&gt;乱弹&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/</link>
-      <pubDate>Tue, 31 Oct 2023 00:23:46 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sundry</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/sundry/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Python&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/python/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/python/</guid>
+      
+    </item>
+    
+    <item>
+      <title>NoDB</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;NoDB&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/nodb/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/nodb/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Go</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Go&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/go/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/go/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Frontend&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/frontend/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/frontend/</guid>
+      
+    </item>
+    
+    <item>
+      <title>DB</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;DB&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/db/</link>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/db/</guid>
       
     </item>
     
@@ -54,7 +189,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/</link>
-      <pubDate>Tue, 31 Oct 2023 00:23:46 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:15:24 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/</guid>
@@ -117,11 +252,11 @@
 &lt;h2&gt;赞赏&lt;/h2&gt;
 &lt;p&gt;如果你觉得到本知识库对你有帮助，欢迎赞赏，有你的支持，我们一定会越来越好！&lt;/p&gt;
 &lt;figure markdown&gt;
-![微信-支付宝赞赏码](https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/donate.jpg &#34;感谢你的一路支持&#34;)
+[//]: # (![微信-支付宝赞赏码]&amp;#40;https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/donate.jpg &#34;感谢你的一路支持&#34;&amp;#41;)
 &lt;figcaption&gt;Random acts of kindness.&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
       <link>https://doc.mgd2008.com/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/</guid>
@@ -137,7 +272,7 @@
       <description>&lt;p&gt;语雀，是一个非常优秀的文档和知识库工具，也曾经是个人知识和文档记录的一个非常重要的平台。但由于工作和其他的一些原因，逐渐从语雀转移到了 GitHub，作为历史文章的一个备份，你可以通过下面的链接访问我的语雀花园主页，感谢你的支持，我们一定会越来越好！&lt;/p&gt;
 &lt;p align=center&gt;&lt;b&gt;&lt;a href=&#34;https://www.yuque.com/byronlau&#34; target=&#34;_blank&#34;&gt;www.yuque.com/byronlau&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/YUQUE/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/YUQUE/</guid>
@@ -153,7 +288,7 @@
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;
 &lt;p&gt;这是首发于 GitHub Discussion/Issues，并定期同步更新至 Material for MkDocs 上的博客文章。&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/blog/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/</guid>
@@ -168,7 +303,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</guid>
@@ -183,7 +318,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</guid>
@@ -198,7 +333,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</guid>
@@ -213,7 +348,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</guid>
@@ -228,7 +363,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</guid>
@@ -243,7 +378,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</guid>
@@ -258,7 +393,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</guid>
@@ -273,7 +408,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
@@ -288,7 +423,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
@@ -303,7 +438,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
@@ -318,7 +453,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</guid>
@@ -333,7 +468,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</guid>
@@ -348,7 +483,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</guid>
@@ -363,7 +498,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</guid>
@@ -378,7 +513,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</guid>
@@ -393,7 +528,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</guid>
@@ -408,7 +543,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</guid>
@@ -423,7 +558,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</guid>
@@ -438,7 +573,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</guid>
@@ -453,7 +588,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</guid>
@@ -468,7 +603,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/</guid>
@@ -483,7 +618,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</guid>
@@ -498,10 +633,517 @@
       
       <description>&lt;p&gt;本文件于 2023-07-19 21:51:59 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/css/</link>
-      <pubDate>Mon, 30 Oct 2023 10:01:58 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2023 10:12:21 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/css/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Mysql还原sql文件到数据库</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;ne-clipboard data=&#34;%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22tjcDD%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%22indexType%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u29b32186%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%AF%BC%E5%85%A5%E6%96%B9%E5%BC%8F%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc76b3560%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u59a93fab%22%2C%22fid%22%3A%22ue24cec84%22%2C%22indexStyle%22%3A%7B%22fontsize%22%3A16%2C%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf57e7637%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%E5%91%BD%E4%BB%A4%E8%A1%8Csource%E6%96%B9%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u391d3cd8%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u59a93fab%22%2C%22fid%22%3A%22ue24cec84%22%2C%22indexStyle%22%3A%7B%22fontsize%22%3A16%2C%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua03ce683%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%96%B9%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22QOzKK%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%22indexType%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue25bcf0f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22data%22%3A%22%E5%AF%BC%E5%85%A5%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22XPvmE%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u90218069%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22data%22%3A%222.1%20%E8%BF%98%E5%8E%9F%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E5%BA%93%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u620f8e92%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u035045f8%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u465e72b2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uac9acd0b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%20%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9Amysql%3E%20%20source%20%2Fscript%2Fall.sql%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u47d3e3e3%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9A%20mysql%20-uroot%20-p123456%20%3C%20%2Fscript%2Fall.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22pdFyF%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue9e45a9a%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%22%202.2%20%E8%BF%98%E5%8E%9F%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93(%E9%9C%80%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93)%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0eaa028e%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u29eb34ae%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufbdd95c1%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u479a915b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Euse%20mydb%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u10fd0ea9%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Esource%20%2Fscript%2Fmydb.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uee6e4d8f%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u17623603%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf21b6b35%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u99e28ab4%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%20mysql%20-uroot%20-p123456%20mydb%20%3C%20%2Fscript%2Fmydb.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22qKMoi%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf7d0e780%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%222.3%20%E8%BF%98%E5%8E%9F%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%A4%9A%E4%B8%AA%E8%A1%A8(%E9%9C%80%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93)%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u05e7c452%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u431c10ee%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6178c2c7%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc40795f7%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Euse%20mydb%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8e131f16%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Esource%20%2Fscript%2Fmultables.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4333765e%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1bf58683%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u8cf913c5%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u92baaeab%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%20-uroot%20-p123456%20mydb%3C%20%2Fscript%2Fmultables.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22tOmf1%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue1d75bee%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%222.4%20%E8%BF%98%E5%8E%9F%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%EF%BC%88%E4%B8%80%E4%B8%AA%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E9%87%8C%E6%9C%89%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%A4%87%E4%BB%BD%EF%BC%8C%E6%AD%A4%E6%97%B6%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%89%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u83f8df76%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9af498c5%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1e102cf2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u815f0b59%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9Amysql%3Esource%20%2Fscript%2Fmuldbs.sql%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u160de5af%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3da1bfea%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9A%20mysql%20-uroot%20-p123456%20%3C%20%2Fscript%2Fmuldbs.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u22c05712%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8fca0b38%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22fontsize%22%3A22%7D%2C%22data%22%3A%22%22%7D%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D&#34;&gt;&lt;/ne-clipboard&gt;&lt;/p&gt;
+&lt;div class=&#34;lake-content&#34; typography=&#34;classic&#34;&gt;&lt;h1 id=&#34;tjcDD&#34; data-lake-index-type=&#34;0&#34; style=&#34;font-size: 28px; line-height: 36px; margin: 26px 0 10px 0&#34;&gt;&lt;span lake-read-ignore=&#34;true&#34;&gt;&lt;/span&gt;&lt;/h1&gt;&lt;ne-clipboard data=&#34;%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22tjcDD%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%22indexType%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u29b32186%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%AF%BC%E5%85%A5%E6%96%B9%E5%BC%8F%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc76b3560%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u59a93fab%22%2C%22fid%22%3A%22ue24cec84%22%2C%22indexStyle%22%3A%7B%22fontsize%22%3A16%2C%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf57e7637%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%E5%91%BD%E4%BB%A4%E8%A1%8Csource%E6%96%B9%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u391d3cd8%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u59a93fab%22%2C%22fid%22%3A%22ue24cec84%22%2C%22indexStyle%22%3A%7B%22fontsize%22%3A16%2C%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua03ce683%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%96%B9%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22QOzKK%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%22indexType%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue25bcf0f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22data%22%3A%22%E5%AF%BC%E5%85%A5%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22XPvmE%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u90218069%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22data%22%3A%222.1%20%E8%BF%98%E5%8E%9F%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E5%BA%93%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u620f8e92%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u035045f8%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%2C%22hindent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u465e72b2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uac9acd0b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%20%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9Amysql%3E%20%20source%20%2Fscript%2Fall.sql%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u47d3e3e3%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9A%20mysql%20-uroot%20-p123456%20%3C%20%2Fscript%2Fall.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22pdFyF%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue9e45a9a%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%22%202.2%20%E8%BF%98%E5%8E%9F%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93(%E9%9C%80%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93)%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0eaa028e%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u29eb34ae%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%2C%22hindent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufbdd95c1%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u479a915b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Euse%20mydb%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u10fd0ea9%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Esource%20%2Fscript%2Fmydb.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uee6e4d8f%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u17623603%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%2C%22hindent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf21b6b35%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u99e28ab4%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%20mysql%20-uroot%20-p123456%20mydb%20%3C%20%2Fscript%2Fmydb.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22qKMoi%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf7d0e780%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%222.3%20%E8%BF%98%E5%8E%9F%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%A4%9A%E4%B8%AA%E8%A1%A8(%E9%9C%80%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93)%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u05e7c452%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u431c10ee%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%2C%22hindent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6178c2c7%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc40795f7%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Euse%20mydb%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8e131f16%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Esource%20%2Fscript%2Fmultables.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4333765e%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1bf58683%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%2C%22hindent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u8cf913c5%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u92baaeab%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%20-uroot%20-p123456%20mydb%3C%20%2Fscript%2Fmultables.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22tOmf1%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue1d75bee%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%222.4%20%E8%BF%98%E5%8E%9F%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%EF%BC%88%E4%B8%80%E4%B8%AA%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E9%87%8C%E6%9C%89%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%A4%87%E4%BB%BD%EF%BC%8C%E6%AD%A4%E6%97%B6%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%89%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u83f8df76%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9af498c5%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%2C%22hindent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1e102cf2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u815f0b59%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9Amysql%3Esource%20%2Fscript%2Fmuldbs.sql%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u160de5af%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3da1bfea%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9A%20mysql%20-uroot%20-p123456%20%3C%20%2Fscript%2Fmuldbs.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u22c05712%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%22indent%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8fca0b38%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22fontsize%22%3A22%7D%2C%22data%22%3A%22%22%7D%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D&#34;&gt;&lt;/ne-clipboard&gt;&lt;div class=&#34;lake-content&#34; typography=&#34;classic&#34;&gt;&lt;h1 id=&#34;tjcDD&#34; data-lake-index-type=&#34;0&#34; style=&#34;font-size: 28px; line-height: 36px; margin: 26px 0 10px 0&#34;&gt;&lt;span lake-read-ignore=&#34;true&#34;&gt;&lt;/span&gt;&lt;ne-clipboard data=&#34;%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22tjcDD%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%22indexType%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u29b32186%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%AF%BC%E5%85%A5%E6%96%B9%E5%BC%8F%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc76b3560%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u59a93fab%22%2C%22fid%22%3A%22ue24cec84%22%2C%22indexStyle%22%3A%7B%22fontsize%22%3A16%2C%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf57e7637%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%E5%91%BD%E4%BB%A4%E8%A1%8Csource%E6%96%B9%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u391d3cd8%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u59a93fab%22%2C%22fid%22%3A%22ue24cec84%22%2C%22indexStyle%22%3A%7B%22fontsize%22%3A16%2C%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua03ce683%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%96%B9%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22QOzKK%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%22indexType%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue25bcf0f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22data%22%3A%22%E5%AF%BC%E5%85%A5%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22XPvmE%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u90218069%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%7D%2C%22data%22%3A%222.1%20%E8%BF%98%E5%8E%9F%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E5%BA%93%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u620f8e92%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u035045f8%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u465e72b2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uac9acd0b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%20%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9Amysql%3E%20%20source%20%2Fscript%2Fall.sql%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u47d3e3e3%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9A%20mysql%20-uroot%20-p123456%20%3C%20%2Fscript%2Fall.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22pdFyF%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue9e45a9a%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%22%202.2%20%E8%BF%98%E5%8E%9F%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93(%E9%9C%80%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93)%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0eaa028e%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u29eb34ae%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufbdd95c1%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u479a915b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Euse%20mydb%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u10fd0ea9%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Esource%20%2Fscript%2Fmydb.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uee6e4d8f%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u17623603%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf21b6b35%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u99e28ab4%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%20mysql%20-uroot%20-p123456%20mydb%20%3C%20%2Fscript%2Fmydb.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22qKMoi%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf7d0e780%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%222.3%20%E8%BF%98%E5%8E%9F%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%A4%9A%E4%B8%AA%E8%A1%A8(%E9%9C%80%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93)%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u05e7c452%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u431c10ee%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6178c2c7%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc40795f7%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Euse%20mydb%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8e131f16%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%3Esource%20%2Fscript%2Fmultables.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4333765e%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1bf58683%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u8cf913c5%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u92baaeab%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%20-uroot%20-p123456%20mydb%3C%20%2Fscript%2Fmultables.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22tOmf1%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue1d75bee%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%222.4%20%E8%BF%98%E5%8E%9F%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%EF%BC%88%E4%B8%80%E4%B8%AA%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E9%87%8C%E6%9C%89%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%A4%87%E4%BB%BD%EF%BC%8C%E6%AD%A4%E6%97%B6%E4%B8%8D%E9%9C%80%E8%A6%81%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%89%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u83f8df76%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9af498c5%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1e102cf2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u815f0b59%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22mysql%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9Amysql%3Esource%20%2Fscript%2Fmuldbs.sql%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u160de5af%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3da1bfea%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(51%2C%2051%2C%2051)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E8%A1%8C%EF%BC%9A%20mysql%20-uroot%20-p123456%20%3C%20%2Fscript%2Fmuldbs.sql%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u22c05712%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8fca0b38%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22fontsize%22%3A22%7D%2C%22data%22%3A%22%22%7D%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D&#34;&gt;&lt;/ne-clipboard&gt;&lt;/h1&gt;&lt;div class=&#34;lake-content&#34; typography=&#34;classic&#34;&gt;&lt;h1 id=&#34;tjcDD&#34; data-lake-index-type=&#34;0&#34; style=&#34;font-size: 28px; line-height: 36px; margin: 26px 0 10px 0&#34;&gt;&lt;span lake-read-ignore=&#34;true&#34;&gt;1. &lt;/span&gt;&lt;span class=&#34;ne-text&#34;&gt;导入方式&lt;/span&gt;&lt;/h1&gt;&lt;ul class=&#34;ne-ul list-paddingleft-2&#34; style=&#34;padding-left: 23px;&#34;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql命令行source方法&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;系统命令行方法&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h1 id=&#34;QOzKK&#34; data-lake-index-type=&#34;0&#34; style=&#34;font-size: 28px; line-height: 36px; margin: 26px 0 10px 0&#34;&gt;&lt;span lake-read-ignore=&#34;true&#34;&gt;2. &lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333&#34;&gt;导入到数据库&lt;/span&gt;&lt;/h1&gt;&lt;h2 id=&#34;XPvmE&#34; style=&#34;font-size: 24px; line-height: 32px; margin: 21px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333&#34;&gt;2.1 还原全部数据库&lt;/span&gt;&lt;/h2&gt;&lt;div data-type=&#34;warning&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;u465e72b2&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql 命令行：mysql&amp;gt; &amp;nbsp;source /script/all.sql&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;系统命令行： mysql -uroot -p123456 &amp;lt; /script/all.sql&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2 id=&#34;pdFyF&#34; style=&#34;font-size: 24px; line-height: 32px; margin: 21px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333&#34;&gt; 2.2 还原单个数据库(需指定数据库)&lt;/span&gt;&lt;/h2&gt;&lt;div data-type=&#34;warning&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;ufbdd95c1&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql&amp;gt;use mydb&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql&amp;gt;source /script/mydb.sql&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div data-type=&#34;warning&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;uf21b6b35&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt; mysql -uroot -p123456 mydb &amp;lt; /script/mydb.sql&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2 id=&#34;qKMoi&#34; style=&#34;font-size: 24px; line-height: 32px; margin: 21px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333&#34;&gt;2.3 还原单个数据库的多个表(需指定数据库)&lt;/span&gt;&lt;/h2&gt;&lt;div data-type=&#34;warning&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;u6178c2c7&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql&amp;gt;use mydb&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql&amp;gt;source /script/multables.sql&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div data-type=&#34;warning&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;u8cf913c5&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql -uroot -p123456 mydb&amp;lt; /script/multables.sql&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;h2 id=&#34;tOmf1&#34; style=&#34;font-size: 24px; line-height: 32px; margin: 21px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333&#34;&gt;2.4 还原多个数据库，（一个备份文件里有多个数据库的备份，此时不需要指定数据库）&lt;/span&gt;&lt;/h2&gt;&lt;div data-type=&#34;warning&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;u1e102cf2&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;mysql命令行：mysql&amp;gt;source /script/muldbs.sql&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;u160de5af&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #333333; font-size: 16px&#34;&gt;系统命令行： mysql -uroot -p123456 &amp;lt; /script/muldbs.sql&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;u22c05712&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;font-size: 22px&#34;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;28&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/01/mysqlsql/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mysqlsql/</guid>
+      
+    </item>
+    
+    <item>
+      <title>JavaScript获取时间戳与时间戳转化</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;ne-clipboard data=&#34;%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22RMcMW%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ubbcf8bad%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%7D%2C%22data%22%3A%22Javascript%20%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%88%B3%EF%BC%88%E6%AF%AB%E7%A7%92%E7%BA%A7%E5%88%AB%EF%BC%89%EF%BC%9A%5Cn%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9112ad35%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22TbC6r%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22var%20timestamp1%20%3D%20Date.parse(%20new%20Date())%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uabce9a7a%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u3fbbfe94%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u616871c1%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%BB%93%E6%9E%9C%EF%BC%9A1470220594000%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc22dd360%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22udad28501%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u416d9d51%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22mMm5s%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22var%20timestamp2%20%3D%20(%20new%20Date()).valueOf()%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub97faa85%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf2825c09%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u95efa70d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%BB%93%E6%9E%9C%EF%BC%9A1470220608533%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub67a7742%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u1a5b594b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%AC%AC%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uab486b08%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22PLyUW%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22var%20timestamp3%20%3D%20new%20Date().getTime()%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0b90e1e1%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue0f18803%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u21c58f40%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%BB%93%E6%9E%9C%EF%BC%9A1470220608533%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufc788ee3%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u2cebbaff%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22bgColor%22%3A%22%23FA541C%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%AC%AC%E4%B8%80%E7%A7%8D%E8%8E%B7%E5%8F%96%E7%9A%84%E6%97%B6%E9%97%B4%E6%88%B3%E6%98%AF%E7%B2%BE%E7%A1%AE%E5%88%B0%E7%A7%92%EF%BC%8C%E7%AC%AC%E4%BA%8C%E7%A7%8D%E5%92%8C%E7%AC%AC%E4%B8%89%E7%A7%8D%E6%98%AF%E8%8E%B7%E5%8F%96%E7%9A%84%E6%97%B6%E9%97%B4%E6%88%B3%E7%B2%BE%E7%A1%AE%E5%88%B0%E6%AF%AB%E7%A7%92%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22NmDe0%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u5871b737%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%7D%2C%22data%22%3A%22%E8%8E%B7%E5%8F%96%E6%8C%87%E5%AE%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%97%B6%E9%97%B4%E6%88%B3%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc81e0712%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22Duzdn%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22new%20Date(%5C%222016-08-03%2000%3A00%3A00%5C%22)%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22KPnmj%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u737179da%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%7D%2C%22data%22%3A%22%E6%97%B6%E9%97%B4%E6%88%B3%E8%BD%AC%E5%8C%96%E6%88%90%E6%97%B6%E9%97%B4%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u827a64c4%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22G352V%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22function%20timetrans(date)%7B%20%20%5Cn%20%20var%20date%20%3D%20new%20Date(date*1000)%3B%2F%2F%E5%A6%82%E6%9E%9Cdate%E4%B8%BA13%E4%BD%8D%E4%B8%8D%E9%9C%80%E8%A6%81%E4%B9%981000%20%5Cn%20%20var%20Y%20%3D%20date.getFullYear()%20%2B%20&amp;#39;-&amp;#39;%3B%20%20%20%5Cn%20%20var%20M%20%3D%20(date.getMonth()%2B1%20%3C%2010%20%3F%20&amp;#39;0&amp;#39;%2B(date.getMonth()%2B1)%20%3A%20date.getMonth()%2B1)%20%2B%20&amp;#39;-&amp;#39;%3B%20%20%20%20%20%5Cn%20%20var%20D%20%3D%20(date.getDate()%20%3C%2010%20%3F%20&amp;#39;0&amp;#39;%20%2B%20(date.getDate())%20%3A%20date.getDate())%20%2B%20&amp;#39;%20&amp;#39;%3B%20%20%20%20%20%5Cn%20%20var%20h%20%3D%20(date.getHours()%20%3C%2010%20%3F%20&amp;#39;0&amp;#39;%20%2B%20date.getHours()%20%3A%20date.getHours())%20%2B%20&amp;#39;%3A&amp;#39;%3B%20%20%20%20%20%5Cn%20%20var%20m%20%3D%20(date.getMinutes()%20%3C10%20%3F%20&amp;#39;0&amp;#39;%20%2B%20date.getMinutes()%20%3A%20date.getMinutes())%20%2B%20&amp;#39;%3A&amp;#39;%3B%20%20%20%20%20%5Cn%20%20var%20s%20%3D%20(date.getSeconds()%20%3C10%20%3F%20&amp;#39;0&amp;#39;%20%2B%20date.getSeconds()%20%3A%20date.getSeconds())%3B%20%20%20%20%20%5Cn%20%20return%20Y%2BM%2BD%2Bh%2Bm%2Bs%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D&#34;&gt;&lt;/ne-clipboard&gt;&lt;/p&gt;
+&lt;div class=&#34;lake-content&#34; typography=&#34;classic&#34;&gt;&lt;h3 id=&#34;RMcMW&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529&#34;&gt;Javascript 获取当前时间戳（毫秒级别）：&lt;br/&gt;第一种方法：&lt;/span&gt;&lt;/h3&gt;&lt;pre data-language=&#34;javascript&#34; id=&#34;TbC6r&#34; class=&#34;ne-codeblock language-javascript&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;var&amp;nbsp;timestamp1&amp;nbsp;=&amp;nbsp;Date.parse(&amp;nbsp;new&amp;nbsp;Date());&lt;/pre&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;u3fbbfe94&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529; font-size: 16px&#34;&gt;结果：1470220594000&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;uc22dd360&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529; font-size: 16px&#34;&gt;第二种方法：&lt;/span&gt;&lt;/p&gt;&lt;pre data-language=&#34;javascript&#34; id=&#34;mMm5s&#34; class=&#34;ne-codeblock language-javascript&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;var&amp;nbsp;timestamp2&amp;nbsp;=&amp;nbsp;(&amp;nbsp;new&amp;nbsp;Date()).valueOf();&lt;/pre&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;uf2825c09&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529; font-size: 16px&#34;&gt;结果：1470220608533&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;ub67a7742&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529; font-size: 16px&#34;&gt;第三种方法：&lt;/span&gt;&lt;/p&gt;&lt;pre data-language=&#34;javascript&#34; id=&#34;PLyUW&#34; class=&#34;ne-codeblock language-javascript&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;var&amp;nbsp;timestamp3&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Date().getTime();&lt;/pre&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;ue0f18803&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529; font-size: 16px&#34;&gt;结果：1470220608533&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;ufc788ee3&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529; background-color: #FA541C; font-size: 16px&#34;&gt;第一种获取的时间戳是精确到秒，第二种和第三种是获取的时间戳精确到毫秒。&lt;/span&gt;&lt;/p&gt;&lt;h3 id=&#34;NmDe0&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529&#34;&gt;获取指定时间的时间戳：&lt;/span&gt;&lt;/h3&gt;&lt;pre data-language=&#34;javascript&#34; id=&#34;Duzdn&#34; class=&#34;ne-codeblock language-javascript&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;new&amp;nbsp;Date(&amp;quot;2016-08-03&amp;nbsp;00:00:00&amp;quot;);&lt;/pre&gt;&lt;h3 id=&#34;KPnmj&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #212529&#34;&gt;时间戳转化成时间：&lt;/span&gt;&lt;/h3&gt;&lt;pre data-language=&#34;javascript&#34; id=&#34;G352V&#34; class=&#34;ne-codeblock language-javascript&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;function&amp;nbsp;timetrans(date){&amp;nbsp;&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;var&amp;nbsp;date&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Date(date*1000);//如果date为13位不需要乘1000&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;var&amp;nbsp;Y&amp;nbsp;=&amp;nbsp;date.getFullYear()&amp;nbsp;+&amp;nbsp;&amp;#39;-&amp;#39;;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;var&amp;nbsp;M&amp;nbsp;=&amp;nbsp;(date.getMonth()+1&amp;nbsp;&amp;lt;&amp;nbsp;10&amp;nbsp;?&amp;nbsp;&amp;#39;0&amp;#39;+(date.getMonth()+1)&amp;nbsp;:&amp;nbsp;date.getMonth()+1)&amp;nbsp;+&amp;nbsp;&amp;#39;-&amp;#39;;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;var&amp;nbsp;D&amp;nbsp;=&amp;nbsp;(date.getDate()&amp;nbsp;&amp;lt;&amp;nbsp;10&amp;nbsp;?&amp;nbsp;&amp;#39;0&amp;#39;&amp;nbsp;+&amp;nbsp;(date.getDate())&amp;nbsp;:&amp;nbsp;date.getDate())&amp;nbsp;+&amp;nbsp;&amp;#39;&amp;nbsp;&amp;#39;;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;var&amp;nbsp;h&amp;nbsp;=&amp;nbsp;(date.getHours()&amp;nbsp;&amp;lt;&amp;nbsp;10&amp;nbsp;?&amp;nbsp;&amp;#39;0&amp;#39;&amp;nbsp;+&amp;nbsp;date.getHours()&amp;nbsp;:&amp;nbsp;date.getHours())&amp;nbsp;+&amp;nbsp;&amp;#39;:&amp;#39;;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;var&amp;nbsp;m&amp;nbsp;=&amp;nbsp;(date.getMinutes()&amp;nbsp;&amp;lt;10&amp;nbsp;?&amp;nbsp;&amp;#39;0&amp;#39;&amp;nbsp;+&amp;nbsp;date.getMinutes()&amp;nbsp;:&amp;nbsp;date.getMinutes())&amp;nbsp;+&amp;nbsp;&amp;#39;:&amp;#39;;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;var&amp;nbsp;s&amp;nbsp;=&amp;nbsp;(date.getSeconds()&amp;nbsp;&amp;lt;10&amp;nbsp;?&amp;nbsp;&amp;#39;0&amp;#39;&amp;nbsp;+&amp;nbsp;date.getSeconds()&amp;nbsp;:&amp;nbsp;date.getSeconds());&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+&amp;nbsp;&amp;nbsp;return&amp;nbsp;Y+M+D+h+m+s;
+
+}&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;15&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/01/javascript/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/javascript/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Go指针的作用和Java中为什么没有用到指针</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;section class=&#34;output_wrapper&#34; id=&#34;output_wrapper_id&#34; style=&#34;font-size: 15px; color: rgb(62, 62, 62); line-height: 1.8; word-spacing: 2px; letter-spacing: 2px; font-family: &amp;#39;Helvetica Neue&amp;#39;, Helvetica, &amp;#39;Hiragino Sans GB&amp;#39;, &amp;#39;Microsoft YaHei&amp;#39;, Arial, sans-serif; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;&#34;&gt;&lt;blockquote style=&#34;line-height: inherit; padding: 15px 15px 15px 1rem; font-size: 0.9em; margin: 1em 0px; color: rgb(0, 0, 0); border-left: 5px solid rgb(239, 112, 96); background: rgb(239, 235, 233); overflow: auto; overflow-wrap: normal; word-break: normal;&#34;&gt;&lt;p style=&#34;font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 0px; margin-bottom: 0px;&#34;&gt;在Go语言中，指针是一种特殊的数据类型，它存储了一个变量的内存地址。通过使用指针，可以直接操作该内存地址上的数据，而不是通过变量名来访问。&lt;/p&gt;&lt;/blockquote&gt;&lt;p style=&#34;font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;&#34;&gt;&lt;strong style=&#34;font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: rgb(233, 105, 0);&#34;&gt;指针在Go语言中有以下作用:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;&#34;&gt;1.传递内存地址：通过将指针作为参数传递给函数，可以直接修改函数外部的变量，而不是创建一个副本。这对于需要修改大型数据结构或者需要避免大量数据拷贝的情况非常有用。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;&#34;&gt;2.动态分配内存：使用指针可以在堆上动态分配内存，这样可以创建变量的生命周期不依赖于函数的作用域。这对于创建复杂的数据结构、在函数调用之间保留状态等情况非常有用。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&#34;font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;&#34;&gt;3.与结构体配合使用：指针可以与结构体配合使用，通过指针访问和修改结构体中的字段，这样可以避免将整个结构体作为参数传递，提高效率。&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;相比之下，Java语言没有显式的指针操作。这是因为Java的设计目标之一是提供一种相对安全和易于使用的编程语言。Java使用引用来实现对对象的引用，而不是直接操作内存地址。通过引用，可以访问和修改Java对象的属性，而无需直接操作内存地址。这种设计决策简化了Java的内存管理，并且有助于减少内存错误和安全漏洞的发生。&lt;/p&gt;&lt;p style=&#34;font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;&#34;&gt;总之，Go语言中的指针提供了更多低级别的内存操作功能，而Java语言则通过引用提供了更高级别的抽象和更安全的内存管理。&lt;/p&gt;&lt;/section&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;12&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/01/gojava/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/gojava/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Mybatis批量操作</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;1、批量添加&lt;br/&gt;&lt;/h1&gt;
+&lt;pre class=&#34;prism-highlight prism-language-markup&#34;&gt;&amp;nbsp;&amp;lt;!--&amp;nbsp;批量插入活动表--&amp;gt;
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;insert&amp;nbsp;id=&amp;quot;insertBatchActivity&amp;quot;&amp;gt;
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;INSERT&amp;nbsp;INTO&amp;nbsp;activity
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;activity_id,&amp;nbsp;user_id,&amp;nbsp;create_time
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;VALUES
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;foreach&amp;nbsp;collection=&amp;quot;list&amp;quot;&amp;nbsp;item=&amp;quot;item&amp;quot;&amp;nbsp;separator=&amp;quot;,&amp;quot;&amp;gt;
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;(
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;#{item.activityId},
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;#{item.userId},
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;now()
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/foreach&amp;gt;
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/insert&amp;gt;&lt;/pre&gt;
+&lt;h1 style=&#34;text-wrap: wrap;&#34;&gt;2、批量更新&lt;/h1&gt;
+&lt;p&gt;&lt;span style=&#34;color: #4D4D4D; font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-wrap: wrap; background-color: #FFFFFF;&#34;&gt;在mybatis的xml文件中，使用foreach动态标签拼接SQL语句，每一条数据的更新语句对应一条&lt;/span&gt;update语句，&lt;span style=&#34;color: #4D4D4D; font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-wrap: wrap; background-color: #FFFFFF;&#34;&gt;多条语句最终使用&amp;quot;;&amp;quot;号进行拼接。&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;prism-highlight prism-language-markup&#34;&gt;&amp;lt;update&amp;nbsp;id=&amp;quot;updateBatchById&amp;quot;&amp;gt;
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;foreach&amp;nbsp;collection=&amp;quot;list&amp;quot;&amp;nbsp;item=&amp;quot;item&amp;quot;&amp;nbsp;separator=&amp;quot;;&amp;quot;&amp;gt;
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;update
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`t_student`
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;set
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`name`&amp;nbsp;=&amp;nbsp;#{item.name},
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`age`&amp;nbsp;=&amp;nbsp;#{item.age}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;where
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;id&amp;nbsp;=&amp;nbsp;#{item.id}
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/foreach&amp;gt;
+
+&amp;lt;/update&amp;gt;&lt;/pre&gt;
+&lt;p&gt;---补充&lt;/p&gt;
+&lt;pre class=&#34;prism-highlight prism-language-bash&#34;&gt;Cause:&amp;nbsp;java.sql.SQLException:&amp;nbsp;sql&amp;nbsp;injection&amp;nbsp;violation,&amp;nbsp;multi-statement&amp;nbsp;not&amp;nbsp;allow&amp;nbsp;:&amp;nbsp;update&amp;nbsp;ipplus360_mall.users_library_version_authority&amp;nbsp;set&amp;nbsp;shew&amp;nbsp;=?,updated_time&amp;nbsp;=?
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;where&amp;nbsp;user_id=?&amp;nbsp;and&amp;nbsp;library_version&amp;nbsp;=&amp;nbsp;?&lt;/pre&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;解决方法&lt;/p&gt;
+&lt;p style=&#34;box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif, SimHei, SimSun; text-wrap: wrap; background-color: rgb(255, 255, 255); user-select: auto !important; line-height: 24px !important;&#34;&gt;&lt;span style=&#34;box-sizing: border-box; outline: 0px; user-select: auto !important; font-weight: 700; overflow-wrap: break-word;&#34;&gt;1.配置中去掉wall这个filter。&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;prism-highlight prism-language-markup&#34;&gt;spring.datasource.druid.filters=config,wall,slf4j&lt;/pre&gt;
+&lt;p style=&#34;box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif, SimHei, SimSun; text-wrap: wrap; background-color: rgb(255, 255, 255); user-select: auto !important; line-height: 24px !important;&#34;&gt;改为&lt;/p&gt;
+&lt;pre class=&#34;prism-highlight prism-language-markup&#34;&gt;spring.datasource.druid.filters=config,slf4j&lt;/pre&gt;
+&lt;p style=&#34;box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif, SimHei, SimSun; text-wrap: wrap; background-color: rgb(255, 255, 255); user-select: auto !important; line-height: 24px !important;&#34;&gt;&lt;span style=&#34;box-sizing: border-box; outline: 0px; user-select: auto !important; font-weight: 700; overflow-wrap: break-word;&#34;&gt;2.数据库连接加上&amp;nbsp;&amp;amp;allowMultiQueries=true&lt;/span&gt;&lt;/p&gt;
+&lt;pre class=&#34;prism-highlight prism-language-markup&#34;&gt;spring.datasource.url&amp;nbsp;=&amp;nbsp;jdbc:mysql://127.0.0.1:3306/test?useSSL=false&amp;amp;zeroDateTimeBehavior=convertToNull&amp;amp;autoReconnect=true&amp;amp;allowMultiQueries=true&amp;amp;characterEncoding=UTF-8&amp;amp;characterSetResults=UTF-8&lt;/pre&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;22&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/01/mybatis/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mybatis/</guid>
+      
+    </item>
+    
+    <item>
+      <title>jedis.multi();的用法以及作用</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&#34;h2-u524Du8A00&#34;&gt;&lt;a class=&#34;reference-link&#34; name=&#34;前言&#34;&gt;&lt;/a&gt;&lt;span class=&#34;header-link octicon octicon-link&#34;&gt;&lt;/span&gt;前言&lt;/h2&gt;&lt;blockquote&gt;&lt;/p&gt;
+&lt;p&gt;本文使用Redis工具Jedis对Redis进行操作&lt;br&gt;在开始正文之前，我们先整理一下，如何使用Jedis对Redis客户端进行操作&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;package com.ipplus360.api.common.util;
+
+
+
+import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
+
+import org.slf4j.Logger;
+
+import org.slf4j.LoggerFactory;
+
+import redis.clients.jedis.Jedis;
+
+import redis.clients.jedis.JedisPool;
+
+
+
+import java.util.Set;
+
+
+
+/**
+
+ * @Author: byron
+
+ * @Date: 2023/05/05/10:56
+
+ * @Description:
+
+ */
+
+public class RedisUtil {
+
+    private static final Logger LOGGER = LoggerFactory
+
+            .getLogger(RedisUtil.class);
+
+    private final JedisPool jedisPool;
+
+
+
+    /**
+
+     * @param host    主机地址
+
+     * @param port    端口
+
+     * @param timeout 超时间（毫秒）
+
+     * @param password 密码
+
+     * @param bd_index 制定数据库索引
+
+     * @throws Exception
+
+     */
+
+    public RedisUtil(String host, int port, String password) throws Exception {
+
+        this.jedisPool = new JedisPool(new GenericObjectPoolConfig(), host, port, timeout, &#34;passward&#34;, bd_index);
+
+    }
+
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;h2-u6B63u6587&#34;&gt;&lt;a class=&#34;reference-link&#34; name=&#34;正文&#34;&gt;&lt;/a&gt;&lt;span class=&#34;header-link octicon octicon-link&#34;&gt;&lt;/span&gt;正文&lt;/h2&gt;
+&lt;blockquote&gt;
+
+&lt;p&gt;Transaction transaction = jedis.multi(); 的用法以及作用&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jedis 中的行Transaction transaction = jedis.multi();用于初始化一个新的事务对象。&lt;/p&gt;
+
+&lt;p&gt;在 Redis 中，事务允许您将多个命令组合在一起并以原子方式执行它们。使用事务的目的是确保事务中的所有命令都成功执行，或者都不应用。&lt;/p&gt;
+
+&lt;p&gt;以下是Transaction对象和multi()方法的工作原理：&lt;/p&gt;
+
+&lt;h3 id=&#34;h3-1-jedis-&#34;&gt;&lt;a class=&#34;reference-link&#34; name=&#34;1.创建Jedis 实例：&#34;&gt;&lt;/a&gt;&lt;span class=&#34;header-link octicon octicon-link&#34;&gt;&lt;/span&gt;1.创建Jedis 实例：&lt;/h3&gt;
+&lt;p&gt;在使用事务之前，您需要创建该类的一个实例Jedis，它表示与 Redis 服务器的连接。您通常会提供主机和端口信息以连接到 Redis 服务器。&lt;br&gt;&lt;mark&gt;如文章最开始&lt;/mark&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;h3-2-&#34;&gt;&lt;a class=&#34;reference-link&#34; name=&#34;2.开始一个事务：&#34;&gt;&lt;/a&gt;&lt;span class=&#34;header-link octicon octicon-link&#34;&gt;&lt;/span&gt;2.开始一个事务：&lt;/h3&gt;
+&lt;p&gt;一旦你有了实例Jedis，你就可以通过调用multi()实例上的方法来开始一个新的事务。此方法返回该类的一个实例Transaction。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;Transaction transaction = jedis.multi();
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在事务内排队命令：获取Transaction对象后，可以在事务内将要执行的Redis命令排队。这些命令将存储在队列中，并在提交事务时自动执行。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;transaction.set(&#34;key1&#34;, &#34;value1&#34;);
+
+transaction.set(&#34;key2&#34;, &#34;value2&#34;);
+
+transaction.del(&#34;key3&#34;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;在上面的示例中，我们在事务中对三个命令（ SET、SET和）进行了排队。DEL这些命令将作为一个原子单元一起执行。&lt;/p&gt;
+
+&lt;p&gt;执行事务：要执行事务，您需要调用对象Transaction上的方法exec()。此方法返回表示事务中每个命令的结果的对象列表。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;List&amp;lt;Object&amp;gt; results = transaction.exec();
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;该exec()方法将自动执行所有排队的命令。如果事务中的所有命令都成功执行，该exec()方法将返回结果列表。如果任何命令失败或发生错误，事务将回滚并exec()返回null。&lt;/p&gt;
+
+&lt;p&gt;处理结果：执行事务后，您可以处理从exec()方法中获得的结果。结果以对象列表的形式返回，其中每个对象代表事务中相应命令的结果。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;for (Object result : results) {
+
+    // Handle individual command results
+
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;您可以遍历结果列表并相应地处理每个命令结果。&lt;/p&gt;
+
+&lt;p&gt;请记住在使用完Jedis实例和对象后正确关闭它们以释放资源。Transaction&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;transaction.close();
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;h3-3-&#34;&gt;&lt;a class=&#34;reference-link&#34; name=&#34;3.具体实例&#34;&gt;&lt;/a&gt;&lt;span class=&#34;header-link octicon octicon-link&#34;&gt;&lt;/span&gt;3.具体实例&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;public void pay(String key, Integer dailyLimit) throws Exception {
+
+        // 自动关闭 redis 客户端
+
+        try (Jedis jedis = jedisPool.getResource()) {
+
+            String val = jedis.get(key);
+
+            // 获取第二天开始时间
+
+            Date startOfDay = DateUtil.ldt2Date(DateUtil.getStartOfTomorrow(null));
+
+
+
+            if (StringUtils.isBlank(val)) {
+
+                setExpireByDay(key, &#34;1&#34;, startOfDay);
+
+            } else {
+
+                long limitCount = Long.valueOf(val);
+
+                if (limitCount &amp;lt; dailyLimit) {
+
+                    Transaction transaction = jedis.multi();
+
+                        transaction.incr(key);
+
+                        transaction.exec();
+
+                        // 手动关闭事务
+
+                        transaction.close();
+
+                } else {
+
+                    throw new MyRuntimeException(ServiceStatusEnums.DAILY_LIMITED);
+
+                }
+
+            }
+
+
+
+        }
+
+    }
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/body&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;17&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/01/jedismulti/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/jedismulti/</guid>
+      
+    </item>
+    
+    <item>
+      <title>ModuleNotFoundErrorNomodulenamed&#39;redis&#39;</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;使用conda&amp;nbsp;安装redis ，成功后No module named &amp;#39;redis&amp;#39;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://so.csdn.net/so/search?q=conda&amp;spm=1001.2101.3001.7020&#34; target=&#34;_blank&#34; class=&#34;hl hl-1&#34; data-report-click=&#34;{&amp;quot;spm&amp;quot;:&amp;quot;1001.2101.3001.7020&amp;quot;,&amp;quot;dest&amp;quot;:&amp;quot;https://so.csdn.net/so/search?q=conda&amp;amp;spm=1001.2101.3001.7020&amp;quot;,&amp;quot;extra&amp;quot;:&amp;quot;{\&amp;quot;searchword\&amp;quot;:\&amp;quot;conda\&amp;quot;}&amp;quot;}&#34; data-tit=&#34;conda&#34; data-pretit=&#34;conda&#34; style=&#34;box-sizing: border-box; outline: none; margin: 0px 3px 0px 0px; padding: 0px 14px 0px 3px; text-decoration-line: none; cursor: pointer; background: url(&amp;quot;../img/iconHighlight.svg&amp;quot;) right top / 12px 14px no-repeat rgb(255, 255, 255); color: rgb(252, 85, 49); overflow-wrap: break-word; border-radius: 3px; box-shadow: none; font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-wrap: wrap; user-select: auto !important;&#34;&gt;conda&lt;/a&gt;&lt;span style=&#34;color: #4D4D4D; font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-wrap: wrap; background-color: #FFFFFF;&#34;&gt;install redis-py&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;https://blog.csdn.net/blances/article/details/105585987&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;20&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/01/modulenotfounderrornomodulenamedredis/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/modulenotfounderrornomodulenamedredis/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Nginx指令add_header和proxy_set_header的区别</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;ne-clipboard data=&#34;%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22kiFJG%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue791e100%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4137efc4%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u2e0ffa6c%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u90aae73e%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22udb3536ac%22%2C%22name%22%3A%22code%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u9387922f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22Nginx%22%7D%5D%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u78d2d926%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E6%98%AF%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E4%BB%8E%E4%B8%8B%E5%9B%BE%E6%9D%A5%E7%90%86%E8%A7%A3%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u355f8a39%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u89d1f848%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E3%80%82%E4%BB%A5Nginx%20%E4%B8%BA%E4%B8%AD%E5%BF%83%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3aec8289%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%EF%BC%8C%E6%95%B0%E6%8D%AE%E7%9A%84%E6%B5%81%E5%90%91%E6%98%AF%E4%BB%8E%22%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u12786e51%22%2C%22name%22%3A%22code%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8292b454%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22Server%22%7D%5D%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u79caf0d9%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E5%88%B0%22%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u430243f8%22%2C%22name%22%3A%22code%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc37ec163%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22Nginx%22%7D%5D%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u80dadd0c%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E5%86%8D%E5%88%B0%22%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue88f1c64%22%2C%22name%22%3A%22code%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue4f4e1dc%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22Client%22%7D%5D%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf61b37b6%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%EF%BC%8C%E6%B3%A8%E6%84%8F%E6%88%91%E8%AF%B4%E7%9A%84%E6%98%AF%E6%95%B0%E6%8D%AE%EF%BC%88%E5%93%8D%E5%BA%94%E6%95%B0%E6%8D%AE%EF%BC%89%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E8%AF%B7%E6%B1%82%E3%80%82%E6%88%91%E4%BB%AC%E9%83%BD%E7%9F%A5%E9%81%93%E6%B0%B4%E6%B5%81%E4%B8%80%E5%AE%9A%E6%98%AF%E4%BB%8E%E4%B8%8A%E6%B8%B8%E6%B5%81%E5%88%B0%E4%B8%8B%E6%B8%B8%EF%BC%8C%E6%89%80%E4%BB%A5%E7%BB%99%22%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uab8d5dbb%22%2C%22name%22%3A%22code%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8ce4c134%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22Server%22%7D%5D%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ud19d7170%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E4%B8%80%E4%B8%AA%E5%88%AB%E7%A7%B0%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u715c2dc0%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%2C%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E4%B8%8A%E6%B8%B8%E6%9C%8D%E5%8A%A1%E5%99%A8%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u80a297c4%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%EF%BC%8C%E5%BD%93%E7%84%B6%E8%BF%99%E4%B8%AA%E5%88%AB%E7%A7%B0%E5%B9%B6%E4%B8%8D%E6%98%AF%E6%88%91%E5%AE%9A%E4%B9%89%E7%9A%84%E3%80%82%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4607a1a2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22uff575f1c%22%2C%22name%22%3A%22image%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22src%22%3A%22https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F28895228%2F1680944976293-eab49c1d-9345-404b-8bda-c7e779c71372.png%22%2C%22original%22%3A%7B%22type%22%3A%22binary%22%2C%22from%22%3A%22paste%22%2C%22ratio%22%3A1%2C%22width%22%3A713%2C%22height%22%3A147%7D%2C%22name%22%3A%227018111d12f1a8ee9f39c4265f1b1f50_20190709170853778.png%22%2C%22size%22%3A12092%2C%22width%22%3A713%2C%22status%22%3A%22done%22%2C%22style%22%3A%22none%22%2C%22taskId%22%3A%22u492dbf2d-9d18-4096-910c-998550993c1%22%2C%22clientId%22%3A%22ue261260a-ade7-4%22%2C%22linkExternal%22%3Atrue%2C%22ocr%22%3A%5B%7B%22x%22%3A48.48556%2C%22y%22%3A20.990839%2C%22width%22%3A53.341280000000005%2C%22height%22%3A18.464070999999997%2C%22text%22%3A%22%E6%B5%8F%E8%A7%88%E5%99%A8%22%7D%2C%7B%22x%22%3A617.34467%2C%22y%22%3A21.103647%2C%22width%22%3A38.8186300000001%2C%22height%22%3A20.900913%2C%22text%22%3A%22%E4%B8%8A%E6%B8%B8%22%7D%2C%7B%22x%22%3A321.44583%2C%22y%22%3A22.04671%2C%22width%22%3A69.04354999999998%2C%22height%22%3A16.662705%2C%22text%22%3A%22%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%22%7D%2C%7B%22x%22%3A484.556%2C%22y%22%3A67.769455%2C%22width%22%3A24.91973999999999%2C%22height%22%3A13.781565%2C%22text%22%3A%22%E8%AF%B7%E6%B1%82%22%7D%2C%7B%22x%22%3A204.07631%2C%22y%22%3A67.81812%2C%22width%22%3A25.744589999999988%2C%22height%22%3A13.451205000000002%2C%22text%22%3A%22%E8%AF%B7%E6%B1%82%22%7D%2C%7B%22x%22%3A33.342457%2C%22y%22%3A73.66364%2C%22width%22%3A86.36493300000001%2C%22height%22%3A27.5882%2C%22text%22%3A%22CLIENT%22%7D%2C%7B%22x%22%3A312.92892%2C%22y%22%3A75.02933%2C%22width%22%3A88.39661000000001%2C%22height%22%3A31.4495%2C%22text%22%3A%22NGINX%22%7D%2C%7B%22x%22%3A586.7691%2C%22y%22%3A75.32682%2C%22width%22%3A98.0874%2C%22height%22%3A27.436459999999997%2C%22text%22%3A%22SERVER%22%7D%2C%7B%22x%22%3A478.8761%2C%22y%22%3A96.59381%2C%22width%22%3A26.136799999999994%2C%22height%22%3A11.670593999999994%2C%22text%22%3A%22%E5%93%8D%E5%BA%94%22%7D%2C%7B%22x%22%3A198.82335%2C%22y%22%3A97.12662%2C%22width%22%3A25.845609999999994%2C%22height%22%3A11.286596000000003%2C%22text%22%3A%22%E5%93%8D%E5%BA%94%22%7D%5D%2C%22search%22%3A%22%E6%B5%8F%E8%A7%88%E5%99%A8%20%E4%B8%8A%E6%B8%B8%20%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%20%E8%AF%B7%E6%B1%82%20%E8%AF%B7%E6%B1%82%20CLIENT%20NGINX%20SERVER%20%E5%93%8D%E5%BA%94%20%E5%93%8D%E5%BA%94%22%2C%22crop%22%3A%5B0%2C0%2C1%2C1%5D%2C%22showTitle%22%3Afalse%2C%22title%22%3A%22%22%2C%22rotation%22%3A0%2C%22averageHue%22%3A%22%23c9daea%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22inline%22%7D%2C%22cardType%22%3A%22inline%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22Y9Hgv%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc3645d63%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22proxy_set_header%E5%92%8Cadd_header%E7%9A%84%E5%8C%BA%E5%88%AB%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0f5e9c8e%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf280cd17%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E5%8C%BA%E5%88%AB%EF%BC%9A%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u22e3e5a6%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(199%2C%2037%2C%2078)%22%2C%22bgColor%22%3A%22rgb(249%2C%20242%2C%20244)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%22proxy_set_header%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ufdc3ccaf%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E6%98%AF%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue1f76e0d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(199%2C%2037%2C%2078)%22%2C%22bgColor%22%3A%22rgb(249%2C%20242%2C%20244)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%22Nginx%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ude535990%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E8%AE%BE%E7%BD%AE%E8%AF%B7%E6%B1%82%E5%A4%B4%E4%BF%A1%E6%81%AF%E7%BB%99%E4%B8%8A%E6%B8%B8%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u79bb5a51%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(199%2C%2037%2C%2078)%22%2C%22bgColor%22%3A%22rgb(249%2C%20242%2C%20244)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%22add_header%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ud02b8e30%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E6%98%AF%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u7e012fd4%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(199%2C%2037%2C%2078)%22%2C%22bgColor%22%3A%22rgb(249%2C%20242%2C%20244)%22%2C%22fontsize%22%3A14%7D%2C%22data%22%3A%22Nginx%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ub665650f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(77%2C%2077%2C%2077)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E8%AE%BE%E7%BD%AE%E5%93%8D%E5%BA%94%E5%A4%B4%E4%BF%A1%E6%81%AF%E7%BB%99%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22pHM0n%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u398ee005%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22proxy_set_header%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue685e1ff%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22ztSrg%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22nginx%22%2C%22code%22%3A%22proxy_set_header%20%20%20%20%20%20%20%20%20%20%20%20Host%20%24host%3B%5Cnproxy_set_header%20%20%20%20%20%20%20%20%20%20%20%20X-real-ip%20%24remote_addr%3B%5Cnproxy_set_header%20%20%20%20%20%20%20%20%20%20%20%20X-Forwarded-For%20%24proxy_add_x_forwarded_for%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22KYITZ%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ub380940a%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22add_header%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub5406bf0%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22as1mf%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22nginx%22%2C%22code%22%3A%22add_header%20&amp;#39;Access-Control-Allow-Origin&amp;#39;%20&amp;#39;*&amp;#39;%3B%5Cnadd_header%20&amp;#39;Access-Control-Allow-Headers&amp;#39;%20&amp;#39;X-Requested-With&amp;#39;%3B%5Cnadd_header%20&amp;#39;Access-Control-Allow-Methods&amp;#39;%20&amp;#39;GET%2CPOST%2COPTIONS&amp;#39;%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D&#34;&gt;&lt;/ne-clipboard&gt;&lt;/p&gt;
+&lt;div class=&#34;lake-content&#34; typography=&#34;classic&#34;&gt;&lt;h2 id=&#34;kiFJG&#34; style=&#34;font-size: 24px; line-height: 32px; margin: 21px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;如何理解反向代理&lt;/span&gt;&lt;/h2&gt;&lt;div data-type=&#34;warning&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;u90aae73e&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;code class=&#34;ne-code&#34; style=&#34;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; background-color: rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 2px; padding: 0px 2px&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;Nginx&lt;/span&gt;&lt;/code&gt;&lt;span class=&#34;ne-text&#34;&gt;是反向代理服务器，我们可以从下图来理解为什么是&lt;/span&gt;&lt;strong&gt;反向代理&lt;/strong&gt;&lt;span class=&#34;ne-text&#34;&gt;。以Nginx 为中心&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;，数据的流向是从&lt;/span&gt;&lt;code class=&#34;ne-code&#34; style=&#34;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; background-color: rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 2px; padding: 0px 2px&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;Server&lt;/span&gt;&lt;/code&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;到&lt;/span&gt;&lt;code class=&#34;ne-code&#34; style=&#34;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; background-color: rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 2px; padding: 0px 2px&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;Nginx&lt;/span&gt;&lt;/code&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;再到&lt;/span&gt;&lt;code class=&#34;ne-code&#34; style=&#34;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; background-color: rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 2px; padding: 0px 2px&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;Client&lt;/span&gt;&lt;/code&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;，注意我说的是数据（响应数据），而不是请求。我们都知道水流一定是从上游流到下游，所以给&lt;/span&gt;&lt;code class=&#34;ne-code&#34; style=&#34;font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace; background-color: rgba(0, 0, 0, 0.06); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 2px; padding: 0px 2px&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;Server&lt;/span&gt;&lt;/code&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;一个别称&lt;/span&gt;&lt;strong&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;上游服务器&lt;/span&gt;&lt;/strong&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;，当然这个别称并不是我定义的。&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;u4607a1a2&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2023/png/28895228/1680944976293-eab49c1d-9345-404b-8bda-c7e779c71372.png&#34; width=&#34;713&#34; id=&#34;uff575f1c&#34; class=&#34;ne-image&#34;/&gt;&lt;/p&gt;&lt;h2 id=&#34;Y9Hgv&#34; style=&#34;font-size: 24px; line-height: 32px; margin: 21px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;proxy_set_header和add_header的区别&lt;/span&gt;&lt;/h2&gt;&lt;p id=&#34;u0f5e9c8e&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;区别：&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #C7254E; background-color: #F9F2F4;&#34;&gt;proxy_set_header&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;是&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #C7254E; background-color: #F9F2F4;&#34;&gt;Nginx&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;设置请求头信息给上游服务器，&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #C7254E; background-color: #F9F2F4;&#34;&gt;add_header&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;是&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #C7254E; background-color: #F9F2F4;&#34;&gt;Nginx&lt;/span&gt;&lt;span class=&#34;ne-text&#34; style=&#34;color: #4D4D4D; font-size: 16px&#34;&gt;设置响应头信息给浏览器。&lt;/span&gt;&lt;/p&gt;&lt;h3 id=&#34;pHM0n&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;proxy_set_header&lt;/span&gt;&lt;/h3&gt;&lt;pre data-language=&#34;nginx&#34; id=&#34;ztSrg&#34; class=&#34;ne-codeblock language-nginx&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;proxy_set_header&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Host&amp;nbsp;$host;
+
+proxy_set_header&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X-real-ip&amp;nbsp;$remote_addr;
+
+proxy_set_header&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X-Forwarded-For&amp;nbsp;$proxy_add_x_forwarded_for;&lt;/pre&gt;&lt;h3 id=&#34;KYITZ&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;add_header&lt;/span&gt;&lt;/h3&gt;&lt;pre data-language=&#34;nginx&#34; id=&#34;as1mf&#34; class=&#34;ne-codeblock language-nginx&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;add_header&amp;nbsp;&amp;#39;Access-Control-Allow-Origin&amp;#39;&amp;nbsp;&amp;#39;*&amp;#39;;
+
+add_header&amp;nbsp;&amp;#39;Access-Control-Allow-Headers&amp;#39;&amp;nbsp;&amp;#39;X-Requested-With&amp;#39;;
+
+add_header&amp;nbsp;&amp;#39;Access-Control-Allow-Methods&amp;#39;&amp;nbsp;&amp;#39;GET,POST,OPTIONS&amp;#39;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;31&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/01/nginxadd_headerproxy_set_header/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/nginxadd_headerproxy_set_header/</guid>
       
     </item>
     
