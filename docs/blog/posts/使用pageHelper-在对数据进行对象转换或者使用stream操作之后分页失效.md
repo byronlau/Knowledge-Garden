@@ -4,16 +4,16 @@ number: 5
 url: https://github.com/byronlau/Knowledge-Garden/discussions/5
 date: 2023-10-30
 createdAt: 2023-10-30T07:35:24Z
-lastEditedAt: 2023-10-31T00:20:05Z
-updatedAt: 2023-10-31T00:20:05Z
+lastEditedAt: 2023-10-31T03:57:01Z
+updatedAt: 2023-10-31T03:57:01Z
 authors: [byronlau]
 categories: 
-  - 乱弹
+  - Java
 labels: []
 filename: 使用pageHelper-在对数据进行对象转换或者使用stream操作之后分页失效.md
 ---
 
-> 使用pagehelper，在对数据进行对象转换或者使用stream操作之后分页失效
+> 使用pageHelper，在对数据进行对象转换或者使用stream操作之后分页失效
 
 ### 问题描述
 使用MyBatis-Plus操作数据库，使用PageHelper插件进行分页操作，直接返回Mapper的分页查询结果数据时分页状态正常，对数据对象进行转换后返回转换后的list则分页出现异常，分页数据的total变成当前返回数据list的size，页数始终为1
