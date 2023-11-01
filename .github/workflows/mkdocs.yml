@@ -33,8 +33,8 @@ jobs:
         run: python3 makeindex.py -r -d docs/cookbook
 
       - name: Fetch blog posts
-        run: python3 discussions2MkdocsBlog.py -r byronlau/Knowledge-Garden -t ${{ secrets.GITHUB_TOKEN }}
-        #run: python3 discussions2MkdocsBlog.py -r byronlau/Knowledge-Garden -t ${{ secrets.GITHUB_TOKEN }} -o docs/blog/posts
+#        run: python3 discussions2MkdocsBlog.py -r byronlau/Knowledge-Garden -t ${{ secrets.GITHUB_TOKEN }}
+        run: python3 discussions2MkdocsBlog.py -r byronlau/Knowledge-Garden -t ${{ secrets.GITHUB_TOKEN }} -o docs/blog/posts
 
       - name: Commit files
         run: |
