@@ -1,0 +1,428 @@
+---
+title: Linux下实现MySQL数据库数据自动备份，并定期删除以前备份文件
+number: 18
+url: https://github.com/byronlau/Knowledge-Garden/discussions/18
+date: 2023-11-01
+createdAt: 2023-11-01T09:55:20Z
+lastEditedAt: None
+updatedAt: 2023-11-01T09:55:20Z
+authors: [byronlau]
+categories: 
+  - Sundry
+labels: []
+filename: Linux下实现MySQL数据库数据自动备份-并定期删除以前备份文件.md
+---
+
+<p><ne-clipboard data="%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22XxdzY%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u86949c03%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E4%B8%80%E3%80%81mysqldump%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ud348e583%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uff8c3537%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf59a87d1%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u45c5c498%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22mysqldump%E5%91%BD%E4%BB%A4%20%E6%98%AFmysql%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%AD%E5%A4%87%E4%BB%BD%E5%B7%A5%E5%85%B7%EF%BC%8C%E7%94%A8%E4%BA%8E%E5%B0%86MySQL%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BB%A5%E6%A0%87%E5%87%86%E7%9A%84sql%E8%AF%AD%E8%A8%80%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AF%BC%E5%87%BA%EF%BC%8C%E5%B9%B6%E4%BF%9D%E5%AD%98%E5%88%B0%E6%96%87%E4%BB%B6%E4%B8%AD%E3%80%82%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22vo40t%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u5e78e884%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.1%20%E5%B8%B8%E8%A7%81%E9%80%89%E9%A1%B9%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u5b7e8672%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u5a133f50%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--all-databases%2C%20-A%EF%BC%9A%20%E5%A4%87%E4%BB%BD%E6%89%80%E6%9C%89%E6%95%B0%E6%8D%AE%E5%BA%93%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u385c7b3d%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u98f0e802%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--databases%2C%20-B%EF%BC%9A%20%E7%94%A8%E4%BA%8E%E5%A4%87%E4%BB%BD%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%B2%A1%E6%9C%89%E8%AF%A5%E9%80%89%E9%A1%B9%EF%BC%8Cmysqldump%E6%8A%8A%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%90%8D%E5%AD%97%E5%8F%82%E6%95%B0%E4%BD%9C%E4%B8%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E5%90%8D%EF%BC%8C%E5%90%8E%E9%9D%A2%E7%9A%84%E4%BD%9C%E4%B8%BA%E8%A1%A8%E5%90%8D%E3%80%82%E4%BD%BF%E7%94%A8%E8%AF%A5%E9%80%89%E9%A1%B9%EF%BC%8Cmysqldum%E6%8A%8A%E6%AF%8F%E4%B8%AA%E5%90%8D%E5%AD%97%E9%83%BD%E5%BD%93%E4%BD%9C%E4%B8%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E5%90%8D%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u7bf322da%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A2%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u033226fe%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--ignore-table%3D%E6%95%B0%E6%8D%AE%E5%BA%93%E5%90%8D.%E8%A1%A8%E5%90%8D%20%E5%BF%BD%E7%95%A5%E5%A4%87%E4%BB%BD%E8%A1%A8%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%BF%BD%E7%95%A5%E5%A4%9A%E4%B8%AA%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u3a6268fd%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A3%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u50cda6f6%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--force%2C%20-f%EF%BC%9A%E5%8D%B3%E4%BD%BF%E5%8F%91%E7%8E%B0sql%E9%94%99%E8%AF%AF%EF%BC%8C%E4%BB%8D%E7%84%B6%E7%BB%A7%E7%BB%AD%E5%A4%87%E4%BB%BD%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue8cc66bc%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A4%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u6e6d8fb4%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--host%3Dhost_name%2C%20-h%20host_name%EF%BC%9A%E5%A4%87%E4%BB%BD%E4%B8%BB%E6%9C%BA%E5%90%8D%EF%BC%8C%E9%BB%98%E8%AE%A4%E4%B8%BAlocalhost%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uddc859f6%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A5%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ub1e4b319%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--no-data%2C%20-d%EF%BC%9A%E5%8F%AA%E5%AF%BC%E5%87%BA%E8%A1%A8%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u39d2e3e8%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A6%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue11c238e%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--password%5B%3Dpassword%5D%2C%20-p%5Bpassword%5D%EF%BC%9A%E5%AF%86%E7%A0%81%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u41267ceb%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A7%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uec2785e5%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--port%3Dport_num%2C%20-P%20port_num%EF%BC%9A%E5%88%B6%E5%AE%9ATCP%2FIP%E8%BF%9E%E6%8E%A5%E6%97%B6%E7%9A%84%E7%AB%AF%E5%8F%A3%E5%8F%B7%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u17d734a1%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A8%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uead4c74c%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--quick%2C%20-q%EF%BC%9A%E5%BF%AB%E9%80%9F%E5%AF%BC%E5%87%BA%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6e123655%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A9%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u08192fb3%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--tables%EF%BC%9A%E8%A6%86%E7%9B%96%20--databases%20or%20-B%E9%80%89%E9%A1%B9%EF%BC%8C%E5%90%8E%E9%9D%A2%E6%89%80%E8%B7%9F%E5%8F%82%E6%95%B0%E8%A2%AB%E8%A7%86%E4%BD%9C%E8%A1%A8%E5%90%8D%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ud1e72296%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A10%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u6809a771%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--user%3Duser_name%2C%20-u%20user_name%EF%BC%9A%E7%94%A8%E6%88%B7%E5%90%8D%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue802fae3%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u0daf1c74%22%2C%22fid%22%3A%22u58d46574%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A11%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf20a40a6%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22--xml%2C%20-X%EF%BC%9A%E5%AF%BC%E5%87%BA%E4%B8%BAxml%E6%96%87%E4%BB%B6%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22jrxGg%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u84f88819%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2%20%E5%B8%B8%E8%A7%81%E7%94%A8%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22YFiNi%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8aa6676e%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.1%20%E5%A4%87%E4%BB%BD%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u80e7a1ae%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22zpH45%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20-A%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22IYxw4%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u7984955d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.2%20%E5%A4%87%E4%BB%BD%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u8effa6c5%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22qaFrT%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20-A%20-d%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22dvdNK%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u189e70a1%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.3%20%E5%A4%87%E4%BB%BD%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u5f7c31a7%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22uqa5c%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20-A%20-t%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22plEae%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ud1c76cba%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.4%20%E5%A4%87%E4%BB%BD%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4b1408a4%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22vd4wq%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20%E6%95%B0%E6%8D%AE%E5%BA%93%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ngyQD%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u86fa14b5%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.5%20%E5%A4%87%E4%BB%BD%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u974c254a%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22H94BF%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20%E6%95%B0%E6%8D%AE%E5%BA%93%20-d%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22rwc4c%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u7a87b0dd%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.6%20%E5%A4%87%E4%BB%BD%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u83dd7470%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22iR18I%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20%E6%95%B0%E6%8D%AE%E5%BA%93%20-t%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22V3zDK%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u288640c3%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.7%20%E5%A4%87%E4%BB%BD%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6d875255%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22BspVD%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20--databases%20%E6%95%B0%E6%8D%AE%E5%BA%931%20%E6%95%B0%E6%8D%AE%E5%BA%932%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22QCOIj%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc233edce%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.8%20%E5%A4%87%E4%BB%BD%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u97714580%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22UzsRT%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20--databases%20%E6%95%B0%E6%8D%AE%E5%BA%931%20%E6%95%B0%E6%8D%AE%E5%BA%932%20-d%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22K8OFn%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u84dab79d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.9%20%E5%A4%87%E4%BB%BD%E5%A4%9A%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uccee7a62%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22hmWH9%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20--databases%20%E6%95%B0%E6%8D%AE%E5%BA%931%20%E6%95%B0%E6%8D%AE%E5%BA%932%20-t%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ynoW0%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3447674b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.10%20%E5%A4%87%E4%BB%BD%EF%BC%88%E5%8D%95%EF%BC%89%E5%A4%9A%E4%B8%AA%E8%A1%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9313b372%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22EsXaU%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20%20%E6%95%B0%E6%8D%AE%E5%BA%93..%20%E8%A1%A8..%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22iyTTa%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u613aec06%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.11%20%E5%A4%87%E4%BB%BD%EF%BC%88%E5%8D%95%EF%BC%89%E5%A4%9A%E4%B8%AA%E8%A1%A8%E7%9A%84%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u20b5d087%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22o6t2q%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20%20%E6%95%B0%E6%8D%AE%E5%BA%93..%20%E8%A1%A8..%20-d%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22USZ6p%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u95a82965%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.2.12%20%E5%A4%87%E4%BB%BD%EF%BC%88%E5%8D%95%EF%BC%89%E5%A4%9A%E4%B8%AA%E8%A1%A8%E7%9A%84%E6%95%B0%E6%8D%AE%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u54662b18%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22kVIrc%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22mysqldump%20-h%20mysql%E5%9C%B0%E5%9D%80%20%20-u%20root%20-p%20%20%E6%95%B0%E6%8D%AE%E5%BA%93..%20%E8%A1%A8..%20-t%20%20%3E%20%20%2Fscript%2Fall.sql%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22FRIJ1%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u371c910a%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E4%BA%8C%E3%80%81%E8%84%9A%E6%9C%AC%E7%A4%BA%E4%BE%8B%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22YOdPT%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8a69a6a2%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%222.1%20%E5%A4%87%E4%BB%BD%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E7%BB%93%E6%9E%84%EF%BC%88%E5%BF%BD%E7%95%A5%E5%A4%87%E4%BB%BD%E5%A4%9A%E5%BC%A0%E8%A1%A8%EF%BC%89%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1c8fc890%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22Isjju%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22%23!%2Fbin%2Fbash%5Cn%23%20%E8%AE%BE%E7%BD%AEmysql%E7%9A%84%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81%5Cnsource%20%2Fetc%2Fprofile%5Cnmysql_user%3D%5C%22%E7%94%A8%E6%88%B7%E5%90%8D%5C%22%5Cnmysql_password%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%86%E7%A0%81%5C%22%5Cnmysql_host%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93host%5C%22%5Cnmysql_port%3D%5C%22%E7%AB%AF%E5%8F%A3%5C%22%5Cnmysql_charset%3D%5C%22utf8%5C%22%5Cnmysql_database%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93%E5%90%8D%5C%22%5Cn%23%20%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%AD%98%E6%94%BE%E5%9C%B0%E5%9D%80(%E6%A0%B9%E6%8D%AE%E5%AE%9E%E9%99%85%E6%83%85%E5%86%B5%E5%A1%AB%E5%86%99)%5Cnbackup_location%3D%2Fdata%2Fmysql-backup%2F%5Cn%23%20%E6%98%AF%E5%90%A6%E5%88%A0%E9%99%A4%E8%BF%87%E6%9C%9F%E6%95%B0%E6%8D%AE%5Cnexpire_backup_delete%3D%5C%22ON%5C%22%5Cnexpire_days%3D3%5Cnbackup_time%3D%60date%20%2B%25Y%25m%25d%25H%25M%60%5Cnbackup_dir%3D%24backup_location%5Cn%23%20%E9%9C%80%E8%A6%81%E5%BF%BD%E7%95%A5%E5%A4%87%E4%BB%BD%E7%9A%84%E8%A1%A8%5Cnignore_table%3D%5C%22--ignore-table%3D%24mysql_database.table1%20%5C%5C%5Cn--ignore-table%3D%24mysql_database.table2%20%5C%5C%5Cn--ignore-table%3D%24mysql_database.table3%20%5C%5C%5Cn--ignore-table%3D%24mysql_database.table4%20%5C%5C%5Cn%5C%22%5Cn%5Cnwelcome_msg%3D%5C%22Welcome%20to%20use%20MySQL%20backup%20tools!%5C%22%5Cn%23%20%E5%88%A4%E6%96%ADmysql%E5%AE%9E%E4%BE%8B%E6%98%AF%E5%90%A6%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C%5Cnmysql_ps%3D%60ps%20-ef%20%7Cgrep%20mysql%20%7Cwc%20-l%60%5Cnmysql_listen%3D%60netstat%20-an%20%7Cgrep%20LISTEN%20%7Cgrep%20%24mysql_port%7Cwc%20-l%60%5Cnif%20%5B%20%5B%24mysql_ps%20%3D%3D%200%5D%20-o%20%5B%24mysql_listen%20%3D%3D%200%5D%20%5D%3B%20then%5Cn%5Ctecho%20%5C%22ERROR%3AMySQL%20is%20not%20running!%20backup%20stop!%5C%22%5Cn%5Ctexit%5Cnelse%5Cn%5Ctecho%20%24welcome_msg%5Cnfi%5Cn%23%20%E5%A4%87%E4%BB%BD%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%AD%E6%95%B0%E6%8D%AE%5Cnmysqldump%20-h%24mysql_host%20-P%24mysql_port%20-u%24mysql_user%20-p%24mysql_password%20%20%24mysql_database%20%24ignore_table%20%3E%20%24backup_dir%2F%24mysql_database-%24backup_time.sql%5Cnflag%3D%60echo%20%24%3F%60%5Cnif%20%5B%20%24flag%20%3D%3D%20%5C%220%5C%22%20%5D%3Bthen%5Cn%5Ctecho%20%5C%22database%20%24mysql_database%20success%20backup%20to%20%24backup_dir%2F%24mysql_database-%24backup_time.sql.gz%5C%22%5Cnelse%5Cn%5Ctecho%20%5C%22database%20%24mysql_database%20backup%20fail!%5C%22%5Cnfi%5Cn%23%20%E5%88%A0%E9%99%A4%E8%BF%87%E6%9C%9F%E6%95%B0%E6%8D%AE%5Cnif%20%5B%20%5C%22%24expire_backup_delete%5C%22%20%3D%3D%20%5C%22ON%5C%22%20-a%20%20%5C%22%24backup_location%5C%22%20!%3D%20%5C%22%5C%22%20%5D%3Bthen%5Cn%5Ct%60find%20%24backup_location%2F%20-type%20f%20-mtime%20%2B%24expire_days%20%7C%20xargs%20rm%20-rf%60%5Cn%5Ctecho%20%5C%22Expired%20backup%20data%20delete%20complete!%5C%22%5Cnfi%5Cn%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22YR6ns%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc83f3202%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%222.2%20%E5%A4%87%E4%BB%BD%E5%8D%95%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ucdaf4eff%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22FObDY%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22%23!%2Fbin%2Fbash%5Cn%23%20%E8%AE%BE%E7%BD%AEmysql%E7%9A%84%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81%5Cnsource%20%2Fetc%2Fprofile%5Cnmysql_user%3D%5C%22%E7%94%A8%E6%88%B7%E5%90%8D%5C%22%5Cnmysql_password%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%86%E7%A0%81%5C%22%5Cnmysql_host%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93host%5C%22%5Cnmysql_port%3D%5C%22%E7%AB%AF%E5%8F%A3%5C%22%5Cnmysql_charset%3D%5C%22utf8%5C%22%5Cnmysql_database%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93%E5%90%8D%5C%22%5Cn%23%20%E6%98%AF%E5%90%A6%E5%88%A0%E9%99%A4%E8%BF%87%E6%9C%9F%E6%95%B0%E6%8D%AE%5Cnexpire_backup_delete%3D%5C%22OFF%5C%22%5Cnexpire_days%3D30%5Cnbackup_date%3D%60date%20%2B%25Y%25m%25d%60%5Cnbackup_time%3D%60date%20%2B%25Y%25m%25d%25H%25M%60%5Cn%23%20%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%AD%98%E6%94%BE%E5%9C%B0%E5%9D%80(%E6%A0%B9%E6%8D%AE%E5%AE%9E%E9%99%85%E6%83%85%E5%86%B5%E5%A1%AB%E5%86%99)%5Cnbackup_location%3D%2Fdata%2Fmysql-backup%2Fstructure%2F%5Cnbackup_dir%3D%24backup_location%24mysql_database-%24backup_date.sql%5Cnwelcome_msg%3D%5C%22Welcome%20to%20use%20MySQL%20backup%20tools!%5C%22%5Cn%23%20%E5%88%A4%E6%96%ADmysql%E5%AE%9E%E4%BE%8B%E6%98%AF%E5%90%A6%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C%5Cnmysql_ps%3D%60ps%20-ef%20%7Cgrep%20mysql%20%7Cwc%20-l%60%5Cnmysql_listen%3D%60netstat%20-an%20%7Cgrep%20LISTEN%20%7Cgrep%20%24mysql_port%7Cwc%20-l%60%5Cnif%20%5B%20%5B%24mysql_ps%20%3D%3D%200%5D%20-o%20%5B%24mysql_listen%20%3D%3D%200%5D%20%5D%3B%20then%5Cn%5Ctecho%20%5C%22ERROR%3AMySQL%20is%20not%20running!%20backup%20stop!%5C%22%5Cn%5Ctexit%5Cnelse%5Cn%5Ctecho%20%24welcome_msg%5Cnfi%5Cn%5Cn%23%20%E5%A6%82%E6%9E%9C%E7%9B%AE%E5%BD%95%E4%B8%8D%E5%AD%98%E5%9C%A8%E5%88%99%E5%88%9B%E5%BB%BA%5Cnif%20%5B%20!%20-d%20%5C%22%24backup_location%5C%22%20%5D%3Bthen%5Cn%20%20%20%20echo%20%5C%22%24backup_location%20not%20exist%2C%20start%20create%5C%22%5Cn%20%20%20%20mkdir%20-p%20%24backup_locaton%5Cn%20%20%20%20echo%20%5C%22%24backup_location%20created%20complet%5C%22%5Cnelse%5Cn%20%20%20%20echo%20%5C%22%24backup_location%20is%20exist%5C%22%5Cnfi%20%20%20%20%5Cn%23%20%E5%A4%87%E4%BB%BD%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%AD%E6%95%B0%E6%8D%AE%5Cn%5Cnmysqldump%20-h%24mysql_host%20-P%24mysql_port%20-u%24mysql_user%20-p%24mysql_password%20-d%20%24mysql_database%20%3E%20%24backup_dir%5Cnflag%3D%60echo%20%24%3F%60%5Cnif%20%5B%20%24flag%20%3D%3D%20%5C%220%5C%22%20%5D%3Bthen%5Cn%20%20%20%20echo%20%5C%22%24backup_time%20database%20%24mysql_database%20success%20backup%20to%20%24backup_dir%20successful%5C%22%5Cnelse%5Cn%20%20%20%20echo%20%5C%22%24backup_time%20database%20%24mysql_database%20backup%20fail!%5C%22%5Cnfi%5Cn%5Cn%23%20%E5%88%A0%E9%99%A4%E8%BF%87%E6%9C%9F%E6%95%B0%E6%8D%AE%5Cnif%20%5B%20%5C%22%24expire_backup_delete%5C%22%20%3D%3D%20%5C%22ON%5C%22%20-a%20%20%5C%22%24backup_location%5C%22%20!%3D%20%5C%22%5C%22%20%5D%3Bthen%5Cn%5Ct%60find%20%24backup_location%2F%20-type%20f%20-mtime%20%2B%24expire_days%20%7C%20xargs%20rm%20-rf%60%5Cn%5Ctecho%20%5C%22Expired%20backup%20data%20delete%20complete!%5C%22%5Cnfi%5Cn%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22qEp1Q%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u7963e132%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%222.3%20%E5%A4%87%E4%BB%BD%E5%A4%9A%E4%B8%AA%E8%A1%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E7%BB%93%E6%9E%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u855afb12%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22zFnIp%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22%23!%2Fbin%2Fbash%5Cn%23%20%E8%AE%BE%E7%BD%AEmysql%E7%9A%84%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E5%AF%86%E7%A0%81%5Cnsource%20%2Fetc%2Fprofile%5Cnmysql_user%3D%5C%22%E7%94%A8%E6%88%B7%E5%90%8D%5C%22%5Cnmysql_password%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%86%E7%A0%81%5C%22%5Cnmysql_host%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93host%5C%22%5Cnmysql_port%3D%5C%22%E7%AB%AF%E5%8F%A3%5C%22%5Cnmysql_charset%3D%5C%22utf8%5C%22%5Cnmysql_database%3D%5C%22%E6%95%B0%E6%8D%AE%E5%BA%93%E5%90%8D%5C%22%5Cn%23%20%E6%98%AF%E5%90%A6%E5%88%A0%E9%99%A4%E8%BF%87%E6%9C%9F%E6%95%B0%E6%8D%AE%5Cnexpire_backup_delete%3D%5C%22ON%5C%22%5Cnexpire_days%3D3%5Cnbackup_date%3D%60date%20%2B%25Y%25m%25d%60%5Cnbackup_time%3D%60date%20%2B%25Y%25m%25d%25H%25M%60%5Cn%23%20%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E5%AD%98%E6%94%BE%E5%9C%B0%E5%9D%80(%E6%A0%B9%E6%8D%AE%E5%AE%9E%E9%99%85%E6%83%85%E5%86%B5%E5%A1%AB%E5%86%99)%5Cnbackup_location%3D%2Fdata%2Fmysql-backup%2Fscript%2F%5Cnbackup_dir%3D%24backup_location%24backup_date%5Cnbackup_tables%3D(%5Cntable1%20%5C%5C%5Cntable2%20%5C%5C%5Cntable3%20%5C%5C%5Cntable4)%5Cnwelcome_msg%3D%5C%22Welcome%20to%20use%20MySQL%20backup%20tools!%5C%22%5Cn%23%20%E5%88%A4%E6%96%ADmysql%E5%AE%9E%E4%BE%8B%E6%98%AF%E5%90%A6%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C%5Cnmysql_ps%3D%60ps%20-ef%20%7Cgrep%20mysql%20%7Cwc%20-l%60%5Cnmysql_listen%3D%60netstat%20-an%20%7Cgrep%20LISTEN%20%7Cgrep%20%24mysql_port%7Cwc%20-l%60%5Cnif%20%5B%20%5B%24mysql_ps%20%3D%3D%200%5D%20-o%20%5B%24mysql_listen%20%3D%3D%200%5D%20%5D%3B%20then%5Cn%5Ctecho%20%5C%22ERROR%3AMySQL%20is%20not%20running!%20backup%20stop!%5C%22%5Cn%5Ctexit%5Cnelse%5Cn%5Ctecho%20%24welcome_msg%5Cnfi%5Cn%23%20%E5%A6%82%E6%9E%9C%E7%9B%AE%E5%BD%95%E4%B8%8D%E5%AD%98%E5%9C%A8%E5%88%99%E5%88%9B%E5%BB%BA%5Cnif%20%5B%20!%20-d%20%5C%22%24backup_dir%5C%22%20%5D%3Bthen%5Cn%20%20%20%20echo%20%5C%22%24backup_dir%20not%20exist%2C%20start%20create%5C%22%5Cn%20%20%20%20mkdir%20-p%20%24backup_dir%5Cn%20%20%20%20echo%20%5C%22%24backup_dir%20created%20complet%5C%22%5Cnelse%5Cn%20%20%20%20echo%20%5C%22%24backup_dir%20is%20exist%5C%22%5Cnfi%20%20%20%20%5Cn%23%20%E5%A4%87%E4%BB%BD%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%AD%E6%95%B0%E6%8D%AE%5Cnfor%20table%20in%20%24%7Bbackup_tables%5B%40%5D%7D%5Cndo%5Cn%20%20%20%20mysqldump%20-h%24mysql_host%20-P%24mysql_port%20-u%24mysql_user%20-p%24mysql_password%20%20%24mysql_database%20%24table%3E%20%24backup_dir%2F%24table.sql%5Cn%20%20%20%20flag%3D%60echo%20%24%3F%60%5Cn%20%20%20%20if%20%5B%20%24flag%20%3D%3D%20%5C%220%5C%22%20%5D%3Bthen%5Cn%20%20%20%20%20%20%20%20echo%20%5C%22%24backup_time%20database%20%24mysql_database%20success%20backup%20to%20%24backup_dir%2F%24table.sql%20successful%5C%22%5Cn%20%20%20%20else%5Cn%20%20%20%20%20%20%20%20echo%20%5C%22%24backup_time%20database%20%24mysql_database%20backup%20fail!%5C%22%5Cn%20%20%20%20fi%5Cndone%5Cn%5Cn%23%20%E5%88%A0%E9%99%A4%E8%BF%87%E6%9C%9F%E6%95%B0%E6%8D%AE%5Cnif%20%5B%20%5C%22%24expire_backup_delete%5C%22%20%3D%3D%20%5C%22ON%5C%22%20-a%20%20%5C%22%24backup_location%5C%22%20!%3D%20%5C%22%5C%22%20%5D%3Bthen%5Cn%5Ct%60find%20%24backup_location%2F%20-type%20f%20-mtime%20%2B%24expire_days%20%7C%20xargs%20rm%20-rf%60%5Cn%5Ctecho%20%5C%22Expired%20backup%20data%20delete%20complete!%5C%22%5Cnfi%5Cn%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22hcpFL%22%2C%22name%22%3A%22h1%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u0a087198%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E4%B8%89%E3%80%81%E6%89%A9%E5%B1%95%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%9A%84%E5%86%85%E5%AE%B9%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22Grmjq%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u4c911cdf%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.1%20%E5%88%A4%E6%96%AD%E6%96%87%E4%BB%B6%E5%A4%B9%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22vgmTK%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u95f76317%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.1.1%20%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8D%E5%AD%98%E5%9C%A8%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u90964c72%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22MuuVY%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22if%20%5B%20!%20-d%20%5C%22%2Fdata%2F%5C%22%20%5D%3Bthen%5Cn%20%20%20%20mkdir%20%2Fdata%5Cnelse%5Cn%20%20%20%20echo%20%5C%22%E6%96%87%E4%BB%B6%E5%A4%B9%E5%B7%B2%E7%BB%8F%E5%AD%98%E5%9C%A8%5C%22%5Cnfi%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22lRk4a%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u7f59b9ee%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.1.2%20%E5%88%A4%E6%96%AD%E6%96%87%E4%BB%B6%E5%A4%B9%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u507bf323%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22ue2nt%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22if%20%5B%20-d%20%5C%22%2Fdata%2F%5C%22%20%5D%3Bthen%5Cn%20%20%20%20echo%20%5C%22%E6%96%87%E4%BB%B6%E5%A4%B9%E5%AD%98%E5%9C%A8%5C%22%5Cnelse%5Cn%20%20%20%20echo%20%5C%22%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8D%E5%AD%98%E5%9C%A8%5C%22%5Cnfi%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22bVJaz%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u37d44de9%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.1.3%20%E5%88%A4%E6%96%AD%E6%96%87%E4%BB%B6%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc26bef9b%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22NOajh%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22if%20%5B%20-f%20%5C%22%2Fdata%2Ffilename%5C%22%20%5D%3Bthen%5Cn%20%20%20%20echo%20%5C%22%E6%96%87%E4%BB%B6%E5%AD%98%E5%9C%A8%5C%22%5Cnelse%5Cn%20%20%20%20echo%20%5C%22%E6%96%87%E4%BB%B6%E4%B8%8D%E5%AD%98%E5%9C%A8%5C%22%5Cnfi%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22sMDlR%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22udd954bdb%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.1.4%20%E5%B8%B8%E7%94%A8%E7%9A%84%E6%96%87%E4%BB%B6%E6%AF%94%E8%BE%83%E7%AC%A6%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u45dffa3f%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22Fh6vj%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22-e%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%5Cn-d%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E4%B8%BA%E7%9B%AE%E5%BD%95%5Cn-f%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E4%B8%BA%E5%B8%B8%E8%A7%84%E6%96%87%E4%BB%B6%5Cn-L%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E4%B8%BA%E7%AC%A6%E5%8F%B7%E9%93%BE%E6%8E%A5%5Cn-h%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E4%B8%BA%E8%BD%AF%E9%93%BE%E6%8E%A5%5Cn-s%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E9%95%BF%E5%BA%A6%E4%B8%8D%E4%B8%BA0%5Cn-r%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%8F%AF%E8%AF%BB%5Cn-w%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%8F%AF%E5%86%99%5Cn-x%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%8F%AF%E6%89%A7%E8%A1%8C%5Cn-O%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%B1%9E%E4%BA%8E%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%5Cn-G%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%B1%9E%E4%BA%8E%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E7%BB%84%5Cn-nt%20%E5%88%A4%E6%96%ADfile1%E6%98%AF%E5%90%A6%E6%AF%94file2%E6%96%B0%20%20%5B%20%5C%22%2Fdata%2Ffile1%5C%22%20-nt%20%5C%22%2Fdata%2Ffile2%5C%22%20%5D%5Cn-ot%20%E5%88%A4%E6%96%ADfile1%E6%98%AF%E5%90%A6%E6%AF%94file2%E6%97%A7%20%20%5B%20%5C%22%2Fdata%2Ffile1%5C%22%20-ot%20%5C%22%2Fdata%2Ffile2%5C%22%20%5D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22DCn7s%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u25c897f8%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(64%2C%2064%2C%2064)%22%7D%2C%22data%22%3A%223.2%20shell%E9%81%8D%E5%8E%86%E6%95%B0%E7%BB%843%E7%A7%8D%E6%96%B9%E6%B3%95%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uR1ZY%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u0d7fa6ac%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%203.2.0%20%E9%A6%96%E5%85%88%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%95%B0%E7%BB%84%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ud84af4d7%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22nMPEs%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22bash%22%2C%22code%22%3A%22array%3D(192.168.0.1%20192.168.0.2%20192.168.0.3)%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22OmXPg%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u88a13b26%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.2.1%20%E6%A0%87%E5%87%86%E7%9A%84for%E5%BE%AA%E7%8E%AF%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9541b966%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22dfbTA%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22bash%22%2C%22code%22%3A%22for((%20i%3D0%3Bi%3C%24%7B%23array%5B%40%5D%7D%3Bi%2B%2B))%20do%5Cn%23%24%7B%23array%5B%40%5D%7D%E8%8E%B7%E5%8F%96%E6%95%B0%E7%BB%84%E9%95%BF%E5%BA%A6%E7%94%A8%E4%BA%8E%E5%BE%AA%E7%8E%AF%5Cnecho%20%24%7Barray%5Bi%5D%7D%3B%5Cndone%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22yFKP3%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u64ff30cc%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.2.2%20%E4%B8%8D%E5%B8%A6%E6%95%B0%E7%BB%84%E4%B8%8B%E6%A0%87%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u240c4f4e%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22ujoMq%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22bash%22%2C%22code%22%3A%22for%20element%20in%20%24%7Barray%5B%40%5D%7D%5Cn%23%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%86%99%E6%88%90for%20element%20in%20%24%7Barray%5B*%5D%7D%5Cndo%5Cnecho%20%24element%5Cndone%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22io61y%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue11b7116%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.2.3%20%E5%B8%A6%E6%95%B0%E7%BB%84%E4%B8%8B%E6%A0%87%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ueca18f13%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22xAN33%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22bash%22%2C%22code%22%3A%22for%20i%20in%20%5C%22%24%7B!array%5B%40%5D%7D%5C%22%3B%20%20%20%5Cndo%20%20%20%5Cn%20%20%20%20printf%20%5C%22%25s%5C%5Ct%25s%5C%5Cn%5C%22%20%5C%22%24i%5C%22%20%5C%22%24%7Barray%5B%24i%5D%7D%5C%22%20%20%5Cndone%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22Jdu6K%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u4b234c6c%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.2.4%20While%E5%BE%AA%E7%8E%AF%E6%B3%95%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0d29c043%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22KhreD%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22bash%22%2C%22code%22%3A%22i%3D0%20%20%5Cnwhile%20%5B%20%24i%20-lt%20%24%7B%23array%5B%40%5D%7D%20%5D%20%20%5Cn%23%E5%BD%93%E5%8F%98%E9%87%8F%EF%BC%88%E4%B8%8B%E6%A0%87%EF%BC%89%E5%B0%8F%E4%BA%8E%E6%95%B0%E7%BB%84%E9%95%BF%E5%BA%A6%E6%97%B6%E8%BF%9B%E5%85%A5%E5%BE%AA%E7%8E%AF%E4%BD%93%5Cndo%20%20%5Cn%20%20%20%20echo%20%24%7B%20array%5B%24i%5D%20%7D%20%20%5Cn%20%20%20%20%23%E6%8C%89%E4%B8%8B%E6%A0%87%E6%89%93%E5%8D%B0%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%5Cn%20%20%20%20let%20i%2B%2B%20%20%5Cndone%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22AQEBk%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u9eb18bfe%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(34%2C%2034%2C%2038)%22%7D%2C%22data%22%3A%223.3%20echo%20%24%3F%20%E8%BF%99%E4%B8%AA%E4%B8%9C%E4%B8%9C%24%3F%E5%9C%A8linux%E7%B3%BB%E7%BB%9F%E9%87%8C%E6%98%AF%E4%BB%80%E4%B9%88%E5%90%AB%E4%B9%89%3F%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u49497c02%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uceae161d%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22warning%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uce917d95%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf711f750%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%9C%A8bash%E9%87%8C%2C%24%E7%AC%A6%E5%8F%B7%E8%A1%A8%E7%A4%BA%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E4%B8%BA%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%EF%BC%9B%E5%9C%A8bash%E8%84%9A%E6%9C%AC%E9%87%8C%2C%20%24%E5%BC%80%E5%A4%B4%E8%A1%A8%E7%A4%BA%E5%8F%98%E9%87%8F%E3%80%82%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc115e4ad%22%2C%22name%22%3A%22oli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u6c66c927%22%2C%22fid%22%3A%22u396f5d62%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u7476c55b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%24%23%20%E8%A1%A8%E7%A4%BA%E5%8F%82%E6%95%B0%E4%B8%AA%E6%95%B0%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ubaa60993%22%2C%22name%22%3A%22oli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u6c66c927%22%2C%22fid%22%3A%22u396f5d62%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8d456dc2%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%240%20%E6%98%AF%E8%84%9A%E6%9C%AC%E6%9C%AC%E8%BA%AB%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u3f4059d5%22%2C%22name%22%3A%22oli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u6c66c927%22%2C%22fid%22%3A%22u396f5d62%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A2%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ub8313b88%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%241%20%E6%98%AF%E4%BC%A0%E9%80%92%E7%BB%99%E8%AF%A5shell%E8%84%9A%E6%9C%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8F%82%E6%95%B0%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u75b164a7%22%2C%22name%22%3A%22oli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u6c66c927%22%2C%22fid%22%3A%22u396f5d62%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A3%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u35f6f203%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%242%20%E6%98%AF%E4%BC%A0%E9%80%92%E7%BB%99%E8%AF%A5shell%E8%84%9A%E6%9C%AC%E7%9A%84%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%8F%82%E6%95%B0%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u577e4c63%22%2C%22name%22%3A%22oli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u6c66c927%22%2C%22fid%22%3A%22u396f5d62%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A4%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u5c210fc1%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%24%40%20%E8%A1%A8%E7%A4%BA%E6%89%80%E6%9C%89%E5%8F%82%E6%95%B0%EF%BC%8C%E5%B9%B6%E4%B8%94%E6%89%80%E6%9C%89%E5%8F%82%E6%95%B0%E9%83%BD%E6%98%AF%E7%8B%AC%E7%AB%8B%E7%9A%84%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4c1175bd%22%2C%22name%22%3A%22oli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u6c66c927%22%2C%22fid%22%3A%22u396f5d62%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A5%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf63fc249%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%24%24%20%E6%98%AF%E8%84%9A%E6%9C%AC%E8%BF%90%E8%A1%8C%E7%9A%84%E5%BD%93%E5%89%8D%E8%BF%9B%E7%A8%8BID%E5%8F%B7%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1fd6040d%22%2C%22name%22%3A%22oli%22%2C%22attrs%22%3A%7B%22list%22%3A%22u6c66c927%22%2C%22fid%22%3A%22u396f5d62%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A6%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u2d5f6176%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%24%3F%20%E6%98%AF%E6%98%BE%E7%A4%BA%E6%9C%80%E5%90%8E%E5%91%BD%E4%BB%A4%E7%9A%84%E9%80%80%E5%87%BA%E7%8A%B6%E6%80%81%EF%BC%8C0%E8%A1%A8%E7%A4%BA%E6%B2%A1%E6%9C%89%E9%94%99%E8%AF%AF%EF%BC%8C%E5%85%B6%E4%BB%96%E8%A1%A8%E7%A4%BA%E6%9C%89%E9%94%99%E8%AF%AF%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22U2NyV%22%2C%22name%22%3A%22h2%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u425aa878%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.4%20%22%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6d0e74c4%22%2C%22name%22%3A%22link%22%2C%22attrs%22%3A%7B%22src%22%3A%22https%3A%2F%2Fwww.yuque.com%2Fliu-yanbo%2Fbcrz%2Fozwty00wchfsef3o%22%2C%22external%22%3Afalse%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ub461161d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E4%BD%BF%E7%94%A8Linux%20%E8%87%AA%E5%B8%A6%E7%9A%84crontab%20%E5%AE%9A%E6%97%B6%E6%89%A7%E8%A1%8C%E8%84%9A%E6%9C%AC%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22N9CH9%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u6c2487cd%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.4.1%20%E7%BC%96%E8%BE%91%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uccc16912%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22mmucr%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22vi%20%2Fetc%2Fcrontab%20%20%20%23%20%E7%BC%96%E8%BE%91%E6%96%B0%E5%A2%9E%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%5Cn00%2003%20*%20*%20*%20%2Fdata%2Fmysql-backup%2Fbak.sh%20%20%20%23%20%E6%B7%BB%E5%8A%A0%20%E6%AF%8F%E5%A4%A9%E5%87%8C%E6%99%A83%E7%82%B9%E6%89%A7%E8%A1%8C%E5%A4%87%E4%BB%BD%EF%BC%8C%E8%BF%9B%E8%A1%8C%20wq!%20%E4%BF%9D%E5%AD%98%E9%80%80%E5%87%BA%5Cncrontab%20%2Fetc%2Fcrontab%20%20%23%20%E4%BD%BF%E4%B9%8B%E7%94%9F%E6%95%88%5Cncrontab%20-l%20%20%20%23%20%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22SwaEb%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u454fc127%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.4.2%20crontab%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u28f0d1a8%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22MyJcW%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22shell%22%2C%22code%22%3A%22service%20crond%20stop%20%2F%2F%E5%85%B3%E9%97%AD%E6%9C%8D%E5%8A%A1%5Cnservice%20crond%20start%20%2F%2F%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1%5Cnservice%20crond%20restart%20%2F%2F%E9%87%8D%E5%90%AF%E6%9C%8D%E5%8A%A1%5Cnservice%20crond%20reload%20%2F%2F%E9%87%8D%E6%96%B0%E8%BD%BD%E5%85%A5%E9%85%8D%E7%BD%AE%5Cnservice%20crond%20status%20%2F%2F%20crontab%E6%9C%8D%E5%8A%A1%E7%8A%B6%E6%80%81%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6ee7c4a6%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufabaf521%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D"></ne-clipboard></p><div class="lake-content" typography="classic"><h1 id="XxdzY" style="font-size: 28px; line-height: 36px; margin: 26px 0 10px 0"><span class="ne-text">一、mysqldump</span></h1><div data-type="warning" class="ne-alert" style="border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px"><p id="uf59a87d1" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text">mysqldump命令 是mysql数据库中备份工具，用于将MySQL服务器中的数据库以标准的sql语言的方式导出，并保存到文件中。</span></p></div><h2 id="vo40t" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text">1.1 常见选项</span></h2><ul class="ne-ul list-paddingleft-2" style="padding-left: 23px;"><li><p><span class="ne-text">--all-databases, -A： 备份所有数据库</span></p></li><li><p><span class="ne-text">--databases, -B： 用于备份多个数据库，如果没有该选项，mysqldump把第一个名字参数作为数据库名，后面的作为表名。使用该选项，mysqldum把每个名字都当作为数据库名。</span></p></li><li><p><span class="ne-text">--ignore-table=数据库名.表名 忽略备份表，可以忽略多个</span></p></li><li><p><span class="ne-text">--force, -f：即使发现sql错误，仍然继续备份</span></p></li><li><p><span class="ne-text">--host=host_name, -h host_name：备份主机名，默认为localhost</span></p></li><li><p><span class="ne-text">--no-data, -d：只导出表结构</span></p></li><li><p><span class="ne-text">--password[=password], -p[password]：密码</span></p></li><li><p><span class="ne-text">--port=port_num, -P port_num：制定TCP/IP连接时的端口号</span></p></li><li><p><span class="ne-text">--quick, -q：快速导出</span></p></li><li><p><span class="ne-text">--tables：覆盖 --databases or -B选项，后面所跟参数被视作表名</span></p></li><li><p><span class="ne-text">--user=user_name, -u user_name：用户名</span></p></li><li><p><span class="ne-text">--xml, -X：导出为xml文件</span></p></li></ul><h2 id="jrxGg" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text">1.2 常见用法</span></h2><h3 id="YFiNi" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.1 备份全部数据库的数据和结构</span></h3><pre data-language="shell" id="zpH45" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;-A&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="IYxw4" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.2 备份全部数据库的结构</span></h3><pre data-language="shell" id="qaFrT" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;-A&nbsp;-d&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="dvdNK" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.3 备份全部数据库的数据</span></h3><pre data-language="shell" id="uqa5c" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;-A&nbsp;-t&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="plEae" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.4 备份单个数据库的数据和结构</span></h3><pre data-language="shell" id="vd4wq" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;数据库&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="ngyQD" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.5 备份单个数据库的结构</span></h3><pre data-language="shell" id="H94BF" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;数据库&nbsp;-d&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="rwc4c" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.6 备份单个数据库的数据</span></h3><pre data-language="shell" id="iR18I" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;数据库&nbsp;-t&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="V3zDK" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.7 备份多个数据库的数据和结构</span></h3><pre data-language="shell" id="BspVD" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;--databases&nbsp;数据库1&nbsp;数据库2&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="QCOIj" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.8 备份多个数据库的结构</span></h3><pre data-language="shell" id="UzsRT" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;--databases&nbsp;数据库1&nbsp;数据库2&nbsp;-d&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="K8OFn" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.9 备份多个数据库的数据</span></h3><pre data-language="shell" id="hmWH9" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;--databases&nbsp;数据库1&nbsp;数据库2&nbsp;-t&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="ynoW0" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.10 备份（单）多个表的数据和结构</span></h3><pre data-language="shell" id="EsXaU" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;&nbsp;数据库..&nbsp;表..&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="iyTTa" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.11 备份（单）多个表的结构</span></h3><pre data-language="shell" id="o6t2q" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;&nbsp;数据库..&nbsp;表..&nbsp;-d&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h3 id="USZ6p" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">1.2.12 备份（单）多个表的数据</span></h3><pre data-language="shell" id="kVIrc" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">mysqldump&nbsp;-h&nbsp;mysql地址&nbsp;&nbsp;-u&nbsp;root&nbsp;-p&nbsp;&nbsp;数据库..&nbsp;表..&nbsp;-t&nbsp;&nbsp;&gt;&nbsp;&nbsp;/script/all.sql</pre><h1 id="FRIJ1" style="font-size: 28px; line-height: 36px; margin: 26px 0 10px 0"><span class="ne-text">二、脚本示例</span></h1><h2 id="YOdPT" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text">2.1 备份单个数据库的数据和结构（忽略备份多张表）</span></h2><pre data-language="shell" id="Isjju" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">#!/bin/bash
+
+#&nbsp;设置mysql的登录用户名和密码
+
+source&nbsp;/etc/profile
+
+mysql_user=&quot;用户名&quot;
+
+mysql_password=&quot;数据库密码&quot;
+
+mysql_host=&quot;数据库host&quot;
+
+mysql_port=&quot;端口&quot;
+
+mysql_charset=&quot;utf8&quot;
+
+mysql_database=&quot;数据库名&quot;
+
+#&nbsp;备份文件存放地址(根据实际情况填写)
+
+backup_location=/data/mysql-backup/
+
+#&nbsp;是否删除过期数据
+
+expire_backup_delete=&quot;ON&quot;
+
+expire_days=3
+
+backup_time=`date&nbsp;+%Y%m%d%H%M`
+
+backup_dir=$backup_location
+
+#&nbsp;需要忽略备份的表
+
+ignore_table=&quot;--ignore-table=$mysql_database.table1&nbsp;\
+
+--ignore-table=$mysql_database.table2&nbsp;\
+
+--ignore-table=$mysql_database.table3&nbsp;\
+
+--ignore-table=$mysql_database.table4&nbsp;\
+
+&quot;
+
+
+
+welcome_msg=&quot;Welcome&nbsp;to&nbsp;use&nbsp;MySQL&nbsp;backup&nbsp;tools!&quot;
+
+#&nbsp;判断mysql实例是否正常运行
+
+mysql_ps=`ps&nbsp;-ef&nbsp;|grep&nbsp;mysql&nbsp;|wc&nbsp;-l`
+
+mysql_listen=`netstat&nbsp;-an&nbsp;|grep&nbsp;LISTEN&nbsp;|grep&nbsp;$mysql_port|wc&nbsp;-l`
+
+if&nbsp;[&nbsp;[$mysql_ps&nbsp;==&nbsp;0]&nbsp;-o&nbsp;[$mysql_listen&nbsp;==&nbsp;0]&nbsp;];&nbsp;then
+
+	echo&nbsp;&quot;ERROR:MySQL&nbsp;is&nbsp;not&nbsp;running!&nbsp;backup&nbsp;stop!&quot;
+
+	exit
+
+else
+
+	echo&nbsp;$welcome_msg
+
+fi
+
+#&nbsp;备份指定数据库中数据
+
+mysqldump&nbsp;-h$mysql_host&nbsp;-P$mysql_port&nbsp;-u$mysql_user&nbsp;-p$mysql_password&nbsp;&nbsp;$mysql_database&nbsp;$ignore_table&nbsp;&gt;&nbsp;$backup_dir/$mysql_database-$backup_time.sql
+
+flag=`echo&nbsp;$?`
+
+if&nbsp;[&nbsp;$flag&nbsp;==&nbsp;&quot;0&quot;&nbsp;];then
+
+	echo&nbsp;&quot;database&nbsp;$mysql_database&nbsp;success&nbsp;backup&nbsp;to&nbsp;$backup_dir/$mysql_database-$backup_time.sql.gz&quot;
+
+else
+
+	echo&nbsp;&quot;database&nbsp;$mysql_database&nbsp;backup&nbsp;fail!&quot;
+
+fi
+
+#&nbsp;删除过期数据
+
+if&nbsp;[&nbsp;&quot;$expire_backup_delete&quot;&nbsp;==&nbsp;&quot;ON&quot;&nbsp;-a&nbsp;&nbsp;&quot;$backup_location&quot;&nbsp;!=&nbsp;&quot;&quot;&nbsp;];then
+
+	`find&nbsp;$backup_location/&nbsp;-type&nbsp;f&nbsp;-mtime&nbsp;+$expire_days&nbsp;|&nbsp;xargs&nbsp;rm&nbsp;-rf`
+
+	echo&nbsp;&quot;Expired&nbsp;backup&nbsp;data&nbsp;delete&nbsp;complete!&quot;
+
+fi</pre><h2 id="YR6ns" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text">2.2 备份单个数据库的结构</span></h2><pre data-language="shell" id="FObDY" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">#!/bin/bash
+
+#&nbsp;设置mysql的登录用户名和密码
+
+source&nbsp;/etc/profile
+
+mysql_user=&quot;用户名&quot;
+
+mysql_password=&quot;数据库密码&quot;
+
+mysql_host=&quot;数据库host&quot;
+
+mysql_port=&quot;端口&quot;
+
+mysql_charset=&quot;utf8&quot;
+
+mysql_database=&quot;数据库名&quot;
+
+#&nbsp;是否删除过期数据
+
+expire_backup_delete=&quot;OFF&quot;
+
+expire_days=30
+
+backup_date=`date&nbsp;+%Y%m%d`
+
+backup_time=`date&nbsp;+%Y%m%d%H%M`
+
+#&nbsp;备份文件存放地址(根据实际情况填写)
+
+backup_location=/data/mysql-backup/structure/
+
+backup_dir=$backup_location$mysql_database-$backup_date.sql
+
+welcome_msg=&quot;Welcome&nbsp;to&nbsp;use&nbsp;MySQL&nbsp;backup&nbsp;tools!&quot;
+
+#&nbsp;判断mysql实例是否正常运行
+
+mysql_ps=`ps&nbsp;-ef&nbsp;|grep&nbsp;mysql&nbsp;|wc&nbsp;-l`
+
+mysql_listen=`netstat&nbsp;-an&nbsp;|grep&nbsp;LISTEN&nbsp;|grep&nbsp;$mysql_port|wc&nbsp;-l`
+
+if&nbsp;[&nbsp;[$mysql_ps&nbsp;==&nbsp;0]&nbsp;-o&nbsp;[$mysql_listen&nbsp;==&nbsp;0]&nbsp;];&nbsp;then
+
+	echo&nbsp;&quot;ERROR:MySQL&nbsp;is&nbsp;not&nbsp;running!&nbsp;backup&nbsp;stop!&quot;
+
+	exit
+
+else
+
+	echo&nbsp;$welcome_msg
+
+fi
+
+
+
+#&nbsp;如果目录不存在则创建
+
+if&nbsp;[&nbsp;!&nbsp;-d&nbsp;&quot;$backup_location&quot;&nbsp;];then
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_location&nbsp;not&nbsp;exist,&nbsp;start&nbsp;create&quot;
+
+&nbsp;&nbsp;&nbsp;&nbsp;mkdir&nbsp;-p&nbsp;$backup_locaton
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_location&nbsp;created&nbsp;complet&quot;
+
+else
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_location&nbsp;is&nbsp;exist&quot;
+
+fi&nbsp;&nbsp;&nbsp;&nbsp;
+
+#&nbsp;备份指定数据库中数据
+
+
+
+mysqldump&nbsp;-h$mysql_host&nbsp;-P$mysql_port&nbsp;-u$mysql_user&nbsp;-p$mysql_password&nbsp;-d&nbsp;$mysql_database&nbsp;&gt;&nbsp;$backup_dir
+
+flag=`echo&nbsp;$?`
+
+if&nbsp;[&nbsp;$flag&nbsp;==&nbsp;&quot;0&quot;&nbsp;];then
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_time&nbsp;database&nbsp;$mysql_database&nbsp;success&nbsp;backup&nbsp;to&nbsp;$backup_dir&nbsp;successful&quot;
+
+else
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_time&nbsp;database&nbsp;$mysql_database&nbsp;backup&nbsp;fail!&quot;
+
+fi
+
+
+
+#&nbsp;删除过期数据
+
+if&nbsp;[&nbsp;&quot;$expire_backup_delete&quot;&nbsp;==&nbsp;&quot;ON&quot;&nbsp;-a&nbsp;&nbsp;&quot;$backup_location&quot;&nbsp;!=&nbsp;&quot;&quot;&nbsp;];then
+
+	`find&nbsp;$backup_location/&nbsp;-type&nbsp;f&nbsp;-mtime&nbsp;+$expire_days&nbsp;|&nbsp;xargs&nbsp;rm&nbsp;-rf`
+
+	echo&nbsp;&quot;Expired&nbsp;backup&nbsp;data&nbsp;delete&nbsp;complete!&quot;
+
+fi</pre><h2 id="qEp1Q" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text">2.3 备份多个表的数据和结构</span></h2><pre data-language="shell" id="zFnIp" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">#!/bin/bash
+
+#&nbsp;设置mysql的登录用户名和密码
+
+source&nbsp;/etc/profile
+
+mysql_user=&quot;用户名&quot;
+
+mysql_password=&quot;数据库密码&quot;
+
+mysql_host=&quot;数据库host&quot;
+
+mysql_port=&quot;端口&quot;
+
+mysql_charset=&quot;utf8&quot;
+
+mysql_database=&quot;数据库名&quot;
+
+#&nbsp;是否删除过期数据
+
+expire_backup_delete=&quot;ON&quot;
+
+expire_days=3
+
+backup_date=`date&nbsp;+%Y%m%d`
+
+backup_time=`date&nbsp;+%Y%m%d%H%M`
+
+#&nbsp;备份文件存放地址(根据实际情况填写)
+
+backup_location=/data/mysql-backup/script/
+
+backup_dir=$backup_location$backup_date
+
+backup_tables=(
+
+table1&nbsp;\
+
+table2&nbsp;\
+
+table3&nbsp;\
+
+table4)
+
+welcome_msg=&quot;Welcome&nbsp;to&nbsp;use&nbsp;MySQL&nbsp;backup&nbsp;tools!&quot;
+
+#&nbsp;判断mysql实例是否正常运行
+
+mysql_ps=`ps&nbsp;-ef&nbsp;|grep&nbsp;mysql&nbsp;|wc&nbsp;-l`
+
+mysql_listen=`netstat&nbsp;-an&nbsp;|grep&nbsp;LISTEN&nbsp;|grep&nbsp;$mysql_port|wc&nbsp;-l`
+
+if&nbsp;[&nbsp;[$mysql_ps&nbsp;==&nbsp;0]&nbsp;-o&nbsp;[$mysql_listen&nbsp;==&nbsp;0]&nbsp;];&nbsp;then
+
+	echo&nbsp;&quot;ERROR:MySQL&nbsp;is&nbsp;not&nbsp;running!&nbsp;backup&nbsp;stop!&quot;
+
+	exit
+
+else
+
+	echo&nbsp;$welcome_msg
+
+fi
+
+#&nbsp;如果目录不存在则创建
+
+if&nbsp;[&nbsp;!&nbsp;-d&nbsp;&quot;$backup_dir&quot;&nbsp;];then
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_dir&nbsp;not&nbsp;exist,&nbsp;start&nbsp;create&quot;
+
+&nbsp;&nbsp;&nbsp;&nbsp;mkdir&nbsp;-p&nbsp;$backup_dir
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_dir&nbsp;created&nbsp;complet&quot;
+
+else
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_dir&nbsp;is&nbsp;exist&quot;
+
+fi&nbsp;&nbsp;&nbsp;&nbsp;
+
+#&nbsp;备份指定数据库中数据
+
+for&nbsp;table&nbsp;in&nbsp;${backup_tables[@]}
+
+do
+
+&nbsp;&nbsp;&nbsp;&nbsp;mysqldump&nbsp;-h$mysql_host&nbsp;-P$mysql_port&nbsp;-u$mysql_user&nbsp;-p$mysql_password&nbsp;&nbsp;$mysql_database&nbsp;$table&gt;&nbsp;$backup_dir/$table.sql
+
+&nbsp;&nbsp;&nbsp;&nbsp;flag=`echo&nbsp;$?`
+
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;[&nbsp;$flag&nbsp;==&nbsp;&quot;0&quot;&nbsp;];then
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_time&nbsp;database&nbsp;$mysql_database&nbsp;success&nbsp;backup&nbsp;to&nbsp;$backup_dir/$table.sql&nbsp;successful&quot;
+
+&nbsp;&nbsp;&nbsp;&nbsp;else
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;$backup_time&nbsp;database&nbsp;$mysql_database&nbsp;backup&nbsp;fail!&quot;
+
+&nbsp;&nbsp;&nbsp;&nbsp;fi
+
+done
+
+
+
+#&nbsp;删除过期数据
+
+if&nbsp;[&nbsp;&quot;$expire_backup_delete&quot;&nbsp;==&nbsp;&quot;ON&quot;&nbsp;-a&nbsp;&nbsp;&quot;$backup_location&quot;&nbsp;!=&nbsp;&quot;&quot;&nbsp;];then
+
+	`find&nbsp;$backup_location/&nbsp;-type&nbsp;f&nbsp;-mtime&nbsp;+$expire_days&nbsp;|&nbsp;xargs&nbsp;rm&nbsp;-rf`
+
+	echo&nbsp;&quot;Expired&nbsp;backup&nbsp;data&nbsp;delete&nbsp;complete!&quot;
+
+fi</pre><h1 id="hcpFL" style="font-size: 28px; line-height: 36px; margin: 26px 0 10px 0"><span class="ne-text">三、扩展脚本中的内容</span></h1><h2 id="Grmjq" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text">3.1 判断文件夹是否存在</span></h2><h3 id="vgmTK" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.1.1 文件夹不存在创建文件夹</span></h3><pre data-language="shell" id="MuuVY" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">if&nbsp;[&nbsp;!&nbsp;-d&nbsp;&quot;/data/&quot;&nbsp;];then
+
+&nbsp;&nbsp;&nbsp;&nbsp;mkdir&nbsp;/data
+
+else
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;文件夹已经存在&quot;
+
+fi</pre><h3 id="lRk4a" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.1.2 判断文件夹是否存在</span></h3><pre data-language="shell" id="ue2nt" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">if&nbsp;[&nbsp;-d&nbsp;&quot;/data/&quot;&nbsp;];then
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;文件夹存在&quot;
+
+else
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;文件夹不存在&quot;
+
+fi</pre><h3 id="bVJaz" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.1.3 判断文件是否存在</span></h3><pre data-language="shell" id="NOajh" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">if&nbsp;[&nbsp;-f&nbsp;&quot;/data/filename&quot;&nbsp;];then
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;文件存在&quot;
+
+else
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;&quot;文件不存在&quot;
+
+fi</pre><h3 id="sMDlR" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.1.4 常用的文件比较符</span></h3><pre data-language="shell" id="Fh6vj" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">-e&nbsp;判断对象是否存在
+
+-d&nbsp;判断对象是否存在，并且为目录
+
+-f&nbsp;判断对象是否存在，并且为常规文件
+
+-L&nbsp;判断对象是否存在，并且为符号链接
+
+-h&nbsp;判断对象是否存在，并且为软链接
+
+-s&nbsp;判断对象是否存在，并且长度不为0
+
+-r&nbsp;判断对象是否存在，并且可读
+
+-w&nbsp;判断对象是否存在，并且可写
+
+-x&nbsp;判断对象是否存在，并且可执行
+
+-O&nbsp;判断对象是否存在，并且属于当前用户
+
+-G&nbsp;判断对象是否存在，并且属于当前用户组
+
+-nt&nbsp;判断file1是否比file2新&nbsp;&nbsp;[&nbsp;&quot;/data/file1&quot;&nbsp;-nt&nbsp;&quot;/data/file2&quot;&nbsp;]
+
+-ot&nbsp;判断file1是否比file2旧&nbsp;&nbsp;[&nbsp;&quot;/data/file1&quot;&nbsp;-ot&nbsp;&quot;/data/file2&quot;&nbsp;]</pre><h2 id="DCn7s" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text" style="color: #404040">3.2 shell遍历数组3种方法</span></h2><h3 id="uR1ZY" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text"> 3.2.0 首先创建一个数组</span></h3><pre data-language="bash" id="nMPEs" class="ne-codeblock language-bash" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">array=(192.168.0.1&nbsp;192.168.0.2&nbsp;192.168.0.3)</pre><h3 id="OmXPg" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.2.1 标准的for循环</span></h3><pre data-language="bash" id="dfbTA" class="ne-codeblock language-bash" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">for((&nbsp;i=0;i&lt;${#array[@]};i++))&nbsp;do
+
+#${#array[@]}获取数组长度用于循环
+
+echo&nbsp;${array[i]};
+
+done;</pre><h3 id="yFKP3" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.2.2 不带数组下标</span></h3><pre data-language="bash" id="ujoMq" class="ne-codeblock language-bash" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">for&nbsp;element&nbsp;in&nbsp;${array[@]}
+
+#也可以写成for&nbsp;element&nbsp;in&nbsp;${array[*]}
+
+do
+
+echo&nbsp;$element
+
+done</pre><h3 id="io61y" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.2.3 带数组下标</span></h3><pre data-language="bash" id="xAN33" class="ne-codeblock language-bash" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">for&nbsp;i&nbsp;in&nbsp;&quot;${!array[@]}&quot;;&nbsp;&nbsp;&nbsp;
+
+do&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;printf&nbsp;&quot;%s\t%s\n&quot;&nbsp;&quot;$i&quot;&nbsp;&quot;${array[$i]}&quot;&nbsp;&nbsp;
+
+done</pre><h3 id="Jdu6K" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.2.4 While循环法：</span></h3><pre data-language="bash" id="KhreD" class="ne-codeblock language-bash" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">i=0&nbsp;&nbsp;
+
+while&nbsp;[&nbsp;$i&nbsp;-lt&nbsp;${#array[@]}&nbsp;]&nbsp;&nbsp;
+
+#当变量（下标）小于数组长度时进入循环体
+
+do&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;${&nbsp;array[$i]&nbsp;}&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;#按下标打印数组元素
+
+&nbsp;&nbsp;&nbsp;&nbsp;let&nbsp;i++&nbsp;&nbsp;
+
+done</pre><h2 id="AQEBk" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text" style="color: #222226">3.3 echo $? 这个东东$?在linux系统里是什么含义?</span></h2><div data-type="warning" class="ne-alert" style="border: 1px solid #F6E5AC; background-color: #F9EFCD; margin: 4px 0; padding: 10px; border-radius: 4px"><p id="uce917d95" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text">在bash里,$符号表示当前用户为普通用户；在bash脚本里, $开头表示变量。</span></p></div><ol class="ne-ol list-paddingleft-2" style="padding-left: 23px;"><li><p><span class="ne-text">$# 表示参数个数。</span></p></li><li><p><span class="ne-text">$0 是脚本本身的名字。</span></p></li><li><p><span class="ne-text">$1 是传递给该shell脚本的第一个参数</span></p></li><li><p><span class="ne-text">$2 是传递给该shell脚本的第二个参数。</span></p></li><li><p><span class="ne-text">$@ 表示所有参数，并且所有参数都是独立的。</span></p></li><li><p><span class="ne-text">$$ 是脚本运行的当前进程ID号。</span></p></li><li><p><span class="ne-text">$? 是显示最后命令的退出状态，0表示没有错误，其他表示有错误。</span></p></li></ol><h2 id="U2NyV" style="font-size: 24px; line-height: 32px; margin: 21px 0 5px 0"><span class="ne-text">3.4 </span><a href="https://www.yuque.com/liu-yanbo/bcrz/ozwty00wchfsef3o" data-href="https://www.yuque.com/liu-yanbo/bcrz/ozwty00wchfsef3o" class="ne-link"><span class="ne-text">使用Linux 自带的crontab 定时执行脚本</span></a></h2><h3 id="N9CH9" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.4.1 编辑定时任务</span></h3><pre data-language="shell" id="mmucr" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">vi&nbsp;/etc/crontab&nbsp;&nbsp;&nbsp;#&nbsp;编辑新增定时任务
+
+00&nbsp;03&nbsp;*&nbsp;*&nbsp;*&nbsp;/data/mysql-backup/bak.sh&nbsp;&nbsp;&nbsp;#&nbsp;添加&nbsp;每天凌晨3点执行备份，进行&nbsp;wq!&nbsp;保存退出
+
+crontab&nbsp;/etc/crontab&nbsp;&nbsp;#&nbsp;使之生效
+
+crontab&nbsp;-l&nbsp;&nbsp;&nbsp;#&nbsp;查看是否存在</pre><h3 id="SwaEb" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text">3.4.2 crontab 常用命令</span></h3><pre data-language="shell" id="MyJcW" class="ne-codeblock language-shell" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">service&nbsp;crond&nbsp;stop&nbsp;//关闭服务
+
+service&nbsp;crond&nbsp;start&nbsp;//启动服务
+
+service&nbsp;crond&nbsp;restart&nbsp;//重启服务
+
+service&nbsp;crond&nbsp;reload&nbsp;//重新载入配置
+
+service&nbsp;crond&nbsp;status&nbsp;//&nbsp;crontab服务状态</pre><p id="u6ee7c4a6" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><br/></p><p id="ufabaf521" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><br/></p></div><p><br/></p>
+<script src="https://giscus.app/client.js"
+    data-repo="byronlau/Knowledge-Garden"
+    data-repo-id="R_kgDOKkfaDQ"
+    data-mapping="number"
+    data-term="18"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
+</script>
+        
