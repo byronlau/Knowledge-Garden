@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://doc.mgd2008.com/blog/category/python/">
       
       
-        <link rel="prev" href="../frontend/">
+        <link rel="prev" href="../db/">
       
       
-        <link rel="next" href="../nodb/">
+        <link rel="next" href="../java/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../../../feed_rss_created.xml">
@@ -2101,6 +2101,56 @@
   
   
     <li class="md-nav__item">
+      <a href="../db/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../java/" class="md-nav__link">
         
   
@@ -2126,26 +2176,6 @@
   
   <span class="md-ellipsis">
     Sundry
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../db/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    DB
   </span>
   
 
@@ -2190,36 +2220,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Python
-  </span>
-  
-
-      </a>
-      
     </li>
   
 
@@ -2292,6 +2292,153 @@
       <header class="md-typeset">
         <h1 id="python">Python<a class="headerlink" href="#python" title="Permanent link">&para;</a></h1>
       </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="./" class="md-meta__link">Python</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="pythonrequestsrequestsexceptionssslerrorhttpsconnectionpoolmd"><a class="toclink" href="../../2023/11/02/pythonrequestsrequestsexceptionssslerrorhttpsconnectionpoolmd/">Python使用requests时报错requests.exceptions.SSLErrorHTTPSConnectionPool.md</a></h2>
+<p><strong>报错如下:</strong></p>
+<p><span style="color: red;">requests.exceptions.SSLError: HTTPSConnectionPool(host=‘www.baidu.com’, port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, u’[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:581)’),))</span></p>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/pythonrequestsrequestsexceptionssslerrorhttpsconnectionpoolmd/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="./" class="md-meta__link">Python</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 2 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="redistemplatestringredistemplate"><a class="toclink" href="../../2023/11/02/redistemplatestringredistemplate/">RedisTemplate与StringRedisTemplate的区别</a></h2>
+<p>RedisTemplate和StringRedisTemplate的区别如下：</p>
+<ul>
+<li>两者的关系：StringRedisTemplate继承自RedisTemplate。</li>
+<li>两者的数据不共通：StringRedisTemplate只能管理StringRedisTemplate里面的数据，RedisTemplate只能管理RedisTemplate中的数据。</li>
+<li>默认的序列化策略：SDR（即Simple Data Replication，简单数据复制）有两种默认的序列化策略，一种是String的序列化策略，一种是JDK的序列化策略。StringRedisTemplate默认采用的是String的序列化策略，保存的key和value都是采用此策略序列化保存的。而RedisTemplate默认采用的是JDK的序列化策略，保存的key和value都是采用此策略序列化保存的。</li>
+</ul>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/redistemplatestringredistemplate/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="./" class="md-meta__link">Python</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 2 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="pythonredismd"><a class="toclink" href="../../2023/11/02/pythonredismd/">pythonredis之连接池的原理.md</a></h2>
+<p><a href="https://blog.csdn.net/yanerhao/article/details/82111468">引用：python redis 之连接池的原理</a></p>
+<h3 id="_1"><a class="toclink" href="../../2023/11/02/pythonredismd/#_1">什么是连接池</a></h3>
+<p>通常情况下, 当我们需要做 redis 操作时, 会创建一个连接, 并基于这个连接进行 redis 操作, 操作完成后, 释放连接,</p>
+<p>一般情况下, 这是没问题的, 但当并发量比较高的时候, 频繁的连接创建和释放对性能会有较高的影响</p>
+<p>。于是, 连接池就发挥作用了</p>
+<p>连接池的原理是, 通过预先创建多个连接, 当进行 redis 操作时, 直接获取已经创建的连接进行操作, 而且操作完成后, 不会释放, 用于后续的其它 redis 操作</p>
+<p>这样就达到了避免频繁的 redis 连接创建和释放的目的, 从而提高性能了</p>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/pythonredismd/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
@@ -2386,7 +2533,7 @@
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../frontend/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Frontend">
+          <a href="../db/" class="md-footer__link md-footer__link--prev" aria-label="上一页: DB">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2396,20 +2543,20 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                Frontend
+                DB
               </div>
             </div>
           </a>
         
         
           
-          <a href="../nodb/" class="md-footer__link md-footer__link--next" aria-label="下一页: NoDB">
+          <a href="../java/" class="md-footer__link md-footer__link--next" aria-label="下一页: Java">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                NoDB
+                Java
               </div>
             </div>
             <div class="md-footer__button md-icon">

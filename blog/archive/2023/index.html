@@ -2109,6 +2109,46 @@
   
   
     <li class="md-nav__item">
+      <a href="../../category/db/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../category/python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../category/java/" class="md-nav__link">
         
   
@@ -2149,26 +2189,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/db/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    DB
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../category/go/" class="md-nav__link">
         
   
@@ -2194,26 +2214,6 @@
   
   <span class="md-ellipsis">
     Frontend
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../category/python/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Python
   </span>
   
 
@@ -2305,155 +2305,7 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/java/" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="_1"><a class="toclink" href="../../2023/11/01/androidstudiosdk/">前言</a></h2>
-<p>公司最近要搞一个安卓的SDK，需要我这边搞一下，由于之前没接触过安卓和Gradle，所以过程中遇到了需要问题，因此记录，总结经验。</p>
-<h2 id="1-sdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#1-sdk">1. 关于SDK的打包类型的一些介绍</a></h2>
-<p>对于SDK来说，其实就是一个辅助工具库，我们可以打成 jar，或者打包成 aar，</p>
-<ul>
-<li>jar: 包只包含了classes文件，不包含资源文件；</li>
-<li>aar: 不仅包含了classes文件，还包含资源文件,并且，aar的这个可以发布到maven库，然后使用者直接通过更改版本号就可以获取到最新的aar文件</li>
-</ul>
-<p>打包之后生成的文件地址：</p>
-<ul>
-<li>*.jar 通常生成的目录如下位置，但又不是绝对，我的项目就不是，现在没有考究这个问题</li>
-</ul>
-<div class="highlight"><pre><span></span><code>/build/intermediates/bundles/debug<span class="o">(</span>release<span class="o">)</span>/classes.jar
-</code></pre></div>
-<p>*.aar 目录一般就在如下目录</p>
-<div class="highlight"><pre><span></span><code>/build/outputs/aar/libraryname.aar
-</code></pre></div>
-<h2 id="2-sdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#2-sdk">2. 开始创建SDK工程</a></h2>
-<h4 id="211-appsdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#211-appsdk">2.1.1. app应用也可以直接打包成SDK，可以参考文章</a></h4>
-<p>https://blog.csdn.net/u012556114/article/details/107453116</p>
-<h4 id="212-sdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#212-sdk">2.1.2. 开始创建SDK工程</a></h4>
-<ol>
-<li>正常情况下，是使用新建module开始创建SDK
-<img alt="image-20231101153628527" src="https://fastly.jsdelivr.net/gh/byronlau/imgs/doc/image-20231101153628527.png" /></li>
-</ol>
-<p><img alt="img" src="https://cdn.nlark.com/yuque/0/2023/png/28895228/1686040861082-290c991f-35d6-4f95-ae6c-4d3cf01dd030.png" /></p>
-<p>创建后的项目结构如下</p>
-<p><img alt="img" src="https://cdn.nlark.com/yuque/0/2023/png/28895228/1686041222104-17ba40f3-a6fc-4506-aa01-108dd39a2c2d.png" /></p>
-<ul>
-<li>libs: 存放第三方依赖的位置</li>
-<li>src/java: 工程代码目录</li>
-<li>AnddroidManifest.xml : 是 Android 应用程序的清单文件，它位于应用程序的根目录下。清单文件用于描述应用程序的整体结构和特性，以及声明应用程序所需的权限、组件、服务、权限等信息。</li>
-<li>build.gradle: </li>
-</ul>
-<script src="https://giscus.app/client.js"
-    data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKkfaDQ"
-    data-mapping="number"
-    data-term="7"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    crossorigin="anonymous"
-    async>
-</script>
-    <nav class="md-post__action">
-      <a href="../../2023/11/01/androidstudiosdk/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/sundry/" class="md-meta__link">Sundry</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="cdn"><a class="toclink" href="../../2023/11/01/cdn/">CDN加速原理，以及上线过程中遇到的一些问题</a></h2>
-<section class="output_wrapper" id="output_wrapper_id" style="font-size: 15px; color: rgb(62, 62, 62); line-height: 1.8; word-spacing: 2px; letter-spacing: 2px; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"></section>
-<section class="output_wrapper" id="output_wrapper_id" style="font-size: 15px; color: rgb(62, 62, 62); line-height: 1.8; word-spacing: 2px; letter-spacing: 2px; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><blockquote style="line-height: inherit; padding: 15px 15px 15px 1rem; font-size: 0.9em; margin: 1em 0px; color: rgb(0, 0, 0); border-left: 5px solid rgb(239, 112, 96); background: rgb(239, 235, 233); overflow: auto; overflow-wrap: normal; word-break: normal;"><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 0px; margin-bottom: 0px;">CDN加速原理</p></blockquote><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;">内容分发网络CDN（Content Delivery Network）是建立并覆盖在承载网之上，由遍布全球的边缘节点服务器群组成的分布式网络。CDN能分担源站压力，避免网络拥塞，确保在不同区域、不同场景下加速网站内容的分发，提高资源访问速度。</p><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;">由于生产中使用的是阿里云的CDN，详细原理参照阿里云官方文档。</p><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;"><a href="https://help.aliyun.com/zh/cdn/product-overview/what-is-alibaba-cloud-cdn#title_sbn_geq_2ez" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; text-decoration-line: none; color: rgb(30, 107, 184); overflow-wrap: break-word;">什么是阿里云CDN</a></p><h2 id="h" style="color: inherit; line-height: inherit; padding: 0px; margin: 1.6em 0px; font-size: 1.4em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">加速原理</span></h2><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;">假设您的加速域名为<code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com</code>，接入CDN开始加速服务后，当终端用户在北京发起HTTP请求时，处理流程如下图所示。</p><figure style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;"><img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0988696361/p352419.png" alt="原理" title="原理" style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; display: block; margin: 0px auto; max-width: 100%;"/><figcaption style="line-height: inherit; margin: 0px; padding: 0px; margin-top: 10px; text-align: center; color: rgb(153, 153, 153); font-size: 0.7em;">原理</figcaption></figure><ol style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px 0px 0px 32px;" class=" list-paddingleft-2"><li><p>当终端用户向<code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com</code>下的指定资源发起请求时，首先向Local DNS（本地DNS）发起请求域名<code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com</code>对应的IP。</p></li><li><p>Local DNS检查缓存中是否有<code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com</code>的IP地址记录。如果有，则直接返回给终端用户；如果没有，则向网站授权DNS请求域名<code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com</code>的解析记录。</p></li><li><p>当网站授权DNS解析<code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com</code>后，返回域名的CNAME <code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com.example.com</code>。</p></li><li><p>Local DNS向阿里云CDN的DNS调度系统请求域名<code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">www.aliyundoc.com.example.com</code>的解析记录，阿里云CDN的DNS调度系统将为其分配最佳节点IP地址。</p></li><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">Local DNS获取阿里云CDN的DNS调度系统返回的最佳节点IP地址。</span></p></li><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">Local DNS将最佳节点IP地址返回给用户，用户获取到最佳节点IP地址。</span></p></li><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">用户向最佳节点IP地址发起对该资源的访问请求。</span></p></li></ol><ul style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px 0px 0px 32px;" class=" list-paddingleft-2"><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">如果该最佳节点已缓存该资源，则会将请求的资源直接返回给用户（步骤8），此时请求结束。</span></p></li><li><p>如果该最佳节点未缓存该资源或者缓存的资源已经失效，则节点将会向源站发起对该资源的请求。获取源站资源后结合用户自定义配置的缓存策略，将资源缓存到CDN节点并返回给用户（步骤8），此时请求结束。配置缓存策略的操作方法，请参见<a href="https://help.aliyun.com/zh/cdn/user-guide/add-a-cache-rule#task-261642" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; text-decoration-line: none; color: rgb(30, 107, 184); overflow-wrap: break-word;">配置缓存过期时间</a>。</p></li></ul><blockquote style="line-height: inherit; padding: 15px 15px 15px 1rem; font-size: 0.9em; margin: 1em 0px; color: rgb(0, 0, 0); border-left: 5px solid rgb(239, 112, 96); background: rgb(239, 235, 233); overflow: auto; overflow-wrap: normal; word-break: normal;"><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 0px; margin-bottom: 0px;">使用过程中出现的问题</p></blockquote><ol style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px 0px 0px 32px;" class=" list-paddingleft-2"><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">每次上线都需要刷新CDN缓存，否则需要根据配置的策略时间，等缓存自动过期；</span></p></li><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">也可以提前上线，预热缓存，但对我们来说目前没用处，上线比较频繁，并且测试需要测试；</span></p></li><li><p>阿里云CDN，如果开启JS，CSS，HTLM等优化，缓存中的文件，将会给你调整格式并且如果开gzip，代码进行压缩，如果JS 没有使用 <code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">,</code> 结尾那么代码就可能报错；</p></li><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">就目前使用情况 如果你配置的加速域名是 www.abc.com ,那么只有访问 https://www.abc.com 才会进行加速，如果访问https://abc.com、http://www.abc.com、http://abc.com 则会直接对源站进行访问，如果源站没有配置 abc.com:443/80、www.abc.com:80 那么将会访问无效，因此可以配置相关配置，并且在内部使用访问以上域名端口转发到https://www.abc.com 的加速域名，保证所有流量走CDN。</span></p></li><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">我在源站配置nginx 配置文件中加入了 &nbsp;一个静态资源访问的location 直接对着源站访问没问题，但是通过CDN，始终无法访问通（404），但是很早之前配置的相同逻辑的location 就可以，由于生产环境，不方便处理，就换了其它方案解决，还没找到具体原因，大概率就是当前目录还未在CDN服务缓存中生效。</span></p></li><li><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">使用CDN后使用abc.com 如果不重定向到 www.abc.com &nbsp;那么有些资源出现跨域的问题，图片没问题，但是视频就跨域了，目前还未找到原因，猜测是浏览器策略的原因。</span></p></li></ol></section>
-<p><br/></p>
-<script src="https://giscus.app/client.js"
-    data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKkfaDQ"
-    data-mapping="number"
-    data-term="9"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    crossorigin="anonymous"
-    async>
-</script>
-    <nav class="md-post__action">
-      <a href="../../2023/11/01/cdn/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
         
           <li class="md-meta__item">
             分类于
@@ -2473,17 +2325,63 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="dorisjson"><a class="toclink" href="../../2023/11/01/dorisjson/">Doris解析JSON</a></h2>
-<pre class="prism-highlight prism-language-sql">get_json_string(res_data,’$.charge’)&nbsp;&gt;&nbsp;‘true’</pre>
-<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); line-height: 26px; overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-ligatures: no-common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); user-select: auto !important;"><strong>Doris支持json解析函数，提供了3个json解析函数，分别是</strong></p>
-<ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); line-height: 26px; overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-ligatures: no-common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); user-select: auto !important;">get_json_int（string，string）</p></li><li><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); line-height: 26px; overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-ligatures: no-common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); user-select: auto !important;">get_json_string（string，string）</p></li><li><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); line-height: 26px; overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-ligatures: no-common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); user-select: auto !important;">get_json_double（string，string）</p></li></ul>
-<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-size: 16px; color: rgb(77, 77, 77); line-height: 26px; overflow: auto hidden; overflow-wrap: break-word; font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-ligatures: no-common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); user-select: auto !important;">第一个参数为json字符串，第二个参数为json内的路径。</p>
-<p><br/></p>
+    <h2 id="postgresqlmysqlip"><a class="toclink" href="../../2023/11/02/postgresqlmysqlip/">PostgreSQL对应Mysql中对IP进行转化的操作</a></h2>
+<div class="highlight"><pre><span></span><code><span class="c1">-- ip convert int</span>
+<span class="k">create</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="k">replace</span><span class="w"> </span><span class="k">function</span><span class="w"> </span><span class="n">inet_aton</span><span class="p">(</span><span class="n">ip</span><span class="w"> </span><span class="nb">text</span><span class="p">)</span><span class="w"> </span><span class="k">returns</span><span class="w"> </span><span class="nb">int8</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="err">$$</span>
+
+<span class="k">declare</span>
+
+<span class="n">v</span><span class="w"> </span><span class="nb">int</span><span class="p">;</span>
+
+<span class="n">res</span><span class="w"> </span><span class="nb">int8</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+
+<span class="n">i</span><span class="w"> </span><span class="nb">int</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
+
+<span class="k">begin</span>
+
+<span class="n">foreach</span><span class="w"> </span><span class="n">v</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="nb">array</span><span class="w"> </span><span class="n">string_to_array</span><span class="p">(</span><span class="n">ip</span><span class="p">,</span><span class="s1">&#39;.&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">loop</span>
+
+<span class="n">res</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="n">res</span><span class="o">+</span><span class="n">v</span><span class="o">*</span><span class="p">(</span><span class="mi">256</span><span class="o">^</span><span class="n">i</span><span class="p">);</span>
+
+<span class="n">i</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+
+<span class="k">end</span><span class="w"> </span><span class="n">loop</span><span class="p">;</span>
+
+<span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+
+<span class="k">end</span><span class="p">;</span>
+
+<span class="err">$$</span><span class="w"> </span><span class="k">language</span><span class="w">  </span><span class="n">plpgsql</span><span class="p">;</span>
+
+<span class="c1">-- int convert ip</span>
+
+<span class="k">create</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="k">replace</span><span class="w"> </span><span class="k">function</span><span class="w"> </span><span class="n">inet_ntoa</span><span class="p">(</span><span class="n">ip</span><span class="w"> </span><span class="nb">int8</span><span class="p">)</span><span class="w"> </span><span class="k">returns</span><span class="w"> </span><span class="nb">text</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="err">$$</span>
+
+<span class="k">declare</span>
+
+<span class="n">res</span><span class="w"> </span><span class="nb">text</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">;</span>
+
+<span class="k">begin</span>
+
+<span class="n">res</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="n">res</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="p">((</span><span class="n">ip</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="mi">24</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="o">^</span><span class="mi">8</span><span class="o">-</span><span class="mi">1</span><span class="p">)::</span><span class="nb">int</span><span class="p">);</span>
+
+<span class="n">res</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="n">res</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="s1">&#39;.&#39;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="p">((</span><span class="n">ip</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="mi">16</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="o">^</span><span class="mi">8</span><span class="o">-</span><span class="mi">1</span><span class="p">)::</span><span class="nb">int</span><span class="p">);</span>
+
+<span class="n">res</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="n">res</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="s1">&#39;.&#39;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="p">((</span><span class="n">ip</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="mi">8</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="o">^</span><span class="mi">8</span><span class="o">-</span><span class="mi">1</span><span class="p">)::</span><span class="nb">int</span><span class="p">);</span>
+
+<span class="n">res</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="n">res</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="s1">&#39;.&#39;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="p">(</span><span class="n">ip</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="o">^</span><span class="mi">8</span><span class="o">-</span><span class="mi">1</span><span class="p">)::</span><span class="nb">int</span><span class="p">);</span>
+
+<span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+
+<span class="k">end</span><span class="p">;</span>
+
+<span class="err">$$</span><span class="w"> </span><span class="k">language</span><span class="w">  </span><span class="n">plpgsql</span><span class="p">;</span>
+</code></pre></div>
 <script src="https://giscus.app/client.js"
     data-repo="byronlau/Knowledge-Garden"
     data-repo-id="R_kgDOKkfaDQ"
     data-mapping="number"
-    data-term="10"
+    data-term="34"
     data-reactions-enabled="1"
     data-emit-metadata="0"
     data-input-position="bottom"
@@ -2493,7 +2391,7 @@
     async>
 </script>
     <nav class="md-post__action">
-      <a href="../../2023/11/01/dorisjson/">
+      <a href="../../2023/11/02/postgresqlmysqlip/">
         继续阅读
       </a>
     </nav>
@@ -2514,12 +2412,12 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
         
           <li class="md-meta__item">
             分类于
             
-              <a href="../../category/go/" class="md-meta__link">Go</a></li>
+              <a href="../../category/python/" class="md-meta__link">Python</a></li>
         
         
           
@@ -2534,24 +2432,12 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="goiota"><a class="toclink" href="../../2023/11/01/goiota/">Goiota的初步认识</a></h2>
-<section class="output_wrapper" id="output_wrapper_id" style="color: rgb(62, 62, 62); line-height: 1.6; letter-spacing: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><blockquote style="line-height: inherit; padding: 15px 15px 15px 1rem; font-size: 0.9em; margin: 1em 0px; color: rgb(129, 145, 152); border-left: 6px solid rgb(220, 230, 240); background: rgb(242, 247, 251); overflow: auto; overflow-wrap: normal; word-break: normal;"><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 0px; margin-bottom: 0px;">根据下边的代码，来初步认识一下GO 中的 `iota</p></blockquote><pre style="font-size: inherit; color: inherit; line-height: inherit; margin-top: 0px; margin-bottom: 0px; padding: 0px;"><span style="display: block; background: url(&#39;https://cos.shenlab.cn/md2x/mac-style-point.png&#39;) 10px 10px / 40px no-repeat #282C34; height: 40px; border-radius: 5px; margin: 0px 2px -7px;"></span><code class="hljs go" style="margin: -15px 2px 20px; line-height: 18px; letter-spacing: 0px; font-family: Consolas, Inconsolata, Courier, monospace; color: rgb(169, 183, 198); background: rgb(40, 43, 46); padding: 0.5em; overflow-wrap: normal !important; word-break: normal !important; overflow: auto !important; display: -webkit-box !important; border-radius: 5px !important;"><span class="hljs-keyword" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #F82375; word-wrap: inherit !important; word-break: inherit !important;">package</span>&nbsp;main<br/><span class="hljs-keyword" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #F82375; word-wrap: inherit !important; word-break: inherit !important;">import</span>&nbsp;<span class="hljs-string" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #EEDC70; word-wrap: inherit !important; word-break: inherit !important;">&quot;fmt&quot;</span><br/><span class="hljs-function" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #F82375; word-wrap: inherit !important; word-break: inherit !important;"><span class="hljs-keyword" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; overflow-wrap: inherit !important; word-break: inherit !important;">func</span>&nbsp;<span class="hljs-title" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #A5DA2D; word-wrap: inherit !important; word-break: inherit !important;">main</span><span class="hljs-params" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #FF9823; word-wrap: inherit !important; word-break: inherit !important;">()</span></span>&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #F82375; word-wrap: inherit !important; word-break: inherit !important;">const</span>&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;=&nbsp;<span class="hljs-literal" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #AE87FA; word-wrap: inherit !important; word-break: inherit !important;">iota</span>&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//0</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//1</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//2</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d&nbsp;=&nbsp;<span class="hljs-string" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #EEDC70; word-wrap: inherit !important; word-break: inherit !important;">&quot;ha&quot;</span>&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//独立值，iota&nbsp;+=&nbsp;1</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//&quot;ha&quot;&nbsp;&nbsp;&nbsp;iota&nbsp;+=&nbsp;1</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f&nbsp;=&nbsp;<span class="hljs-number" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #AE87FA; word-wrap: inherit !important; word-break: inherit !important;">100</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//iota&nbsp;+=1</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//100&nbsp;&nbsp;iota&nbsp;+=1</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h&nbsp;=&nbsp;<span class="hljs-literal" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #AE87FA; word-wrap: inherit !important; word-break: inherit !important;">iota</span>&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//7,恢复计数</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment" style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: #808080; word-wrap: inherit !important; word-break: inherit !important;">//8</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;)<br/>&nbsp;&nbsp;&nbsp;&nbsp;fmt.Println(a,b,c,d,e,f,g,h,i)<br/>}<br/></code></pre><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.5em; margin-bottom: 1.5em;">在使用iota定义常量时，iota的值会逐步递增。在你提供的代码中，常量d被赋值为&quot;ha&quot;，此时iota的值为3。紧接着，常量e没有显式地赋值，而是继承了上一个表达式的值，也就是&quot;ha&quot;。因此，常量e的值也是&quot;ha&quot;。</p><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.5em; margin-bottom: 1.5em;">换句话说，<strong style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">由于常量的赋值是顺序执行的，常量e在常量d后面定义，所以它继承并复制了常量d的值</strong>。这是iota的一个特性，它可以简化常量的定义，并能够在一组相关的常量中生成连续递增的值。</p></section>
-<p><br/></p>
-<script src="https://giscus.app/client.js"
-    data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKkfaDQ"
-    data-mapping="number"
-    data-term="11"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    crossorigin="anonymous"
-    async>
-</script>
+    <h2 id="pythonrequestsrequestsexceptionssslerrorhttpsconnectionpoolmd"><a class="toclink" href="../../2023/11/02/pythonrequestsrequestsexceptionssslerrorhttpsconnectionpoolmd/">Python使用requests时报错requests.exceptions.SSLErrorHTTPSConnectionPool.md</a></h2>
+<p><strong>报错如下:</strong></p>
+<p><span style="color: red;">requests.exceptions.SSLError: HTTPSConnectionPool(host=‘www.baidu.com’, port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, u’[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:581)’),))</span></p>
+
     <nav class="md-post__action">
-      <a href="../../2023/11/01/goiota/">
+      <a href="../../2023/11/02/pythonrequestsrequestsexceptionssslerrorhttpsconnectionpoolmd/">
         继续阅读
       </a>
     </nav>
@@ -2572,18 +2458,18 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
         
           <li class="md-meta__item">
             分类于
             
-              <a href="../../category/go/" class="md-meta__link">Go</a></li>
+              <a href="../../category/python/" class="md-meta__link">Python</a></li>
         
         
           
           <li class="md-meta__item">
             
-              需要 1 分钟阅读时间
+              需要 2 分钟阅读时间
             
           </li>
         
@@ -2592,24 +2478,108 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="gojava"><a class="toclink" href="../../2023/11/01/gojava/">Go指针的作用和Java中为什么没有用到指针</a></h2>
-<section class="output_wrapper" id="output_wrapper_id" style="font-size: 15px; color: rgb(62, 62, 62); line-height: 1.8; word-spacing: 2px; letter-spacing: 2px; font-family: &#39;Helvetica Neue&#39;, Helvetica, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif; background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%); background-size: 20px 20px; background-position: center center;"><blockquote style="line-height: inherit; padding: 15px 15px 15px 1rem; font-size: 0.9em; margin: 1em 0px; color: rgb(0, 0, 0); border-left: 5px solid rgb(239, 112, 96); background: rgb(239, 235, 233); overflow: auto; overflow-wrap: normal; word-break: normal;"><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 0px; margin-bottom: 0px;">在Go语言中，指针是一种特殊的数据类型，它存储了一个变量的内存地址。通过使用指针，可以直接操作该内存地址上的数据，而不是通过变量名来访问。</p></blockquote><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;"><strong style="font-size: inherit; line-height: inherit; margin: 0px; padding: 0px; color: rgb(233, 105, 0);">指针在Go语言中有以下作用:</strong></p><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">1.传递内存地址：通过将指针作为参数传递给函数，可以直接修改函数外部的变量，而不是创建一个副本。这对于需要修改大型数据结构或者需要避免大量数据拷贝的情况非常有用。</span></p><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">2.动态分配内存：使用指针可以在堆上动态分配内存，这样可以创建变量的生命周期不依赖于函数的作用域。这对于创建复杂的数据结构、在函数调用之间保留状态等情况非常有用。</span></p><p><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">3.与结构体配合使用：指针可以与结构体配合使用，通过指针访问和修改结构体中的字段，这样可以避免将整个结构体作为参数传递，提高效率。</span></p><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;">&nbsp;&nbsp;&nbsp;&nbsp;相比之下，Java语言没有显式的指针操作。这是因为Java的设计目标之一是提供一种相对安全和易于使用的编程语言。Java使用引用来实现对对象的引用，而不是直接操作内存地址。通过引用，可以访问和修改Java对象的属性，而无需直接操作内存地址。这种设计决策简化了Java的内存管理，并且有助于减少内存错误和安全漏洞的发生。</p><p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin-top: 1.7em; margin-bottom: 1.7em;">总之，Go语言中的指针提供了更多低级别的内存操作功能，而Java语言则通过引用提供了更高级别的抽象和更安全的内存管理。</p></section>
-<p><br/></p>
-<script src="https://giscus.app/client.js"
-    data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKkfaDQ"
-    data-mapping="number"
-    data-term="12"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    crossorigin="anonymous"
-    async>
-</script>
+    <h2 id="redistemplatestringredistemplate"><a class="toclink" href="../../2023/11/02/redistemplatestringredistemplate/">RedisTemplate与StringRedisTemplate的区别</a></h2>
+<p>RedisTemplate和StringRedisTemplate的区别如下：</p>
+<ul>
+<li>两者的关系：StringRedisTemplate继承自RedisTemplate。</li>
+<li>两者的数据不共通：StringRedisTemplate只能管理StringRedisTemplate里面的数据，RedisTemplate只能管理RedisTemplate中的数据。</li>
+<li>默认的序列化策略：SDR（即Simple Data Replication，简单数据复制）有两种默认的序列化策略，一种是String的序列化策略，一种是JDK的序列化策略。StringRedisTemplate默认采用的是String的序列化策略，保存的key和value都是采用此策略序列化保存的。而RedisTemplate默认采用的是JDK的序列化策略，保存的key和value都是采用此策略序列化保存的。</li>
+</ul>
+
     <nav class="md-post__action">
-      <a href="../../2023/11/01/gojava/">
+      <a href="../../2023/11/02/redistemplatestringredistemplate/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/java/" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 3 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="redis"><a class="toclink" href="../../2023/11/02/redis/">Redis工具类</a></h2>
+<p>Java 版本的Redis 工具类</p>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/redis/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/java/" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 3 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="springbootpropertysourceimportresourcespring"><a class="toclink" href="../../2023/11/02/springbootpropertysourceimportresourcespring/">SpringBoot@PropertySource加载配置文件、@ImportResource导入Spring配置文件</a></h2>
+<h3 id="propertysource-properties"><a class="toclink" href="../../2023/11/02/springbootpropertysourceimportresourcespring/#propertysource-properties">@PropertySource 加载 properties配置文件</a></h3>
+<p>1、通过《Spring Boot  @ConfigurationProperties 、@Value 注值》知道使用“@Value”与“@ConfigurationProperties”可以从全局配置文件“application.properties”或者“application.yml”中取值，然后为需要的属性赋值。</p>
+<p>2、当应用比较大的时候，如果所有的内容都当在一个配置文件中，就会显得比较臃肿，同时也不太好理解和维护，此时可以将一个文件拆分为多个，使用 @PropertySource 注解加载指定的配置文件，注解常用属性如下：</p>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/springbootpropertysourceimportresourcespring/">
         继续阅读
       </a>
     </nav>
@@ -2623,7 +2593,7 @@
 
 
 <nav class="md-pagination">
-  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a> <a class="md-pagination__link" href="page/3/">3</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="page/6/">6</a>
+  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a> <a class="md-pagination__link" href="page/3/">3</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="page/8/">8</a>
 </nav>
         
       
