@@ -52,7 +52,7 @@ template: home.html
 
 ## 致谢
 
-本知识库受 Openbiox [《生信爱好者周刊》](https://github.com/openbiox/weekly)启发开始使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 进行部署。
+本知识库受 Openbiox [维燕的知识花园](https://doc.weiyan.cc/)启发开始使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 进行部署。
 
 感谢 [LetTTGACO](https://github.com/LetTTGACO) 提供的 [Elog](https://elog.1874.cool/) 工具，提供了一个可以从语雀到本平台的优雅同步方案。
 
