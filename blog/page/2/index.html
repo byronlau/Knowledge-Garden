@@ -18,7 +18,7 @@
         <link rel="prev" href="../../../YUQUE/">
       
       
-        <link rel="next" href="../../category/db/">
+        <link rel="next" href="../../category/sundry/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../../../feed_rss_created.xml">
@@ -1826,16 +1826,67 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../../notebook/culture" class="md-nav__link">
+    
+    
+      
         
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
   
   <span class="md-ellipsis">
     文化
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            文化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《道德经》81篇
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2099,6 +2150,26 @@
   
   
     <li class="md-nav__item">
+      <a href="../../category/sundry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sundry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../category/db/" class="md-nav__link">
         
   
@@ -2144,26 +2215,6 @@
   
   <span class="md-ellipsis">
     Java
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../category/sundry/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sundry
   </span>
   
 
@@ -2306,6 +2357,250 @@
           
           <li class="md-meta__item">
             
+              需要 3 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="springbootpropertysourceimportresourcespring"><a class="toclink" href="../../2023/11/02/springbootpropertysourceimportresourcespring/">SpringBoot@PropertySource加载配置文件、@ImportResource导入Spring配置文件</a></h2>
+<h3 id="propertysource-properties"><a class="toclink" href="../../2023/11/02/springbootpropertysourceimportresourcespring/#propertysource-properties">@PropertySource 加载 properties配置文件</a></h3>
+<p>1、通过《Spring Boot  @ConfigurationProperties 、@Value 注值》知道使用“@Value”与“@ConfigurationProperties”可以从全局配置文件“application.properties”或者“application.yml”中取值，然后为需要的属性赋值。</p>
+<p>2、当应用比较大的时候，如果所有的内容都当在一个配置文件中，就会显得比较臃肿，同时也不太好理解和维护，此时可以将一个文件拆分为多个，使用 @PropertySource 注解加载指定的配置文件，注解常用属性如下：</p>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/springbootpropertysourceimportresourcespring/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/java/" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="springboothttp"><a class="toclink" href="../../2023/11/02/springboothttp/">SpringBoot自带了一个轻量级的HTTP客户端工具</a></h2>
+<p>Spring Boot自带了一个轻量级的HTTP客户端工具，该工具基于Java的标准HTTP库  <code>java.net.URLConnection</code>。您可以使用它来发送HTTP请求并与外部的HTTP资源进行通信。</p>
+<p>下面是使用Spring Boot默认的HTTP工具进行HTTP请求的基本示例：
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.boot.web.client.RestTemplateBuilder</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.http.ResponseEntity</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.client.RestTemplate</span><span class="p">;</span>
+
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HttpClientExample</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">RestTemplate</span><span class="w"> </span><span class="n">restTemplate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">RestTemplateBuilder</span><span class="p">().</span><span class="na">build</span><span class="p">();</span>
+
+<span class="w">        </span><span class="c1">// 发送GET请求</span>
+<span class="w">        </span><span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">restTemplate</span><span class="p">.</span><span class="na">getForEntity</span><span class="p">(</span><span class="s">&quot;https://api.example.com/users&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="na">getBody</span><span class="p">());</span>
+
+<span class="w">        </span><span class="c1">// 发送POST请求</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">requestBody</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;{\&quot;username\&quot;: \&quot;test\&quot;, \&quot;password\&quot;: \&quot;123456\&quot;}&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">postResponse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">restTemplate</span><span class="p">.</span><span class="na">postForEntity</span><span class="p">(</span><span class="s">&quot;https://api.example.com/login&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">requestBody</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">postResponse</span><span class="p">.</span><span class="na">getBody</span><span class="p">());</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+上述代码中使用了RestTemplate类来发送HTTP请求。您可以使用getForEntity()发送GET请求，postForEntity()发送POST请求等。这里的请求URL可以根据您的实际需求进行修改。</p>
+<p>请注意，从Spring 5.0版本开始，RestTemplate已经被宣布为过时，并在将来的Spring版本中将被移除。官方推荐使用WebClient作为替代方案，它提供了更先进的异步非阻塞特性。因此，如果您使用的是较新的Spring Boot版本，可以考虑使用WebClient类来发送HTTP请求。
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.reactive.function.client.WebClient</span><span class="p">;</span>
+
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HttpClientExample</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">WebClient</span><span class="w"> </span><span class="n">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">WebClient</span><span class="p">.</span><span class="na">create</span><span class="p">();</span>
+
+<span class="w">        </span><span class="c1">// 发送GET请求</span>
+<span class="w">        </span><span class="n">client</span><span class="p">.</span><span class="na">get</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">uri</span><span class="p">(</span><span class="s">&quot;https://api.example.com/users&quot;</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">retrieve</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">bodyToMono</span><span class="p">(</span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">subscribe</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">::</span><span class="n">println</span><span class="p">);</span>
+
+<span class="w">        </span><span class="c1">// 发送POST请求</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">requestBody</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;{\&quot;username\&quot;: \&quot;test\&quot;, \&quot;password\&quot;: \&quot;123456\&quot;}&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="n">client</span><span class="p">.</span><span class="na">post</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">uri</span><span class="p">(</span><span class="s">&quot;https://api.example.com/login&quot;</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">bodyValue</span><span class="p">(</span><span class="n">requestBody</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">retrieve</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">bodyToMono</span><span class="p">(</span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">subscribe</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">::</span><span class="n">println</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+在此示例中，我们使用WebClient类来发送GET和POST请求。.uri()方法用于设置请求的URL，.retrieve()用于发起请求，.bodyToMono()用于解析响应体的内容。</p>
+<script src="https://giscus.app/client.js"
+    data-repo="byronlau/Knowledge-Garden"
+    data-repo-id="R_kgDOKkfaDQ"
+    data-mapping="number"
+    data-term="45"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
+</script>
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/springboothttp/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/java/" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="springboot"><a class="toclink" href="../../2023/11/02/springboot/">SpringBoot静态资源处理</a></h2>
+<p>在web开发中，静态资源的访问是必不可少的，如：图片、js、css 等资源的访问。
+spring Boot 对静态资源访问提供了很好的支持，基本使用默认配置就能满足开发需求。</p>
+<h3 id="_1"><a class="toclink" href="../../2023/11/02/springboot/#_1">一、默认静态资源映射</a></h3>
+<p>Spring Boot 对静态资源映射提供了默认配置</p>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/springboot/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/java/" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 4 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="quartz"><a class="toclink" href="../../2023/11/02/springboot-quartz/">Quartz 的简单介绍和使用</a></h2>
+<p><code>Quartz</code> 是一个开源的 <code>Java</code> 调度框架，可以用来实现在指定的时间或时间间隔触发任务执行的功能。以下是使用 <code>Quartz</code> 的主要方式和基本概念。</p>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/springboot-quartz/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="../../category/java/" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
               需要 1 分钟阅读时间
             
           </li>
@@ -2331,238 +2626,6 @@
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/java/" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="protobuf"><a class="toclink" href="../../2023/11/02/protobuf/">protobuf简单使用</a></h2>
-<h3 id="protobuf_1"><a class="toclink" href="../../2023/11/02/protobuf/#protobuf_1">什么是protobuf</a></h3>
-<p>它是一个灵活、高效、结构化的序列化数据结构，它与传统的XML、JSON等相比，它更小、更快、更简单。</p>
-<p>ProtoBuf是由Google开发的一种数据序列化协议（类似于XML、JSON、hessian）。ProtoBuf能够将数据进行序列化，并广泛应用在数据存储、通信协议等方面。protobuf压缩和传输效率高，语法简单，表达力强。</p>
-
-    <nav class="md-post__action">
-      <a href="../../2023/11/02/protobuf/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/python/" class="md-meta__link">Python</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 2 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="pythonredismd"><a class="toclink" href="../../2023/11/02/pythonredismd/">pythonredis之连接池的原理.md</a></h2>
-<p><a href="https://blog.csdn.net/yanerhao/article/details/82111468">引用：python redis 之连接池的原理</a></p>
-<h3 id="_1"><a class="toclink" href="../../2023/11/02/pythonredismd/#_1">什么是连接池</a></h3>
-<p>通常情况下, 当我们需要做 redis 操作时, 会创建一个连接, 并基于这个连接进行 redis 操作, 操作完成后, 释放连接,</p>
-<p>一般情况下, 这是没问题的, 但当并发量比较高的时候, 频繁的连接创建和释放对性能会有较高的影响</p>
-<p>。于是, 连接池就发挥作用了</p>
-<p>连接池的原理是, 通过预先创建多个连接, 当进行 redis 操作时, 直接获取已经创建的连接进行操作, 而且操作完成后, 不会释放, 用于后续的其它 redis 操作</p>
-<p>这样就达到了避免频繁的 redis 连接创建和释放的目的, 从而提高性能了</p>
-
-    <nav class="md-post__action">
-      <a href="../../2023/11/02/pythonredismd/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/java/" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="redis"><a class="toclink" href="../../2023/11/02/redis/">redis分布式锁的实现</a></h2>
-<p>Java 版本的基于Jedis 的 Redis 分布式锁实现</p>
-
-    <nav class="md-post__action">
-      <a href="../../2023/11/02/redis/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/java/" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="_1"><a class="toclink" href="../../2023/11/01/androidstudiosdk/">前言</a></h2>
-<p>公司最近要搞一个安卓的SDK，需要我这边搞一下，由于之前没接触过安卓和Gradle，所以过程中遇到了需要问题，因此记录，总结经验。</p>
-<h2 id="1-sdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#1-sdk">1. 关于SDK的打包类型的一些介绍</a></h2>
-<p>对于SDK来说，其实就是一个辅助工具库，我们可以打成 jar，或者打包成 aar，</p>
-<ul>
-<li>jar: 包只包含了classes文件，不包含资源文件；</li>
-<li>aar: 不仅包含了classes文件，还包含资源文件,并且，aar的这个可以发布到maven库，然后使用者直接通过更改版本号就可以获取到最新的aar文件</li>
-</ul>
-<p>打包之后生成的文件地址：</p>
-<ul>
-<li>*.jar 通常生成的目录如下位置，但又不是绝对，我的项目就不是，现在没有考究这个问题</li>
-</ul>
-<div class="highlight"><pre><span></span><code>/build/intermediates/bundles/debug<span class="o">(</span>release<span class="o">)</span>/classes.jar
-</code></pre></div>
-<p>*.aar 目录一般就在如下目录</p>
-<div class="highlight"><pre><span></span><code>/build/outputs/aar/libraryname.aar
-</code></pre></div>
-<h2 id="2-sdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#2-sdk">2. 开始创建SDK工程</a></h2>
-<h4 id="211-appsdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#211-appsdk">2.1.1. app应用也可以直接打包成SDK，可以参考文章</a></h4>
-<p>https://blog.csdn.net/u012556114/article/details/107453116</p>
-<h4 id="212-sdk"><a class="toclink" href="../../2023/11/01/androidstudiosdk/#212-sdk">2.1.2. 开始创建SDK工程</a></h4>
-<ol>
-<li>正常情况下，是使用新建module开始创建SDK
-<img alt="image-20231101153628527" src="https://fastly.jsdelivr.net/gh/byronlau/imgs/doc/image-20231101153628527.png" /></li>
-</ol>
-<p><img alt="img" src="https://cdn.nlark.com/yuque/0/2023/png/28895228/1686040861082-290c991f-35d6-4f95-ae6c-4d3cf01dd030.png" /></p>
-<p>创建后的项目结构如下</p>
-<p><img alt="img" src="https://cdn.nlark.com/yuque/0/2023/png/28895228/1686041222104-17ba40f3-a6fc-4506-aa01-108dd39a2c2d.png" /></p>
-<ul>
-<li>libs: 存放第三方依赖的位置</li>
-<li>src/java: 工程代码目录</li>
-<li>AnddroidManifest.xml : 是 Android 应用程序的清单文件，它位于应用程序的根目录下。清单文件用于描述应用程序的整体结构和特性，以及声明应用程序所需的权限、组件、服务、权限等信息。</li>
-<li>build.gradle: </li>
-</ul>
-<script src="https://giscus.app/client.js"
-    data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKkfaDQ"
-    data-mapping="number"
-    data-term="7"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    crossorigin="anonymous"
-    async>
-</script>
-    <nav class="md-post__action">
-      <a href="../../2023/11/01/androidstudiosdk/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
       
         
           
@@ -2570,7 +2633,7 @@
 
 
 <nav class="md-pagination">
-  <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__current">2</span> <a class="md-pagination__link" href="../3/">3</a> <a class="md-pagination__link" href="../4/">4</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../8/">8</a>
+  <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__current">2</span> <a class="md-pagination__link" href="../3/">3</a> <a class="md-pagination__link" href="../4/">4</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../11/">11</a>
 </nav>
         
       
@@ -2612,13 +2675,13 @@
         
         
           
-          <a href="../../category/db/" class="md-footer__link md-footer__link--next" aria-label="下一页: DB">
+          <a href="../../category/sundry/" class="md-footer__link md-footer__link--next" aria-label="下一页: Sundry">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                DB
+                Sundry
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -13,8 +13,8 @@
     <language>en-None</language>
 
     
-    <pubDate>Thu, 02 Nov 2023 05:02:27 -0000</pubDate>
-    <lastBuildDate>Thu, 02 Nov 2023 05:02:27 -0000</lastBuildDate>
+    <pubDate>Thu, 02 Nov 2023 10:20:02 -0000</pubDate>
+    <lastBuildDate>Thu, 02 Nov 2023 10:20:02 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,17 +32,47 @@
     
     
     <item>
-      <title>Sundry</title>
+      <title>Java</title>
       
       
       
       
-      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/sundry/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/page/5/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/2/</guid>
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/page/4/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/page/3/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/3/</guid>
       
     </item>
     
@@ -54,10 +84,25 @@
       
       <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/java/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Python&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/python/page/2/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/python/page/2/</guid>
       
     </item>
     
@@ -69,10 +114,100 @@
       
       <description>&lt;h1&gt;DB&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/db/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/db/page/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sundry</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/sundry/page/4/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sundry</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/sundry/page/3/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sundry</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/sundry/page/2/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/archive/2023/page/11/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/11/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/archive/2023/page/10/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/10/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/archive/2023/page/9/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/9/</guid>
       
     </item>
     
@@ -84,7 +219,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/8/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/8/</guid>
@@ -99,7 +234,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/7/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/7/</guid>
@@ -114,7 +249,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/6/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/6/</guid>
@@ -129,7 +264,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/5/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/5/</guid>
@@ -144,7 +279,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/4/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/4/</guid>
@@ -159,7 +294,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/3/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/3/</guid>
@@ -174,7 +309,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/2/</guid>
@@ -188,8 +323,53 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/page/11/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/11/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/page/10/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/10/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/page/9/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/9/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/8/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/8/</guid>
@@ -204,7 +384,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/7/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/7/</guid>
@@ -219,7 +399,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/6/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/6/</guid>
@@ -234,7 +414,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/5/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/5/</guid>
@@ -249,7 +429,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/4/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/4/</guid>
@@ -264,7 +444,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/3/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/3/</guid>
@@ -279,7 +459,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/2/</guid>
@@ -294,7 +474,7 @@
       
       <description>&lt;h1&gt;NoDB&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/nodb/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/nodb/</guid>
@@ -309,7 +489,7 @@
       
       <description>&lt;h1&gt;Frontend&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/frontend/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/frontend/</guid>
@@ -324,25 +504,10 @@
       
       <description>&lt;h1&gt;Go&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/go/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/go/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Sundry</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/sundry/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/</guid>
       
     </item>
     
@@ -354,7 +519,7 @@
       
       <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/java/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/</guid>
@@ -369,7 +534,7 @@
       
       <description>&lt;h1&gt;Python&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/python/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/python/</guid>
@@ -384,10 +549,25 @@
       
       <description>&lt;h1&gt;DB&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/db/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/db/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sundry</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/sundry/</link>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/</guid>
       
     </item>
     
@@ -399,7 +579,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/</link>
-      <pubDate>Thu, 02 Nov 2023 05:02:29 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/</guid>
@@ -457,7 +637,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;致谢&lt;/h2&gt;
-&lt;p&gt;本知识库受 Openbiox &lt;a href=&#34;https://github.com/openbiox/weekly&#34;&gt;《生信爱好者周刊》&lt;/a&gt;启发开始使用 &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/&#34;&gt;Material for MkDocs&lt;/a&gt; 进行部署。&lt;/p&gt;
+&lt;p&gt;本知识库受 Openbiox &lt;a href=&#34;https://doc.weiyan.cc/&#34;&gt;维燕的知识花园&lt;/a&gt;启发开始使用 &lt;a href=&#34;https://squidfunk.github.io/mkdocs-material/&#34;&gt;Material for MkDocs&lt;/a&gt; 进行部署。&lt;/p&gt;
 &lt;p&gt;感谢 &lt;a href=&#34;https://github.com/LetTTGACO&#34;&gt;LetTTGACO&lt;/a&gt; 提供的 &lt;a href=&#34;https://elog.1874.cool/&#34;&gt;Elog&lt;/a&gt; 工具，提供了一个可以从语雀到本平台的优雅同步方案。&lt;/p&gt;
 &lt;h2&gt;赞赏&lt;/h2&gt;
 &lt;p&gt;如果你觉得到本知识库对你有帮助，欢迎赞赏，有你的支持，我们一定会越来越好！&lt;/p&gt;
@@ -466,7 +646,7 @@
 &lt;figcaption&gt;Random acts of kindness.&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
       <link>https://doc.mgd2008.com/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/</guid>
@@ -482,7 +662,7 @@
       <description>&lt;p&gt;语雀，是一个非常优秀的文档和知识库工具，也曾经是个人知识和文档记录的一个非常重要的平台。但由于工作和其他的一些原因，逐渐从语雀转移到了 GitHub，作为历史文章的一个备份，你可以通过下面的链接访问我的语雀花园主页，感谢你的支持，我们一定会越来越好！&lt;/p&gt;
 &lt;p align=center&gt;&lt;b&gt;&lt;a href=&#34;https://www.yuque.com/byronlau&#34; target=&#34;_blank&#34;&gt;www.yuque.com/byronlau&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/YUQUE/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/YUQUE/</guid>
@@ -498,7 +678,7 @@
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;
 &lt;p&gt;这是首发于 GitHub Discussion/Issues，并定期同步更新至 Material for MkDocs 上的博客文章。&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/blog/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/</guid>
@@ -513,7 +693,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</guid>
@@ -528,7 +708,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</guid>
@@ -543,7 +723,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</guid>
@@ -558,7 +738,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</guid>
@@ -573,7 +753,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</guid>
@@ -588,7 +768,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</guid>
@@ -603,7 +783,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</guid>
@@ -618,7 +798,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
@@ -633,7 +813,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
@@ -648,7 +828,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
@@ -663,7 +843,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</guid>
@@ -678,7 +858,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</guid>
@@ -693,7 +873,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</guid>
@@ -708,7 +888,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</guid>
@@ -723,7 +903,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</guid>
@@ -738,7 +918,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</guid>
@@ -753,7 +933,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</guid>
@@ -768,7 +948,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</guid>
@@ -783,7 +963,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</guid>
@@ -798,7 +978,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</guid>
@@ -813,7 +993,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/</guid>
@@ -828,7 +1008,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</guid>
@@ -843,10 +1023,36 @@
       
       <description>&lt;p&gt;本文件于 2023-07-19 21:51:59 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/css/</link>
-      <pubDate>Thu, 02 Nov 2023 05:01:52 +0000</pubDate>
+      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/css/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Nginx try_files的作用</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;今天遇到了一个问题，部署的应用test.zxj.com， 直接访问域名可以跳转到登录页(test.zxj.com/login)，但是在登录页一点刷新页面，或者直接在地址栏输入test.zxj.com/login，就访问不到。&lt;/p&gt;
+&lt;p&gt;问题的原因就是nginx的配置中没有配try_files。
+&lt;code&gt;nginx
+location / {  
+  root   /opt/atp/dist;  
+  index  index.html index.htm;  
+  try_files $uri $uri/ /index.html;
+}&lt;/code&gt;&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/nginx-try_files/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/nginx-try_files/</guid>
       
     </item>
     
@@ -994,6 +1200,127 @@ create or replace function inet_aton(ip text) returns int8 as $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>SpringBoot自带了一个轻量级的HTTP客户端工具</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;Spring Boot自带了一个轻量级的HTTP客户端工具，该工具基于Java的标准HTTP库  &lt;code&gt;java.net.URLConnection&lt;/code&gt;。您可以使用它来发送HTTP请求并与外部的HTTP资源进行通信。&lt;/p&gt;
+&lt;p&gt;下面是使用Spring Boot默认的HTTP工具进行HTTP请求的基本示例：
+``` java 
+import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;&lt;/p&gt;
+&lt;p&gt;public class HttpClientExample {
+    public static void main(String[] args) {
+        RestTemplate restTemplate = new RestTemplateBuilder().build();&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    // 发送GET请求
+    ResponseEntity&amp;lt;String&amp;gt; response = restTemplate.getForEntity(&#34;https://api.example.com/users&#34;, String.class);
+    System.out.println(response.getBody());
+
+    // 发送POST请求
+    String requestBody = &#34;{\&#34;username\&#34;: \&#34;test\&#34;, \&#34;password\&#34;: \&#34;123456\&#34;}&#34;;
+    ResponseEntity&amp;lt;String&amp;gt; postResponse = restTemplate.postForEntity(&#34;https://api.example.com/login&#34;, requestBody, String.class);
+    System.out.println(postResponse.getBody());
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```
+上述代码中使用了RestTemplate类来发送HTTP请求。您可以使用getForEntity()发送GET请求，postForEntity()发送POST请求等。这里的请求URL可以根据您的实际需求进行修改。&lt;/p&gt;
+&lt;p&gt;请注意，从Spring 5.0版本开始，RestTemplate已经被宣布为过时，并在将来的Spring版本中将被移除。官方推荐使用WebClient作为替代方案，它提供了更先进的异步非阻塞特性。因此，如果您使用的是较新的Spring Boot版本，可以考虑使用WebClient类来发送HTTP请求。
+``` java 
+import org.springframework.web.reactive.function.client.WebClient;&lt;/p&gt;
+&lt;p&gt;public class HttpClientExample {
+    public static void main(String[] args) {
+        WebClient client = WebClient.create();&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    // 发送GET请求
+    client.get()
+            .uri(&#34;https://api.example.com/users&#34;)
+            .retrieve()
+            .bodyToMono(String.class)
+            .subscribe(System.out::println);
+
+    // 发送POST请求
+    String requestBody = &#34;{\&#34;username\&#34;: \&#34;test\&#34;, \&#34;password\&#34;: \&#34;123456\&#34;}&#34;;
+    client.post()
+            .uri(&#34;https://api.example.com/login&#34;)
+            .bodyValue(requestBody)
+            .retrieve()
+            .bodyToMono(String.class)
+            .subscribe(System.out::println);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```
+在此示例中，我们使用WebClient类来发送GET和POST请求。.uri()方法用于设置请求的URL，.retrieve()用于发起请求，.bodyToMono()用于解析响应体的内容。&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;45&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/springboothttp/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboothttp/</guid>
+      
+    </item>
+    
+    <item>
+      <title>SpringBoot静态资源处理</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;在web开发中，静态资源的访问是必不可少的，如：图片、js、css 等资源的访问。
+spring Boot 对静态资源访问提供了很好的支持，基本使用默认配置就能满足开发需求。&lt;/p&gt;
+&lt;h2&gt;一、默认静态资源映射&lt;/h2&gt;
+&lt;p&gt;Spring Boot 对静态资源映射提供了默认配置&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Springboot 使用 Quartz 对任务进行简单调度</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;Quartz 的简单介绍和使用&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;Quartz&lt;/code&gt; 是一个开源的 &lt;code&gt;Java&lt;/code&gt; 调度框架，可以用来实现在指定的时间或时间间隔触发任务执行的功能。以下是使用 &lt;code&gt;Quartz&lt;/code&gt; 的主要方式和基本概念。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot-quartz/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot-quartz/</guid>
+      
+    </item>
+    
+    <item>
       <title>Springboot传值报错Parameter&#39;arg0&#39;notfound.Availableparametersare[username,param1,param2</title>
       
       
@@ -1014,6 +1341,47 @@ public int isUserExists(String username,String password);&lt;/code&gt;
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springbootparameterarg0notfoundavailableparametersareusernameparam1param2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Springboot配置文件中spring.mvc.static-path-pattern配置项</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;Springboot项目中的静态资源文件存放在static文件下面，当通过浏览器访问这些静态文件时，发现必须要添加static作为前缀才能访问，折腾了一番后发现，这个前缀跟 spring.mvc.static-path-pattern 这个配置项有关。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;spring:
+  mvc:    static-path-pattern: /static/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;项目中application.yml配置文件中，存在如上配置项时，访问静态资源文件要加static才行，当把这个配置项除掉时，不用加static作为前缀亦可进行正常访问。&lt;img alt=&#34;image (https://fastly.jsdelivr.net/gh/byronlau/imgs/doc/202307091688879498890392.png).png&#34; src=&#34;https://blog.mgd2008.com/zb_users/upload/2023/07/202307091688879498890392.png&#34;&gt;当spring boot自动装配 org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration，当执行到org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#addResourceHandlers方法时，类org.springframework.boot.autoconfigure.web.WebMvcProperties#staticPathPattern的默认值为 &#34;/&lt;/strong&gt;&#34;。如果配置项文件中存在spring.mvc.static-path-pattern 配置项，默认的配置项将会被覆盖。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/springbootspringmvcstatic-path-pattern/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springbootspringmvcstatic-path-pattern/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntussh无法连接问题排查</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;今天我的Ubuntu Linux 笔记本突然别人ssh 无法登录，查看防火墙是关闭状态，并且端口我也开放22了，但就是连不上。后边我突发奇想使用宝塔登录进去看一下，结果宝塔报错如下。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/ubuntussh/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/ubuntussh/</guid>
       
     </item>
     
@@ -1079,6 +1447,366 @@ public int isUserExists(String username,String password);&lt;/code&gt;
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/redis/</guid>
+      
+    </item>
+    
+    <item>
+      <title>springboot最多能接受多少请求</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.mgd2008.com/zb_users/upload/2023/07/202307211689904705189813.pdf&#34;&gt;springboot 最多能接受多少请求.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;引用公众号文章 https://mp.weixin.qq.com/s/Ls__3wVmKXI7ZuDlBP7yLQ&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;44&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot/</guid>
+      
+    </item>
+    
+    <item>
+      <title>什么是秒拨IP</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.hackdig.com/06/hack-699244.htm&#34;&gt;黑产基础设施：秒拨IP&lt;/a&gt;&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;57&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/ip/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/ip/</guid>
+      
+    </item>
+    
+    <item>
+      <title>使用Nginx后获取用户IP，以及防止伪造IP</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;h2&gt;问题背景&lt;/h2&gt;
+&lt;p&gt;在实际应用中，我们可能需要获取用户的ip地址，比如做异地登陆的判断，或者统计ip访问次数等，通常情况下我们使用request.getRemoteAddr()就可以获取到客户端ip，但是当我们使用了nginx作为反向代理后，使用request.getRemoteAddr()获取到的就一直是nginx服务器的ip的地址，那这时应该怎么办？&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/nginxipip/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/nginxipip/</guid>
+      
+    </item>
+    
+    <item>
+      <title>使用Nginx对URI进行分别访问</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;h2&gt;问题&lt;/h2&gt;
+&lt;p&gt;公司做了两套系统 PC 端和移动端网站，最近做了&lt;code&gt;Nginx&lt;/code&gt;根据设备标识是否是手机进行 pc 域名 &lt;code&gt;www&lt;/code&gt; 跳转 移动端域名 m ，配置切换后，导致一些资源丢失，经过排查出现这个问题的原因如下&lt;/p&gt;
+&lt;h2&gt;原因&lt;/h2&gt;
+&lt;p&gt;因为手机端适配 PC 页面，有些页面没有开发，移动端内直接使用&lt;code&gt;www&lt;/code&gt; 进行访问， 在切换设配标识配置后，多次重定向，最终 使用移动端域名访问了没有适配的 URI，因为没有适配，资源访问出现&lt;code&gt;404&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;解决方法&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;www&lt;/code&gt; 根据设备标识跳转&lt;code&gt;m&lt;/code&gt; 保留&lt;/li&gt;
+&lt;li&gt;因为接口数据来源可以使用&lt;code&gt;www&lt;/code&gt;PC 端，因此&lt;code&gt;m&lt;/code&gt; 中加入根据&lt;code&gt;URI&lt;/code&gt; 进行逻辑判断，未做适配的走&lt;code&gt;www&lt;/code&gt; 的 IP:port 访问，其余的走&lt;code&gt;m&lt;/code&gt; 的 IP:port 访问，具体实施如下&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;ww.conf&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nginx
+if ($http_user_agent ~* (mobile|nokia|iphone|ipad|android|samsung|htc|blackberry)) {
+     rewrite  ^(.*)    http://m.byron.com$1 permanent;
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;m.conf&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nginx
+location / {  
+    if ($uri !~ ^/$|^/a/b\?c=d$|^/e$|^/f/g$|^/h/.+) { 
+        proxy_pass http://127.0.0.1:8000;  
+        break;  
+    }    
+    proxy_pass http://http://127.0.0.1:8008;
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;临时性的解决方法，最终还是要把工程完善，才对。&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;51&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/nginxuri/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/nginxuri/</guid>
+      
+    </item>
+    
+    <item>
+      <title>使用Stream 中的Collectors.toMap() 进行分组</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;code&gt;Collectors.toMap(CallCenterInfo::getType, Function.identity(), (existing, replacement) -&amp;gt; existing)&lt;/code&gt; 是使用 Java 8 中的流式操作的 &lt;code&gt;Collectors&lt;/code&gt; 类的一个静态方法，用于将流中的元素映射到一个 &lt;code&gt;Map&lt;/code&gt; 对象中。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/stream-collectorstomap/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/stream-collectorstomap/</guid>
+      
+    </item>
+    
+    <item>
+      <title>使用python实现钉钉群告警通知.md</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;pass&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;52&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/pythonmd/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/pythonmd/</guid>
+      
+    </item>
+    
+    <item>
+      <title>使用rename命令来实现批量替换当前目录下文件名中的某个字符串</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;在Linux中，你可以使用rename命令来实现批量替换当前目录下文件名中的某个字符串。下面是一些示例命令:&lt;/p&gt;
+&lt;p&gt;将文件名中的特定字符串替换为空格:
+&lt;code&gt;bash
+rename &#39;s/特定字符串/ /g&#39; *&lt;/code&gt;
+将文件名中的特定字符串替换为其他字符串:
+&lt;code&gt;bash
+rename &#39;s/特定字符串/替换字符串/g&#39; *&lt;/code&gt;&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/rename/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/rename/</guid>
+      
+    </item>
+    
+    <item>
+      <title>去除html的p和其它标签，获取纯文本</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;如果 &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; 标签中包含了样式（style）属性，并且你想要去除这些样式。&lt;/p&gt;
+&lt;p&gt;首先，我们需要将正则表达式模式修改为匹配包含 style 属性的标签。可以使用&lt;code&gt;&amp;lt;p.*?&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;span.*?&amp;gt;&lt;/code&gt; 这样就能匹配到带有样式属性的标签了。&lt;/p&gt;
+&lt;p&gt;其次，在处理文本片段之前，我们需要将样式属性从标签中移除。可以使用正则表达式的 replaceAll 方法，并传入 style=&#34;[^&#34;]*&#34; 作为要替换的模式。这个模式将匹配到 style=&#34; 开头，紧接着是零个或多个非双引号字符（样式属性值），最后以 &#34; 结尾的字符串。将它们替换为空字符串即可移除样式属性。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/htmlp/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/htmlp/</guid>
+      
+    </item>
+    
+    <item>
+      <title>引入自定义springboot的starter后却找不到相关的类（BOOT-INF文件夹的坑）</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;自定义的starter是不能有启动入口的！即：只能作为工具类！类似jdk！  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不要把自定义的pom写成了一个可启动的项目哈！  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不然install后是引用不到自定义的starter里面的类的！！！  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可对比install后的web项目 和 install后的工具类pom ， 生成的jar文件的目录结构是不同的哈！！！  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/springbootstarterboot-inf/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springbootstarterboot-inf/</guid>
+      
+    </item>
+    
+    <item>
+      <title>根据列表中设置的字段自定义排序</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;排序是一个很常见的功能，有根据大小正排序，也有逆排序，但有时候需要根据自定义的字段顺序进行排序，下边就是一中方法。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/</guid>
+      
+    </item>
+    
+    <item>
+      <title>编写Pythonyaml和Json中出现的问题</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;h1&gt;How do I convert a python list to simple YAML?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/30778134/how-do-i-convert-a-python-list-to-simple-yaml&#34;&gt;[How do I convert a python list to simple YAML?](https://stackoverflow.com/questions/30778134/how-do-i-convert-a-python-list-to-simple-yaml)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;您必须将以下参数设置为转储功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;explicit_start=True对于---输出的开头。&lt;/li&gt;
+&lt;li&gt;default_flow_style=False打印每行中分隔的项目。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;python
+import yaml
+a = [&#39;item 1&#39;,&#39;item 2&#39;,&#39;item 3&#39;,&#39;item 4&#39;]yaml.dump(a, explicit_start=True, default_flow_style=False)&lt;/code&gt;&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/pythonyamljson/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/pythonyamljson/</guid>
+      
+    </item>
+    
+    <item>
+      <title>记一次AndroidSDK开发经验</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;h2&gt;libs 引入第三方包，build.gradle 的写法&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;gradle
+dependencies {
+    implementation fileTree(dir: &#39;libs&#39;,includes: [&#39;.jar&#39;,&#39;.aar&#39;])
+}&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Android 异常 android.os.NetworkOnMainThreadException&lt;/h2&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/androidsdk/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/androidsdk/</guid>
+      
+    </item>
+    
+    <item>
+      <title>记录一次jackson映射实体类出现的问题</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;在一次使用 &lt;strong&gt;jackson&lt;/strong&gt; 进行对象转JSON字符串的过程中，发现JSON每次都是空，即空的JSON对象 &lt;code&gt;{}&lt;/code&gt;，经过排查是由于之前在使用的时候没有给对象添加set方法:&lt;/p&gt;
+&lt;p&gt;字段的访问器方法不符合Java Bean 规范：&lt;code&gt;ObjectMapper&lt;/code&gt;默认使用Java Bean 规范来访问对象的字段和属性。简单来说，实体类对象要有get、set 方法。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/02/jackson/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/jackson/</guid>
       
     </item>
     
@@ -2812,262 +3540,10 @@ transaction.del(&#34;key3&#34;);
       
       
       
-      <description>&lt;p&gt;&lt;ne-clipboard data=&#34;%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u998f5b74%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u211f5ad0%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22success%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf6ac250a%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u5f760007%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%9C%A8%E5%AE%9E%E9%99%85%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B%E4%B8%AD%EF%BC%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E6%93%8D%E4%BD%9C%E9%83%BD%E8%A6%81%E6%B6%89%E5%8F%8A%E5%88%B0%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E7%9A%84%E4%BC%A0%E9%80%92%EF%BC%8C%E4%BB%8A%E5%A4%A9%E8%BF%99%E8%8A%82%E5%B0%B1%E9%9B%86%E4%B8%AD%E8%AE%B2%E4%B8%8B%E5%9C%A8mybatis%E4%B8%AD%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%E7%9A%847%E4%B8%AD%E6%96%B9%E6%B3%95%22%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ua0970ab9%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue263be04%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%8D%95%E4%B8%AA%E5%8F%82%E6%95%B0%E7%9A%84%E4%BC%A0%E9%80%92%E5%BE%88%E7%AE%80%E5%8D%95%E6%B2%A1%E6%9C%89%E4%BB%80%E4%B9%88%E5%A5%BD%E5%B0%86%E7%9A%84%EF%BC%8C%E8%BF%99%E9%87%8C%E4%B8%BB%E8%A6%81%E8%AF%B4%E4%B8%8B%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E7%9A%84%E4%BC%A0%E9%80%92%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%226fb4d9c5%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8ddb7fd3%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%96%B9%E5%BC%8F%20%E5%8C%BF%E5%90%8D%E5%8F%82%E6%95%B0%20%E9%A1%BA%E5%BA%8F%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u68caecc8%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u872dfc3c%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22controller%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4d0d719e%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22a47b958a%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40ApiOperation(value%20%3D%20%5C%22%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%9F%A5%E8%AF%A2_%E5%8C%BF%E5%90%8D%E9%A1%BA%E5%BA%8F%E4%BC%A0%E5%8F%82%5C%22)%5Cn%40GetMapping(%5C%22findByParams%5C%22)%5Cnpublic%20ResultMsg%20findByParams(Short%20gender%2CString%20age)%5Cn%7B%5Cn%20%20%20%20List%20result%3D%20employeeMapper.selectByGenderAndAge(gender%2Cage)%3B%5Cn%20%20%20%20return%20ResultMsg.getMsg(result)%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc3316dfe%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u8263a99f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22mapper%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u07279d0c%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22e1aad140%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22List%3CEmployee%3E%20selectByGenderAndAge(Short%20gender%2CString%20age%20)%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u785750de%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3d1ecc70%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22xml%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uad1cbfc6%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%2223ce50e4%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%3Cselect%20id%3D%5C%22selectByGenderAndAge%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20%3E%5Cn%20%20select%20*%20from%20employee%20where%20gender%20%3D%20%23%7Bgender%7D%20and%20age%20%3D%20%23%7Bage%7D%5Cn%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ubccf6342%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u1f41ea02%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E6%B3%A8%E6%84%8F%E8%BF%99%E9%87%8C%E6%8C%89%E5%8F%82%E6%95%B0%E5%90%8D%E5%8E%BB%E5%BC%95%E7%94%A8%E7%9A%84%E8%AF%9D%E4%BC%9A%E6%8A%A5%E5%A6%82%E4%B8%8B%E9%94%99%E8%AF%AF%EF%BC%8Cmybatis%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA%E5%BE%88%E7%BB%86%E8%87%B4%EF%BC%8C%E8%BF%99%E9%87%8C%E6%98%8E%E7%A1%AE%E7%BB%99%E6%88%91%E4%BB%AC%E6%8F%90%E7%A4%BA%EF%BC%8C%E5%8C%BF%E5%90%8D%E5%8F%82%E6%95%B0%E5%8F%AA%E8%83%BD%E4%BD%BF%E7%94%A8arg1%2C%20arg0%2C%20param1%2C%20param2%20%E7%B1%BB%E4%BC%BC%E7%9A%84%E5%BD%A2%E5%BC%8F%E8%BF%99%E7%A7%8D%E4%BC%A0%E5%8F%82%E6%96%B9%E5%BC%8F%E7%9A%84%E7%BC%BA%E7%82%B9%E6%98%AF%E4%B8%8D%E5%A4%9F%E7%81%B5%E6%B4%BB%EF%BC%8C%E5%BF%85%E9%A1%BB%E4%B8%A5%E6%A0%BC%E6%8C%89%E7%85%A7%E5%8F%82%E6%95%B0%E9%A1%BA%E5%BA%8F%E6%9D%A5%E5%BC%95%E7%94%A8%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9b36410a%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22c74e08f8%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22BindingException%3A%20Parameter%20&amp;#39;gender&amp;#39;%20not%20found.%20Available%20parameters%20are%20%5Barg1%2C%20arg0%2C%20param1%2C%20param2%5D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u7a9d7166%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u08a04386%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue2d0f830%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E6%89%80%E4%BB%A5%E6%AD%A3%E7%A1%AE%E7%9A%84%E5%BC%95%E7%94%A8%E6%96%B9%E5%BC%8F%E5%A6%82%E4%B8%8B%EF%BC%9A%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u761468ed%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22390244b9%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%20%3Cselect%20id%3D%5C%22selectByGenderAndAge%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20%3E%5Cn%20%20%20%20select%20*%20%20from%20employee%20where%20gender%20%3D%20%23%7Bparam1%7D%20and%20age%20%3D%20%23%7Bparam2%7D%5Cn%20%20%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1a33ba43%22%2C%22name%22%3A%22alertHole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf5ff7f92%22%2C%22name%22%3A%22alert%22%2C%22attrs%22%3A%7B%22type%22%3A%22danger%22%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u455800d4%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3bb7947f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22mybatis%E4%BB%8E3.4.1%E5%BC%80%E5%A7%8B%E6%94%AF%E6%8C%81java%208%20%E7%9A%84%E5%8F%8D%E5%B0%84%E8%8E%B7%E5%8F%96%E5%85%A5%E5%8F%82%E5%90%8D%E4%BA%86%EF%BC%8C%E6%89%80%E4%BB%A5%E5%85%A5%E5%8F%82%E4%B8%8D%E5%86%8D%E6%98%AFarg0%EF%BC%8Carg1%E4%BA%86%EF%BC%8C%E4%B8%8D%E8%BF%87%E4%BB%8D%E7%84%B6%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8param1%EF%BC%8Cparam2%E7%9A%84%E8%BF%99%E7%A7%8D%E5%BD%A2%E5%BC%8F%EF%BC%8C%E5%9C%A8java8%20%E7%BC%96%E8%AF%91%E6%97%B6%E6%8C%87%E5%AE%9A%20-parameters%20%E9%80%89%E9%A1%B9%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8%23%7Busername%7D%20%23%7Bpassword%7D%EF%BC%8C%E8%80%8C%E4%B8%8D%E7%94%A8%E6%94%B9%E5%8F%98%E4%BD%A0%E7%9A%84%E6%8E%A5%E5%8F%A3%E5%85%A5%E5%8F%82%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uaf982c74%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%8F%82%E8%80%83mybatis3.4.1%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97%EF%BC%9A%22%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u200f7e4d%22%2C%22name%22%3A%22link%22%2C%22attrs%22%3A%7B%22src%22%3A%22https%3A%2F%2Fgithub.com%2Fmybatis%2Fmybatis-3%2Freleases%2Ftag%2Fmybatis-3.4.1%22%2C%22external%22%3Atrue%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u120c5286%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22https%3A%2F%2Fgithub.com%2Fmybatis%2Fmybatis-3%2Freleases%2Ftag%2Fmybatis-3.4.1%22%7D%5D%7D%5D%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22040501e3%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue7c781f9%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%222.%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E5%BC%8F%20%E4%BD%BF%E7%94%A8%40Param%E6%B3%A8%E8%A7%A3%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1a7af652%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u63ed2e2d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22controller%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6771534f%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%226b4923ab%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40ApiOperation(value%20%3D%20%5C%22%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%9F%A5%E8%AF%A2_%E6%B3%A8%E8%A7%A3%E6%96%B9%E5%BC%8F%E4%BC%A0%E5%8F%82%5C%22)%5Cn%40GetMapping(%5C%22findByParams2%5C%22)%5Cnpublic%20ResultMsg%20findByParams2(Short%20gender%2CString%20age)%5Cn%7B%5Cn%20%20%20%20List%20result%3D%20employeeMapper.selectByGenderAndAge2(gender%2Cage)%3B%5Cn%20%20%20%20return%20ResultMsg.getMsg(result)%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u8310bec4%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua16a4e67%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22mapper%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6033365e%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ua6f2ccbf%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u47339327%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E4%BD%BF%E7%94%A8%40Param%E6%B3%A8%E8%A7%A3%E6%98%BE%E7%A4%BA%E7%9A%84%E5%91%8A%E8%AF%89mybatis%E5%8F%82%E6%95%B0%E7%9A%84%E5%90%8D%E5%AD%97%EF%BC%8C%E8%BF%99%E6%A0%B7%E5%9C%A8xml%E4%B8%AD%E5%B0%B1%E5%8F%AF%E4%BB%A5%E6%8C%89%E7%85%A7%E5%8F%82%E6%95%B0%E5%90%8D%E5%8E%BB%E5%BC%95%E7%94%A8%E4%BA%86%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufeb1d210%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%2204054b55%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22List%3CEmployee%3E%20selectByGenderAndAge(%20%40Param(%5C%22gender%5C%22)%20Short%20gender%2C%40Param(%5C%22age%5C%22)%20String%20age%20)%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22udd607c51%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u9e00fb71%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22xml%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ua357bc39%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%2223ce50e4-1%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%3Cselect%20id%3D%5C%22selectByGenderAndAge%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20%3E%5Cn%20%20select%20*%20from%20employee%20where%20gender%20%3D%20%23%7Bgender%7D%20and%20age%20%3D%20%23%7Bage%7D%5Cn%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22b56a6a3f%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ubcdb98f5%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.%E4%BD%BF%E7%94%A8Map%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf13da41d%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua6075b0b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%AE%9E%E9%99%85%E5%BC%80%E5%8F%91%E4%B8%AD%E4%BD%BF%E7%94%A8map%E6%9D%A5%E4%BC%A0%E9%80%92%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%98%AF%E4%B8%80%E7%A7%8D%E6%8E%A8%E8%8D%90%E7%9A%84%E6%96%B9%E5%BC%8F%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufe970ae3%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ud7bb97ef%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22controller%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ud67bb7c0%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%2229853ad7%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40ApiOperation(value%20%3D%20%5C%22%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%9F%A5%E8%AF%A2%5C%22)%5Cn%40GetMapping(%5C%22findByMapParams%5C%22)%5Cnpublic%20ResultMsg%20findByMapParams(Short%20gender%2CString%20age)%5Cn%7B%5Cn%20%20%20%20Map%20params%20%3D%20new%20HashMap%3C%3E()%3B%5Cn%20%20%20%20params.put(%5C%22gender%5C%22%2Cgender)%3B%5Cn%20%20%20%20params.put(%5C%22age%5C%22%2Cage)%3B%5Cn%20%20%20%20List%20result%3D%20employeeMapper.selectByMapParams(params)%3B%5Cn%20%20%20%20return%20ResultMsg.getMsg(result)%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ud9f328d2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u4bf68f7a%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22mapper%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0751262f%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22a4eef6b5%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22List%3CEmployee%3E%20selectByMapParams(Map%20params)%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u87ca3aa9%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua6bce002%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22xml%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u010b00dc%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u4c01ad64%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E4%BD%BF%E7%94%A8map%E6%9D%A5%E4%BC%A0%E9%80%92%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8%E5%8F%82%E6%95%B0%E5%90%8D%E7%A7%B0%E8%BF%9B%E8%A1%8C%E5%BC%95%E7%94%A8%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6f40d5c1%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22496c0e9d%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%3Cselect%20id%3D%5C%22selectByMapParams%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20parameterType%3D%5C%22map%5C%22%3E%5Cn%20%20select%20*%20from%20employee%20where%20gender%20%3D%20%23%7Bgender%7D%20and%20age%20%3D%20%23%7Bage%7D%5Cn%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%2200518980%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua83bf512%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%224.%E7%94%A8%E8%BF%87java%20bean%E4%BC%A0%E9%80%92%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u3bf94536%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ud9e59a1f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E4%B9%9F%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8bean%E7%9A%84%E6%96%B9%E5%BC%8F%E6%9D%A5%E4%BC%A0%E9%80%92%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%EF%BC%8C%E4%BD%BF%E7%94%A8%E6%97%B6parameterType%E6%8C%87%E5%AE%9A%E4%B8%BA%E5%AF%B9%E5%BA%94%E7%9A%84bean%E7%B1%BB%E5%9E%8B%E5%8D%B3%E5%8F%AF%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6670a241%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u3fd6f092%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3316439c%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E8%BF%99%E5%B0%B1%E4%BC%A0%E5%8F%82%E6%96%B9%E5%BC%8F%E7%9A%84%E4%BC%98%E7%82%B9%E6%98%AF%E6%AF%94%E8%BE%83%E6%96%B9%E4%BE%BF%EF%BC%8Ccontroller%E5%B1%82%E4%BD%BF%E7%94%A8%40RequestBody%E6%8E%A5%E6%94%B6%E5%88%B0%E5%AE%9E%E4%BD%93%E7%B1%BB%E5%8F%82%E6%95%B0%E5%90%8E%EF%BC%8C%E7%9B%B4%E6%8E%A5%E4%BC%A0%E9%80%92%E7%BB%99mapper%E5%B1%82%E8%B0%83%E7%94%A8%E5%8D%B3%E5%8F%AF%EF%BC%8C%E4%B8%8D%E9%9C%80%E8%A6%81%E5%9C%A8%E8%BF%9B%E8%A1%8C%E5%8F%82%E6%95%B0%E7%9A%84%E8%BD%AC%E6%8D%A2%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0080813d%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uffdff354%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22controller%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ude159c34%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%224fdf3355%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40ApiOperation(value%20%3D%20%5C%22%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%9F%A5%E8%AF%A2_%E9%80%9A%E8%BF%87Java%20Bean%E4%BC%A0%E9%80%92%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%5C%22)%5Cn%40PostMapping(%5C%22findByBeans%5C%22)%5Cnpublic%20ResultMsg%20findByBeans(%40RequestBody%20Employee%20employee)%5Cn%7B%5Cn%20%20%20%20List%20result%3D%20employeeMapper.selectByBeans(employee)%3B%5Cn%20%20%20%20return%20ResultMsg.getMsg(result)%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ucffa03fd%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uac175a13%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22mapper%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uafaed7ca%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22a032538d%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22List%20%3CEmployee%3E%20selectByBeans(Employee%20employee)%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf4a335b2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u3ad7da4f%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22xml%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0389c839%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf7d8de3b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%8F%82%E6%95%B0%E7%9A%84%E5%BC%95%E7%94%A8%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8bean%E7%9A%84%E5%AD%97%E6%AE%B5%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf89c2e28%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%227a53123e%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%3Cselect%20id%3D%5C%22selectByBeans%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20parameterType%3D%5C%22com.wg.demo.po.Employee%5C%22%3E%5Cn%20%20select%5Cn%20%20*%5Cn%20%20from%20employee%20where%20gender%20%3D%20%23%7Bgender%7D%20and%20age%20%3D%20%23%7Bage%7D%5Cn%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%228e0af1d0%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u801ca893%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%225.%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8JSON%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u893f1ba9%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u343f6112%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E8%BF%99%E4%B9%9F%E6%98%AF%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B8%80%E7%A7%8D%E4%BC%A0%E5%8F%82%E6%96%B9%E5%BC%8F%EF%BC%8Ccontroller%E5%B1%82%E6%94%B6%E5%88%B0JSON%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%90%8E%EF%BC%8C%E7%9B%B4%E6%8E%A5%E4%BC%A0%E9%80%92%E7%BB%99mapper%E5%B1%82%E8%BF%9B%E8%A1%8C%E6%9F%A5%E8%AF%A2%E6%93%8D%E4%BD%9C%EF%BC%8C%E7%AE%80%E5%8D%95%20%E6%96%B9%E4%BE%BF%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u2a14d048%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ufc678067%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22controller%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc6a0be4d%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%223b2928bf%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40ApiOperation(value%20%3D%20%5C%22%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%9F%A5%E8%AF%A2_%E9%80%9A%E8%BF%87JSON%E4%BC%A0%E9%80%92%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%5C%22)%5Cn%40PostMapping(%5C%22findByJSONObject%5C%22)%5Cnpublic%20ResultMsg%20findByJSONObject(%40RequestBody%20JSONObject%20params)%5Cn%7B%5Cn%20%20%20%20List%20result%3D%20employeeMapper.findByJSONObject(params)%3B%5Cn%20%20%20%20return%20ResultMsg.getMsg(result)%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ubf811c32%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u4b756605%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22mapper%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue8338fc4%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22aa05b836%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22List%20%3CEmployee%3E%20findByJSONObject(JSONObject%20params)%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u2895e219%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u16d6eae0%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22xml%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub2f93db7%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22b28b1a1d%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%5Cn%3Cselect%20id%3D%5C%22findByJSONObject%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20parameterType%3D%5C%22com.alibaba.fastjson.JSONObject%5C%22%3E%5Cn%20%20select%5Cn%20%20*%5Cn%20%20from%20employee%20where%20gender%20%3D%20%23%7Bgender%7D%20and%20age%20%3D%20%23%7Bage%7D%5Cn%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%229363d5c6%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u2a57f859%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%226.%E4%BC%A0%E9%80%92%E9%9B%86%E5%90%88%E7%B1%BB%E5%9E%8B%E5%8F%82%E6%95%B0List%E3%80%81Set%E3%80%81Array%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc3ffe259%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue12e8950%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%9C%A8%E4%B8%80%E4%BA%9B%E5%A4%8D%E6%9D%82%E7%9A%84%E6%9F%A5%E8%AF%A2%E4%B8%AD%EF%BC%88%E5%A6%82%20sql%E4%B8%AD%E7%9A%84%20in%E6%93%8D%E4%BD%9C%EF%BC%89%EF%BC%8C%E4%BC%A0%E7%BB%9F%E7%9A%84%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92%E5%B7%B2%E6%97%A0%E6%B3%95%E6%BB%A1%E8%B6%B3%E9%9C%80%E6%B1%82%EF%BC%8C%E8%BF%99%E6%97%B6%E5%80%99%E5%B0%B1%E8%A6%81%E7%94%A8%E5%88%B0List%E3%80%81Set%E3%80%81Array%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92%EF%BC%8C%E5%85%B7%E4%BD%93%E4%BD%BF%E7%94%A8%E5%A6%82%E4%B8%8B%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u371b28dc%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uef07652d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22controller%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u747f97d4%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%2289a39548%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40ApiOperation(value%20%3D%20%5C%22%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%9F%A5%E8%AF%A2_%E9%80%9A%E8%BF%87List%E3%80%81Set%E3%80%81Array%E4%BC%A0%E9%80%92%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%5C%22)%5Cn%40PostMapping(%5C%22findByList%5C%22)%5Cnpublic%20ResultMsg%20findByList(%40RequestBody%20List%3CString%3E%20list)%5Cn%7B%5Cn%20%20%20%20List%20result%3D%20employeeMapper.findByList%20(list)%3B%5Cn%20%20%20%20return%20ResultMsg.getMsg(result)%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u26964241%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u1027f125%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22mapper%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue66f8601%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%228e1227b8%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22List%20%3CEmployee%3E%20findByList(List%20list)%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u00329ba0%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ud44eb693%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22xml%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0447e3ee%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%2285233f94%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%20%20%3Cselect%20id%3D%5C%22findByList%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20%3E%5CnSELECT%20*%20from%20employee%20where%20age%20in%5Cn%20%20%20%20%3Cforeach%20collection%3D%5C%22list%5C%22%20open%3D%5C%22(%5C%22%20separator%3D%5C%22%2C%5C%22%20close%3D%5C%22)%5C%22%20item%3D%5C%22age%5C%22%3E%5Cn%20%20%20%20%20%20%23%7Bage%7D%5Cn%20%20%20%20%3C%2Fforeach%3E%5Cn%20%20%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uecf3fccf%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ub02072d6%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E8%BF%99%E9%87%8Cforeach%E8%A1%A8%E7%A4%BA%E5%BE%AA%E7%8E%AF%E6%93%8D%E4%BD%9C%EF%BC%8C%E5%85%B7%E4%BD%93%E7%9A%84%E5%8F%82%E6%95%B0%E5%90%AB%E4%B9%89%E5%A6%82%E4%B8%8B%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u22434e48%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1e77c188%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u4591f771%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22foreach%E5%85%83%E7%B4%A0%E7%9A%84%E5%B1%9E%E6%80%A7%E4%B8%BB%E8%A6%81%E6%9C%89%20item%EF%BC%8Cindex%EF%BC%8Ccollection%EF%BC%8Copen%EF%BC%8Cseparator%EF%BC%8Cclose%E3%80%82%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue032a0d8%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22item%E8%A1%A8%E7%A4%BA%E9%9B%86%E5%90%88%E4%B8%AD%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E8%BF%9B%E8%A1%8C%E8%BF%AD%E4%BB%A3%E6%97%B6%E7%9A%84%E5%88%AB%E5%90%8D%EF%BC%8C%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ude8df536%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22index%E6%8C%87%E5%AE%9A%E4%B8%80%E4%B8%AA%E5%90%8D%E5%AD%97%EF%BC%8C%E7%94%A8%E4%BA%8E%E8%A1%A8%E7%A4%BA%E5%9C%A8%E8%BF%AD%E4%BB%A3%E8%BF%87%E7%A8%8B%E4%B8%AD%EF%BC%8C%E6%AF%8F%E6%AC%A1%E8%BF%AD%E4%BB%A3%E5%88%B0%E7%9A%84%E4%BD%8D%E7%BD%AE%EF%BC%8C%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u54790407%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22open%E8%A1%A8%E7%A4%BA%E8%AF%A5%E8%AF%AD%E5%8F%A5%E4%BB%A5%E4%BB%80%E4%B9%88%E5%BC%80%E5%A7%8B%EF%BC%8C%5Cn%22%7D%2C%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uc0e59513%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22separator%E8%A1%A8%E7%A4%BA%E5%9C%A8%E6%AF%8F%E6%AC%A1%E8%BF%9B%E8%A1%8C%E8%BF%AD%E4%BB%A3%E4%B9%8B%E9%97%B4%E4%BB%A5%E4%BB%80%E4%B9%88%E7%AC%A6%E5%8F%B7%E4%BD%9C%E4%B8%BA%E5%88%86%E9%9A%94%E7%AC%A6%EF%BC%8C%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf2e6ea9e%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u89473a14%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%20%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufbfe632b%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u6dd98529%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22close%E8%A1%A8%E7%A4%BA%E4%BB%A5%E4%BB%80%E4%B9%88%E7%BB%93%E6%9D%9F%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9d319481%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ua1546a28%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%20%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0ded121a%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uedfa72f2%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E5%9C%A8%E4%BD%BF%E7%94%A8foreach%E7%9A%84%E6%97%B6%E5%80%99%E6%9C%80%E5%85%B3%E9%94%AE%E7%9A%84%E4%B9%9F%E6%98%AF%E6%9C%80%E5%AE%B9%E6%98%93%E5%87%BA%E9%94%99%E7%9A%84%E5%B0%B1%E6%98%AFcollection%E5%B1%9E%E6%80%A7%EF%BC%8C%E8%AF%A5%E5%B1%9E%E6%80%A7%E6%98%AF%E5%BF%85%E9%A1%BB%E6%8C%87%E5%AE%9A%E7%9A%84%EF%BC%8C%E4%BD%86%E6%98%AF%E5%9C%A8%E4%B8%8D%E5%90%8C%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8C%E8%AF%A5%E5%B1%9E%E6%80%A7%E7%9A%84%E5%80%BC%E6%98%AF%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%EF%BC%8C%E4%B8%BB%E8%A6%81%E6%9C%89%E4%B8%80%E4%B8%8B3%E7%A7%8D%E6%83%85%E5%86%B5%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u277bc5df%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u093ad102%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%20%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub6ad3d1a%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22udaf6b57c%22%2C%22fid%22%3A%22uee6e324f%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A0%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ue9c37c60%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%221.%E5%A6%82%E6%9E%9C%E4%BC%A0%E5%85%A5%E7%9A%84%E6%98%AF%E5%8D%95%E5%8F%82%E6%95%B0%E4%B8%94%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%E6%98%AF%E4%B8%80%E4%B8%AAList%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8Ccollection%E5%B1%9E%E6%80%A7%E5%80%BC%E4%B8%BAlist%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u5a066026%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22udaf6b57c%22%2C%22fid%22%3A%22uee6e324f%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A1%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u95bdd16a%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%222.%E5%A6%82%E6%9E%9C%E4%BC%A0%E5%85%A5%E7%9A%84%E6%98%AF%E5%8D%95%E5%8F%82%E6%95%B0%E4%B8%94%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%E6%98%AF%E4%B8%80%E4%B8%AAarray%E6%95%B0%E7%BB%84%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8Ccollection%E7%9A%84%E5%B1%9E%E6%80%A7%E5%80%BC%E4%B8%BAarray%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ua3e32fe0%22%2C%22name%22%3A%22uli%22%2C%22attrs%22%3A%7B%22list%22%3A%22udaf6b57c%22%2C%22fid%22%3A%22uee6e324f%22%2C%22indexStyle%22%3A%7B%7D%2C%22indexType%22%3A0%2C%22parentIndex%22%3A%5B%5D%2C%22index%22%3A2%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u4593e6c6%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%223.%E5%A6%82%E6%9E%9C%E4%BC%A0%E5%85%A5%E7%9A%84%E5%8F%82%E6%95%B0%E6%98%AF%E5%A4%9A%E4%B8%AA%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E6%88%91%E4%BB%AC%E5%B0%B1%E9%9C%80%E8%A6%81%E6%8A%8A%E5%AE%83%E4%BB%AC%E5%B0%81%E8%A3%85%E6%88%90%E4%B8%80%E4%B8%AAMap%E6%88%96%E8%80%85Object%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22016b4a33%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u5d458bb3%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%227.%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B%E4%B8%BA%E5%AF%B9%E8%B1%A1%2B%E9%9B%86%E5%90%88%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ud6f45b07%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u1a7e2c5d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E8%AF%A5%E7%B1%BB%E5%8F%82%E6%95%B0%E4%B8%8Ejava%20Bean%E5%8F%82%E6%95%B0%E5%BD%A2%E5%BC%8F%E7%B1%BB%E4%BC%BC%EF%BC%8C%E5%8F%AA%E4%B8%8D%E8%BF%87%E6%9B%B4%E5%A4%8D%E6%9D%82%E4%B8%80%E4%BA%9B%EF%BC%8C%E5%A6%82%E4%B8%8B%E9%9D%A2%E7%9A%84Department%E7%B1%BB%EF%BC%8C%E9%99%A4%E4%BA%86%E5%9F%BA%E6%9C%AC%E5%AD%97%E6%AE%B5%E8%BF%98%E5%8C%85%E6%8B%AC%E4%B8%80%E4%B8%AAEmployee%E7%9A%84%E5%88%97%E8%A1%A8%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u87c3f4a2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22uf6c93ee2%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22bean%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u1e25a1a3%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%2215aa97d2%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40Data%5Cnpublic%20class%20Department%20%7B%5Cn%20%20%20%20private%20Long%20id%3B%5Cn%5Cn%20%20%20%20private%20String%20deptName%3B%5Cn%5Cn%20%20%20%20private%20String%20descr%3B%5Cn%5Cn%20%20%20%20private%20Date%20createTime%3B%5Cn%5Cn%20%20%20%20List%3CEmployee%3E%20employees%3B%5Cn%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uebf197cd%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u408a1399%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22controller%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6f45e5da%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22765537a7%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22%40ApiOperation(value%20%3D%20%5C%22%E5%A4%9A%E4%B8%AA%E5%8F%82%E6%95%B0%E6%9F%A5%E8%AF%A2_%E5%AF%B9%E8%B1%A1%2B%E9%9B%86%E5%90%88%E5%8F%82%E6%95%B0%5C%22)%5Cn%40PostMapping(%5C%22findByDepartment%5C%22)%5Cnpublic%20ResultMsg%20findByDepartment(%40RequestBody%20Department%20department)%5Cn%7B%5Cn%20%20%20%20List%20result%3D%20employeeMapper.findByDepartment(department)%3B%5Cn%20%20%20%20return%20ResultMsg.getMsg(result)%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf7d49f73%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ub4f85dc1%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22mapper%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub923c996%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22b053e71a%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22java%22%2C%22code%22%3A%22List%20%3CEmployee%3E%20findByDepartment(%40Param(%5C%22department%5C%22)Department%20department)%3B%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u4f6b03d2%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u9360bec4%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22bold%22%3Atrue%7D%2C%22data%22%3A%22xml%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ucede9b0d%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%229bdd429b%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22xml%22%2C%22code%22%3A%22%3Cselect%20id%3D%5C%22findByDepartment%5C%22%20resultMap%3D%5C%22BaseResultMap%5C%22%20parameterType%3D%5C%22com.wg.demo.po.Department%5C%22%3E%5Cn%20%20%20%20SELECT%20*%20from%20employee%20where%20dept_id%20%3D%23%7Bdepartment.id%7D%20and%20age%20in%5Cn%20%20%20%20%3Cforeach%20collection%3D%5C%22department.employees%5C%22%20open%3D%5C%22(%5C%22%20separator%3D%5C%22%2C%5C%22%20close%3D%5C%22)%5C%22%20item%3D%5C%22employee%5C%22%3E%5Cn%20%20%20%20%20%20%20%20%23%7Bemployee.age%7D%5Cn%20%20%20%20%3C%2Fforeach%3E%5Cn%3C%2Fselect%3E%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ua02a8567%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u8745b217%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u43eccc70%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E8%BF%99%E9%87%8Cforeach%20%E5%AF%B9%E5%BA%94Departmen%E9%83%A8%E9%97%A8%E4%B8%AD%E7%9A%84List%20employees%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9794ec05%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u0b4d3a2b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%EF%BC%9A%20%E6%9F%A5%E8%AF%A2%E9%83%A8%E9%97%A8Id%3D1%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%B9%B4%E9%BE%84%20%E7%AD%89%E4%BA%8E24%E5%92%8C25%E7%9A%84%E5%91%98%E5%B7%A5%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u5bfdee02%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%227d370064%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22json%22%2C%22code%22%3A%22%7B%5Cn%20%20%5C%22createTime%5C%22%3A%20%5C%222019-07-02T10%3A17%3A16.756Z%5C%22%2C%5Cn%20%20%5C%22deptName%5C%22%3A%20%5C%22string%5C%22%2C%5Cn%20%20%5C%22descr%5C%22%3A%20%5C%22string%5C%22%2C%5Cn%20%20%5C%22employees%5C%22%3A%20%5B%5Cn%20%20%20%20%7B%5Cn%20%20%20%20%20%20%5C%22age%5C%22%3A%20%5C%2224%5C%22%2C%5Cn%20%20%20%20%7D%2C%5Cn%20%20%20%20%7B%5Cn%20%20%20%20%20%20%5C%22age%5C%22%3A%20%5C%2225%5C%22%2C%5Cn%20%20%20%20%7D%5Cn%20%20%5D%2C%5Cn%20%20%5C%22id%5C%22%3A%201%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u059a7f88%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u00697393%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%7D%2C%22data%22%3A%22%E7%BB%93%E6%9E%9C%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u6c20261c%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22934a1651%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22json%22%2C%22code%22%3A%22%7B%5Cn%20%20%5C%22data%5C%22%3A%20%5B%5Cn%20%20%20%20%7B%5Cn%20%20%20%20%20%20%5C%22address%5C%22%3A%20%5C%22%E5%8C%97%E6%96%B0%E8%A1%97ndcpc%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22age%5C%22%3A%20%5C%2224%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22createTime%5C%22%3A%201562062434000%2C%5Cn%20%20%20%20%20%20%5C%22deptId%5C%22%3A%20%5C%221%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22gender%5C%22%3A%201%2C%5Cn%20%20%20%20%20%20%5C%22id%5C%22%3A%20%5C%22318397755696631808%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22name%5C%22%3A%20%5C%22kls0bx19cy%5C%22%5Cn%20%20%20%20%7D%2C%5Cn%20%20%20%20%7B%5Cn%20%20%20%20%20%20%5C%22address%5C%22%3A%20%5C%22%E5%8C%97%E6%96%B0%E8%A1%97lavi0%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22age%5C%22%3A%20%5C%2225%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22createTime%5C%22%3A%201562062436000%2C%5Cn%20%20%20%20%20%20%5C%22deptId%5C%22%3A%20%5C%221%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22gender%5C%22%3A%201%2C%5Cn%20%20%20%20%20%20%5C%22id%5C%22%3A%20%5C%22318397755801489408%5C%22%2C%5Cn%20%20%20%20%20%20%5C%22name%5C%22%3A%20%5C%22gj9q3ygikh%5C%22%5Cn%20%20%20%20%7D%5Cn%20%20%5D%2C%5Cn%20%20%5C%22result%5C%22%3A%20%5C%22SUCCESS%5C%22%2C%5Cn%20%20%5C%22resultCode%5C%22%3A%20200%2C%5Cn%20%20%5C%22resultMsg%5C%22%3A%20%5C%22%5C%22%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22Github%20Light%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D&#34;&gt;&lt;/ne-clipboard&gt;&lt;/p&gt;
-&lt;div class=&#34;lake-content&#34; typography=&#34;classic&#34;&gt;&lt;div data-type=&#34;success&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #DCF4B4; background-color: #E8F7CF; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;uf6ac250a&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;在实际开发过程中，增删改查操作都要涉及到请求参数的传递，今天这节就集中讲下在mybatis中传递参数的7中方法&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;ua0970ab9&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;单个参数的传递很简单没有什么好将的，这里主要说下多个参数的传递&lt;/span&gt;&lt;/p&gt;&lt;h3 id=&#34;6fb4d9c5&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;1.第一种方式 匿名参数 顺序传递参数&lt;/span&gt;&lt;/h3&gt;&lt;p id=&#34;u68caecc8&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;controller&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;a47b958a&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@ApiOperation(value&amp;nbsp;=&amp;nbsp;&amp;quot;多个参数查询_匿名顺序传参&amp;quot;)
-
-@GetMapping(&amp;quot;findByParams&amp;quot;)
-
-public&amp;nbsp;ResultMsg&amp;nbsp;findByParams(Short&amp;nbsp;gender,String&amp;nbsp;age)
-
-{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;nbsp;result=&amp;nbsp;employeeMapper.selectByGenderAndAge(gender,age);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;ResultMsg.getMsg(result);
-
-}&lt;/pre&gt;&lt;p id=&#34;uc3316dfe&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;mapper&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;e1aad140&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;List&amp;lt;Employee&amp;gt;&amp;nbsp;selectByGenderAndAge(Short&amp;nbsp;gender,String&amp;nbsp;age&amp;nbsp;);&lt;/pre&gt;&lt;p id=&#34;u785750de&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;xml&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;23ce50e4&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;lt;select&amp;nbsp;id=&amp;quot;selectByGenderAndAge&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;select&amp;nbsp;*&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;gender&amp;nbsp;=&amp;nbsp;#{gender}&amp;nbsp;and&amp;nbsp;age&amp;nbsp;=&amp;nbsp;#{age}
-
-&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;p id=&#34;ubccf6342&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;注意这里按参数名去引用的话会报如下错误，mybatis错误提示很细致，这里明确给我们提示，匿名参数只能使用arg1, arg0, param1, param2 类似的形式这种传参方式的缺点是不够灵活，必须严格按照参数顺序来引用&lt;/span&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;c74e08f8&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;BindingException:&amp;nbsp;Parameter&amp;nbsp;&amp;#39;gender&amp;#39;&amp;nbsp;not&amp;nbsp;found.&amp;nbsp;Available&amp;nbsp;parameters&amp;nbsp;are&amp;nbsp;[arg1,&amp;nbsp;arg0,&amp;nbsp;param1,&amp;nbsp;param2]&lt;/pre&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;u08a04386&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;所以正确的引用方式如下：&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;390244b9&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;nbsp;&amp;lt;select&amp;nbsp;id=&amp;quot;selectByGenderAndAge&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;select&amp;nbsp;*&amp;nbsp;&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;gender&amp;nbsp;=&amp;nbsp;#{param1}&amp;nbsp;and&amp;nbsp;age&amp;nbsp;=&amp;nbsp;#{param2}
-
-&amp;nbsp;&amp;nbsp;&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;div data-type=&#34;danger&#34; class=&#34;ne-alert&#34; style=&#34;border: 1px solid #F8CED3; background-color: #FBE4E7; margin: 4px 0; padding: 10px; border-radius: 4px&#34;&gt;&lt;p id=&#34;u455800d4&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;mybatis从3.4.1开始支持java 8 的反射获取入参名了，所以入参不再是arg0，arg1了，不过仍然可以使用param1，param2的这种形式，在java8 编译时指定 -parameters 选项，可以直接使用#{username} #{password}，而不用改变你的接口入参&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34;&gt;参考mybatis3.4.1更新日志：&lt;/span&gt;&lt;a href=&#34;https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.4.1&#34; data-href=&#34;https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.4.1&#34; target=&#34;_blank&#34; class=&#34;ne-link&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;https://github.com/mybatis/mybatis-3/releases/tag/mybatis-3.4.1&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;h3 id=&#34;040501e3&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;2.第二种方式 使用@Param注解&lt;/span&gt;&lt;/h3&gt;&lt;p id=&#34;u1a7af652&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;controller&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;6b4923ab&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@ApiOperation(value&amp;nbsp;=&amp;nbsp;&amp;quot;多个参数查询_注解方式传参&amp;quot;)
-
-@GetMapping(&amp;quot;findByParams2&amp;quot;)
-
-public&amp;nbsp;ResultMsg&amp;nbsp;findByParams2(Short&amp;nbsp;gender,String&amp;nbsp;age)
-
-{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;nbsp;result=&amp;nbsp;employeeMapper.selectByGenderAndAge2(gender,age);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;ResultMsg.getMsg(result);
-
-}&lt;/pre&gt;&lt;p id=&#34;u8310bec4&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;mapper&lt;/strong&gt;&lt;/p&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;ua6f2ccbf&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;使用@Param注解显示的告诉mybatis参数的名字，这样在xml中就可以按照参数名去引用了&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;pre data-language=&#34;java&#34; id=&#34;04054b55&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;List&amp;lt;Employee&amp;gt;&amp;nbsp;selectByGenderAndAge(&amp;nbsp;@Param(&amp;quot;gender&amp;quot;)&amp;nbsp;Short&amp;nbsp;gender,@Param(&amp;quot;age&amp;quot;)&amp;nbsp;String&amp;nbsp;age&amp;nbsp;);&lt;/pre&gt;&lt;p id=&#34;udd607c51&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;xml&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;23ce50e4-1&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;lt;select&amp;nbsp;id=&amp;quot;selectByGenderAndAge&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;select&amp;nbsp;*&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;gender&amp;nbsp;=&amp;nbsp;#{gender}&amp;nbsp;and&amp;nbsp;age&amp;nbsp;=&amp;nbsp;#{age}
-
-&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;h3 id=&#34;b56a6a3f&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;3.使用Map传递参数&lt;/span&gt;&lt;/h3&gt;&lt;p id=&#34;uf13da41d&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;实际开发中使用map来传递多个参数是一种推荐的方式&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;ufe970ae3&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;controller&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;29853ad7&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@ApiOperation(value&amp;nbsp;=&amp;nbsp;&amp;quot;多个参数查询&amp;quot;)
-
-@GetMapping(&amp;quot;findByMapParams&amp;quot;)
-
-public&amp;nbsp;ResultMsg&amp;nbsp;findByMapParams(Short&amp;nbsp;gender,String&amp;nbsp;age)
-
-{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Map&amp;nbsp;params&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HashMap&amp;lt;&amp;gt;();
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;params.put(&amp;quot;gender&amp;quot;,gender);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;params.put(&amp;quot;age&amp;quot;,age);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;nbsp;result=&amp;nbsp;employeeMapper.selectByMapParams(params);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;ResultMsg.getMsg(result);
-
-}&lt;/pre&gt;&lt;p id=&#34;ud9f328d2&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;mapper&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;a4eef6b5&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;List&amp;lt;Employee&amp;gt;&amp;nbsp;selectByMapParams(Map&amp;nbsp;params);&lt;/pre&gt;&lt;p id=&#34;u87ca3aa9&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;xml&lt;/strong&gt;&lt;/p&gt;&lt;p id=&#34;u010b00dc&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;可以看到使用map来传递多个参数，可以直接使用参数名称进行引用&lt;/span&gt;&lt;/p&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;496c0e9d&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;lt;select&amp;nbsp;id=&amp;quot;selectByMapParams&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;parameterType=&amp;quot;map&amp;quot;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;select&amp;nbsp;*&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;gender&amp;nbsp;=&amp;nbsp;#{gender}&amp;nbsp;and&amp;nbsp;age&amp;nbsp;=&amp;nbsp;#{age}
-
-&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;h3 id=&#34;00518980&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;4.用过java bean传递多个参数&lt;/span&gt;&lt;/h3&gt;&lt;p id=&#34;u3bf94536&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;也可以使用bean的方式来传递多个参数，使用时parameterType指定为对应的bean类型即可&lt;/span&gt;&lt;/p&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;u3fd6f092&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;这就传参方式的优点是比较方便，controller层使用@RequestBody接收到实体类参数后，直接传递给mapper层调用即可，不需要在进行参数的转换&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;u0080813d&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;controller&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;4fdf3355&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@ApiOperation(value&amp;nbsp;=&amp;nbsp;&amp;quot;多个参数查询_通过Java&amp;nbsp;Bean传递多个参数&amp;quot;)
-
-@PostMapping(&amp;quot;findByBeans&amp;quot;)
-
-public&amp;nbsp;ResultMsg&amp;nbsp;findByBeans(@RequestBody&amp;nbsp;Employee&amp;nbsp;employee)
-
-{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;nbsp;result=&amp;nbsp;employeeMapper.selectByBeans(employee);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;ResultMsg.getMsg(result);
-
-}&lt;/pre&gt;&lt;p id=&#34;ucffa03fd&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;mapper&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;a032538d&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;List&amp;nbsp;&amp;lt;Employee&amp;gt;&amp;nbsp;selectByBeans(Employee&amp;nbsp;employee);&lt;/pre&gt;&lt;p id=&#34;uf4a335b2&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;xml&lt;/strong&gt;&lt;/p&gt;&lt;p id=&#34;u0389c839&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;参数的引用直接使用bean的字段&lt;/span&gt;&lt;/p&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;7a53123e&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;lt;select&amp;nbsp;id=&amp;quot;selectByBeans&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;parameterType=&amp;quot;com.wg.demo.po.Employee&amp;quot;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;select
-
-&amp;nbsp;&amp;nbsp;*
-
-&amp;nbsp;&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;gender&amp;nbsp;=&amp;nbsp;#{gender}&amp;nbsp;and&amp;nbsp;age&amp;nbsp;=&amp;nbsp;#{age}
-
-&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;h3 id=&#34;8e0af1d0&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;5.直接使用JSON传递参数&lt;/span&gt;&lt;/h3&gt;&lt;p id=&#34;u893f1ba9&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;这也是推荐的一种传参方式，controller层收到JSON型数据后，直接传递给mapper层进行查询操作，简单 方便&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;u2a14d048&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;controller&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;3b2928bf&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@ApiOperation(value&amp;nbsp;=&amp;nbsp;&amp;quot;多个参数查询_通过JSON传递多个参数&amp;quot;)
-
-@PostMapping(&amp;quot;findByJSONObject&amp;quot;)
-
-public&amp;nbsp;ResultMsg&amp;nbsp;findByJSONObject(@RequestBody&amp;nbsp;JSONObject&amp;nbsp;params)
-
-{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;nbsp;result=&amp;nbsp;employeeMapper.findByJSONObject(params);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;ResultMsg.getMsg(result);
-
-}&lt;/pre&gt;&lt;p id=&#34;ubf811c32&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;mapper&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;aa05b836&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;List&amp;nbsp;&amp;lt;Employee&amp;gt;&amp;nbsp;findByJSONObject(JSONObject&amp;nbsp;params);&lt;/pre&gt;&lt;p id=&#34;u2895e219&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;xml&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;b28b1a1d&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;lt;select&amp;nbsp;id=&amp;quot;findByJSONObject&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;parameterType=&amp;quot;com.alibaba.fastjson.JSONObject&amp;quot;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;select
-
-&amp;nbsp;&amp;nbsp;*
-
-&amp;nbsp;&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;gender&amp;nbsp;=&amp;nbsp;#{gender}&amp;nbsp;and&amp;nbsp;age&amp;nbsp;=&amp;nbsp;#{age}
-
-&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;h3 id=&#34;9363d5c6&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;6.传递集合类型参数List、Set、Array&lt;/span&gt;&lt;/h3&gt;&lt;p id=&#34;uc3ffe259&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;在一些复杂的查询中（如 sql中的 in操作），传统的参数传递已无法满足需求，这时候就要用到List、Set、Array类型的参数传递，具体使用如下：&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;u371b28dc&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;controller&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;89a39548&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@ApiOperation(value&amp;nbsp;=&amp;nbsp;&amp;quot;多个参数查询_通过List、Set、Array传递多个参数&amp;quot;)
-
-@PostMapping(&amp;quot;findByList&amp;quot;)
-
-public&amp;nbsp;ResultMsg&amp;nbsp;findByList(@RequestBody&amp;nbsp;List&amp;lt;String&amp;gt;&amp;nbsp;list)
-
-{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;nbsp;result=&amp;nbsp;employeeMapper.findByList&amp;nbsp;(list);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;ResultMsg.getMsg(result);
-
-}&lt;/pre&gt;&lt;p id=&#34;u26964241&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;mapper&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;8e1227b8&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;List&amp;nbsp;&amp;lt;Employee&amp;gt;&amp;nbsp;findByList(List&amp;nbsp;list);&lt;/pre&gt;&lt;p id=&#34;u00329ba0&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;xml&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;85233f94&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;lt;select&amp;nbsp;id=&amp;quot;findByList&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;&amp;gt;
-
-SELECT&amp;nbsp;*&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;age&amp;nbsp;in
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;foreach&amp;nbsp;collection=&amp;quot;list&amp;quot;&amp;nbsp;open=&amp;quot;(&amp;quot;&amp;nbsp;separator=&amp;quot;,&amp;quot;&amp;nbsp;close=&amp;quot;)&amp;quot;&amp;nbsp;item=&amp;quot;age&amp;quot;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;#{age}
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/foreach&amp;gt;
-
-&amp;nbsp;&amp;nbsp;&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;p id=&#34;uecf3fccf&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;这里foreach表示循环操作，具体的参数含义如下：&lt;/span&gt;&lt;/p&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;u1e77c188&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;foreach元素的属性主要有 item，index，collection，open，separator，close。&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34;&gt;item表示集合中每一个元素进行迭代时的别名，&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34;&gt;index指定一个名字，用于表示在迭代过程中，每次迭代到的位置，&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34;&gt;open表示该语句以什么开始，&lt;br/&gt;&lt;/span&gt;&lt;span class=&#34;ne-text&#34;&gt;separator表示在每次进行迭代之间以什么符号作为分隔符，&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;uf2e6ea9e&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;ufbfe632b&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;close表示以什么结束&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;u9d319481&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt; &lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;u0ded121a&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;在使用foreach的时候最关键的也是最容易出错的就是collection属性，该属性是必须指定的，但是在不同情况下，该属性的值是不一样的，主要有一下3种情况：&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;u277bc5df&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt; &lt;/span&gt;&lt;/p&gt;&lt;ul class=&#34;ne-ul list-paddingleft-2&#34; style=&#34;padding-left: 23px;&#34;&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&#34;ne-text&#34;&gt;1.如果传入的是单参数且参数类型是一个List的时候，collection属性值为list&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&#34;ne-text&#34;&gt;2.如果传入的是单参数且参数类型是一个array数组的时候，collection的属性值为array&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span class=&#34;ne-text&#34;&gt;3.如果传入的参数是多个的时候，我们就需要把它们封装成一个Map或者Object&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h3 id=&#34;016b4a33&#34; style=&#34;font-size: 20; line-height: 28px; margin: 16px 0 5px 0&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;7.参数类型为对象+集合&lt;/span&gt;&lt;/h3&gt;&lt;p id=&#34;ud6f45b07&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;该类参数与java Bean参数形式类似，只不过更复杂一些，如下面的Department类，除了基本字段还包括一个Employee的列表&lt;/span&gt;&lt;/p&gt;&lt;p id=&#34;u87c3f4a2&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;bean&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;15aa97d2&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@Data
-
-public&amp;nbsp;class&amp;nbsp;Department&amp;nbsp;{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;Long&amp;nbsp;id;
-
-
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;String&amp;nbsp;deptName;
-
-
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;String&amp;nbsp;descr;
-
-
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;Date&amp;nbsp;createTime;
-
-
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;lt;Employee&amp;gt;&amp;nbsp;employees;
-
-
-
-}&lt;/pre&gt;&lt;p id=&#34;uebf197cd&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;controller&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;765537a7&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;@ApiOperation(value&amp;nbsp;=&amp;nbsp;&amp;quot;多个参数查询_对象+集合参数&amp;quot;)
-
-@PostMapping(&amp;quot;findByDepartment&amp;quot;)
-
-public&amp;nbsp;ResultMsg&amp;nbsp;findByDepartment(@RequestBody&amp;nbsp;Department&amp;nbsp;department)
-
-{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&amp;nbsp;result=&amp;nbsp;employeeMapper.findByDepartment(department);
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;ResultMsg.getMsg(result);
-
-}&lt;/pre&gt;&lt;p id=&#34;uf7d49f73&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;mapper&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;java&#34; id=&#34;b053e71a&#34; class=&#34;ne-codeblock language-java&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;List&amp;nbsp;&amp;lt;Employee&amp;gt;&amp;nbsp;findByDepartment(@Param(&amp;quot;department&amp;quot;)Department&amp;nbsp;department);&lt;/pre&gt;&lt;p id=&#34;u4f6b03d2&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;strong&gt;xml&lt;/strong&gt;&lt;/p&gt;&lt;pre data-language=&#34;xml&#34; id=&#34;9bdd429b&#34; class=&#34;ne-codeblock language-xml&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;&amp;lt;select&amp;nbsp;id=&amp;quot;findByDepartment&amp;quot;&amp;nbsp;resultMap=&amp;quot;BaseResultMap&amp;quot;&amp;nbsp;parameterType=&amp;quot;com.wg.demo.po.Department&amp;quot;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SELECT&amp;nbsp;*&amp;nbsp;from&amp;nbsp;employee&amp;nbsp;where&amp;nbsp;dept_id&amp;nbsp;=#{department.id}&amp;nbsp;and&amp;nbsp;age&amp;nbsp;in
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;foreach&amp;nbsp;collection=&amp;quot;department.employees&amp;quot;&amp;nbsp;open=&amp;quot;(&amp;quot;&amp;nbsp;separator=&amp;quot;,&amp;quot;&amp;nbsp;close=&amp;quot;)&amp;quot;&amp;nbsp;item=&amp;quot;employee&amp;quot;&amp;gt;
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;#{employee.age}
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/foreach&amp;gt;
-
-&amp;lt;/select&amp;gt;&lt;/pre&gt;&lt;div class=&#34;ne-quote&#34; style=&#34;margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee&#34;&gt;&lt;p id=&#34;u8745b217&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;这里foreach 对应Departmen部门中的List employees&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p id=&#34;u9794ec05&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;请求参数： 查询部门Id=1，并且年龄 等于24和25的员工&lt;/span&gt;&lt;/p&gt;&lt;pre data-language=&#34;json&#34; id=&#34;7d370064&#34; class=&#34;ne-codeblock language-json&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;{
-
-&amp;nbsp;&amp;nbsp;&amp;quot;createTime&amp;quot;:&amp;nbsp;&amp;quot;2019-07-02T10:17:16.756Z&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;quot;deptName&amp;quot;:&amp;nbsp;&amp;quot;string&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;quot;descr&amp;quot;:&amp;nbsp;&amp;quot;string&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;quot;employees&amp;quot;:&amp;nbsp;[
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;age&amp;quot;:&amp;nbsp;&amp;quot;24&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;age&amp;quot;:&amp;nbsp;&amp;quot;25&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
-
-&amp;nbsp;&amp;nbsp;],
-
-&amp;nbsp;&amp;nbsp;&amp;quot;id&amp;quot;:&amp;nbsp;1
-
-}&lt;/pre&gt;&lt;p id=&#34;u059a7f88&#34; class=&#34;ne-p&#34; style=&#34;margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;&#34;&gt;&lt;span class=&#34;ne-text&#34;&gt;结果：&lt;/span&gt;&lt;/p&gt;&lt;pre data-language=&#34;json&#34; id=&#34;934a1651&#34; class=&#34;ne-codeblock language-json&#34; style=&#34;border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);&#34;&gt;{
-
-&amp;nbsp;&amp;nbsp;&amp;quot;data&amp;quot;:&amp;nbsp;[
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;address&amp;quot;:&amp;nbsp;&amp;quot;北新街ndcpc&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;age&amp;quot;:&amp;nbsp;&amp;quot;24&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;createTime&amp;quot;:&amp;nbsp;1562062434000,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;deptId&amp;quot;:&amp;nbsp;&amp;quot;1&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;gender&amp;quot;:&amp;nbsp;1,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;id&amp;quot;:&amp;nbsp;&amp;quot;318397755696631808&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;name&amp;quot;:&amp;nbsp;&amp;quot;kls0bx19cy&amp;quot;
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;address&amp;quot;:&amp;nbsp;&amp;quot;北新街lavi0&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;age&amp;quot;:&amp;nbsp;&amp;quot;25&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;createTime&amp;quot;:&amp;nbsp;1562062436000,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;deptId&amp;quot;:&amp;nbsp;&amp;quot;1&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;gender&amp;quot;:&amp;nbsp;1,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;id&amp;quot;:&amp;nbsp;&amp;quot;318397755801489408&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;name&amp;quot;:&amp;nbsp;&amp;quot;gj9q3ygikh&amp;quot;
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}
-
-&amp;nbsp;&amp;nbsp;],
-
-&amp;nbsp;&amp;nbsp;&amp;quot;result&amp;quot;:&amp;nbsp;&amp;quot;SUCCESS&amp;quot;,
-
-&amp;nbsp;&amp;nbsp;&amp;quot;resultCode&amp;quot;:&amp;nbsp;200,
-
-&amp;nbsp;&amp;nbsp;&amp;quot;resultMsg&amp;quot;:&amp;nbsp;&amp;quot;&amp;quot;
-
-}&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-&lt;script src=&#34;https://giscus.app/client.js&#34;
-    data-repo=&#34;byronlau/Knowledge-Garden&#34;
-    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
-    data-mapping=&#34;number&#34;
-    data-term=&#34;21&#34;
-    data-reactions-enabled=&#34;1&#34;
-    data-emit-metadata=&#34;0&#34;
-    data-input-position=&#34;bottom&#34;
-    data-theme=&#34;light&#34;
-    data-lang=&#34;zh-CN&#34;
-    crossorigin=&#34;anonymous&#34;
-    async&gt;
-&lt;/script&gt;</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;在实际开发过程中，增删改查操作都要涉及到请求参数的传递，今天这节就集中讲下在mybatis中传递参数的7中方法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;单个参数的传递很简单没有什么好将的，这里主要说下多个参数的传递&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/blog/2023/11/01/mybatis/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
@@ -3594,6 +4070,207 @@ return pageInfo;&lt;/code&gt;&lt;/p&gt;
       <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/10/30/pagehelperstream/</guid>
+      
+    </item>
+    
+    <item>
+      <title>《道德经》81篇</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;&lt;strong&gt;老子（前600年—前470年之后），姓李名耳，字伯阳，传说老子出生时就长有白色的眉毛及胡子，所以被后人称为老子。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中国春秋时代思想家，楚国苦县厉乡曲仁里人，是我国古代伟大的哲学家和思想家、道家学派创始人。&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;存世《道德经》被先秦诸子所共仰。大唐武则天追封其为太上老君，世界文化名人，世界百位历史名人之一。其思想对中国文化具有极深刻的影响。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在道教中，老子是三清尊神之一太上老君的第十八个化身，被尊为道祖。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;《道德经》&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;道德经全文共 81 章&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;第01章&lt;/h2&gt;
+&lt;p&gt;道可道，非常道。名可名，非常名。无名天地之始。有名万物之母。故常无欲以观其妙。常有欲以观其徼。此两者同出而异名，同谓之玄。玄之又玄，众妙之门。&lt;/p&gt;
+&lt;h2&gt;第02章&lt;/h2&gt;
+&lt;p&gt;天下皆知美之为美，斯恶矣；皆知善之为善，斯不善已。故有无相生，难易相成，长短相形，高下相倾，音声相和，前後相随。是以圣人处无为之事，行不言之教。万物作焉而不辞。生而不有，为而不恃，功成而弗居。夫唯弗居，是以不去。&lt;/p&gt;
+&lt;h2&gt;第03章&lt;/h2&gt;
+&lt;p&gt;不尚贤，使民不争。不贵难得之货，使民不为盗。不见可欲，使民心不乱。是以圣人之治，虚其心，实其腹，弱其志，强其骨；常使民无知、无欲，使夫智者不敢为也。为无为，则无不治。&lt;/p&gt;
+&lt;h2&gt;第04章&lt;/h2&gt;
+&lt;p&gt;道冲而用之，或不盈。渊兮似万物之宗。锉其锐，解其纷，和其光，同其尘，湛兮似或存。吾不知谁之子，象帝之先。&lt;/p&gt;
+&lt;h2&gt;第05章&lt;/h2&gt;
+&lt;p&gt;天地不仁，以万物为刍狗。圣人不仁，以百姓为刍狗。天地之间，其犹橐迭乎？虚而不屈，动而愈出。多言数穷，不如守中。&lt;/p&gt;
+&lt;h2&gt;第06章&lt;/h2&gt;
+&lt;p&gt;谷神不死是谓玄牝。玄牝之门是谓天地根。绵绵若存，用之不勤。&lt;/p&gt;
+&lt;h2&gt;第07章&lt;/h2&gt;
+&lt;p&gt;天长地久。天地所以能长且久者，以其不自生，故能长生。是以圣人後其身而身先，外其身而身存。非以其无私邪！故能成其私。&lt;/p&gt;
+&lt;h2&gt;第08章&lt;/h2&gt;
+&lt;p&gt;上善若水。水善利万物而不争，处众人之所恶，故几於道。居善地，心善渊，与善仁，言善信，正善治，事善能，动善时。夫唯不争，故无尤。&lt;/p&gt;
+&lt;h2&gt;第09章&lt;/h2&gt;
+&lt;p&gt;持而盈之不如其己；揣而锐之不可长保；金玉满堂莫之能守；富贵而骄，自遗其咎。功遂身退，天之道。&lt;/p&gt;
+&lt;h2&gt;第10章&lt;/h2&gt;
+&lt;p&gt;载营魄抱一，能无离乎？专气致柔，能如婴儿乎？涤除玄览，能无疵乎？爱国治民，能无为乎？天门开阖，能为雌乎？明白四达，能无知乎。&lt;/p&gt;
+&lt;h2&gt;第11章&lt;/h2&gt;
+&lt;p&gt;三十幅共一毂，当其无，有车之用。埏埴以为器，当其无，有器之用。凿户牖以为室，当其无，有室之用。故有之以为利，无之以为用。&lt;/p&gt;
+&lt;h2&gt;第12章&lt;/h2&gt;
+&lt;p&gt;五色令人目盲，五音令人耳聋，五味令人口爽，驰骋畋猎令人心发狂，难得之货令人行妨。是以圣人，为腹不为目，故去彼取此。&lt;/p&gt;
+&lt;h2&gt;第13章&lt;/h2&gt;
+&lt;p&gt;宠辱若惊，贵大患若身。何谓宠辱若惊？宠为下。得之若惊失之若惊是谓宠辱若惊。何谓贵大患若身？吾所以有大患者，为吾有身，及吾无身，吾有何患。故贵以身为天下，若可寄天下。爱以身为天下，若可托天下。&lt;/p&gt;
+&lt;h2&gt;第14章&lt;/h2&gt;
+&lt;p&gt;视之不见名曰夷。听之不闻名曰希。抟之不得名曰微。此三者不可致诘，故混而为一。其上不皦(jiǎo)，其下不昧，绳绳不可名，复归於无物。是谓无状之状，无物之象，是谓惚恍。迎之不见其首，随之不见其後。执古之道以御今之有。能知古始，是谓道纪。&lt;/p&gt;
+&lt;h2&gt;第15章&lt;/h2&gt;
+&lt;p&gt;古之善为士者，微妙玄通，深不可识。夫唯不可识，故强为之容。豫兮若冬涉川；犹兮若畏四邻；俨兮其若容；涣兮若冰之将释；敦兮其若朴；旷兮其若谷；混兮其若浊；澹兮其若海；飉(liáo,风的声音)兮若无止。孰能浊以静之徐清。孰能安以动之徐生。保此道者不欲盈。夫唯不盈故能蔽而新成。&lt;/p&gt;
+&lt;h2&gt;第16章&lt;/h2&gt;
+&lt;p&gt;致虚极守静笃。万物并作，吾以观复。夫物芸芸各复归其根。归根曰静，是谓复命；复命曰常，知常曰明。不知常，妄作凶。知常容，容乃公，公乃全，全乃天，天乃道，道乃久，没身不殆。&lt;/p&gt;
+&lt;h2&gt;第17章&lt;/h2&gt;
+&lt;p&gt;太上，下知有之。其次，亲而誉之。其次，畏之。其次，侮之。信不足焉，有不信焉。悠兮其贵言，功成事遂，百姓皆谓∶我自然。&lt;/p&gt;
+&lt;h2&gt;第18章&lt;/h2&gt;
+&lt;p&gt;大道废有仁义；慧智出有大伪；六亲不和有孝慈；国家昏乱有忠臣。&lt;/p&gt;
+&lt;h2&gt;第19章&lt;/h2&gt;
+&lt;p&gt;绝圣弃智，民利百倍；绝仁弃义，民复孝慈；绝巧弃利，盗贼无有；此三者，以为文不足。故令有所属，见素抱朴少私寡欲。&lt;/p&gt;
+&lt;h2&gt;第20章&lt;/h2&gt;
+&lt;p&gt;绝学无忧，唯之与阿，相去几何？善之与恶，相去若何？人之所畏，不可不畏。荒兮其未央哉！众人熙熙如享太牢、如春登台。我独泊兮其未兆，如婴儿之未孩；儡儡(lěi,羸弱)兮若无所归。众人皆有馀，而我独若遗。我愚人之心也哉！沌沌兮。俗人昭昭，我独昏昏；俗人察察，我独闷闷。众人皆有以，而我独顽且鄙。我独异於人，而贵食母。&lt;/p&gt;
+&lt;h2&gt;第21章&lt;/h2&gt;
+&lt;p&gt;孔德之容惟道是从。道之为物惟恍惟惚。惚兮恍兮其中有象。恍兮惚兮其中有物。窈兮冥兮其中有精。其精甚真。其中有信。自古及今，其名不去以阅众甫。吾何以知众甫之状哉！以此。&lt;/p&gt;
+&lt;h2&gt;第22章&lt;/h2&gt;
+&lt;p&gt;曲则全，枉则直，洼则盈，敝则新少则得，多则惑。是以圣人抱一为天下式。不自见故明；不自是故彰；不自伐故有功；不自矜故长；夫唯不争，故天下莫能与之争。古之所谓∶曲则全者」岂虚言哉！诚全而归之。&lt;/p&gt;
+&lt;h2&gt;第23章&lt;/h2&gt;
+&lt;p&gt;希言自然。故飘风不终朝，骤雨不终日。孰为此者？天地。天地尚不能久，而况於人乎？故从事於道者，同於道。德者同於德。失者同於失。同於道者道亦乐得之；同於德者德亦乐得之；同於失者失於乐得之信不足焉有不信焉。&lt;/p&gt;
+&lt;h2&gt;第24章&lt;/h2&gt;
+&lt;p&gt;企者不立；跨者不行。自见者不明；自是者不彰。自伐者无功；自矜者不长。其在道也曰∶馀食赘形。物或恶之，故有道者不处。&lt;/p&gt;
+&lt;h2&gt;第25章&lt;/h2&gt;
+&lt;p&gt;有物混成先天地生。寂兮寥兮独立不改，周行而不殆，可以为天下母。吾不知其名，强字之曰道。强为之名曰大。大曰逝，逝曰远，远曰反。故道大、天大、地大、人亦大。域中有大，而人居其一焉。人法地，地法天，天法道，道法自然。&lt;/p&gt;
+&lt;h2&gt;第26章&lt;/h2&gt;
+&lt;p&gt;重为轻根，静为躁君。是以君子终日行不离轻重。虽有荣观燕处超然。奈何万乘之主而以身轻天下。轻则失根，躁则失君。&lt;/p&gt;
+&lt;h2&gt;第27章&lt;/h2&gt;
+&lt;p&gt;善行无辙迹。善言无瑕谪。善数不用筹策。善闭无关楗而不可开。善结无绳约而不可解。是以圣人常善救人，故无弃人。常善救物，故无弃物。是谓袭明。故善人者不善人之师。不善人者善人之资。不贵其师、不爱其资，虽智大迷，是谓要妙。&lt;/p&gt;
+&lt;h2&gt;第28章&lt;/h2&gt;
+&lt;p&gt;知其雄，守其雌，为天下溪。为天下溪，常德不离，复归於婴儿。知其白，守其黑，为天下式。为天下式，常德不忒，复归於无极。知其荣，守其辱，为天下谷。为天下谷，常德乃足，复归於朴。朴散则为器，圣人用之则为官长。故大制不割。&lt;/p&gt;
+&lt;h2&gt;第29章&lt;/h2&gt;
+&lt;p&gt;将欲取天下而为之，吾见其不得已。天下神器，不可为也，为者败之，执者失之。夫物或行或随、或觑或吹、或强或羸、或挫或隳。是以圣人去甚、去奢、去泰。&lt;/p&gt;
+&lt;h2&gt;第30章&lt;/h2&gt;
+&lt;p&gt;以道佐人主者，不以兵强天下。其事好还。师之所处荆棘生焉。军之後必有凶年。善有果而已，不敢以取强。果而勿矜。果而勿伐。果而勿骄。果而不得已。果而勿强。物壮则老，是谓不道，不道早已。&lt;/p&gt;
+&lt;h2&gt;第31章&lt;/h2&gt;
+&lt;p&gt;夫佳兵者不祥之器，物或恶之，故有道者不处。君子居则贵左，用兵则贵右。兵者不祥之器，非君子之器，不得已而用之，恬淡为上。胜而不美，而美之者，是乐杀人。夫乐杀人者，则不可得志於天下矣。吉事尚左，凶事尚右。偏将军居左，上将军居右。言以丧礼处之。杀人之众，以悲哀泣之，战胜以丧礼处之。&lt;/p&gt;
+&lt;h2&gt;第32章&lt;/h2&gt;
+&lt;p&gt;道常无名。朴虽小天下莫能臣也。侯王若能守之，万物将自宾。天地相合以降甘露，民莫之令而自均。始制有名，名亦既有，夫亦将知止，知止可以不殆。譬道之在天下，犹川谷之於江海。&lt;/p&gt;
+&lt;h2&gt;第33章&lt;/h2&gt;
+&lt;p&gt;知人者智，自知者明。胜人者有力，自胜者强。知足者富。强行者有志。不失其所者久。死而不亡者，寿。&lt;/p&gt;
+&lt;h2&gt;第34章&lt;/h2&gt;
+&lt;p&gt;大道泛兮，其可左右。万物恃之以生而不辞，功成而不名有。衣养万物而不为主，常无欲可名於小。万物归焉，而不为主，可名为大。以其终不自为大，故能成其大。&lt;/p&gt;
+&lt;h2&gt;第35章&lt;/h2&gt;
+&lt;p&gt;执大象天下往。往而不害安平太。乐与饵，过客止。道之出口淡乎其无味。视之不足见。听之不足闻。用之不足既。&lt;/p&gt;
+&lt;h2&gt;第36章&lt;/h2&gt;
+&lt;p&gt;将欲歙之，必固张之。将欲弱之，必固强之。将欲废之，必固兴之。将欲取之，必固与之。是谓微明。柔弱胜刚强。鱼不可脱於渊，国之利器不可以示人。&lt;/p&gt;
+&lt;h2&gt;第37章&lt;/h2&gt;
+&lt;p&gt;道常无为，而无不为。侯王若能守之，万物将自化。化而欲作，吾将镇之以无名之朴。无名之朴，夫亦将无欲。不欲以静，天下将自定。&lt;/p&gt;
+&lt;h2&gt;第38章&lt;/h2&gt;
+&lt;p&gt;上德不德是以有德。下德不失德是以无德。上德无为而无以为。下德无为而有以为。上仁为之而无以为。上义为之而有以为。上礼为之而莫之以应，则攘臂而扔之。故失道而後德。失德而後仁。失仁而後义。失义而後礼。夫礼者忠信之薄而乱之首。前识者，道之华而愚之始。是以大丈夫，处其厚不居其薄。处其实，不居其华。故去彼取此。&lt;/p&gt;
+&lt;h2&gt;第39章&lt;/h2&gt;
+&lt;p&gt;昔之得一者。天得一以清。地得一以宁。神得一以灵。谷得一以盈。万物得一以生。侯王得一以为天下贞。其致之。天无以清将恐裂。地无以宁将恐废。神无以灵将恐歇。谷无以盈将恐竭。万物无以生将恐灭。侯王无以贞将恐蹶。故贵以贱为本，高以下为基。是以侯王自称孤、寡、不谷。此非以贱为本邪？非乎。至誉无誉。不欲琭琭如玉，珞珞如石。&lt;/p&gt;
+&lt;h2&gt;第40章&lt;/h2&gt;
+&lt;p&gt;反者道之动。弱者道之用。天下万物生於有，有生於无。&lt;/p&gt;
+&lt;h2&gt;第41章&lt;/h2&gt;
+&lt;p&gt;上士闻道勤而行之。中士闻道若存若亡。下士闻道大笑之。不笑不足以为道。故建言有之。明道若昧。进道若退。夷道若纇。上德若谷。大白若辱。广德若不足。建德若偷。质真若渝。大方无隅。大器晚成。大音希声。大象无形。道隐无名。夫唯道善贷且成。&lt;/p&gt;
+&lt;h2&gt;第42章&lt;/h2&gt;
+&lt;p&gt;道生一。一生二。二生三。三生万物。万物负阴而抱阳，冲气以为和。人之所恶，唯孤、寡不谷，而王公以为称，故物或损之而益，或益之而损。人之所教，我亦教之，强梁者，不得其死。吾将以为教父。&lt;/p&gt;
+&lt;h2&gt;第43章&lt;/h2&gt;
+&lt;p&gt;天下之至柔，驰骋天下之至坚。无有入无间，吾是以知无为之有益。不言之教，无为之益天下希及之。&lt;/p&gt;
+&lt;h2&gt;第44章&lt;/h2&gt;
+&lt;p&gt;名与身孰亲。身与货孰多。得与亡孰病。是故甚爱必大费。多藏必厚亡。知足不辱。知止不殆。可以长久。&lt;/p&gt;
+&lt;h2&gt;第45章&lt;/h2&gt;
+&lt;p&gt;大成若缺，其用不弊。大盈若冲，其用不穷。大直若屈。大巧若拙。大辩若讷。静胜躁，寒胜热。清静为天下正。&lt;/p&gt;
+&lt;h2&gt;第46章&lt;/h2&gt;
+&lt;p&gt;天下有道，却走马以粪。天下无道，戎马生於郊。祸莫大於不知足。咎莫大於欲得。故知足之足常足矣。&lt;/p&gt;
+&lt;h2&gt;第47章&lt;/h2&gt;
+&lt;p&gt;不出户知天下。不窥牖见天道。其出弥远，其知弥少。是以圣人不行而知。不见而明。不为而成。&lt;/p&gt;
+&lt;h2&gt;第48章&lt;/h2&gt;
+&lt;p&gt;为学日益。为道日损。损之又损，以至於无为。无为而不为。取天下常以无事，及其有事，不足以取天下。&lt;/p&gt;
+&lt;h2&gt;第49章&lt;/h2&gt;
+&lt;p&gt;圣人无常心。以百姓心为心。善者吾善之。不善者吾亦善之，德善。信者吾信之。不信者吾亦信之，德信。圣人在天下，歙歙(xīxī,无所偏执的样子)焉，为天下浑其心。百姓皆注其耳目，圣人皆孩之。&lt;/p&gt;
+&lt;h2&gt;第50章&lt;/h2&gt;
+&lt;p&gt;出生入死。生之徒，十有三。死之徒，十有三。人之生，动之於死地，亦十有三。夫何故？以其生生之厚。盖闻善摄生者，陆行不遇凶虎，入军不被甲兵。凶无所投其角。虎无所用其爪。兵无所容其刃。夫何故？以其无死地。&lt;/p&gt;
+&lt;h2&gt;第51章&lt;/h2&gt;
+&lt;p&gt;道生之，德畜之，物形之，势成之。是以万物莫不尊道，而贵德。道之尊，德之贵，夫莫之命而常自然。故道生之，德畜之。长之育之。亭之毒之。养之覆之。生而不有，为而不恃，长而不宰。是谓玄德。&lt;/p&gt;
+&lt;h2&gt;第52章&lt;/h2&gt;
+&lt;p&gt;天下有始，以为天下母。既得其母，以知其子。既知其子，复守其母，没身不殆。塞其兑，闭其门，终身不勤。开其兑，济其事，终身不救。见其小曰明，守柔曰强。用其光，复归其明，无遗身殃。是为习常。&lt;/p&gt;
+&lt;h2&gt;第53章&lt;/h2&gt;
+&lt;p&gt;使我介然有知，行於大道，唯施是畏。大道甚夷，而人好径。朝甚除，田甚芜，仓甚虚。服文彩，带利剑，厌饮食，财货有馀。是谓盗夸。非道也哉。&lt;/p&gt;
+&lt;h2&gt;第54章&lt;/h2&gt;
+&lt;p&gt;善建者不拔。善抱者不脱。子孙以祭祀不辍。修之於身其德乃真。修之於家其德乃馀。修之於乡其德乃长。修之於邦其德乃丰。修之於天下其德乃普。故以身观身，以家观家，以乡观乡，以邦观邦，以天下观天下。吾何以知天下然哉？以此。&lt;/p&gt;
+&lt;h2&gt;第55章&lt;/h2&gt;
+&lt;p&gt;含德之厚比於赤子。毒虫不螫，猛兽不据，攫鸟不抟。骨弱筋柔而握固。未知牝牡之合而全作，精之至也。终日号而不嗄，和之至也。知和曰常。知常曰明。益生曰祥。心使气曰强。物壮则老。谓之不道，不道早已。&lt;/p&gt;
+&lt;h2&gt;第56章&lt;/h2&gt;
+&lt;p&gt;知者不言。言者不知。挫其锐，解其纷，和其光，同其尘，是谓玄同。故不可得而亲。不可得而疏。不可得而利。不可得而害。不可得而贵。不可得而贱。故为天下贵。&lt;/p&gt;
+&lt;h2&gt;第57章&lt;/h2&gt;
+&lt;p&gt;以正治国，以奇用兵，以无事取天下。吾何以知其然哉？以此。天下多忌讳而民弥贫。民多利器国家滋昏。人多伎巧奇物泫起。法令滋彰盗贼多有。故圣人云我无为而民自化。我好静而民自正。我无事而民自富。我无欲而民自朴。&lt;/p&gt;
+&lt;h2&gt;第58章&lt;/h2&gt;
+&lt;p&gt;其政闷闷，其民淳淳。其政察察，其民缺缺。祸尚福之所倚。福尚祸之所伏。孰知其极，其无正。正复为奇，善复为妖。人之迷其日固久。是以圣人方而不割。廉而不刿。直而不肆。光而不耀。&lt;/p&gt;
+&lt;h2&gt;第59章&lt;/h2&gt;
+&lt;p&gt;治人事天莫若啬。夫唯啬是谓早服。早服谓之重积德。重积德则无不克。无不克则莫知其极。莫知其极可以有国。有国之母可以长久。是谓深根固柢，长生久视之道。&lt;/p&gt;
+&lt;h2&gt;第60章&lt;/h2&gt;
+&lt;p&gt;治大国若烹小鲜。以道莅天下，其迨ㄞ哄非其鬼不神，其神不伤人。非其神不伤人，圣人亦不伤人。夫两不相伤，故德交归焉。&lt;/p&gt;
+&lt;h2&gt;第61章&lt;/h2&gt;
+&lt;p&gt;大国者下流，天下之交。天下之牝。牝常以静胜牡。以静为下。故大国以下小国，则取小国。小国以下大国，则取大国。故或下以取，或下而取。大国不过欲兼畜人。小国不过欲入事人。夫两者各得所欲，大者宜为下。&lt;/p&gt;
+&lt;h2&gt;第62章&lt;/h2&gt;
+&lt;p&gt;道者万物之奥。善人之宝，不善人之所保。美言可以市尊。美行可以加人。人之不善，何弃之有。故立天子、置三公，虽有拱璧以先驷马，不如坐进此道。古之所以贵此道者何。不曰∶求以得，有罪以免邪？故为天下贵。&lt;/p&gt;
+&lt;h2&gt;第63章&lt;/h2&gt;
+&lt;p&gt;为无为，事无事，味无味。大小多少，报怨以德。图难於其易，为大於其细。天下难事必作於易。天下大事必作於细。是以圣人终不为大，故能成其大。夫轻诺必寡信。多易必多难。是以圣人犹难之，故终无难矣。&lt;/p&gt;
+&lt;h2&gt;第64章&lt;/h2&gt;
+&lt;p&gt;其安易持，其未兆易谋。其脆易泮，其微易散。为之於未有，治之於未乱。合抱之木生於毫末。九层之台起於累土。千里之行始於足下。为者败之，执者失之。是以圣人无为故无败，无执故无失。民之从事常於几成而败之。慎终如始则无败事。是以圣人欲不欲，不贵难得之货。学不学，复众人之所过，以辅万物之自然而不敢为。&lt;/p&gt;
+&lt;h2&gt;第65章&lt;/h2&gt;
+&lt;p&gt;古之善为道者，非以明民，将以愚之。民之难治，以其智多。故以智治国，国之贼。不以智治国，国之福。知此两者，亦稽式。常知稽式，是谓玄德。玄德深矣、远矣！与物反矣。然後乃至大顺。&lt;/p&gt;
+&lt;h2&gt;第66章&lt;/h2&gt;
+&lt;p&gt;江海之所以能为百谷王者，以其善下之，故能为百谷王。是以圣人欲上民，必以言下之。欲先民，必以身後之。是以圣人处上而民不重，处前而民不害。是以天下乐推而不厌。以其不争，故天下莫能与之争。&lt;/p&gt;
+&lt;h2&gt;第67章&lt;/h2&gt;
+&lt;p&gt;天下皆谓我道大似不肖。夫唯大故似不肖。若肖，久矣！其细也夫。我有三宝持而保之∶一曰慈，&amp;nbsp;二曰俭，三曰不敢为天下先。慈故能勇，俭故能广，不敢为天下先故能成器长。今舍慈且勇，舍俭且广，舍後且先，死矣！夫慈以战则胜，以守则固。天将救之以慈卫之。&lt;/p&gt;
+&lt;h2&gt;第68章&lt;/h2&gt;
+&lt;p&gt;善为士者不武。善战者不怒。善胜敌者不与。善用人者为之下。是谓不争之德。是谓用人之力。是谓配天之极。&lt;/p&gt;
+&lt;h2&gt;第69章&lt;/h2&gt;
+&lt;p&gt;用兵有言，吾不敢为主而为客。不敢进寸而退尺。是谓行无行。攘无臂。扔无敌。执无兵。祸莫大於轻敌。轻敌几丧吾宝。故抗兵相加哀者胜矣。&lt;/p&gt;
+&lt;h2&gt;第70章&lt;/h2&gt;
+&lt;p&gt;吾言甚易知、甚易行。天下莫能知、莫能行。言有宗、事有君。夫唯无知，是以我不知。知我者希，则我者贵。是以圣被褐怀玉。&lt;/p&gt;
+&lt;h2&gt;第71章&lt;/h2&gt;
+&lt;p&gt;知不知上，不知知病。夫唯病病，是以不病。圣人不病，以其病病。夫唯病病，是以不病。&lt;/p&gt;
+&lt;h2&gt;第72章&lt;/h2&gt;
+&lt;p&gt;民不畏威，则大威至。无狎其所居，无厌其所生。夫唯不厌，是以不厌。是以圣人自知不自见。自爱不自贵。故去彼取此。&lt;/p&gt;
+&lt;h2&gt;第73章&lt;/h2&gt;
+&lt;p&gt;勇於敢则杀。勇於不敢则活。此两者或利或害。天之所恶孰知其故。天之道不争而善胜。不言而善应。不召而自来。繟(chǎn,舒缓)然而善谋。天网恢恢疏而不失。&lt;/p&gt;
+&lt;h2&gt;第74章&lt;/h2&gt;
+&lt;p&gt;民不畏死，奈何以死惧之。若使民常畏死，而为奇者，吾得执而杀之，孰敢。常有司杀者杀。夫代司杀者杀，是谓代大匠斫。夫代大匠斫者，希有不伤其手矣。&lt;/p&gt;
+&lt;h2&gt;第75章&lt;/h2&gt;
+&lt;p&gt;民之饥以其上食税之多，是以饥。民之难治以其上之有为，是以难治。民之轻死以其求生之厚，是以轻死。夫唯无以生为者，是贤於贵生。&lt;/p&gt;
+&lt;h2&gt;第76章&lt;/h2&gt;
+&lt;p&gt;人之生也柔弱，其死也坚强。草木之生也柔脆，其死也枯槁。故坚强者死之徒，柔弱者生之徒。是以兵强则灭，木强则折。强大处下，柔弱处上。&lt;/p&gt;
+&lt;h2&gt;第77章&lt;/h2&gt;
+&lt;p&gt;天之道其犹张弓与。高者抑之，下者举之。有馀者损之，不足者补之。天之道，损有馀而补不足。人之道，则不然，损不足以奉有馀。孰能有馀以奉天下，唯有道者。是以圣人为而不恃，功成而不处。其不欲见贤邪！&lt;/p&gt;
+&lt;h2&gt;第78章&lt;/h2&gt;
+&lt;p&gt;天下莫柔弱於水。而攻坚强者，莫之能胜。以其无以易之。弱之胜强。柔之胜刚。天下莫不知莫能行。是以圣人云，受国之垢是谓社稷主。受国不祥是为天下王。正言若反。&lt;/p&gt;
+&lt;h2&gt;第79章&lt;/h2&gt;
+&lt;p&gt;和大怨必有馀怨，安可以为善。是以圣人执左契，而不责於人。有德司契，无德司彻。天道无亲常与善人。&lt;/p&gt;
+&lt;h2&gt;第80章&lt;/h2&gt;
+&lt;p&gt;小国寡民。使有什伯之器而不用。使民重死而不远徙。虽有舟舆无所乘之。虽有甲兵无所陈之。使民复结绳而用之。甘其食、美其服、安其居、乐其俗。邻国相望，鸡犬之声相闻。民至老死不相往来。&lt;/p&gt;
+&lt;h2&gt;第81章&lt;/h2&gt;
+&lt;p&gt;信言不美。美言不信。善者不辩。辩者不善。知者不博。博者不知。圣人不积。既以为人己愈有。既以与人己愈多。天之道利而不害。圣人之道为而不争。&lt;/p&gt;
+&lt;script src=&#34;https://giscus.app/client.js&#34;
+    data-repo=&#34;byronlau/Knowledge-Garden&#34;
+    data-repo-id=&#34;R_kgDOKkfaDQ&#34;
+    data-mapping=&#34;number&#34;
+    data-term=&#34;3&#34;
+    data-reactions-enabled=&#34;1&#34;
+    data-emit-metadata=&#34;0&#34;
+    data-input-position=&#34;bottom&#34;
+    data-theme=&#34;light&#34;
+    data-lang=&#34;zh-CN&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+&lt;/script&gt;</description>
+      <link>https://doc.mgd2008.com/notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/</link>
+      <pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/</guid>
       
     </item>
     

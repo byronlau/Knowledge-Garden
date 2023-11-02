@@ -18,7 +18,7 @@
         <link rel="prev" href="../python/">
       
       
-        <link rel="next" href="../sundry/">
+        <link rel="next" href="../go/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../../../feed_rss_created.xml">
@@ -1826,16 +1826,67 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../../notebook/culture" class="md-nav__link">
+    
+    
+      
         
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
   
   <span class="md-ellipsis">
     文化
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            文化
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    《道德经》81篇
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -2101,6 +2152,26 @@
   
   
     <li class="md-nav__item">
+      <a href="../sundry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sundry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../db/" class="md-nav__link">
         
   
@@ -2160,26 +2231,6 @@
 
       </a>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sundry/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sundry
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -2419,16 +2470,70 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="springbootparameterarg0notfoundavailableparametersareusernameparam1param2"><a class="toclink" href="../../2023/11/02/springbootparameterarg0notfoundavailableparametersareusernameparam1param2/">Springboot传值报错Parameter&rsquo;arg0&rsquo;notfound.Availableparametersare[username,param1,param2</a></h2>
-<p>在对老代码重构过程中发现使用如下方式传参报错 Parameter &lsquo;arg0&rsquo; not found &hellip;</p>
-<p><div class="highlight"><pre><span></span><code><span class="nd">@Select</span><span class="p">(</span><span class="s">&quot;SELECT COUNT(*) AS num FROM USER WHERE username=#{arg0} AND PASSWORD=#{arg1}&quot;</span><span class="p">)</span>
-<span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">isUserExists</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">username</span><span class="p">,</span><span class="n">String</span><span class="w"> </span><span class="n">password</span><span class="p">);</span>
+    <h2 id="springboothttp"><a class="toclink" href="../../2023/11/02/springboothttp/">SpringBoot自带了一个轻量级的HTTP客户端工具</a></h2>
+<p>Spring Boot自带了一个轻量级的HTTP客户端工具，该工具基于Java的标准HTTP库  <code>java.net.URLConnection</code>。您可以使用它来发送HTTP请求并与外部的HTTP资源进行通信。</p>
+<p>下面是使用Spring Boot默认的HTTP工具进行HTTP请求的基本示例：
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.boot.web.client.RestTemplateBuilder</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.http.ResponseEntity</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.client.RestTemplate</span><span class="p">;</span>
+
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HttpClientExample</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">RestTemplate</span><span class="w"> </span><span class="n">restTemplate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">RestTemplateBuilder</span><span class="p">().</span><span class="na">build</span><span class="p">();</span>
+
+<span class="w">        </span><span class="c1">// 发送GET请求</span>
+<span class="w">        </span><span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">restTemplate</span><span class="p">.</span><span class="na">getForEntity</span><span class="p">(</span><span class="s">&quot;https://api.example.com/users&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="na">getBody</span><span class="p">());</span>
+
+<span class="w">        </span><span class="c1">// 发送POST请求</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">requestBody</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;{\&quot;username\&quot;: \&quot;test\&quot;, \&quot;password\&quot;: \&quot;123456\&quot;}&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">postResponse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">restTemplate</span><span class="p">.</span><span class="na">postForEntity</span><span class="p">(</span><span class="s">&quot;https://api.example.com/login&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">requestBody</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">postResponse</span><span class="p">.</span><span class="na">getBody</span><span class="p">());</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
-查阅资料发现如下问题</p>
-<p>mybatis从3.4.1开始支持java 8 的反射获取入参名了，所以入参不再是arg0，arg1了，不过仍然可以使用param1，param2的这种形式，在java8 编译时指定 -parameters 选项，可以直接使用#{username} #{password}，而不用改变你的接口入参</p>
+上述代码中使用了RestTemplate类来发送HTTP请求。您可以使用getForEntity()发送GET请求，postForEntity()发送POST请求等。这里的请求URL可以根据您的实际需求进行修改。</p>
+<p>请注意，从Spring 5.0版本开始，RestTemplate已经被宣布为过时，并在将来的Spring版本中将被移除。官方推荐使用WebClient作为替代方案，它提供了更先进的异步非阻塞特性。因此，如果您使用的是较新的Spring Boot版本，可以考虑使用WebClient类来发送HTTP请求。
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">org.springframework.web.reactive.function.client.WebClient</span><span class="p">;</span>
 
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HttpClientExample</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">WebClient</span><span class="w"> </span><span class="n">client</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">WebClient</span><span class="p">.</span><span class="na">create</span><span class="p">();</span>
+
+<span class="w">        </span><span class="c1">// 发送GET请求</span>
+<span class="w">        </span><span class="n">client</span><span class="p">.</span><span class="na">get</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">uri</span><span class="p">(</span><span class="s">&quot;https://api.example.com/users&quot;</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">retrieve</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">bodyToMono</span><span class="p">(</span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">subscribe</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">::</span><span class="n">println</span><span class="p">);</span>
+
+<span class="w">        </span><span class="c1">// 发送POST请求</span>
+<span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">requestBody</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;{\&quot;username\&quot;: \&quot;test\&quot;, \&quot;password\&quot;: \&quot;123456\&quot;}&quot;</span><span class="p">;</span>
+<span class="w">        </span><span class="n">client</span><span class="p">.</span><span class="na">post</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">uri</span><span class="p">(</span><span class="s">&quot;https://api.example.com/login&quot;</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">bodyValue</span><span class="p">(</span><span class="n">requestBody</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">retrieve</span><span class="p">()</span>
+<span class="w">                </span><span class="p">.</span><span class="na">bodyToMono</span><span class="p">(</span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">)</span>
+<span class="w">                </span><span class="p">.</span><span class="na">subscribe</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">::</span><span class="n">println</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+在此示例中，我们使用WebClient类来发送GET和POST请求。.uri()方法用于设置请求的URL，.retrieve()用于发起请求，.bodyToMono()用于解析响应体的内容。</p>
+<script src="https://giscus.app/client.js"
+    data-repo="byronlau/Knowledge-Garden"
+    data-repo-id="R_kgDOKkfaDQ"
+    data-mapping="number"
+    data-term="45"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
+</script>
     <nav class="md-post__action">
-      <a href="../../2023/11/02/springbootparameterarg0notfoundavailableparametersareusernameparam1param2/">
+      <a href="../../2023/11/02/springboothttp/">
         继续阅读
       </a>
     </nav>
@@ -2469,13 +2574,14 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="protobuf"><a class="toclink" href="../../2023/11/02/protobuf/">protobuf简单使用</a></h2>
-<h3 id="protobuf_1"><a class="toclink" href="../../2023/11/02/protobuf/#protobuf_1">什么是protobuf</a></h3>
-<p>它是一个灵活、高效、结构化的序列化数据结构，它与传统的XML、JSON等相比，它更小、更快、更简单。</p>
-<p>ProtoBuf是由Google开发的一种数据序列化协议（类似于XML、JSON、hessian）。ProtoBuf能够将数据进行序列化，并广泛应用在数据存储、通信协议等方面。protobuf压缩和传输效率高，语法简单，表达力强。</p>
+    <h2 id="springboot"><a class="toclink" href="../../2023/11/02/springboot/">SpringBoot静态资源处理</a></h2>
+<p>在web开发中，静态资源的访问是必不可少的，如：图片、js、css 等资源的访问。
+spring Boot 对静态资源访问提供了很好的支持，基本使用默认配置就能满足开发需求。</p>
+<h3 id="_1"><a class="toclink" href="../../2023/11/02/springboot/#_1">一、默认静态资源映射</a></h3>
+<p>Spring Boot 对静态资源映射提供了默认配置</p>
 
     <nav class="md-post__action">
-      <a href="../../2023/11/02/protobuf/">
+      <a href="../../2023/11/02/springboot/">
         继续阅读
       </a>
     </nav>
@@ -2507,7 +2613,7 @@
           
           <li class="md-meta__item">
             
-              需要 1 分钟阅读时间
+              需要 4 分钟阅读时间
             
           </li>
         
@@ -2516,11 +2622,11 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="redis"><a class="toclink" href="../../2023/11/02/redis/">redis分布式锁的实现</a></h2>
-<p>Java 版本的基于Jedis 的 Redis 分布式锁实现</p>
+    <h2 id="quartz"><a class="toclink" href="../../2023/11/02/springboot-quartz/">Quartz 的简单介绍和使用</a></h2>
+<p><code>Quartz</code> 是一个开源的 <code>Java</code> 调度框架，可以用来实现在指定的时间或时间间隔触发任务执行的功能。以下是使用 <code>Quartz</code> 的主要方式和基本概念。</p>
 
     <nav class="md-post__action">
-      <a href="../../2023/11/02/redis/">
+      <a href="../../2023/11/02/springboot-quartz/">
         继续阅读
       </a>
     </nav>
@@ -2534,7 +2640,7 @@
 
 
 <nav class="md-pagination">
-  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a>
+  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a> <a class="md-pagination__link" href="page/3/">3</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="page/5/">5</a>
 </nav>
         
       
@@ -2576,13 +2682,13 @@
         
         
           
-          <a href="../sundry/" class="md-footer__link md-footer__link--next" aria-label="下一页: Sundry">
+          <a href="../go/" class="md-footer__link md-footer__link--next" aria-label="下一页: Go">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                Sundry
+                Go
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -101,6 +101,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/nginx-try_files/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/2023/11/01/nginxadd_headerproxy_set_header/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
@@ -131,7 +136,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/springboothttp/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/springboot/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/springboot-quartz/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/2023/11/02/springbootparameterarg0notfoundavailableparametersareusernameparam1param2/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/springbootspringmvcstatic-path-pattern/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/ubuntussh/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -186,12 +216,77 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/springboot/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/ip/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/nginxipip/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/nginxuri/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/stream-collectorstomap/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/2023/10/30/pagehelperstream/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/pythonmd/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/rename/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/htmlp/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/springbootstarterboot-inf/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/2023/10/31/pc/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/pythonyamljson/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/androidsdk/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/2023/11/02/jackson/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -321,7 +416,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/archive/2023/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/sundry/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -337,11 +442,6 @@
     </url>
     <url>
          <loc>https://doc.mgd2008.com/blog/category/java/</loc>
-         <lastmod>2023-11-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://doc.mgd2008.com/blog/category/sundry/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -396,6 +496,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/page/9/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/page/10/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/page/11/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/archive/2023/page/2/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
@@ -431,7 +546,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/page/9/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/page/10/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/archive/2023/page/11/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/sundry/page/2/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/sundry/page/3/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/sundry/page/4/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://doc.mgd2008.com/blog/category/db/page/2/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/python/page/2/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -441,7 +591,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://doc.mgd2008.com/blog/category/sundry/page/2/</loc>
+         <loc>https://doc.mgd2008.com/blog/category/java/page/3/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/java/page/4/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://doc.mgd2008.com/blog/category/java/page/5/</loc>
          <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
