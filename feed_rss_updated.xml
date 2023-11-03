@@ -13,8 +13,8 @@
     <language>en-None</language>
 
     
-    <pubDate>Thu, 02 Nov 2023 10:20:02 -0000</pubDate>
-    <lastBuildDate>Thu, 02 Nov 2023 10:20:02 -0000</lastBuildDate>
+    <pubDate>Fri, 03 Nov 2023 10:22:19 -0000</pubDate>
+    <lastBuildDate>Fri, 03 Nov 2023 10:22:19 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -32,66 +32,6 @@
     
     
     <item>
-      <title>Java</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/5/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/5/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Java</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/4/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Java</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/3/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/3/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Java</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/2/</guid>
-      
-    </item>
-    
-    <item>
       <title>Python</title>
       
       
@@ -99,7 +39,7 @@
       
       <description>&lt;h1&gt;Python&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/python/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/python/page/2/</guid>
@@ -114,7 +54,7 @@
       
       <description>&lt;h1&gt;DB&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/db/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/db/page/2/</guid>
@@ -129,7 +69,7 @@
       
       <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/sundry/page/4/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/4/</guid>
@@ -144,7 +84,7 @@
       
       <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/sundry/page/3/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/3/</guid>
@@ -159,10 +99,85 @@
       
       <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/sundry/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/page/5/</link>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/page/4/</link>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/page/3/</link>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/page/2/</link>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/2/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/archive/2023/page/12/</link>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/12/</guid>
       
     </item>
     
@@ -174,7 +189,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/11/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/11/</guid>
@@ -189,7 +204,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/10/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/10/</guid>
@@ -204,7 +219,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/9/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/9/</guid>
@@ -219,7 +234,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/8/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/8/</guid>
@@ -234,7 +249,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/7/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/7/</guid>
@@ -249,7 +264,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/6/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/6/</guid>
@@ -264,7 +279,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/5/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/5/</guid>
@@ -279,7 +294,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/4/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/4/</guid>
@@ -294,7 +309,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/3/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/3/</guid>
@@ -309,7 +324,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/2/</guid>
@@ -323,8 +338,23 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/page/12/</link>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/12/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/11/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/11/</guid>
@@ -339,7 +369,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/10/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/10/</guid>
@@ -354,7 +384,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/9/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/9/</guid>
@@ -369,7 +399,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/8/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:05 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/8/</guid>
@@ -384,7 +414,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/7/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/7/</guid>
@@ -399,7 +429,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/6/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/6/</guid>
@@ -414,7 +444,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/5/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/5/</guid>
@@ -429,7 +459,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/4/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/4/</guid>
@@ -444,7 +474,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/3/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/3/</guid>
@@ -459,7 +489,7 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/page/2/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/2/</guid>
@@ -474,7 +504,7 @@
       
       <description>&lt;h1&gt;NoDB&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/nodb/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/nodb/</guid>
@@ -489,7 +519,7 @@
       
       <description>&lt;h1&gt;Frontend&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/frontend/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/frontend/</guid>
@@ -504,25 +534,10 @@
       
       <description>&lt;h1&gt;Go&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/go/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/go/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Java</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/</guid>
       
     </item>
     
@@ -534,7 +549,7 @@
       
       <description>&lt;h1&gt;Python&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/python/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/python/</guid>
@@ -549,7 +564,7 @@
       
       <description>&lt;h1&gt;DB&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/db/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/db/</guid>
@@ -564,10 +579,25 @@
       
       <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/category/sundry/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://doc.mgd2008.com/blog/category/java/</link>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/</guid>
       
     </item>
     
@@ -579,7 +609,7 @@
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
       <link>https://doc.mgd2008.com/blog/archive/2023/</link>
-      <pubDate>Thu, 02 Nov 2023 10:20:04 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:22:23 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/</guid>
@@ -646,7 +676,7 @@
 &lt;figcaption&gt;Random acts of kindness.&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
       <link>https://doc.mgd2008.com/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/</guid>
@@ -662,7 +692,7 @@
       <description>&lt;p&gt;语雀，是一个非常优秀的文档和知识库工具，也曾经是个人知识和文档记录的一个非常重要的平台。但由于工作和其他的一些原因，逐渐从语雀转移到了 GitHub，作为历史文章的一个备份，你可以通过下面的链接访问我的语雀花园主页，感谢你的支持，我们一定会越来越好！&lt;/p&gt;
 &lt;p align=center&gt;&lt;b&gt;&lt;a href=&#34;https://www.yuque.com/byronlau&#34; target=&#34;_blank&#34;&gt;www.yuque.com/byronlau&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/YUQUE/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/YUQUE/</guid>
@@ -678,7 +708,7 @@
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;
 &lt;p&gt;这是首发于 GitHub Discussion/Issues，并定期同步更新至 Material for MkDocs 上的博客文章。&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/blog/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/blog/</guid>
@@ -693,7 +723,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</guid>
@@ -706,9 +736,121 @@
       
       
       
+      <description></description>
+      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Spring源码解析</title>
+      
+      
+      
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;文档的全部内容来源于 &lt;strong&gt;&lt;a href=&#34;https://apppukyptrl1086.pc.xiaoe-tech.com/&#34;&gt;儒猿技术窝&lt;/a&gt;&lt;/strong&gt;，版权归其所有，文章只做本人学习使用，不做任何用途，如有触犯所有者利益，请及时告知。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;display: flex; justify-content: flex-end;&#34;&gt;
+  &lt;a href=&#34;https://github.com/byronlau/imgs/tree/main/spring5.2.6&#34;&gt;
+    &lt;img src=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/doc/gitcat.png&#34; alt=&#34;GitHub&#34; style=&#34;zoom:8%;&#34;&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/00手把手带你吃透Spring框架核心源码.png&#34;&gt;00手把手带你吃透Spring框架核心源码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/01-Spring源码的准备工作：环境搭建.png&#34;&gt;01-Spring源码的准备工作：环境搭建&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/02-Spring源码的准备工作：Spring的简单使用和原理分析.png&#34;&gt;02-Spring源码的准备工作：Spring的简单使用和原理分析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/03-Spring初级容器初始化：Resource到底是个什么玩意儿？.png&#34;&gt;03-Spring初级容器初始化：Resource到底是个什么玩意儿？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/04-Spring初级容器初始化：忽略指定接口自动装配功能.png&#34;&gt;04-Spring初级容器初始化：忽略指定接口自动装配功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/05-Spring初级容器初始化：基础数据的准备.png&#34;&gt;05-Spring初级容器初始化：基础数据的准备&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/06-Spring初级容器初始化：加载XML的Document.png&#34;&gt;06-Spring初级容器初始化：加载XML的Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/07-Spring初级容器初始化：XML文件的校验模式.png&#34;&gt;07-Spring初级容器初始化：XML文件的校验模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/08-Spring初级容器初始化：获取声明文件和校验类型.png&#34;&gt;08-Spring初级容器初始化：获取声明文件和校验类型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/09-Spring初级容器初始化：寻找标签解析的入口.png&#34;&gt;09-Spring初级容器初始化：寻找标签解析的入口&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/10-Spring初级容器初始化：bean标签的初步解析.png&#34;&gt;10-Spring初级容器初始化：bean标签的初步解析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/11-Spring初级容器初始化：BeanDefinition是什么呢？.png&#34;&gt;11-Spring初级容器初始化：BeanDefinition是什么呢？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/12-Spring初级容器初始化：bean的各种子标签解析.png&#34;&gt;12-Spring初级容器初始化：bean的各种子标签解析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/13-Spring初级容器初始化：BeanDefinition是如何注册到Spring容器.png&#34;&gt;13-Spring初级容器初始化：BeanDefinition是如何注册到Spring容器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/14-Spring高级容器初始化：初探容器ApplicationContext初始化.png&#34;&gt;14-Spring高级容器初始化：初探容器ApplicationContext初始化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/15-Spring高级容器初始化：初始化环境和容器BeanFactory.png&#34;&gt;15-Spring高级容器初始化：初始化环境和容器BeanFactory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/16-Spring高级容器初始化：初步添加扩展功能点.png&#34;&gt;16-Spring高级容器初始化：初步添加扩展功能点&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/17-Spring高级容器初始化：BeanFactoryPostProcessor是什么呢.png&#34;&gt;17-Spring高级容器初始化：BeanFactoryPostProcessor是什么呢&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/18-Spring高级容器初始化：BeanFactoryPostProcessor如何执行.png&#34;&gt;18-Spring高级容器初始化：BeanFactoryPostProcessor如何执行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/19-Spring高级容器初始化：BeanPostProcessor是如何注册的呢？.png&#34;&gt;19-Spring高级容器初始化：BeanPostProcessor是如何注册的呢？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/20-Spring高级容器初始化：Spring是如何基于事件驱动的呢？.png&#34;&gt;20-Spring高级容器初始化：Spring是如何基于事件驱动的呢？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/21-Spring高级容器初始化：初始化非延迟加载单例bean.png&#34;&gt;21-Spring高级容器初始化：初始化非延迟加载单例bean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/22-bean的加载：转换并获取bean的名称.png&#34;&gt;22-bean的加载：转换并获取bean的名称&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/23-bean的加载：如何通过三级缓存来解决循环依赖（上）.png&#34;&gt;23-bean的加载：如何通过三级缓存来解决循环依赖（上）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/24-bean的加载：如何通过三级缓存来解决循环依赖（下）.png&#34;&gt;24-bean的加载：如何通过三级缓存来解决循环依赖（下）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/25_bean的加载：如何通过FactoryBean来实例化bean？.png&#34;&gt;25_bean的加载：如何通过FactoryBean来实例化bean？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/26-bean的加载：寻找实例化bean的入口.png&#34;&gt;26-bean的加载：寻找实例化bean的入口&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/27_bean的加载：Spring默认是如何实例化bean的？.png&#34;&gt;27_bean的加载：Spring默认是如何实例化bean的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/28_bean的加载：通过反射来实例化bean.png&#34;&gt;28_bean的加载：通过反射来实例化bean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/29_bean的加载：为刚刚实例化的bean填充属性（上）.png&#34;&gt;29_bean的加载：为刚刚实例化的bean填充属性（上）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/30_bean的加载：为刚刚实例化的bean填充属性（下）.png&#34;&gt;30_bean的加载：为刚刚实例化的bean填充属性（下）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/31_bean的加载：看下bean是如何进行初始化的.png&#34;&gt;31_bean的加载：看下bean是如何进行初始化的&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/32_面试题：IOC和DI之间到底是什么关系？.png&#34;&gt;32_面试题：IOC和DI之间到底是什么关系？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/33_Spring注解源码解析：注解的本质是什么？.png&#34;&gt;33_Spring注解源码解析：注解的本质是什么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/34_Spring注解源码解析：动手来模拟下@Component注解的功能.png&#34;&gt;34_Spring注解源码解析：动手来模拟下@Component注解的功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/35_Spring注解源码解析：@Component.png&#34;&gt;35_Spring注解源码解析：@Component&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/36_Spring注解源码解析：@Configuration和@Bean（上）.png&#34;&gt;36_Spring注解源码解析：@Configuration和@Bean（上）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/37_Spring注解源码解析：@Configuration和@Bean（下）.png&#34;&gt;37_Spring注解源码解析：@Configuration和@Bean（下）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/38_Spring注解源码解析：@Autowired.png&#34;&gt;38_Spring注解源码解析：@Autowired&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/40_SpringAOP简介：一个例子告诉你AOP可以解决哪些问题.png&#34;&gt;40_SpringAOP简介：一个例子告诉你AOP可以解决哪些问题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/41_SpringAOP简介：静态代理、jdk动态代理、cglib动态代理傻傻分不清？.png&#34;&gt;41_SpringAOP简介：静态代理、jdk动态代理、cglib动态代理傻傻分不清？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/42_AOP代理的创建：虚晃一枪，实例化前竟然也能创建AOP代理？.png&#34;&gt;42_AOP代理的创建：虚晃一枪，实例化前竟然也能创建AOP代理？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/43_AOP代理的创建：真相大白，初始化后完成了AOP代理的创建.png&#34;&gt;43_AOP代理的创建：真相大白，初始化后完成了AOP代理的创建&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/44_AOP代理的创建：@Aspect注解的切面类是怎么找到的？.png&#34;&gt;44_AOP代理的创建：@Aspect注解的切面类是怎么找到的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/45_AOP代理的创建：构建Advisor的前提，怎么获取切面类中声明的增强方法？.png&#34;&gt;45_AOP代理的创建：构建Advisor的前提，怎么获取切面类中声明的增强方法？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/46_AOP代理的创建：增强方法是怎么一步一步构建为Advisor的？.png&#34;&gt;46_AOP代理的创建：增强方法是怎么一步一步构建为Advisor的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/47_AOP代理的创建：来看下目标类与切点表达式的匹配过程.png&#34;&gt;47_AOP代理的创建：来看下目标类与切点表达式的匹配过程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/48_AOP代理的创建：aspectj是怎么来完成方法级别精准匹配的？.png&#34;&gt;48_AOP代理的创建：aspectj是怎么来完成方法级别精准匹配的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/49_AOP代理的创建：负责创建代理的ProxyFactory是什么？.png&#34;&gt;49_AOP代理的创建：负责创建代理的ProxyFactory是什么？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/50_AOP代理的创建：Spring是如何选择jdk代理和cglib代理的？.png&#34;&gt;50_AOP代理的创建：Spring是如何选择jdk代理和cglib代理的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/51_JDK代理的创建：深入底层，来看下jdk代理对象的创建过程分享.png&#34;&gt;51_JDK代理的创建：深入底层，来看下jdk代理对象的创建过程分享&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/52_JDK代理的执行：调用$Proxy代理对象方法就回调到invoke()是啥原理？.png&#34;&gt;52_JDK代理的执行：调用$Proxy代理对象方法就回调到invoke()是啥原理？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/53_JDK代理的执行：来初步看下invoke()方法的处理流程.png&#34;&gt;53_JDK代理的执行：来初步看下invoke()方法的处理流程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/54_JDK代理的执行：invoke()方法是怎么获取到拦截器链的？.png&#34;&gt;54_JDK代理的执行：invoke()方法是怎么获取到拦截器链的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/55_JDK代理的执行：怎么为目标方法匹配适用的增强？.png&#34;&gt;55_JDK代理的执行：怎么为目标方法匹配适用的增强？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/56_JDK代理的执行：来看下Advice的构建过程.png&#34;&gt;56_JDK代理的执行：来看下Advice的构建过程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/57_JDK代理的执行：Advice和拦截器之间是什么关系？.png&#34;&gt;57_JDK代理的执行：Advice和拦截器之间是什么关系？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/58_JDK代理的执行：来初步看下拦截器链的执行流程.png&#34;&gt;58_JDK代理的执行：来初步看下拦截器链的执行流程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/59_JDK代理的执行：拦截器的核心逻辑，递归调用ReflectiveMethodInvo.png&#34;&gt;59_JDK代理的执行：拦截器的核心逻辑，递归调用ReflectiveMethodInvo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/60_JDK代理的执行：拦截器链的本质，责任链模式.png&#34;&gt;60_JDK代理的执行：拦截器链的本质，责任链模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/61_CGLIB代理的创建：通过Enhancer来创建代理.png&#34;&gt;61_CGLIB代理的创建：通过Enhancer来创建代理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/62_CGLIB代理的执行：通过DynamicAdvisedInterceptor来执行增.png&#34;&gt;62_CGLIB代理的执行：通过DynamicAdvisedInterceptor来执行增&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/63_AOP拓展：AnnotationAwareAspectJAutoProxyCreat.png&#34;&gt;63_AOP拓展：AnnotationAwareAspectJAutoProxyCreat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/64_AOP拓展：AnnotationAwareAspectJAutoProxyCreat.png&#34;&gt;64_AOP拓展：AnnotationAwareAspectJAutoProxyCreat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/65_面试题：SpringAOP用到了哪些设计模式？具体体现在哪些地方？.png&#34;&gt;65_面试题：SpringAOP用到了哪些设计模式？具体体现在哪些地方？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/66_Spring事务：先使用AOP来模拟一下@Transactional的功能.png&#34;&gt;66_Spring事务：先使用AOP来模拟一下@Transactional的功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/67_Spring事务：@Transactional注解竟然是基于AOP实现的？.png&#34;&gt;67_Spring事务：@Transactional注解竟然是基于AOP实现的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/68_Spring事务：TransactionInterceptor是怎么来控制事务的？.png&#34;&gt;68_Spring事务：TransactionInterceptor是怎么来控制事务的？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/69_Spring事务：来看下TransactionInterceptor增强的匹配过程.png&#34;&gt;69_Spring事务：来看下TransactionInterceptor增强的匹配过程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/70_Spring事务：来看下方法级别匹配时，获取事务属性的过程.png&#34;&gt;70_Spring事务：来看下方法级别匹配时，获取事务属性的过程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/71_Spring事务：来看下@Transactional事务代理创建和执行流程.png&#34;&gt;71_Spring事务：来看下@Transactional事务代理创建和执行流程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/72_Spring事务：遗漏的细节，BeanFactoryTransactionAttri.png&#34;&gt;72_Spring事务：遗漏的细节，BeanFactoryTransactionAttri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/73_面试题：有哪些场景会导致Spring事务失效？.png&#34;&gt;73_面试题：有哪些场景会导致Spring事务失效？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</guid>
@@ -723,7 +865,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</guid>
@@ -738,7 +880,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</guid>
@@ -753,7 +895,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</guid>
@@ -768,10 +910,944 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu安装Docker</title>
+      
+      
+      
+      
+      <description>&lt;h3&gt;Docker帮助命令&lt;/h3&gt;
+&lt;h4&gt;安装Docker&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.docker.com/engine/install/ubuntu/&#34;&gt;Docker官方安装文档&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;系统要求&lt;/h5&gt;
+&lt;h5&gt;卸载旧版本&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;shell
+sudo apt-get remove docker docker-engine docker.io containerd runc&lt;/code&gt;&lt;/p&gt;
+&lt;h5&gt;使用存储库安装&lt;/h5&gt;
+&lt;p&gt;在新主机上首次安装 Docker Engine 之前，您需要设置 Docker 存储库。之后，您可以从存储库安装和更新 Docker。&lt;/p&gt;
+&lt;h5&gt;设置存储库&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;更新&lt;code&gt;apt&lt;/code&gt;包索引并安装包以允许&lt;code&gt;apt&lt;/code&gt;通过 HTTPS 使用存储库：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;```
+   $ sudo apt-get update&lt;/p&gt;
+&lt;p&gt;$ sudo apt-get install \
+       ca-certificates \
+       curl \
+       gnupg \
+       lsb-release
+   ```&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;添加 Docker 的官方 GPG 密钥：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;$ sudo mkdir -p /etc/apt/keyrings
+   $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用以下命令设置存储库：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;$ echo \
+     &#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+     $(lsb_release -cs) stable&#34; | sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null&lt;/code&gt;&lt;/p&gt;
+&lt;h5&gt;安装 Docker 引擎&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;更新&lt;code&gt;apt&lt;/code&gt;包索引：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;$ sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;运行时收到 GPG 错误&lt;code&gt;apt-get update&lt;/code&gt;？&lt;/p&gt;
+&lt;p&gt;您的默认&lt;a href=&#34;https://en.wikipedia.org/wiki/Umask&#34;&gt;umask&lt;/a&gt;可能配置不正确，导致无法检测存储库公钥文件。在更新包索引之前尝试授予 Docker 公钥文件的读取权限：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo chmod a+r /etc/apt/keyrings/docker.gpg
+$ sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安装 Docker Engine、containerd 和 Docker Compose。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最新的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;具体版本&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;要安装最新版本，请运行：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;hello-world&lt;/code&gt;通过运行镜像验证 Docker Engine 安装是否成功 ：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;$ sudo docker run hello-world&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;此命令下载测试图像并在容器中运行它。当容器运行时，它会打印一条确认消息并退出。&lt;/p&gt;
+&lt;p&gt;您现在已经成功安装并启动了 Docker 引擎。用户组存在但不包含任何用户，这&lt;code&gt;docker&lt;/code&gt;就是为什么您需要使用它&lt;code&gt;sudo&lt;/code&gt; 来运行 Docker 命令。继续&lt;a href=&#34;https://docs.docker.com/engine/install/linux-postinstall/&#34;&gt;Linux 后安装&lt;/a&gt; ，以允许非特权用户运行 Docker 命令和其他可选配置步骤。&lt;/p&gt;
+&lt;h4&gt;查看Docker版本信息&lt;/h4&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;docker版本信息&lt;/h1&gt;
+&lt;p&gt;docker version 
+root@liuyanbo:/home/mysql# docker -v
+Docker version 20.10.21, build baeda1f
+```&lt;/p&gt;
+&lt;p&gt;```shell
+root@liuyanbo:/home/mysql# docker -v
+Docker version 20.10.21, build baeda1f&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;root@liuyanbo:/home/mysql# docker version
+Client: Docker Engine - Community
+ Version:           20.10.21
+ API version:       1.41
+ Go version:        go1.18.7
+ Git commit:        baeda1f
+ Built:             Tue Oct 25 18:01:58 2022
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true&lt;/p&gt;
+&lt;p&gt;Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.21
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.18.7
+  Git commit:       3056208
+  Built:            Tue Oct 25 17:59:49 2022
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.9
+  GitCommit:        1c90a442489720eec95342e1789ee8a5e1b9536f
+ runc:
+  Version:          1.1.4
+  GitCommit:        v1.1.4-0-g5fd4c4d
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;查看Docker系统级别信息&lt;/h4&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;系统级别的信息，包括镜像和容器的数量&lt;/h1&gt;
+&lt;p&gt;docker info
+```&lt;/p&gt;
+&lt;p&gt;```shell
+root@liuyanbo:/home/mysql# docker info
+Client:
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  app: Docker App (Docker Inc., v0.9.1-beta3)
+  buildx: Docker Buildx (Docker Inc., v0.9.1-docker)
+  compose: Docker Compose (Docker Inc., v2.4.1)&lt;/p&gt;
+&lt;p&gt;Server:
+ Containers: 2
+  Running: 2
+  Paused: 0
+  Stopped: 0
+ Images: 3
+ Server Version: 20.10.21
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: systemd
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 1c90a442489720eec95342e1789ee8a5e1b9536f
+ runc version: v1.1.4-0-g5fd4c4d
+ init version: de40ad0
+ Security Options:
+  apparmor
+  seccomp
+   Profile: default
+  cgroupns
+ Kernel Version: 5.15.0-53-generic
+ Operating System: Ubuntu 22.04.1 LTS
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 2
+ Total Memory: 3.799GiB
+ Name: liuyanbo
+ ID: GJKU:GG6K:AN7I:VEAC:GPP6:C5QT:DNMC:6CEG:ZFP3:3OP2:YBHT:HQDK
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Registry Mirrors:
+  https://60e2y77h.mirror.aliyuncs.com/
+ Live Restore Enabled: false&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;帮助命令&lt;/h4&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;帮助命令&lt;/h1&gt;
+&lt;p&gt;docker 命令 --help
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://docs.docker.com/engine/reference/commandline/docker/&#34;&gt;Docker命令帮助文档&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;Docker启动与停止命令&lt;/h4&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;启动docker服务：&lt;/h1&gt;
+&lt;p&gt;systemctl start docker&lt;/p&gt;
+&lt;h1&gt;停止docker服务：&lt;/h1&gt;
+&lt;p&gt;systemctl stop docker&lt;/p&gt;
+&lt;h1&gt;重启docker服务：&lt;/h1&gt;
+&lt;p&gt;systemctl restart docker&lt;/p&gt;
+&lt;h1&gt;查看docker服务状态：&lt;/h1&gt;
+&lt;p&gt;systemctl status docker&lt;/p&gt;
+&lt;h1&gt;设置开机启动docker服务：&lt;/h1&gt;
+&lt;p&gt;systemctl enable docker
+```&lt;/p&gt;
+&lt;h3&gt;镜像命令&lt;/h3&gt;
+&lt;h4&gt;查看本地主机上的镜像&lt;/h4&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;查看所有本地主机上的镜像&lt;/h1&gt;
+&lt;p&gt;docker images&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:/home/mysql# docker images
+REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+redis        latest    3358aea34e8c   3 days ago      117MB
+nginx        latest    605c77e624dd   10 months ago   141MB
+mysql        5.7       c20987f18b13   11 months ago   448MB&lt;/p&gt;
+&lt;h1&gt;解释&lt;/h1&gt;
+&lt;p&gt;REPOSITORY # 镜像仓库
+TAG        # 镜像标签
+IMAGE ID   # 镜像ID
+CREATED    # 镜像创建的时间
+SIZE       # 镜像的大小  &lt;/p&gt;
+&lt;h1&gt;可选项&lt;/h1&gt;
+&lt;p&gt;--all, -a         # 查看所有镜像
+--quiet, -q        # 查看镜像ID&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;从远程仓库查找镜像&lt;/h4&gt;
+&lt;p&gt;```shell
+docker search 镜像名称&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:/home/mysql# docker search mysql
+NAME                            DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+mysql                           MySQL is a widely used, open-source relation…   13489     [OK]     &lt;br&gt;
+mariadb                         MariaDB Server is a high performing open sou…   5145      [OK]       &lt;/p&gt;
+&lt;h1&gt;可选项&lt;/h1&gt;
+&lt;p&gt;--filter=STARS=3000     # 查找STARS大于3000的&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:/home/mysql# docker search mysql --filter=STARS=5000
+NAME      DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+mysql     MySQL is a widely used, open-source relation…   13489     [OK]     &lt;br&gt;
+mariadb   MariaDB Server is a high performing open sou…   5145      [OK]  &lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;下载镜像&lt;/h4&gt;
+&lt;p&gt;```shell
+docker pull 镜像名称[:tag]&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:/home/mysql# docker pull ubuntu:20.04
+20.04: Pulling from library/ubuntu      # 如果不指定tag,则默认就是latest
+7b1a6ab2e44d: Pull complete             # 分层下载，docker images的核心，联合文件系统
+Digest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322     # 签名
+Status: Downloaded newer image for ubuntu:20.04
+docker.io/library/ubuntu:20.04      # 镜像的真实地址&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;删除镜像&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+root@liuyanbo:/home/mysql# docker rmi -f IMAGE ID                        # 删除指定镜像
+root@liuyanbo:/home/mysql# docker rmi -f IMAGE ID1 IMAGE ID2 IMAGE ID3   # 删除多个镜像
+root@liuyanbo:/home/mysql#  docker rmi -f $(docker images -aq)           # 删除所有镜像&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;容器命令&lt;/h3&gt;
+&lt;h4&gt;查看容器&lt;/h4&gt;
+&lt;p&gt;```shell
+docker ps
+            # 列出当前正在运行的容器
+-a          # 列出列出正在运行的容器包括历史容器
+-n=?        # 显示最近创建的容器
+-q          # 只显示当前容器的编号&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:~# docker ps
+CONTAINER ID   IMAGE          COMMAND                  CREATED        STATUS        PORTS                                                  NAMES
+9b1917bd32ba   ubuntu:20.04   &#34;bash&#34;                   16 hours ago   Up 16 hours                                                          ubuntu20.04
+d586d243603f   mysql:5.7      &#34;docker-entrypoint.s…&#34;   19 hours ago   Up 19 hours   33060/tcp, 0.0.0.0:3344-&amp;gt;3306/tcp, :::3344-&amp;gt;3306/tcp   mysql5.7
+319c827a40c9   redis          &#34;docker-entrypoint.s…&#34;   46 hours ago   Up 24 hours   0.0.0.0:6379-&amp;gt;6379/tcp, :::6379-&amp;gt;6379/tcp              redis&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:~# docker ps -qa
+9b1917bd32ba
+d603ded6e961
+e747f051261d
+d586d243603f
+319c827a40c9
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;说明：容器来自于镜像&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;新建容器并启动&lt;/h4&gt;
+&lt;p&gt;```shell
+docker run [可选参数] image&lt;/p&gt;
+&lt;h1&gt;参数说明&lt;/h1&gt;
+&lt;p&gt;--name=&#34;设置的容器名称&#34; 
+-d      # 后台方式运行
+-it     # 交互式方式运行，进入容器查看状态
+-p      # 指定容器的端口  -p 书主机端口:容器端口
+        # -p ip:主机端口：容器端口
+        # -p 主机端口：容器端口（常用）
+        # -p 容器端口&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    # -p 随机指定端口
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h5&gt;交互式容器&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以交互式方式创建并启动容器，启动完成后，直接进入当前容器。使用exit命令退出容器。需要注意的是以此种方式
+启动容器，如果退出容器，则容器会进入停止状态。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;创建并启动名称为 mycentos7 的交互式容器；下面指令中的镜像名称 ubuntu:20.04 也可以使用镜像id&lt;/h1&gt;
+&lt;p&gt;docker run -it --name=ubuntu ubuntu:20.04 /bin/bash
+```&lt;/p&gt;
+&lt;h5&gt;守护式容器&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;创建一个守护式容器；如果对于一个需要长期运行的容器来说，我们可以创建一个守护式容器。命令如下（容器名称不能重复）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;创建并启动守护式容器&lt;/h1&gt;
+&lt;p&gt;docker run -di --name=ubuntu ubuntu:20.04&lt;/p&gt;
+&lt;h1&gt;登录进入容器命令为：docker exec -it container_name (或者 container_id) /bin/bash（exit退出时，容器不会停止）&lt;/h1&gt;
+&lt;p&gt;docker exec -it ubuntu /bin/bash
+```&lt;/p&gt;
+&lt;h4&gt;退出容器&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+exit            # 直接退出容器并关闭
+Ctrl + P + Q    # 容器不关闭退出&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;启动和停止容器&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker start 容器id           # 启动容器
+docker restart 容器id         # 重启容器
+docker stop 容器id            # 停止当前正在运行的容器
+docker kill 容器id            # 强制停止当前的容器&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;删除容器&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker rm -f 容器id                       # 删除指定容器
+docker rm -f $(docker ps -aq)       # 删除所有容器
+docker ps -a -q|xargs docker rm -f  # 删除所有的容器&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;设置容器开机自启动&lt;/h4&gt;
+&lt;p&gt;```shell
+docker ps -qa 
+docker  update --restart=always 容器ID/容器名&lt;/p&gt;
+&lt;p&gt;docker  update --restart=always 56f0b18af626&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;查看日志&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker logs -tf --tail number 容器ID&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;查看容器中的进程信息&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker top 容器ID&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;查看镜像的元数据&lt;/h4&gt;
+&lt;p&gt;```shell
+docker inspect 容器ID&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:~# docker inspect d586d243603f
+[
+    {
+        &#34;Id&#34;: &#34;d586d243603fdb446dfa5f6dfdd3ed785d85b87ab6e281aafe35872f37a89d59&#34;,
+        &#34;Created&#34;: &#34;2022-11-19T10:18:42.02744616Z&#34;,
+        &#34;Path&#34;: &#34;docker-entrypoint.sh&#34;,
+        &#34;Args&#34;: [
+            &#34;mysqld&#34;
+        ],
+        &#34;State&#34;: {
+            &#34;Status&#34;: &#34;running&#34;,
+            &#34;Running&#34;: true,
+            &#34;Paused&#34;: false,
+            &#34;Restarting&#34;: false,
+            &#34;OOMKilled&#34;: false,
+            &#34;Dead&#34;: false,
+            &#34;Pid&#34;: 17398,
+            &#34;ExitCode&#34;: 0,
+            &#34;Error&#34;: &#34;&#34;,
+            &#34;StartedAt&#34;: &#34;2022-11-19T10:18:42.345175206Z&#34;,
+            &#34;FinishedAt&#34;: &#34;0001-01-01T00:00:00Z&#34;
+        },
+        &#34;Image&#34;: &#34;sha256:c20987f18b130f9d144c9828df630417e2a9523148930dc3963e9d0dab302a76&#34;,
+        &#34;ResolvConfPath&#34;: &#34;/var/lib/docker/containers/d586d243603fdb446dfa5f6dfdd3ed785d85b87ab6e281aafe35872f37a89d59/resolv.conf&#34;,
+        &#34;HostnamePath&#34;: &#34;/var/lib/docker/containers/d586d243603fdb446dfa5f6dfdd3ed785d85b87ab6e281aafe35872f37a89d59/hostname&#34;,
+        &#34;HostsPath&#34;: &#34;/var/lib/docker/containers/d586d243603fdb446dfa5f6dfdd3ed785d85b87ab6e281aafe35872f37a89d59/hosts&#34;,
+        &#34;LogPath&#34;: &#34;/var/lib/docker/containers/d586d243603fdb446dfa5f6dfdd3ed785d85b87ab6e281aafe35872f37a89d59/d586d243603fdb446dfa5f6dfdd3ed785d85b87ab6e281aafe35872f37a89d59-json.log&#34;,
+        &#34;Name&#34;: &#34;/mysql5.7&#34;,
+        &#34;RestartCount&#34;: 0,
+        &#34;Driver&#34;: &#34;overlay2&#34;,
+        &#34;Platform&#34;: &#34;linux&#34;,
+        &#34;MountLabel&#34;: &#34;&#34;,
+        &#34;ProcessLabel&#34;: &#34;&#34;,
+        &#34;AppArmorProfile&#34;: &#34;docker-default&#34;,
+        &#34;ExecIDs&#34;: null,
+        &#34;HostConfig&#34;: {
+            &#34;Binds&#34;: [
+                &#34;/home/mysql/conf:/etc/mysql/conf.d&#34;,
+                &#34;/home/mysql/data:/var/lib/mysql&#34;
+            ],
+            &#34;ContainerIDFile&#34;: &#34;&#34;,
+            &#34;LogConfig&#34;: {
+                &#34;Type&#34;: &#34;json-file&#34;,
+                &#34;Config&#34;: {}
+            },
+            &#34;NetworkMode&#34;: &#34;default&#34;,
+            &#34;PortBindings&#34;: {
+                &#34;3306/tcp&#34;: [
+                    {
+                        &#34;HostIp&#34;: &#34;&#34;,
+                        &#34;HostPort&#34;: &#34;3344&#34;
+                    }
+                ]
+            },
+            &#34;RestartPolicy&#34;: {
+                &#34;Name&#34;: &#34;no&#34;,
+                &#34;MaximumRetryCount&#34;: 0
+            },
+            &#34;AutoRemove&#34;: false,
+            &#34;VolumeDriver&#34;: &#34;&#34;,
+            &#34;VolumesFrom&#34;: null,
+            &#34;CapAdd&#34;: null,
+            &#34;CapDrop&#34;: null,
+            &#34;CgroupnsMode&#34;: &#34;private&#34;,
+            &#34;Dns&#34;: [],
+            &#34;DnsOptions&#34;: [],
+            &#34;DnsSearch&#34;: [],
+            &#34;ExtraHosts&#34;: null,
+            &#34;GroupAdd&#34;: null,
+            &#34;IpcMode&#34;: &#34;private&#34;,
+            &#34;Cgroup&#34;: &#34;&#34;,
+            &#34;Links&#34;: null,
+            &#34;OomScoreAdj&#34;: 0,
+            &#34;PidMode&#34;: &#34;&#34;,
+            &#34;Privileged&#34;: false,
+            &#34;PublishAllPorts&#34;: false,
+            &#34;ReadonlyRootfs&#34;: false,
+            &#34;SecurityOpt&#34;: null,
+            &#34;UTSMode&#34;: &#34;&#34;,
+            &#34;UsernsMode&#34;: &#34;&#34;,
+            &#34;ShmSize&#34;: 67108864,
+            &#34;Runtime&#34;: &#34;runc&#34;,
+            &#34;ConsoleSize&#34;: [
+                0,
+                0
+            ],
+            &#34;Isolation&#34;: &#34;&#34;,
+            &#34;CpuShares&#34;: 0,
+            &#34;Memory&#34;: 0,
+            &#34;NanoCpus&#34;: 0,
+            &#34;CgroupParent&#34;: &#34;&#34;,
+            &#34;BlkioWeight&#34;: 0,
+            &#34;BlkioWeightDevice&#34;: [],
+            &#34;BlkioDeviceReadBps&#34;: null,
+            &#34;BlkioDeviceWriteBps&#34;: null,
+            &#34;BlkioDeviceReadIOps&#34;: null,
+            &#34;BlkioDeviceWriteIOps&#34;: null,
+            &#34;CpuPeriod&#34;: 0,
+            &#34;CpuQuota&#34;: 0,
+            &#34;CpuRealtimePeriod&#34;: 0,
+            &#34;CpuRealtimeRuntime&#34;: 0,
+            &#34;CpusetCpus&#34;: &#34;&#34;,
+            &#34;CpusetMems&#34;: &#34;&#34;,
+            &#34;Devices&#34;: [],
+            &#34;DeviceCgroupRules&#34;: null,
+            &#34;DeviceRequests&#34;: null,
+            &#34;KernelMemory&#34;: 0,
+            &#34;KernelMemoryTCP&#34;: 0,
+            &#34;MemoryReservation&#34;: 0,
+            &#34;MemorySwap&#34;: 0,
+            &#34;MemorySwappiness&#34;: null,
+            &#34;OomKillDisable&#34;: null,
+            &#34;PidsLimit&#34;: null,
+            &#34;Ulimits&#34;: null,
+            &#34;CpuCount&#34;: 0,
+            &#34;CpuPercent&#34;: 0,
+            &#34;IOMaximumIOps&#34;: 0,
+            &#34;IOMaximumBandwidth&#34;: 0,
+            &#34;MaskedPaths&#34;: [
+                &#34;/proc/asound&#34;,
+                &#34;/proc/acpi&#34;,
+                &#34;/proc/kcore&#34;,
+                &#34;/proc/keys&#34;,
+                &#34;/proc/latency_stats&#34;,
+                &#34;/proc/timer_list&#34;,
+                &#34;/proc/timer_stats&#34;,
+                &#34;/proc/sched_debug&#34;,
+                &#34;/proc/scsi&#34;,
+                &#34;/sys/firmware&#34;
+            ],
+            &#34;ReadonlyPaths&#34;: [
+                &#34;/proc/bus&#34;,
+                &#34;/proc/fs&#34;,
+                &#34;/proc/irq&#34;,
+                &#34;/proc/sys&#34;,
+                &#34;/proc/sysrq-trigger&#34;
+            ]
+        },
+        &#34;GraphDriver&#34;: {
+            &#34;Data&#34;: {
+                &#34;LowerDir&#34;: &#34;/var/lib/docker/overlay2/4a071dd28aebec27e67dd5dff29b2dc03c14418f24b5d0a163e23a8518e8763b-init/diff:/var/lib/docker/overlay2/cbab91d22142dd13e845717ff19cd68ad0c199956e14a6751dfb05a202a1b01c/diff:/var/lib/docker/overlay2/8c63a5a61ae4a62ea33f9cbc25ba4e95714360b6055bc4c7330e67e74491714d/diff:/var/lib/docker/overlay2/d74ced919c9c40d96c02db59f0a268ef8fefa445623af79bd65f6b512e4e0f9c/diff:/var/lib/docker/overlay2/9f1615d18e7850ebea6d859e86d25853d0fee09e1807f308bfb2d88392087730/diff:/var/lib/docker/overlay2/1ff6db9c40f0fde0e25869e949dbef00cdb1a7f022baf3cdf2567c2aaa2715a3/diff:/var/lib/docker/overlay2/74f40eab985bca71437ab6e7fda39f77fc8cfa126fc781c53f74a555cb5383b4/diff:/var/lib/docker/overlay2/3030cee4db8bcfd3a5c99e6e3ae58ae3c165b14946d7bfde425f39e51aeadf3d/diff:/var/lib/docker/overlay2/7ad647497c2a3642d0be442101ca08d68eee664788a10c0b71fc10d67197e8e1/diff:/var/lib/docker/overlay2/c4f81185076887c8fbf597f3581355025f54106223888fead1285fbc23adc345/diff:/var/lib/docker/overlay2/80893daeadf2d5eac58fb99e27ffd538f7afcadfb5961de40b5dbc2cee3f8ece/diff:/var/lib/docker/overlay2/799bcca41703cb21add92fba82eafae0945f91b30d7fb6cecd54ef558f9da508/diff&#34;,
+                &#34;MergedDir&#34;: &#34;/var/lib/docker/overlay2/4a071dd28aebec27e67dd5dff29b2dc03c14418f24b5d0a163e23a8518e8763b/merged&#34;,
+                &#34;UpperDir&#34;: &#34;/var/lib/docker/overlay2/4a071dd28aebec27e67dd5dff29b2dc03c14418f24b5d0a163e23a8518e8763b/diff&#34;,
+                &#34;WorkDir&#34;: &#34;/var/lib/docker/overlay2/4a071dd28aebec27e67dd5dff29b2dc03c14418f24b5d0a163e23a8518e8763b/work&#34;
+            },
+            &#34;Name&#34;: &#34;overlay2&#34;
+        },
+        &#34;Mounts&#34;: [
+            {
+                &#34;Type&#34;: &#34;bind&#34;,
+                &#34;Source&#34;: &#34;/home/mysql/conf&#34;,
+                &#34;Destination&#34;: &#34;/etc/mysql/conf.d&#34;,
+                &#34;Mode&#34;: &#34;&#34;,
+                &#34;RW&#34;: true,
+                &#34;Propagation&#34;: &#34;rprivate&#34;
+            },
+            {
+                &#34;Type&#34;: &#34;bind&#34;,
+                &#34;Source&#34;: &#34;/home/mysql/data&#34;,
+                &#34;Destination&#34;: &#34;/var/lib/mysql&#34;,
+                &#34;Mode&#34;: &#34;&#34;,
+                &#34;RW&#34;: true,
+                &#34;Propagation&#34;: &#34;rprivate&#34;
+            }
+        ],
+        &#34;Config&#34;: {
+            &#34;Hostname&#34;: &#34;d586d243603f&#34;,
+            &#34;Domainname&#34;: &#34;&#34;,
+            &#34;User&#34;: &#34;&#34;,
+            &#34;AttachStdin&#34;: false,
+            &#34;AttachStdout&#34;: false,
+            &#34;AttachStderr&#34;: false,
+            &#34;ExposedPorts&#34;: {
+                &#34;3306/tcp&#34;: {},
+                &#34;33060/tcp&#34;: {}
+            },
+            &#34;Tty&#34;: false,
+            &#34;OpenStdin&#34;: true,
+            &#34;StdinOnce&#34;: false,
+            &#34;Env&#34;: [
+                &#34;MYSQL_ROOT_PASSWORD=123456&#34;,
+                &#34;PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&#34;,
+                &#34;GOSU_VERSION=1.12&#34;,
+                &#34;MYSQL_MAJOR=5.7&#34;,
+                &#34;MYSQL_VERSION=5.7.36-1debian10&#34;
+            ],
+            &#34;Cmd&#34;: [
+                &#34;mysqld&#34;
+            ],
+            &#34;Image&#34;: &#34;mysql:5.7&#34;,
+            &#34;Volumes&#34;: {
+                &#34;/var/lib/mysql&#34;: {}
+            },
+            &#34;WorkingDir&#34;: &#34;&#34;,
+            &#34;Entrypoint&#34;: [
+                &#34;docker-entrypoint.sh&#34;
+            ],
+            &#34;OnBuild&#34;: null,
+            &#34;Labels&#34;: {}
+        },
+        &#34;NetworkSettings&#34;: {
+            &#34;Bridge&#34;: &#34;&#34;,
+            &#34;SandboxID&#34;: &#34;941d14e9248e994cd4dc61cff5cea512a12205f2f206742a1ca28fad95de00c0&#34;,
+            &#34;HairpinMode&#34;: false,
+            &#34;LinkLocalIPv6Address&#34;: &#34;&#34;,
+            &#34;LinkLocalIPv6PrefixLen&#34;: 0,
+            &#34;Ports&#34;: {
+                &#34;3306/tcp&#34;: [
+                    {
+                        &#34;HostIp&#34;: &#34;0.0.0.0&#34;,
+                        &#34;HostPort&#34;: &#34;3344&#34;
+                    },
+                    {
+                        &#34;HostIp&#34;: &#34;::&#34;,
+                        &#34;HostPort&#34;: &#34;3344&#34;
+                    }
+                ],
+                &#34;33060/tcp&#34;: null
+            },
+            &#34;SandboxKey&#34;: &#34;/var/run/docker/netns/941d14e9248e&#34;,
+            &#34;SecondaryIPAddresses&#34;: null,
+            &#34;SecondaryIPv6Addresses&#34;: null,
+            &#34;EndpointID&#34;: &#34;d54f97786d2c451dbca46f3040a315e1c373d492d607a753f5b5d85a7d1ea834&#34;,
+            &#34;Gateway&#34;: &#34;172.17.0.1&#34;,
+            &#34;GlobalIPv6Address&#34;: &#34;&#34;,
+            &#34;GlobalIPv6PrefixLen&#34;: 0,
+            &#34;IPAddress&#34;: &#34;172.17.0.2&#34;,
+            &#34;IPPrefixLen&#34;: 16,
+            &#34;IPv6Gateway&#34;: &#34;&#34;,
+            &#34;MacAddress&#34;: &#34;02:42:ac:11:00:02&#34;,
+            &#34;Networks&#34;: {
+                &#34;bridge&#34;: {
+                    &#34;IPAMConfig&#34;: null,
+                    &#34;Links&#34;: null,
+                    &#34;Aliases&#34;: null,
+                    &#34;NetworkID&#34;: &#34;15089f30dc5e0896bc887996921774b1819c2225348d04dab6edf746d166510d&#34;,
+                    &#34;EndpointID&#34;: &#34;d54f97786d2c451dbca46f3040a315e1c373d492d607a753f5b5d85a7d1ea834&#34;,
+                    &#34;Gateway&#34;: &#34;172.17.0.1&#34;,
+                    &#34;IPAddress&#34;: &#34;172.17.0.2&#34;,
+                    &#34;IPPrefixLen&#34;: 16,
+                    &#34;IPv6Gateway&#34;: &#34;&#34;,
+                    &#34;GlobalIPv6Address&#34;: &#34;&#34;,
+                    &#34;GlobalIPv6PrefixLen&#34;: 0,
+                    &#34;MacAddress&#34;: &#34;02:42:ac:11:00:02&#34;,
+                    &#34;DriverOpts&#34;: null
+                }
+            }
+        }
+    }
+]&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;进入当前正在运行的容器&lt;/h4&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;我们通常进入容器使用后台方式运行的，需要修改一些配置&lt;/h1&gt;
+&lt;h1&gt;命令&lt;/h1&gt;
+&lt;h1&gt;方式一&lt;/h1&gt;
+&lt;p&gt;docker exec -it 容器ID /bin/bash&lt;/p&gt;
+&lt;h1&gt;方式二&lt;/h1&gt;
+&lt;p&gt;docker attach 容器ID&lt;/p&gt;
+&lt;h1&gt;docker exec       # 进入容器后开启一个新的终端，可以在里面操作&lt;/h1&gt;
+&lt;h1&gt;docker attach     # 进入容器正在执行的终端，不会启动新的进程&lt;/h1&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h4&gt;从容器中拷贝文件到主机&lt;/h4&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;将文件从容器拷贝到宿主机&lt;/h1&gt;
+&lt;p&gt;docker cp 容器ID:容器内路径 目的地主机路径&lt;/p&gt;
+&lt;h1&gt;将主机的文件拷贝到容器&lt;/h1&gt;
+&lt;p&gt;docker cp 目的地主机路径 容器ID:容器内路径
+```&lt;/p&gt;
+&lt;h4&gt;将容器打包成镜像&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Docker镜像都只是只读的，当容器启动时，一个新的可写层被加载到镜像的顶部&lt;/p&gt;
+&lt;p&gt;这一层就是我们通常说的容器层，容器之下的都叫做镜像层&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```shell
+docker commit 提交容器成为一个新的版本&lt;/p&gt;
+&lt;h1&gt;命令和git原理类似&lt;/h1&gt;
+&lt;p&gt;docker commit -m=&#34;提交的描述信息&#34; -a=&#34;作者&#34; 容器ID 目标镜像名:[TAG]
+```&lt;/p&gt;
+&lt;h3&gt;容器数据卷&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;容器之间可以有一个数据共享技术！ Docker容器中产生的数据，同步到本地！&lt;/p&gt;
+&lt;p&gt;这就是卷技术，目录的挂载，将我们容器内的的目录挂载到Linux目录上面！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*总结&lt;/strong&gt; 容器的持久化和同步操作！容器间数据也是可以共享的！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;目录挂载&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;方式一：直接使用命令来挂载 -v&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;指定目录挂载&lt;/h5&gt;
+&lt;p&gt;```shell
+docker run -it -v 主机目录:容器目录&lt;/p&gt;
+&lt;h1&gt;验证方式&lt;/h1&gt;
+&lt;h1&gt;一、直接同步文件&lt;/h1&gt;
+&lt;h1&gt;二、使用docker inspect 容器ID&lt;/h1&gt;
+&lt;p&gt;&#34;Mounts&#34;: [
+            {
+                &#34;Type&#34;: &#34;bind&#34;,
+                &#34;Source&#34;: &#34;/home/mysql/conf&#34;,
+                &#34;Destination&#34;: &#34;/etc/mysql/conf.d&#34;,
+                &#34;Mode&#34;: &#34;&#34;,
+                &#34;RW&#34;: true,
+                &#34;Propagation&#34;: &#34;rprivate&#34;
+            },
+            {
+                &#34;Type&#34;: &#34;bind&#34;,
+                &#34;Source&#34;: &#34;/home/mysql/data&#34;,    # 主机目录
+                &#34;Destination&#34;: &#34;/var/lib/mysql&#34;, # 容器目录
+                &#34;Mode&#34;: &#34;&#34;,
+                &#34;RW&#34;: true,
+                &#34;Propagation&#34;: &#34;rprivate&#34;
+            }
+        ],    &lt;br&gt;
+```&lt;/p&gt;
+&lt;p&gt;==&lt;strong&gt;注意&lt;/strong&gt;== 容器停止也不影响同步&lt;/p&gt;
+&lt;h5&gt;匿名挂载&lt;/h5&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;匿名挂载&lt;/h1&gt;
+&lt;p&gt;-v 容器内路径
+docker run -d -P --name niming_nginx -v /etc/nginx nginx     # -P 随机指定端口 (P大写)&lt;/p&gt;
+&lt;h1&gt;查看所有volume的情况&lt;/h1&gt;
+&lt;p&gt;[root@liuyanbo ~]# docker volume ls
+DRIVER              VOLUME NAME
+local               561b81a03506f31d45ada3f9fb7bd8d7c9b5e0f826c877221a17e45d4c80e096
+local               36083fb6ca083005094cbd49572a0bffeec6daadfbc5ce772909bb00be760882&lt;/p&gt;
+&lt;h1&gt;这里发现，这种情况就是匿名挂载，我们在-v 后面只写了容器内的路径，没有写容器外的路径！&lt;/h1&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h5&gt;具名挂载&lt;/h5&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;具名挂载&lt;/h1&gt;
+&lt;p&gt;[root@liuyanbo ~]# docker run -d -P --name juming_nginx -v juming-nginx:/etc/nginx nginx
+26da1ec7d4994c76e80134d24d82403a254a4e1d84ec65d5f286000105c3da17&lt;/p&gt;
+&lt;h1&gt;查看所有的卷信息&lt;/h1&gt;
+&lt;p&gt;docker volume ls 
+[root@liuyanbo ~]# docker volume ls
+DRIVER              VOLUME NAME
+local               561b81a03506f31d45ada3f9fb7bd8d7c9b5e0f826c877221a17e45d4c80e096
+local               36083fb6ca083005094cbd49572a0bffeec6daadfbc5ce772909bb00be760882
+local               juming-nginx&lt;/p&gt;
+&lt;h1&gt;通过-v 卷名：容器内的路径&lt;/h1&gt;
+&lt;h1&gt;查看一下这个卷&lt;/h1&gt;
+&lt;p&gt;docker volume inspect 卷名&lt;/p&gt;
+&lt;p&gt;[root@liuyanbo ~]# docker volume inspect juming-nginx
+[
+  {
+      &#34;CreatedAt&#34;: &#34;2020-08-12T18:15:21+08:00&#34;,
+      &#34;Driver&#34;: &#34;local&#34;,
+      &#34;Labels&#34;: null,
+      &#34;Mountpoint&#34;: &#34;/var/lib/docker/volumes/juming-nginx/_data&#34;, # 宿主机同步目录 
+      &#34;Name&#34;: &#34;juming-nginx&#34;,
+      &#34;Options&#34;: null,
+      &#34;Scope&#34;: &#34;local&#34;
+  }
+]
+```&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;==&lt;strong&gt;所有docker容器内的卷，没有指定目录的情况下都是在&lt;code&gt;/var/lib/docker/volumes/xxxxx/_data&lt;/code&gt;&lt;/strong&gt;==&lt;/p&gt;
+&lt;p&gt;==&lt;strong&gt;我们通过具名挂载可以方便的找到我们的一个卷，大多数情况下使用的是&lt;code&gt;具名挂载&lt;/code&gt;&lt;/strong&gt;==&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;如何确定是具名挂载还是匿名挂载，还是指定路径挂载！&lt;/h1&gt;
+&lt;p&gt;-v  容器内路径                   # 匿名挂载
+-v  卷名:容器内路径               # 具名挂载
+-v /主机路径:容器内路径            # 指定路径挂载
+```&lt;/p&gt;
+&lt;h5&gt;扩展&lt;/h5&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;通过 -v 容器内容路径 ro rw 改变读写权限&lt;/h1&gt;
+&lt;p&gt;ro  readonly    # 只读
+rw  readwrite   # 可读可写&lt;/p&gt;
+&lt;p&gt;docker run -d -P --name juming-nginx -v juming-nginx:/etc/nginx:ro nginx
+docker run -d -P --name juming-nginx -v juming-nginx:/etc/nginx:rw nginx&lt;/p&gt;
+&lt;h1&gt;ro 只要看到ro就说明这个路径只能通过宿主机来操作，容器内容无法操作&lt;/h1&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;方式二：使用Dockerfile &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;Dockerfile初体验&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dockerfile 是一个用来构建镜像的文本文件，文本内容包含了一条条构建镜像所需的指令和说明。&lt;/p&gt;
+&lt;p&gt;通过这个脚本可以生成镜像，镜像是一层一层的，脚本一个个的命令，每个命令都是一层！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;创建一个Dockerfile文件， 名字可以随机&lt;/h1&gt;
+&lt;h1&gt;文件的内容 指定（大写） 参数&lt;/h1&gt;
+&lt;p&gt;FROM ubuntu&lt;/p&gt;
+&lt;p&gt;VOLUME [&#34;volume01&#34;, &#34;volume02&#34;]&lt;/p&gt;
+&lt;p&gt;CMD echo &#34;----end----&#34;&lt;/p&gt;
+&lt;p&gt;CMD /bin/bash&lt;/p&gt;
+&lt;h1&gt;这里的每一个命令都是镜像的一层！&lt;/h1&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;```shell
+root@liuyanbo:~# docker build -f Dockerfile -t liuyanbo/ubuntu:1.0 .
+Sending build context to Docker daemon   12.8kB
+Error response from daemon: no build stage in current context
+root@liuyanbo:/tmp# vim Dockerfile 
+root@liuyanbo:/tmp# docker build -f Dockerfile -t liuyanbo/ubuntu:1.0 .
+Sending build context to Docker daemon   12.8kB
+Step 1/4 : FROM ubuntu
+latest: Pulling from library/ubuntu
+Digest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+ ---&amp;gt; ba6acccedd29
+ # 匿名挂载
+Step 2/4 : VOLUME [&#34;volume01&#34;, &#34;volume02&#34;]
+ ---&amp;gt; Running in 6c8d4447304b
+Removing intermediate container 6c8d4447304b
+ ---&amp;gt; d31fe796d8ee
+Step 3/4 : CMD echo &#34;----end----&#34;
+ ---&amp;gt; Running in 9b3ec117ec4b
+Removing intermediate container 9b3ec117ec4b
+ ---&amp;gt; 73a6aab2a922
+Step 4/4 : CMD /bin/bash
+ ---&amp;gt; Running in 0a9afd866668
+Removing intermediate container 0a9afd866668
+ ---&amp;gt; ae9afffa4bf1
+Successfully built ae9afffa4bf1
+Successfully tagged liuyanbo/ubuntu:1.0&lt;/p&gt;
+&lt;p&gt;root@liuyanbo:~# docker images
+REPOSITORY        TAG       IMAGE ID       CREATED         SIZE
+liuyanbo/ubuntu   1.0       ae9afffa4bf1   2 minutes ago   72.8MB
+```&lt;/p&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;查看容器的元数据信息&lt;/h1&gt;
+&lt;p&gt;docker inspect 容器ID&lt;/p&gt;
+&lt;p&gt;&#34;Mounts&#34;: [
+            {
+                &#34;Type&#34;: &#34;volume&#34;,
+                &#34;Name&#34;: &#34;916dd588f0c3046fe71cd4cd23355efa751bf1bcab6c9b12debe0d7b36b307d6&#34;,
+                &#34;Source&#34;: &#34;/var/lib/docker/volumes/916dd588f0c3046fe71cd4cd23355efa751bf1bcab6c9b12debe0d7b36b307d6/_data&#34;,
+                &#34;Destination&#34;: &#34;volume01&#34;,
+                &#34;Driver&#34;: &#34;local&#34;,
+                &#34;Mode&#34;: &#34;&#34;,
+                &#34;RW&#34;: true,
+                &#34;Propagation&#34;: &#34;&#34;
+            },
+            {
+                &#34;Type&#34;: &#34;volume&#34;,
+                &#34;Name&#34;: &#34;6ba2664035f7e8db0019d3f695c9890b57b9b97f56f42a8bdea3513cac42fde3&#34;,
+                &#34;Source&#34;: &#34;/var/lib/docker/volumes/6ba2664035f7e8db0019d3f695c9890b57b9b97f56f42a8bdea3513cac42fde3/_data&#34;,
+                &#34;Destination&#34;: &#34;volume02&#34;,
+                &#34;Driver&#34;: &#34;local&#34;,
+                &#34;Mode&#34;: &#34;&#34;,
+                &#34;RW&#34;: true,
+                &#34;Propagation&#34;: &#34;&#34;
+            }
+        ],&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这种方式我们未来使用的十分多， 因为我们通常会构建自己的镜像！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;假设构建镜像时候没有挂载卷，要手动镜像挂载 -v 卷名:容器内路径&lt;/strong&gt;&lt;/p&gt;
+&lt;h5&gt;数据卷容器&lt;/h5&gt;
+&lt;p&gt;```shell
+docker run -it --name docker01 --volumes-from docker01(数据卷容器) 镜像[TAG]&lt;/p&gt;
+&lt;p&gt;[root@liuyanbo ~]# docker run -d -p 3344:3306 -v /etc/mysql/conf.d -v /var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql01 mysql:5.7&lt;/p&gt;
+&lt;p&gt;[root@liuyanbo ~]# docker run -d -p 3344:3306 -v /etc/mysql/conf.d -v /var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 --name mysql02 --volumes-from mysql01 mysql:5.7
+```&lt;/p&gt;
+&lt;p&gt;==&lt;strong&gt;结论&lt;/strong&gt;==&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;容器之间配置信息的传递， 数据卷容器的声明周期一直持续到没有容器使用为止。但是一旦你持久化到了本地，这个时候，本地的数据是不会删除的！&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Dockerfile&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dockerfile是用来构建docker镜像的文件！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;参数命令构建步骤&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;编写一个Dockerfie文件&lt;/li&gt;
+&lt;li&gt;docker build 构建成为一个镜像&lt;/li&gt;
+&lt;li&gt;docker run 运行镜像&lt;/li&gt;
+&lt;li&gt;docker push 发布镜像（Docker Hub、阿里云镜像）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;看一下ubuntu官方是怎么制作镜像的&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://img.mgd2008.com/static/img/1669004768271.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;shell
+FROM scratch
+ADD ubuntu-focal-oci-amd64-root.tar.gz /
+CMD [&#34;bash&#34;]&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;Dockefile的构建过程&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;基础知识：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;每个保留关键字（指令）都是必须大写字母&lt;/li&gt;
+&lt;li&gt;执行从上到下顺序执行&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;表示注释&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;每个指令都会创建提交一个新的镜像层，并提交！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://img.mgd2008.com/static/img/126043b38ed9817b306c87c58e8b8a43_watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ZhbmppYW5oYWk=,size_16,color_FFFFFF,t_70#pic_center.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Docker 三剑客&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;DockerFile： 构建文件， 定义了一切的步骤，源代码&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DockerImages： 通过DockerFile构建生成的镜像， 最终发布和运行的产品！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Docker容器：容器就是镜像运行起来提供服务器&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Dockerfile指令说明&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://img.mgd2008.com/static/img/20221121123957.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;shell
+FROM            # 基础镜像，一切从这里开始构建
+MAINTAINER      # 镜像是谁写的， 姓名+邮箱
+RUN             # 镜像构建的时候需要运行的命令
+ADD             # 步骤， tomcat镜像， 这个tomcat压缩包！添加内容
+WORKDIR         # 镜像的工作目录
+VOLUME          # 挂载的目录
+EXPOSE          # 保留端口配置
+CMD             # 指定这个容器启动的时候要运行的命令，只有最后一个会生效可被替代
+ENTRYPOINT      # 指定这个容器启动的时候要运行的命令， 可以追加命令
+ONBUILD         # 当构建一个被继承Dockerfile 这个时候就会运行 ONBUILD 的指令，触发指令
+COPY            # 类似ADD, 将我们文件拷贝到镜像中
+ENV             # 构建的时候设置环境变量！&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;自定义一个tomcat容器&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dockerfile文件如下&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```shell
+root@liuyanbo:/usr/local/diy_tomcat# vim Dockerfile 
+FROM ubuntu&lt;/p&gt;
+&lt;h1&gt;作者&lt;/h1&gt;
+&lt;p&gt;MAINTAINER liuyanbo&lt;a href=&#34;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#49;&amp;#53;&amp;#51;&amp;#56;&amp;#53;&amp;#50;&amp;#55;&amp;#56;&amp;#51;&amp;#52;&amp;#64;&amp;#113;&amp;#113;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#34;&gt;&amp;#49;&amp;#53;&amp;#51;&amp;#56;&amp;#53;&amp;#50;&amp;#55;&amp;#56;&amp;#51;&amp;#52;&amp;#64;&amp;#113;&amp;#113;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;COPY readme.txt  /usr/local&lt;/p&gt;
+&lt;p&gt;ADD apache-tomcat-9.0.69.tar.gz /usr/local
+ADD jdk-8u261-linux-x64.tar.gz /usr/local&lt;/p&gt;
+&lt;p&gt;ENV MYPATH /usr/local&lt;/p&gt;
+&lt;p&gt;WORKDIR $MYPATH&lt;/p&gt;
+&lt;p&gt;ENV JAVA_HOME $MYPATH/jdk1.8.0_261
+ENV CLASSPATH $JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+ENV CATALINA_HOME $MYPATH/apache-tomcat-9.0.69
+ENV CATALINA_BASH $MYPATH/apache-tomcat-9.0.69
+ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/lib:$CATALINA_HOME/bin&lt;/p&gt;
+&lt;p&gt;EXPOSE 8080&lt;/p&gt;
+&lt;p&gt;CMD $CATALINA_HOME/bin/startup.sh &amp;amp;&amp;amp; tail -f $CATALINA_HOME/logs/catalina.out
+```&lt;/p&gt;
+&lt;h4&gt;构建镜像&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+root@liuyanbo:/usr/local/diy_tomcat# docker build  -t diytomcat .
+Sending build context to Docker daemon  525.2MB
+Step 1/14 : FROM ubuntu
+ ---&amp;gt; ba6acccedd29
+Step 2/14 : MAINTAINER liuyanbo&amp;lt;1538527834@qq.com&amp;gt;
+ ---&amp;gt; Using cache
+ ---&amp;gt; cd886ac434fe
+Step 3/14 : COPY readme.txt  /usr/local/diy_tomcat/
+ ---&amp;gt; 950df6d8ab28
+Step 4/14 : ADD apache-tomcat-9.0.69.zip /usr/local/
+ ---&amp;gt; 2441861d2f1b
+Step 5/14 : ADD jdk-8u261-linux-x64.tar.gz /usr/local
+ ---&amp;gt; 5d2a5e94b1f0
+Step 6/14 : ENV MYPATH /usr/local
+ ---&amp;gt; Running in ad08d6eb4cd8
+Removing intermediate container ad08d6eb4cd8
+ ---&amp;gt; 7d7e6f75f190
+Step 7/14 : WORKDIR $MYPATH
+ ---&amp;gt; Running in 1ca5f08a5b79
+Removing intermediate container 1ca5f08a5b79
+ ---&amp;gt; 86b57b03c2c2
+Step 8/14 : ENV JAVA_HOME /usr/local/jdk1.8.0_261
+ ---&amp;gt; Running in 0e6a8b291c2a
+Removing intermediate container 0e6a8b291c2a
+ ---&amp;gt; 51a9bb5c9433
+Step 9/14 : ENV CLASSPATH $JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+ ---&amp;gt; Running in bbe8eee2f65c
+Removing intermediate container bbe8eee2f65c
+ ---&amp;gt; b8c1adac29d7
+Step 10/14 : ENV CATALINA_HOME /usr/local/apache-tomcat-9.0.69
+ ---&amp;gt; Running in 4b016b1edf7f
+Removing intermediate container 4b016b1edf7f
+ ---&amp;gt; 6fb35f768a1a
+Step 11/14 : ENV CATALINA_BASH /usr/local/apache-tomcat-9.0.69
+ ---&amp;gt; Running in 368232992bea
+Removing intermediate container 368232992bea
+ ---&amp;gt; 81e774fc0e18
+Step 12/14 : ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/lib:$CATALINA_HOME/bin
+ ---&amp;gt; Running in 3131aa66fbb9
+Removing intermediate container 3131aa66fbb9
+ ---&amp;gt; 54b596118d60
+Step 13/14 : EXPOSE 8080
+ ---&amp;gt; Running in 3d6bac83af85
+Removing intermediate container 3d6bac83af85
+ ---&amp;gt; 9f006a8951fc
+Step 14/14 : CMD /usr/local/apache-tomcat-9.0.69/bin/startup.sh &amp;amp;&amp;amp; tail -f /usr/local/apache-tomcat-9.0.69/logs/catalina.out
+ ---&amp;gt; Running in 5fb121ce8953
+Removing intermediate container 5fb121ce8953
+ ---&amp;gt; 8e3550e12335
+Successfully built 8e3550e12335
+Successfully tagged diytomcat:latest&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;启动镜像&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;shell
+docker run -id --name diytomcat  -p 8080:8080 -v /usr/local/diy_tomcat/logs/:/usr/local/apache-tomcat-9.0.69/logs/ -v /usr/local/diy_tomcat/webapps/:/usr/local/apache-tomcat-9.0.69/webapps/ diytomcat&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;==&lt;strong&gt;注意&lt;/strong&gt;==&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;目录映射覆盖&lt;/li&gt;
+&lt;li&gt;tomcat端口映射后，主机访问不通&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;发布自己的镜像&lt;/h4&gt;
+&lt;h5&gt;Docker Hub&lt;/h5&gt;
+&lt;h5&gt;阿里云镜像仓库&lt;/h5&gt;
+&lt;h3&gt;总结&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://img.mgd2008.com/static/img/cc6561fc8b4de802b65b4140a5228335_watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ZhbmppYW5oYWk=,size_16,color_FFFFFF,t_70#pic_center.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://img.mgd2008.com/static/img/fa8a5f4aa8aa798c3d90abd9322f6da7_watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ZhbmppYW5oYWk=,size_16,color_FFFFFF,t_70#pic_center.png&#34;&gt;&lt;/p&gt;
+&lt;h3&gt;Docker网络&lt;/h3&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/</guid>
       
     </item>
     
@@ -783,7 +1859,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</guid>
@@ -798,7 +1874,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
@@ -813,10 +1889,194 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Shell 备份Mysq一个库多个表</title>
+      
+      
+      
+      
+      <description>&lt;h3&gt;指定表备份&lt;/h3&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;!/bin/bash&lt;/h1&gt;
+&lt;h1&gt;备份数据库中指定的多个表&lt;/h1&gt;
+&lt;h1&gt;设置mysql的登录用户名和密码&lt;/h1&gt;
+&lt;p&gt;source /etc/profile
+mysql_user=&#34;数据库用户名&#34;
+mysql_password=&#34;数据库密码&#34;
+mysql_host=&#34;数据库主机地址&#34;
+mysql_port=&#34;数据库端口号&#34;
+mysql_charset=&#34;utf8&#34;
+mysql_database=&#34;数据库名称&#34;&lt;/p&gt;
+&lt;h1&gt;是否删除过期数据&lt;/h1&gt;
+&lt;p&gt;expire_backup_delete=&#34;ON&#34;
+expire_days=3
+backup_date=&lt;code&gt;date +%Y%m%d&lt;/code&gt;
+backup_time=&lt;code&gt;date +%Y%m%d%H%M&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;备份文件存放地址(根据实际情况填写)&lt;/h1&gt;
+&lt;p&gt;backup_location=/data/mysql-backup/script/
+backup_dir=$backup_location$backup_date
+backup_tables=(
+a \
+b)
+welcome_msg=&#34;Welcome to use MySQL backup tools!&#34;&lt;/p&gt;
+&lt;h1&gt;判断mysql实例是否正常运行&lt;/h1&gt;
+&lt;p&gt;mysql_ps=&lt;code&gt;ps -ef |grep mysql |wc -l&lt;/code&gt;
+mysql_listen=&lt;code&gt;netstat -an |grep LISTEN |grep $mysql_port|wc -l&lt;/code&gt;
+if [ [$mysql_ps == 0] -o [$mysql_listen == 0] ]; then
+    echo &#34;ERROR:MySQL is not running! backup stop!&#34;
+    exit
+else
+    echo $welcome_msg
+fi&lt;/p&gt;
+&lt;h1&gt;如果目录不存在则创建&lt;/h1&gt;
+&lt;p&gt;if [ ! -d &#34;$backup_dir&#34; ];then
+    echo &#34;$backup_dir not exist, start create&#34;
+    mkdir -p $backup_dir
+    echo &#34;$backup_dir created complet&#34;
+else
+    echo &#34;$backup_dir is exist&#34;
+fi    &lt;/p&gt;
+&lt;h1&gt;备份指定数据库中数据&lt;/h1&gt;
+&lt;p&gt;for table in ${backup_tables[@]}
+do
+    mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password  $mysql_database $table&amp;gt; $backup_dir/$table.sql
+    flag=&lt;code&gt;echo $?&lt;/code&gt;
+    if [ $flag == &#34;0&#34; ];then
+        echo &#34;$backup_time database $mysql_database success backup to $backup_dir/$table.sql successful&#34;
+    else
+        echo &#34;$backup_time database $mysql_database backup fail!&#34;
+    fi
+done&lt;/p&gt;
+&lt;h1&gt;删除过期数据&lt;/h1&gt;
+&lt;p&gt;if [ &#34;$expire_backup_delete&#34; == &#34;ON&#34; -a  &#34;$backup_location&#34; != &#34;&#34; ];then
+    &lt;code&gt;find $backup_location/ -type f -mtime +$expire_days | xargs rm -rf&lt;/code&gt;
+    echo &#34;Expired backup data delete complete!&#34;
+fi&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;
+&lt;h3&gt;忽略表备份&lt;/h3&gt;
+&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;!/bin/bash&lt;/h1&gt;
+&lt;h1&gt;设置mysql的登录用户名和密码&lt;/h1&gt;
+&lt;p&gt;source /etc/profile
+mysql_user=&#34;用户名&#34;
+mysql_password=&#34;数据库密码&#34;
+mysql_host=&#34;数据库host&#34;
+mysql_port=&#34;端口&#34;
+mysql_charset=&#34;utf8&#34;
+mysql_database=&#34;数据库名&#34;&lt;/p&gt;
+&lt;h1&gt;备份文件存放地址(根据实际情况填写)&lt;/h1&gt;
+&lt;p&gt;backup_location=/data/mysql-backup/&lt;/p&gt;
+&lt;h1&gt;是否删除过期数据&lt;/h1&gt;
+&lt;p&gt;expire_backup_delete=&#34;ON&#34;
+expire_days=3
+backup_time=&lt;code&gt;date +%Y%m%d%H%M&lt;/code&gt;
+backup_dir=$backup_location&lt;/p&gt;
+&lt;h1&gt;需要忽略备份的表&lt;/h1&gt;
+&lt;p&gt;ignore_table=&#34;--ignore-table=$mysql_database.table1 \
+--ignore-table=$mysql_database.table2 \
+--ignore-table=$mysql_database.table3 \
+--ignore-table=$mysql_database.table4 \
+&#34;&lt;/p&gt;
+&lt;p&gt;welcome_msg=&#34;Welcome to use MySQL backup tools!&#34;&lt;/p&gt;
+&lt;h1&gt;判断mysql实例是否正常运行&lt;/h1&gt;
+&lt;p&gt;mysql_ps=&lt;code&gt;ps -ef |grep mysql |wc -l&lt;/code&gt;
+mysql_listen=&lt;code&gt;netstat -an |grep LISTEN |grep $mysql_port|wc -l&lt;/code&gt;
+if [ [$mysql_ps == 0] -o [$mysql_listen == 0] ]; then
+    echo &#34;ERROR:MySQL is not running! backup stop!&#34;
+    exit
+else
+    echo $welcome_msg
+fi&lt;/p&gt;
+&lt;h1&gt;备份指定数据库中数据&lt;/h1&gt;
+&lt;p&gt;mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password  $mysql_database $ignore_table &amp;gt; $backup_dir/$mysql_database-$backup_time.sql
+flag=&lt;code&gt;echo $?&lt;/code&gt;
+if [ $flag == &#34;0&#34; ];then
+    echo &#34;database $mysql_database success backup to $backup_dir/$mysql_database-$backup_time.sql.gz&#34;
+else
+    echo &#34;database $mysql_database backup fail!&#34;
+fi&lt;/p&gt;
+&lt;h1&gt;删除过期数据&lt;/h1&gt;
+&lt;p&gt;if [ &#34;$expire_backup_delete&#34; == &#34;ON&#34; -a  &#34;$backup_location&#34; != &#34;&#34; ];then
+    &lt;code&gt;find $backup_location/ -type f -mtime +$expire_days | xargs rm -rf&lt;/code&gt;
+    echo &#34;Expired backup data delete complete!&#34;
+fi&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Shell 备份一个库全表结构</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;```shell&lt;/p&gt;
+&lt;h1&gt;!/bin/bash&lt;/h1&gt;
+&lt;h1&gt;设置mysql的登录用户名和密码&lt;/h1&gt;
+&lt;p&gt;source /etc/profile
+mysql_user=&#34;数据库用户名&#34;
+mysql_password=&#34;数据库密码&#34;
+mysql_host=&#34;数据库主机地址&#34;
+mysql_port=&#34;数据库端口号&#34;
+mysql_charset=&#34;utf8&#34;
+mysql_database=&#34;数据库名称&#34;&lt;/p&gt;
+&lt;h1&gt;是否删除过期数据&lt;/h1&gt;
+&lt;p&gt;expire_backup_delete=&#34;OFF&#34;
+expire_days=30
+backup_date=&lt;code&gt;date +%Y%m%d&lt;/code&gt;
+backup_time=&lt;code&gt;date +%Y%m%d%H%M&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;备份文件存放地址(根据实际情况填写)&lt;/h1&gt;
+&lt;p&gt;backup_location=/data/mysql-backup/structure/
+backup_dir=$backup_location$mysql_database-$backup_date.sql
+welcome_msg=&#34;Welcome to use MySQL backup tools!&#34;&lt;/p&gt;
+&lt;h1&gt;判断mysql实例是否正常运行&lt;/h1&gt;
+&lt;p&gt;mysql_ps=&lt;code&gt;ps -ef |grep mysql |wc -l&lt;/code&gt;
+mysql_listen=&lt;code&gt;netstat -an |grep LISTEN |grep $mysql_port|wc -l&lt;/code&gt;
+if [ [$mysql_ps == 0] -o [$mysql_listen == 0] ]; then
+    echo &#34;ERROR:MySQL is not running! backup stop!&#34;
+    exit
+else
+    echo $welcome_msg
+fi&lt;/p&gt;
+&lt;h1&gt;如果目录不存在则创建&lt;/h1&gt;
+&lt;p&gt;if [ ! -d &#34;$backup_location&#34; ];then
+    echo &#34;$backup_location not exist, start create&#34;
+    mkdir -p $backup_locaton
+    echo &#34;$backup_location created complet&#34;
+else
+    echo &#34;$backup_location is exist&#34;
+fi    &lt;/p&gt;
+&lt;h1&gt;备份指定数据库中数据&lt;/h1&gt;
+&lt;p&gt;mysqldump -h$mysql_host -P$mysql_port -u$mysql_user -p$mysql_password -d $mysql_database &amp;gt; $backup_dir
+flag=&lt;code&gt;echo $?&lt;/code&gt;
+if [ $flag == &#34;0&#34; ];then
+    echo &#34;$backup_time database $mysql_database success backup to $backup_dir successful&#34;
+else
+    echo &#34;$backup_time database $mysql_database backup fail!&#34;
+fi&lt;/p&gt;
+&lt;h1&gt;删除过期数据&lt;/h1&gt;
+&lt;p&gt;if [ &#34;$expire_backup_delete&#34; == &#34;ON&#34; -a  &#34;$backup_location&#34; != &#34;&#34; ];then
+    &lt;code&gt;find $backup_location/ -type f -mtime +$expire_days | xargs rm -rf&lt;/code&gt;
+    echo &#34;Expired backup data delete complete!&#34;
+fi&lt;/p&gt;
+&lt;p&gt;```&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/</guid>
       
     </item>
     
@@ -828,7 +2088,7 @@
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
@@ -843,7 +2103,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</guid>
@@ -858,7 +2118,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</guid>
@@ -873,7 +2133,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</guid>
@@ -888,7 +2148,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</guid>
@@ -903,7 +2163,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</guid>
@@ -918,7 +2178,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</guid>
@@ -933,7 +2193,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</guid>
@@ -948,7 +2208,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</guid>
@@ -963,7 +2223,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</guid>
@@ -978,7 +2238,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</guid>
@@ -986,17 +2246,1622 @@
     </item>
     
     <item>
-      <title>Index</title>
+      <title>Java 语言知识体系</title>
       
       
       
       
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <description>&lt;h2&gt;0. 概述&lt;/h2&gt;
+&lt;p&gt;一个 Java 程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作。下面简要介绍下类、对象、方法和实例变量的概念。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;对象&lt;/strong&gt;：对象是类的一个实例，有状态和行为。例如，一条狗是一个对象，它的状态有：颜色、名字、品种；行为有：摇尾巴、叫、吃等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;类&lt;/strong&gt;：类是一个模板，它描述一类对象的行为和状态。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;方法&lt;/strong&gt;：方法就是行为，一个类可以有很多方法。逻辑运算、数据修改以及所有动作都是在方法中完成的。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实例变量&lt;/strong&gt;：每个对象都有独特的实例变量，对象的状态由这些实例变量的值决定。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;1. 基础语言&lt;/h2&gt;
+&lt;h3&gt;1.1 核心语言&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;语言元素&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://img.mgd2008.com/Java%20%E5%85%B3%E9%94%AE%E5%AD%97.png&#34;&gt;关键字&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;关键字不能用于常量、变量、和任何标识符的名称&lt;/li&gt;
+&lt;li&gt;Java 的 null 不是关键字，类似于 true 和 false，它是一个字面常量，不允许作为标识符使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;标识符&lt;/p&gt;
+&lt;p&gt;Java 所有组成部分都需要名字。类名、变量名以及方法名都被称为标识符。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以字母、$、下划线开头&lt;/li&gt;
+&lt;li&gt;首字母之后可以使用 以字母、数字、$、下划线任意几种&lt;/li&gt;
+&lt;li&gt;关键字不能作为标识符&lt;/li&gt;
+&lt;li&gt;标识符对大小敏感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;java-basic-lang.md&#34;&gt;修饰符&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问修饰符  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Java中，可以使用访问控制符来保护对类、变量、方法和构造方法的访问。Java 支持 4 种不同的访问权限。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;default&lt;/strong&gt;  (即默认，什么也不写）: 在同一包内可见，不使用任何修饰符。使用对象：类、接口、变量、方法。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;public&lt;/strong&gt; 对所有类可见。使用对象：类、接口、变量、方法&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;private&lt;/strong&gt;  在同一类内可见。使用对象：变量、方法。 &lt;strong&gt;注意：不能修饰类（外部类）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;protected&lt;/strong&gt; 对同一包内的类和所有子类可见。使用对象：变量、方法。 &lt;strong&gt;注意：不能修饰类（外部类）&lt;/strong&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;非访问修饰符&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;static&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;final&lt;/li&gt;
+&lt;li&gt;abstract&lt;/li&gt;
+&lt;li&gt;synchronized&lt;/li&gt;
+&lt;li&gt;transient&lt;/li&gt;
+&lt;li&gt;volatile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;运算符&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;算数运算符&lt;/li&gt;
+&lt;li&gt;关系运算符&lt;/li&gt;
+&lt;li&gt;位运算符&lt;/li&gt;
+&lt;li&gt;逻辑运算符&lt;/li&gt;
+&lt;li&gt;赋值运算符&lt;/li&gt;
+&lt;li&gt;其它运算符&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分隔符&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;变量、常量和字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;变量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;常量&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字面量（直接量）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;整型字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;100&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;123L 整型字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;实型字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;9.8F 浮点型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;3.14&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3.2E-3&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字符字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&#39;a&#39;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&#39;\t&#39;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&#39;\105&#39; 大写字母E&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字符串字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&#34;hello&#34;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;布尔字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;true&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;false&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;引用字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;null&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;类型字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;int.class&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;String.class&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据类型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;基本类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;数值类型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;byte （1字节）&lt;/li&gt;
+&lt;li&gt;short （2字节）&lt;/li&gt;
+&lt;li&gt;int （4字节）&lt;/li&gt;
+&lt;li&gt;long（8字节）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浮点型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;float（4字节）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;double（8字节）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;布尔型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;boolean&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;字符型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2字节&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unicode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;枚举类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;符号常量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;引用类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.2 字符串&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;创建字符串&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;String Str =“hello”; str 引用静态区的字符串字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;String str = new String(&#34;hello&#34;); str引用堆上的字符串字面量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;操作字符串&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.3 数组&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一维数组&lt;/li&gt;
+&lt;li&gt;二维数组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.4 循环结构&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;while&lt;/li&gt;
+&lt;li&gt;do...while&lt;/li&gt;
+&lt;li&gt;for&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;1.5 分支结构&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;if..else&lt;/li&gt;
+&lt;li&gt;switch...case..default&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. 基础机制&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;泛型&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注解&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;注释&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反射&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;异常&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SPI &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;3. 面向对象&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;oop-encapsulation.md&#34;&gt;封装&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;oop-inheritance.md&#34;&gt;继承&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&#34;oop-inheritance-details.md&#34;&gt;详解 Java 继承&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;oop-polymorphism.md&#34;&gt;多态&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Node/</guid>
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/</guid>
+      
+    </item>
+    
+    <item>
+      <title>核心语言特性</title>
+      
+      
+      
+      
+      <description>&lt;h2&gt;Java 关键字&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;关键字是电脑语言里事先定义的，有特别意义的标识符。&lt;/p&gt;
+&lt;p&gt;程序员利用关键字来告诉编译器其声明的变量类型、类、方法特性等信息。&lt;/p&gt;
+&lt;p&gt;关键字不能用作变量名、方法名、类名、包名和参数。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Java 中的关键字如下&lt;/h3&gt;
+&lt;p&gt;| 关键字       | 描述                                                         |
+| ------------ | ------------------------------------------------------------ |
+| abstract     | 抽象方法，抽象类的修饰符                                     |
+| assert       | 断言条件是否满足                                             |
+| boolean      | 布尔数据类型                                                 |
+| break        | 跳出循环或者label代码段                                      |
+| byte         | 8-bit 有符号数据类型                                         |
+| case         | switch语句的一个条件                                         |
+| catch        | 和try搭配捕捉异常信息                                        |
+| char         | 16-bit Unicode字符数据类型                                   |
+| class        | 定义类                                                       |
+| const        | 未使用                                                       |
+| continue     | 不执行循环体剩余部分                                         |
+| default      | switch语句中的默认分支                                       |
+| do           | 循环语句，循环体至少会执行一次                               |
+| double       | 64-bit双精度浮点数                                           |
+| else         | if条件不成立时执行的分支                                     |
+| enum         | 枚举类型                                                     |
+| extends      | 表示一个类是另一个类的子类                                   |
+| final        | 表示一个值在初始化之后就不能再改变了 表示方法不能被重写，或者一个类不能有子类 |
+| finally      | 为了完成执行的代码而设计的，主要是为了程序的健壮性和完整性，无论有没有异常发生都执行代码。 |
+| float        | 32-bit单精度浮点数                                           |
+| for          | for循环语句                                                  |
+| goto         | 未使用                                                       |
+| if           | 条件语句                                                     |
+| implements   | 表示一个类实现了接口                                         |
+| import       | 导入类                                                       |
+| instanceof   | 测试一个对象是否是某个类的实例                               |
+| int          | 32位整型数                                                   |
+| interface    | 接口，一种抽象的类型，仅有方法和常量的定义                   |
+| long         | 64位整型数                                                   |
+| native       | 表示方法用非java代码实现                                     |
+| new          | 分配新的类实例                                               |
+| package      | 一系列相关类组成一个包                                       |
+| private      | 表示私有字段，或者方法等，只能从类内部访问                   |
+| protected    | 表示字段只能通过类或者其子类访问 子类或者在同一个包内的其他类 |
+| public       | 表示共有属性或者方法                                         |
+| return       | 方法返回值                                                   |
+| short        | 16位数字                                                     |
+| static       | 表示在类级别定义，所有实例共享的                             |
+| strictfp     | 浮点数比较使用严格的规则                                     |
+| super        | 表示基类                                                     |
+| switch       | 选择语句                                                     |
+| synchronized | 表示同一时间只能由一个线程访问的代码块                       |
+| this         | 表示调用当前实例 或者调用另一个构造函数                      |
+| throw        | 抛出异常                                                     |
+| throws       | 定义方法可能抛出的异常                                       |
+| transient    | 修饰不要序列化的字段                                         |
+| try          | 表示代码块要做异常处理或者和finally配合表示是否抛出异常都执行finally中的代码 |
+| void         | 标记方法不返回任何值                                         |
+| volatile     | 标记字段可能会被多个线程同时访问，而不做同步                 |
+| while        | while循环                                                    |&lt;/p&gt;
+&lt;h2&gt;Java 修饰符&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Java 语言提供了许多修饰符，主要分为两种&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问修饰符&lt;/li&gt;
+&lt;li&gt;非访问修饰符&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;访问控制修饰符&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Java 中可以使用访问控制修饰符来保护对类、变量、方法和构造方法的访问。Java支持4中不同的访问权限。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/</guid>
+      
+    </item>
+    
+    <item>
+      <title>面向对象 - 继承</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;在上一篇系列文章中，我们聊过了面向对象的“封装”特征。在有了封装的基础上，今天我们在来谈谈面向对象第二个特征—-“继承”。
+👨‍🏫&lt;strong&gt;“继承”&lt;/strong&gt;这个知识点在同学们学习的过程中，其实并不算是一个难点。在语法上，Java也把它设计得非常简单，一个&lt;strong&gt;extends&lt;/strong&gt;关键字就可以搞定；在理解上，“继承”这个词在生活中也很常见，不存在什么晦涩难懂的地方。但一旦涉及到具体使用的时候，就会发现很多同学其实对它的认知度还是不高的。不然在面试中也就不会有这么多的关于“继承”的面试题目了。诸如🤷‍♀️：“Java单继承的优缺点是什么？”、“抽象类与接口到底有区别？”、“什么时候用继承？什么时候用组合？”……等等。所以，这次我们借用这篇文章把“继承”这个概念再梳理一下。💪&lt;/p&gt;
+&lt;h2&gt;继承的由来&lt;/h2&gt;
+&lt;p&gt;听过我课的同学应该知道，我时常在课堂上强调一个观点：&lt;strong&gt;“复用与分离”&lt;/strong&gt;。我认为在软件开发中很多新设计理念、新的语法、新的框架都是基于这个观点被推广、设计、应用的。“继承”同样也是如此。比如在一个宠物医院的管理系统中，会有很多不同类型的宠物（🐱、🐶、🐢、🐦）。它们都有各自的属性和行为，所以我们需要定义不同的类来表示它们。比如：&lt;/p&gt;
+&lt;p&gt;```java 
+public class DogBean{
+    private String name;
+    private int age;
+    private int boneNum;        //每天吃的骨头数目
+    private ArrayList&lt;DogBean&gt; children; //所生小狗的集合&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void play(){
+    //玩耍
+}
+
+public void swim(){
+    //游泳
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;public class CatBean{
+    private String name;
+    private int age;
+    private int fishNum;        //每天吃的鱼数目
+    private ArrayList&lt;CatBean&gt; children; //所生小猫的集合&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void play(){
+    //玩耍
+}
+
+public void climbTree(){
+    //爬树
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;public class TortoiseBean{
+    private String name;
+    private int age;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void play(){
+    //玩耍
+}
+
+public void sleep(){
+    //冬眠
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;} &lt;/p&gt;
+&lt;p&gt;public class BirdBean{
+    private String name;
+    private int age;
+    private int wormNum；     //每天吃的虫数量&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void play(){
+    //玩耍
+}
+
+public void sing(){
+    //鸣叫
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;写完以后，我们会觉得亏得慌。因为，在这些不同的类身上有些属性/行为是相同的，而我们却不得不在每个类里面都把这些相同的属性/行为重复书写一次。这时候咋办？当然就想到“继承”啦，就是这么自然！😊
+提出父类—宠物类，把共有的属性/行为写在它身上，各个子类通过“继承”机制，自动获得该父类的属性/行为，这不是“复用”是什么？面向对象的设计者也是这么想的😎，所以他们在面向对象语言中设计了继承的语法。
+光因为&lt;strong&gt;复用&lt;/strong&gt;吗？其实“继承”也带来了&lt;strong&gt;分离&lt;/strong&gt;的效果！在有了继承的情况下，在设计父类时我们只需要考虑共有的信息，设计子类时我们也只需要把精力放在该子类特有的信息上。这相当于把问题分解成了两个层面—共有和特有，各有所属分别设计和实现，不会出现混为一谈的情况。&lt;/p&gt;
+&lt;p&gt;```java 
+public class PetBean{
+   private String name;
+    private int age;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void play(){
+    //玩耍
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;public class DogBean extends PetBean{
+    private int boneNum;        //每天吃的骨头数目
+    private DogBean[] children; //所生小狗的集合&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void swim(){
+    //游泳
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;public class CatBean extends PetBean{
+    private int fishNum;        //每天吃的鱼数目
+    private CatBean[] children; //所生小猫的集合&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void climbTree(){
+    //爬树
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;public class TortoiseBean extends PetBean{
+    public void sleep(){
+        //冬眠
+    }
+} &lt;/p&gt;
+&lt;p&gt;public class BirdBean extends PetBean{
+    private int wormNum；     //每天吃的虫数量&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void sing(){
+    //鸣叫
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;简单的看看上下两段代码的行数，你也能知道“继承”好不好了。&lt;/p&gt;
+&lt;h2&gt;继承使用的原则&lt;/h2&gt;
+&lt;p&gt;从上面的示例，我们看到&lt;strong&gt;“继承”&lt;/strong&gt;简直就是又简单又好用👍。由此也就造成了很多初学者的一个问题，那就是&lt;strong&gt;滥用&lt;/strong&gt;继承。比如：A类里面有一个方法methodA()，B类想在自己的methodB()方法中调用这个来自于A类的方法，咋办呢？很多人下意识的就说让B继承A就可以了。&lt;/p&gt;
+&lt;p&gt;```java 
+public class A{
+    public void methodA(){
+        //methodA的实现
+    }
+}&lt;/p&gt;
+&lt;p&gt;/&lt;em&gt;
+ *  由于B类继承了A类，所以B类也就自动继承了methodA()。
+ *  所以可以直接在B类里面调用到该方法了。
+ &lt;/em&gt;/
+public class B extends A{
+    public void methodB(){
+        this.methodA();
+    }
+}
+```&lt;/p&gt;
+&lt;p&gt;如果你这么用继承，那就大错特错了！因为你只站在了代码实现的级别，而没有考虑场景！
+如果要说实现这个功能，那么我们其实除了上面这个语法还有其他两种方式呢。&lt;/p&gt;
+&lt;p&gt;方式一：&lt;/p&gt;
+&lt;p&gt;```java 
+public class A{
+    public void methodA(){
+        //methodA的实现
+    }
+}&lt;/p&gt;
+&lt;p&gt;/&lt;em&gt;
+ *   B类包含一个A类的对象，作为B类的属性，
+ *   然后调用该属性的methodA()方法。
+ &lt;/em&gt;/
+public class B{
+    private A myA = new A();
+    public void methodB(){
+        myA.methodA();
+    }
+}
+```&lt;/p&gt;
+&lt;p&gt;方式二：&lt;/p&gt;
+&lt;p&gt;```java 
+public class A{
+    public void methodA(){
+        //methodA的实现
+    }
+}&lt;/p&gt;
+&lt;p&gt;/&lt;em&gt;
+ *  B类的methodB()方法接收外部传入的A类对象参数，
+ *  然后进行调用该参数的methodA()方法。
+ &lt;/em&gt;/
+public class B{
+    public void methodB(A myA){
+        myA.methodA();
+    }
+}
+```&lt;/p&gt;
+&lt;p&gt;可以看到，以上三种设计都可以让B类的methodB()方法操作到A类的methodA()方法。那么到底哪一种好呢？这其实就是我们在授课过程中常常跟同学们强调的一个东西了：&lt;strong&gt;场景&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;场景的重要性：&lt;/strong&gt; &lt;em&gt;写代码，绝对不是仅仅只为了实现某个功能。功能的实现只是最基本的目标，而在程序中正确的模拟现实问题域也是绝对不能忽视的问题。模拟的好与差决定了这个程序的生命力，决定了这个程序能否随着实际问题域的发展而发展。好的设计，能够在问题域自然变化的情况下，只经过简单改变就能继续使用；而差的设计很有可能就要面临大量的修改，甚至是推翻重来。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;上面三种方式都能让B类与A类发生绑定关系，但其实它们代表的是面向对象中类与类之间的三种关系：&lt;strong&gt;继承、组合、使用&lt;/strong&gt;，也就是我们常常说的&lt;strong&gt;”is-a“、”has-a“、”use-a“&lt;/strong&gt;关系。在场景中，正确的判断两个类到底是什么关系，从而采用正确的设计（选择对应的语法），这才是王道，否则很有可能被现实打个响亮的耳光！&lt;/p&gt;
+&lt;p&gt;举个例子：有两个类，一个Boy（男孩），一个Girl（女孩）。Boy类有一个kiss方法😚，Girl类有一个叫response（回应）的方法。当Boy的kiss方法在执行的最后，要调用Girl的response方法。我们用三种方式都能实现这个效果，但是他们描述的场景却截然不同。
+&lt;strong&gt;第一种：继承---“is-a”---是一个&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;```java 
+public class Girl{
+    public void response(){
+        System.out.println(&#34;讨厌，你好坏......&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Boy extends Girl{
+    public void kiss(){
+        System.out.println(&#34;让我亲一个嘛～～～&#34;);
+        this.response();
+    }
+}
+```&lt;/p&gt;
+&lt;p&gt;Boy类继承了Girl类，这本身就说不通了吧……😓 又不是儿子和母亲的关系……还要接吻……🤢。算了，不说了🤐️。所以，这个场景千万不能设计成这种继承，否则你就是个BT！！！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二种：组合---“has-a”---有一个&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;```java 
+public class Girl{
+    public void response(){
+        System.out.println(&#34;讨厌，你好坏......&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Boy extends Girl{
+    private Girl myGirl；&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void kiss(){
+    System.out.println(&#34;让我亲一个嘛～～～&#34;);
+    myGirl.response();
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;Boy类拥有一个Girl类对象作为自己的属性。这就非常合情合理了，难道你的女朋友不是你生命中的一部分吗❤️？而且，由于Boy对象拥有了Girl对象，所以在Boy对象的任何行为中都可以操作到这个女友对象，让她参与到你生活的方方面面。&lt;strong&gt;这个场景就应该使用这样的设计。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三种：使用---“use-a”---用一个&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;```java 
+public class Girl{
+    public void response(){
+        System.out.println(&#34;讨厌，你好坏......&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Boy extends Girl{
+    public void kiss(Girl myGirl){
+        System.out.println(&#34;让我亲一个嘛～～～&#34;);
+        myGirl.response();
+    }
+}
+```&lt;/p&gt;
+&lt;p&gt;Boy类的kiss方法接收了一个外部参数是Girl的对象，由于参数只是一个局部变量，所以kiss方法结束后，这个Girl对象也就和Boy没有关系了。这个场景嘛……我觉得应该是描述了一种违反道德观的现象。两个对象只在亲吻的时候才有关联，亲吻结束后就互不相识了。还好是亲吻，如果是其它行为我觉得有必要打举报电话了。警察👮叔叔，有人卖哔～～～。&lt;/p&gt;
+&lt;p&gt;通过以上分析，要向大家传递的一个内容就是：继承不是你想用就用的，请一定要在场景中分析出这些类真正的具备“is-a”关系。&lt;/p&gt;
+&lt;h2&gt;Java的继承机制&lt;/h2&gt;
+&lt;p&gt;上面👆，我们描述的是面向对象编程思想中“继承”的概念。但是具体到面向对象的编程语言，不同的语言为了实现这个“继承”的效果，都提供的有自己的机制。作为Java语言的学习者，我们当然要掌握Java语言的继承机制啰。这里面包括了：单继承、内存叠加、接口和抽象类等等内容。由于这些东西内容比较多，又自成体系，所以我决定以后单开博客来讲述，然后再把链接放到这里来。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;最后，当你以后被问到“你如何理解面向对象的继承”时，请做如下回答：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;继承：是面向对象中的一种类与类之间的关系。当多个类具备一脉相承的“is-a”关系的时候，使用继承。这就能够让这些类进行正确的关联绑定，子类自动具备来自于的父类的属性和行为，做到代码的复用和设计的分离。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/</guid>
+      
+    </item>
+    
+    <item>
+      <title>详解 Java 继承</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;“继承”是面向对象中的第二特征，体现了类与类之间的“is-a”关系。当两个类进行继承关联绑定的时候，子类自动具备来自于的父类的属性和行为，做到代码的复用和设计的分离。Java☕️作为一门面向对象的编程语言，对于继承也有相应的实现机制和语法。这篇博客我们就来详细总结一下……
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20171018/dukeInherit.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/dukeInherit.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Java继承的机制&lt;/h2&gt;
+&lt;h3&gt;类Object&lt;/h3&gt;
+&lt;p&gt;首先，我们看看下面这个简单的自定义类&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public class Student{
+    public void study(){
+        System.out.println(&#34;好好学习，天天向上。&#34;);
+    }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在这个简单类当中，我们定义了一个方法叫做study（学习），除此以外没有定义任何额外的东西。但是在使用时，我们却发现Student对象除了有study方法以外，还有一些其它的方法。
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20171018/1.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/1.jpg&#34;&gt;&lt;/a&gt;
+那么这些方法是哪里来的呢？这里，我们就要提到一个非常重要的类java.lang.Object❗️&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Class Object is the root of the class hierarchy. Every class has Object as a superclass. All objects, including arrays, implement the methods of this class.
+类 Object 是类层次结构的根类。每个类都使用 Object 作为超类。所有对象（包括数组）都实现这个类的方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;JDKDOC文档很明确的告诉我们：Object类在整个Java的类继承体系中是处于绝对顶层的位置。它是所有类的&lt;strong&gt;根&lt;/strong&gt;、是&lt;strong&gt;祖宗&lt;/strong&gt;。上图中,stu对象额外多出来的方法，就是来自于它。
+我们在前面博客讲“继承”这个概念的时候提到过，所谓继承就是把共有的数据项和行为抽取到父类中，这样所有子类都会自动具备，从而达到复用性。那么由此可见，类Object的所有方法都是共有性最强的方法，只要是Java对象就肯定具备这些行为，这些方法的重要性也就不言而喻了。
+⚠️&lt;em&gt;每个Java程序员都必须掌握来自于Object的每一个方法，包括理论内容和使用细节&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;| 方法名    | 一句话描述                           | 学习章节 |
+| :-------- | :----------------------------------- | :------- |
+| finalize  | 销毁对象的方法，由GC调用             | 垃圾回收 |
+| equals    | 判断两个对象“业务”是否相等           | 方法重写 |
+| toString  | 返回对象的字符串描述                 | 方法重写 |
+| hashCode  | 返回对象的哈希码值                   | 集合框架 |
+| wait      | 导致当前线程等待                     | 线程     |
+| notify    | 唤醒等待的单个线程                   | 线程     |
+| notifyAll | 唤醒等待的所有线程                   | 线程     |
+| getClass  | 获取实例对象所属类型的类模版对象     | 反射     |
+| clone     | 克隆并返回当前对象的一个新的副本对象 | 原型模式 |&lt;/p&gt;
+&lt;p&gt;请大家在学习到相应章节的时候好好把握这些知识点。&lt;/p&gt;
+&lt;h3&gt;关键字extends&lt;/h3&gt;
+&lt;p&gt;在上面的学习中，我们知道了在默认情况下任意一个类都会自动继承Object类。那么，如果我们需要指定一个类继承于某个其它的父类类型呢？这个时候，我们就要用到extends关键字了。&lt;/p&gt;
+&lt;p&gt;```java
+public class SuperClass{
+    public void methodA(){......}
+}&lt;/p&gt;
+&lt;p&gt;public class SubClass extends SuperClass{
+    public void methodB(){......}
+}
+```&lt;/p&gt;
+&lt;p&gt;这个语法非常的简单明了，大家都很容易学会，但是还是需要提示大家两点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;类SubClass的父类是类SuperClass，而类SuperClass的父类是默认的类Object；所以通过继承的传递性，SuperClass具备来自Object的所有数据和行为，SubClass具备来自于SuperClass的所有数据和行为，所以SubClass也具有来自Object的数据和行为；&lt;/li&gt;
+&lt;li&gt;“extends”的英文本意是“扩展”，也就是说子类在父类的基础上是可以有变化性的。这种变化性体现为：增加子类新的属性和新的行为，或修改继承而来的行为（属性不能改！）；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;单继承&lt;/h3&gt;
+&lt;p&gt;我们现在知道了：在默认情况下我们书写的一个Java类会自动继承Object类；如果使用”extends”关键字，我们也可以为它指定一个其它父类。那么，接下来的问题是“一个类可以指定几个父类呢”❓
+在面向对象思维中只提到了有“继承”这种特性。但具体是“每个类可以同时继承多个父类（多继承）”还是“每个类只能有一个父类（单继承）”却并没有说明。所以现实当中，不同的面向对象的编程语言各有各的语法设计，而Java采用的是&lt;strong&gt;单继承&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;首先，无论“多继承”还是“单继承”各有优劣；&lt;/p&gt;
+&lt;p&gt;| 多继承优点                                               | 多继承缺点                                                   |
+| :------------------------------------------------------- | :----------------------------------------------------------- |
+| 可以同时具备来自于多个父类的特征，让子类具有更大的丰富度 | 如果多个父类具有相同的特征，那么子类到底继承的是哪一个的？这会带来设计上的混乱。 |
+|                                                          | 继承结构会变得非常复杂，可能呈现出复杂的网状结构。这不利于程序设计的清晰度，增加了复杂度。 |&lt;/p&gt;
+&lt;p&gt;| 单继承优点                                                   | 单继承缺点         |
+| :----------------------------------------------------------- | :----------------- |
+| 类继承的层次结构非常清晰，设计上更容易把握住父类具有唯一共性 | 设计的丰富度会降低 |&lt;/p&gt;
+&lt;p&gt;其次，Java只是选择了“单继承”，并且提出解决丰富度的方案；
+Java认为多重继承不是一个很重要并且没有就不行的特性，但同时有多继承带来的危害却大于它的好处，所以选择了舍弃。被舍弃的不仅仅是多继承，Java还舍弃了指针、舍弃了内存管理。说白了Java就是不信任所有的程序员都一定能够理性、安全和高效率的去处理这类复杂问，所以就在语言设计上用弱化复杂度（或者说灵活性、丰富度）去换取安全性罢了。
+当然，放弃了多继承，不代表Java的表现力被弱化了。Java设计了其它语法来补充这种丰富度。比如：大家后面学习到的&lt;strong&gt;“接口”、“内部类”&lt;/strong&gt;，都可以达到多继承同样的效果，却不需要在无谓的复杂度上做无谓的困扰。&lt;/p&gt;
+&lt;h2&gt;Java继承的模型&lt;/h2&gt;
+&lt;p&gt;我们在学习基本的类与对象章节的时候就提到过：当代码中出现new某个类构造方法的时候，就会在内存的堆区中产生一个该类型的对象。
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20171018/objectMemory.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/objectMemory.jpg&#34;&gt;&lt;/a&gt;
+那么现在在知识点上，我们引入了“继承”这个概念（就算不写也会有一个Object类作为父类），那么现在的模型是什么情况呢？
+我们先用一个例子，来看看现象：&lt;/p&gt;
+&lt;p&gt;```java
+public class SuperClass{
+    public SuperClass(){
+        System.out.println(&#34;父类构造方法&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class SubClass extends SuperClass{
+    public SubClass(){
+        System.out.println(&#34;子类构造方法&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Test{
+    public static void main(String[] args){
+        SubClass sub = new SubClass();
+    }
+}
+```&lt;/p&gt;
+&lt;p&gt;运行后的效果：
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20171018/consoleRs1.png&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/consoleRs1.png&#34;&gt;&lt;/a&gt;
+在这里我们很明显发现，在代码中我们只要求产生子类SubClass的对象，但是在运行的时候除了SubClass的构造方法被调用了，父类SuperClass的构造方法也被调用了，而且还是先调用父类构造后调用子类构造。那么这个时候内存中发生了什么？到底产生了几个
+对象呢？
+在这里我们提出&lt;strong&gt;“内存叠加”&lt;/strong&gt;的模型来帮助大家理解：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;当我们new一个子类的构造方法时，程序流程会进入到该子类构造方法中；&lt;/li&gt;
+&lt;li&gt;子类构造方法的第一句会有默认的调用其父类的构造方法（这里涉及到super()的知识点），程序流程转入到父类构造方法中；&lt;/li&gt;
+&lt;li&gt;执行完父类的构造方法，就会在内存里面产生父类对象，然后再返回到子类构造代码中继续执行；&lt;/li&gt;
+&lt;li&gt;执行完子类的构造方法后，会在刚才产生的父类对象的下面叠加产生子类对象的部分。这两部分合在一起构成一个既拥有父类内容又拥有子类内容的完整子类对象；&lt;/li&gt;
+&lt;li&gt;最后把这个完整的子类对象的引用赋值给引用类型的变量。&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20171018/extendMemory.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/extendMemory.jpg&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上图把1到5个步骤分别进行了描述，希望大家仔细对应看清楚。无论有多少层的继承，其中心思想都是如此。比如：A类继承B类，B类继承C类，C类继承Object；那么new A()的时候也是先产生Object对象，再叠加上C类定义的部分，再叠加B类定义的部分，再叠加A类定义的部分，最后构成一个完整的A对象。这样A对象中既有自己的内容，也有继承树上各层父类的内容，这才形成最终继承的效果！
+当然，这里只是描述了最基本的情况，由于类内部的内容（属性、构造、方法、访问修饰符等等）又有很多，所以我们还需要对细节进行更进一步的探寻，并进行理解为什么会有这样的效果。&lt;/p&gt;
+&lt;h2&gt;继承相关知识点细节&lt;/h2&gt;
+&lt;h3&gt;构造方法&lt;/h3&gt;
+&lt;p&gt;父类的构造方法不会被子类继承！
+第一：构造方法语法上要求方法名必须和类名保持一致。所以如果子类继承了父类的构造方法，那么很明显两个语法就冲突了（父类构造方法的名字肯定是父类名，必然和子类名不一样）。
+第二：构造方法是用来产生对象的。如果子类通过继承拥有了父类的构造方法，那么子类可以控制父类对象的产生？这也是违背场景的。&lt;/p&gt;
+&lt;p&gt;构造方法不能被重写！
+这就不多说了，子类没有继承父类的构造方法，当然也不可能对父类构造进行重写实现了🤷‍♂️。&lt;/p&gt;
+&lt;p&gt;构造方法的作用就是在产生对象的时候，利用内存叠加实现继承机制。&lt;/p&gt;
+&lt;h3&gt;this()与super()&lt;/h3&gt;
+&lt;p&gt;|        | this()                                                       | super()                                                      |
+| :----- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 作用： | 调用本类的其它构造方法；从而达到本类构造方法的代码可以复用的效果。 与继承无关。 | 调用父类的指定构造方法；从而达到使用指定的父类构造方法构造子类中的父类对象部分。 与继承有关。 |
+| 位置： | 构造方法的第一句；与super()互斥。                            | 构造方法的第一句；与this()互斥。                             |
+| 默认： | 没有                                                         | 有，就是无参的super()                                        |&lt;/p&gt;
+&lt;h3&gt;属性&lt;/h3&gt;
+&lt;p&gt;父类的属性会被子类继承，无论访问修饰符！
+在继承机制中已经讲过，产生子类对象会先产生父类对象部分，然后叠加子类特有部分，从而构成完整子类对象。所以父类的属性都会放入到父类对象部分，那么也就在完整子类对象中。&lt;/p&gt;
+&lt;p&gt;父类的private属性会被继承，但无法访问！
+private修饰符其本意为：私有。父类如果把该属性定义为了private，即意味着该属性只能让父类自己在内部直接访问；而子类从语意上就不应该能够访问它（没有得到父类的允许）。场景上，你爸的钱是拿给你继承的，但是他老人家不允许你直接用，你小子就是用不了😏。&lt;/p&gt;
+&lt;p&gt;子类可以拥有和父类同名属性，不会发生覆盖。&lt;/p&gt;
+&lt;p&gt;```java
+public class SuperClass{
+    public int num = 10;
+}&lt;/p&gt;
+&lt;p&gt;public class SubClass extends SuperClass{
+    public String num = &#34;hello&#34;;
+}
+```&lt;/p&gt;
+&lt;p&gt;此时，在SubClass类的对象身上会有两个叫num的属性。来自父类的存放在父类对象部分，来自子类的存放在子类特有部分。这个时候如果用子类引用调用num属性，是操作的子类中的字符串num；用父类引用调用num属性，操作的是从父类继承而来的整型num。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public class Test{
+    public static void main(String[] args){
+        SubClass sub = new SubClass();//子类引用指向子类对象
+        System.out.println(sub.num);//打印：hello
+        SuperClass sup = (SuperClass)sub;//父类引用指向同一个子类对象
+        System.out.println(sup.num);//打印：10
+    }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;只new了一次，在对象没有变仅仅是引用变化的情况下，很明显看到了两个属性的共存。
+⚠️&lt;em&gt;这种父类和子类各拥有一个同名属性的情况往往只发生在面试中。在真实场景中，如果是同一个属性，那么子类没有必要再定义一次；如果是两个属性，就应该把名字区分开。&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;方法&lt;/h3&gt;
+&lt;p&gt;父类的方法会被子类继承，无论访问修饰符！&lt;/p&gt;
+&lt;p&gt;父类的private方法会被继承，但无法访问！
+这两点与上面属性的效果一致，所以不再累述。😤&lt;/p&gt;
+&lt;p&gt;子类可以拥有和父类同名方法，符合重写规范的话会发生覆盖。
+方法重写的规范包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;方法名相同；&lt;/li&gt;
+&lt;li&gt;参数列表相同（包括参数个数、类型、顺序三者都相同）；&lt;/li&gt;
+&lt;li&gt;返回类型相同；&lt;/li&gt;
+&lt;li&gt;子类方法的访问修饰符不能小于父类方法的访问修饰符；&lt;/li&gt;
+&lt;li&gt;子类方法的方法声明不能比父类方法的方法声明抛出更多的异常。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;只有这5点均满足的情况下，才会发生重写；否则会报错或两个方法共存（重载）。&lt;/p&gt;
+&lt;h3&gt;this.与super.&lt;/h3&gt;
+&lt;p&gt;|        | this.                                                        | super.                                             |
+| :----- | :----------------------------------------------------------- | :------------------------------------------------- |
+| 位置： | 类的构造方法或普通方法中均可书写；                           | 类的构造方法或普通方法中均可书写；                 |
+| 作用： | 访问本类定义的所有属性和行为，以及从父类继承而来且被访问修饰符允许的属性或行为； | 访问从父类继承而来且被访问修饰符允许的属性或行为； |
+| 含义： | 当前对象，生活化寓意就是“我”；                               | 当前对象的父类对象部分，生活化寓意就是“我爹”；     |&lt;/p&gt;
+&lt;p&gt;通过这个对比我们可以看到，凡是用super能够操作到的属性或行为，this一定能够操作；而用this能够操作到的，super却不一定能够操作到；所以尽可能在代码中使用this来进行调用。
+那么，什么时候使用super.操作呢？就是在调用重写方法的时候，this.重写方法()得到的是重写后的效果（即子类中定义的效果）；用super.重写方法()得到的是重写前的效果(即父类中定义的效果)。&lt;/p&gt;
+&lt;h3&gt;final&lt;/h3&gt;
+&lt;p&gt;final这个关键字的含义为：最终的、不变的。
+用final修饰的变量，由于赋予了不变的特性，所以就只能为常量了；
+用final修饰的方法，同样由于赋予不变特性，所以子类就不能再重写该方法了；
+用final修饰的类，是给这个类赋予不变特性，所以这个类不能再生成子类（子类完全可以看成是对父类的扩展和变化）。
+🤔思考一下：为啥final不能修饰构造方法呢❓&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java 面向对象 - 多态</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;面向对象特征当中最让初学者头疼的就算是&lt;strong&gt;“多态”&lt;/strong&gt;了🤦‍♂️。“封装”、“继承”的概念大家在生活中还多多少少接触过，还能够做一定层度上的类推，但“多态”这个非生活用词就显得比较陌生了。
+“&lt;strong&gt;多态&lt;/strong&gt;”的用途和表现形式又非常多，总是在程序设计与开发中出现，弄得的大家不知所措。这儿也是多态，那儿也是多态，那么多态到底是个啥呢？😭&lt;/p&gt;
+&lt;h2&gt;什么是多态&lt;/h2&gt;
+&lt;h3&gt;多态的概念：&lt;/h3&gt;
+&lt;p&gt;多态（Polymorphism）这个概念最早来自于生物学，表示的是同一物种在同一种群中存在两种或多种明显不同的表型。比如：在南美种群中存在两种颜色的美洲虎：浅黄色的和黑色的。
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20170901/puma.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/puma.jpg&#34;&gt;&lt;/a&gt;
+而在面向对象编程思想中，这个概念表达的是具有共性的类型，在执行相同的行为时，会体现出不同的实现方式。我们可以简称为：&lt;strong&gt;相同的行为，不同的实现。&lt;/strong&gt; 比如：同样看到对面过来一个美女，男人和女人的想法是不一样的。
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20170901/maleOrFemale.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/maleOrFemale.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;多态在面向对象中的地位&lt;/h3&gt;
+&lt;p&gt;一说到面向对象特征，大家都能马上想到“封装”、“继承”、“多态”。
+1、“封装”是面向对象的基础，它让我们能够把现实环境的复杂内容进行归类，让编程无论在理解度上还是在语法上进行更好的表达；
+2、“继承”表达的是“重复”，是复用性的体现，能够让我们通过找到类型的共性进行更进一步的提取和划分；
+3、那么，“多态”则是多样性、可扩展性的体现。面对丰富的和可能不断变化的问题域，让我们的程序能够有更大的容纳性去模拟和适应这些变化。它表达的是“变化”，这就是为什么“多态”能够跻身面向对象三大特征的原因！&lt;/p&gt;
+&lt;p&gt;注意：由于“多态”的概念是---相同的行为，不同的实现；所以，对我们而言只有方法才有“多态”性的体现，这点别搞错了～～～&lt;/p&gt;
+&lt;h3&gt;多态的分类&lt;/h3&gt;
+&lt;p&gt;多态分为两种形式：静态多态和动态多态。
+这里的静态与关键字static并没有什么关系。动静之分主要是表现在程序是在运行期还是编译期，通过被绑定的对象类型来决定到底执行的是哪个方法。
+静态多态是在编译期就确定了对象以及对象行为的绑定关系，所以运行起来以后就固定为编译期确定的效果；
+而动态多态是在编译期未知绑定关系，运行进行以后才进行绑定，所以具有更大的灵活性；
+很明显，动态多态具有更大的灵活性和可扩展性，所以它才是我们使用率更高的多态方式，也是这篇博客要讲述的重点。&lt;/p&gt;
+&lt;h2&gt;静态多态&lt;/h2&gt;
+&lt;p&gt;诚如上面所言，静态多态是在编译期间就可以确定要执行的是何种类型的对象以及该对象的何种行为，运行期不会有改变的情况。所以 &lt;strong&gt;方法重载&lt;/strong&gt; 或 &lt;strong&gt;单独使用方法重写&lt;/strong&gt; 都是它的具体表现形式。&lt;/p&gt;
+&lt;h3&gt;方法的重载&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;方法重载：
+在一个类当中，具有多个同名方法，参数列表不同（包括：参数个数、参数类型、参数顺序的不同），从而各有各的实现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```java
+public class Student{  &lt;br&gt;
+    public void study(){
+        System.out.println(&#34;自习&#34;);
+    }
+    public void study(String subject){
+        System.out.println(&#34;完成当天课程：&#34; + subject + &#34;的课后作业。&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Teacher{
+    private Student stu;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void teach(){
+    System.out.println(&#34;现在布置任务：&#34;);
+    //stu.study();
+    stu.study(&#34;数学&#34;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;讲解：
+1、Student(学生)类当中拥有两个同名方法study(学习)，一个无参、一个带参，这是标准的重载语法。
+2、两个study方法之所以同名，是因为它们都是学生类的“学习”行为，但各有各的实现，所以这符合“相同的行为，不同的实现”，这是一个“多态”的设计。
+3、Teacher(老师)类中绑定了一个Student对象stu，在它的teach方法中调用了stu对象的study行为；如果调用代码是不传参的，那么运行效果一定是“自习”的效果；如果传的是字符串参数，那么运行效果一定是“完成课后作业”的效果。在这里体现了：&lt;strong&gt;运行的最终效果，其实在编译Teacher类的时候就被确定了。&lt;/strong&gt;要想改变运行效果，那么只有改写teach方法中的调用代码。这就是所谓的“静态多态”。&lt;/p&gt;
+&lt;h3&gt;方法的重写&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;方法重写：
+在继承关系中，不同的子类都拥有继承于父类的某个共有方法，但是各有各的实现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;```java
+public abstract class Gun{
+    public abstract void fire();
+}&lt;/p&gt;
+&lt;p&gt;public class Rifle extends Gun{
+    public void fire(){
+        System.out.println(&#34;砰～～～&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class MachineGun extends Gun{
+    public void fire(){
+        System.out.println(&#34;哒哒哒哒哒&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Soldier{
+    //private Rifle gun;//绑定步枪对象
+    private MachineGun gun;//绑定机枪对象&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void fight(){
+    System.out.println(&#34;射击！&#34;);
+    this.gun.fire();
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;讲解：
+1、Gun(枪)类有一个方法叫做fire(开火)。Rifle(步枪)和MachineGun(机枪)都是Gun的子类，各自重新实现自己fire方法的特殊实现。这是标准的重写语法。
+2、步枪，机枪都是枪，都拥有开火行为，但各有各的实现，所以这符合“相同的行为，不同的实现”，这是一个“多态”的设计。
+3、Soldier(士兵)类中绑定了一个MachineGun对象gun，在它的fight方法中调用了该对象的fire方法。这时运行fight方法的效果一定是机枪的“哒哒哒哒”效果；如果要换成步枪的效果，那么只有把绑定的gun对象类型从MachineGun换成Rifle。在这里同样体现了：&lt;strong&gt;运行的最终效果，其实在编译Soldier类的时候就被确定了。&lt;/strong&gt;要想改变运行效果，那么只有改写gun对象的类型声明代码。这也是“静态多态”。&lt;/p&gt;
+&lt;h2&gt;动态多态&lt;/h2&gt;
+&lt;p&gt;相对于静态多态，动态多态是什么效果呢？闲话少叙，先让我们看看代码：&lt;/p&gt;
+&lt;p&gt;```java
+public abstract class Gun{
+    public abstract void fire();
+}&lt;/p&gt;
+&lt;p&gt;public class Rifle extends Gun{
+    public void fire(){
+        System.out.println(&#34;砰～～～&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class MachineGun extends Gun{
+    public void fire(){
+        System.out.println(&#34;哒哒哒哒哒&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Soldier{
+    private Gun gun;//绑定枪对象&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void fight(){
+    System.out.println(&#34;射击！&#34;);
+    this.gun.fire();
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;大家很容易就发现，这个动态多态的例子其实就是改动了一下上面静态多态中的第二个例子。差异在哪儿呢？为什么这个就“动态”了，之前那个就“静态”了呢？
+其实差异就只有这一句代码而已：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;private Gun gun;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在这个动态绑定的例子当中，Soldier（士兵）类中绑定的不再是某一个Gun（枪）的子类对象，而是父类Gun（枪）的对象。也许有同学会瞪大眼睛疑问：“Gun不是抽象类吗？不能产生对象呀？”
+其实，Gun是不是抽象类根本无所谓。因为在这里，我们压根儿也没有想过要让gun指向一个Gun对象，我们需要的就是它既可以指向Rifle（步枪）对象，也可以指向MachineGun（机枪）对象。无论以后运行起来绑定谁，都不需要修改Soldier（士兵）的代码！就算将来还有可能增加其它的枪（手枪，狙击枪，火药枪），&lt;strong&gt;只要它是枪&lt;/strong&gt;，我们的Soldier中已有的绑定代码就可以直接使用，不用修改！！&lt;/p&gt;
+&lt;h3&gt;父类的引用指向子类的对象&lt;/h3&gt;
+&lt;p&gt;是的，只要它是枪！在这里，我们描述了在继承关系（is a）中出现的场景。在Java中除了&lt;strong&gt;本类的引用指向本类的对象&lt;/strong&gt;，还可以让&lt;strong&gt;父类的引用指向子类的对象&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+Gun g1 = new Rifle();//正确
+Gun g2 = new MachineGun);//正确&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;场景上，“枪“当然可以是一把步枪，也可以是一挺机枪。“枪”类型可以指代任何一种枪对象，这与“步枪”类型只能指代步枪对象，“机枪”类型只能指代机枪对象是不同的。当然前提条件是要有继承关系，这个很生活吧😊。
+内存中，由于Java的对象内存模型采用的是“内存叠加的方式”，即：在子类对象产生的时候，会先调用父类的构造方法产生一个父类对象部分，然后再调用子类自己的构造方法，在该父类对象部分下面叠加上子类特有部分，从而形成一个完整的子类对象！所以，我们可以认为每一个子类对象中都包含了一个完整的父类对象部分。所以，当用父类引用指向这个子类对象的时候，JVM会发现这个对象确实有父类对象所有的内容，在编译上是没有问题的。
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20170901/objectInMemory.png&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/objectInMemory.png&#34;&gt;&lt;/a&gt;
+所以，当我们绑定一个父类引用的时候，它既有可能指向父类的对象，也有可能是指向该父类的某个子类的对象。它是可变的，具体指向谁不是由编码期的声明决定的，而是可以通过在运行时传入不同的对象，从而形成所谓的&lt;strong&gt;“动态绑定”&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3&gt;动态绑定与重写&lt;/h3&gt;
+&lt;p&gt;当父类引用指向子类对象以后，在使用这个引用调用方法的时候会发生什么呢？其实无非就三种情况&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用父类引用调用父类定义的方法；&lt;/li&gt;
+&lt;li&gt;使用父类引用调用子类定义的方法；&lt;/li&gt;
+&lt;li&gt;使用父类引用调用父类定义，但被子类重写了的方法。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;第一种情况：其本质就是本类的引用调用本类的方法，所以也就没有任何编译或运行的问题；在知识点上，你只需要通过上面的图例3认清楚一点，子类对象中包含有来自于父类对象部分，那么理解起来就很简单了！&lt;/p&gt;
+&lt;p&gt;第二种情况：你在调用的时候会发现根本调用不到，编译就会马上报错。其道理也很简单：虽然对象是子类对象，其中当然包含有子类自己定义的内容，但是由于我们的引用是父类类型（即我们是站在父类的层面去看待它），当然就看不到这些子类定义的内容了。如果想访问，那么必须进行“向下转型”。参看：&lt;a href=&#34;https://hyktech.gitee.io/javatech/2017/09/01/多态/&#34;&gt;向上转型，向下转型，还在头疼？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第三种情况：这是我们在本博中所需要的“动态多态”的知识点。由于这个方法是重写方法，首先说明它的定义就是在父类当中，所以利用父类的引用当然可以看到有这个方法，保证能够使用引用调用得到；其次该方法被子类对象重写了，而且不同的子类可以各有各的实现，那么具体的运行效果，就要依赖于这个父类引用运行起来以后，到底是指向哪种子类的对象了（指向谁，就执行谁的重写后效果）。
+完整代码如下：&lt;/p&gt;
+&lt;p&gt;```java
+public abstract class Gun{
+    public abstract void fire();
+}&lt;/p&gt;
+&lt;p&gt;public class Rifle extends Gun{
+    public void fire(){
+        System.out.println(&#34;砰～～～&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class MachineGun extends Gun{
+    public void fire(){
+        System.out.println(&#34;哒哒哒哒哒&#34;);
+    }
+}&lt;/p&gt;
+&lt;p&gt;public class Soldier{
+    private Gun gun;//绑定枪对象&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void fight(){
+    System.out.println(&#34;射击！&#34;);
+    this.gun.fire();
+}
+
+//省略get/set方法，请自行添加
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;public class TestMain{
+    public static void main(String[] args){
+        Soldier rambo = new Soldier();
+        rambo.setGun(new Rifle());
+        //rambo.setGun(new MachineGun());
+        rambo.fight();
+    }&lt;/p&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;通过测试这个代码，我们可以看到，如果给rambo（兰博）对象传入Rifle（步枪）对象，那么他战斗的时候就是步枪的效果；如果传入MachineGun（机枪）对象，那么rambo（兰博）对象战斗就是机枪的效果。换步枪、换机枪，但是Soldier和Gun的绑定代码不变，就算以后有别的子类枪，Soldier的代码也无需修改，这就是我们需要的&lt;strong&gt;“动态多态”&lt;/strong&gt;效果。&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;首先，我们来总结一下知识点：
+这里，我就不再写出答案了，请各位阅读者自行归纳描述。如果有需要，可以再返回到上面仔细阅读。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;多态的概念是什么？&lt;/li&gt;
+&lt;li&gt;什么是静态多态？什么是动态多态？&lt;/li&gt;
+&lt;li&gt;动态多态是依赖什么技术实现的？&lt;/li&gt;
+&lt;li&gt;动态多态的好处是什么？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其次，以后我们可以扩展到哪些知识点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;接口的引用也可以指向实现类的对象；&lt;/li&gt;
+&lt;li&gt;反射实现动态产生对象；&lt;/li&gt;
+&lt;li&gt;Spring完成IOC注入；&lt;/li&gt;
+&lt;li&gt;桥梁模式、装饰器模式、策略模式等常见设计模式；&lt;/li&gt;
+&lt;li&gt;聚合组合原则、依赖倒转原则等常见设计原则。&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/</guid>
+      
+    </item>
+    
+    <item>
+      <title>接口和抽象类的使用选择</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;“接口”与“抽象类”的区别，这是初级程序员在面试的时候常常会被问到的一个问题😱。这两种类型确实有太多的相似之处，比如：它们都有抽象方法；都不能实例化；都支持动态绑定等等；但是也有很多不同：“接口”支持多实现而“抽象类”只能单继承；“接口”不能有构造而“抽象类”可以；“接口”只有公共静态常量属性而“抽象类”确可以拥有变量属性等等。我相信，对于Java语法熟悉的同学肯定都能说出一大堆这些相同与不同。但是真正到使用的时候，我们却往往不能分清楚到底该定义“接口”呢？还是“抽象类”呢？有没有一个准确的判定标准，或者说有没有有一个面向对象思想层面的区分呢？
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20170928/kenan.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/kenan.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;“抽象类”与“接口”的语法区别&lt;/h2&gt;
+&lt;p&gt;对于语法已经很熟悉的同学可以跳过这一节，但我们建议大家还是都看看😏😏。&lt;/p&gt;
+&lt;h3&gt;定义的语法&lt;/h3&gt;
+&lt;p&gt;我们先来看看一段定义“抽象类“和”接口“的代码：&lt;/p&gt;
+&lt;p&gt;```java
+//抽象类：AbstractClassA
+public abstract class AbstractClassA{
+    private int fieldA; 
+    public static final int FIELDA = 100;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public AbstractClassA(){
+}
+
+public void setFieldA(int fieldA){
+    this.fieldA = fieldA;
+}
+
+public int getFieldA(){
+    return this.fieldA;
+}
+
+public abstract void methodA();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;//接口：InterfaceB
+public interface InterfaceB{
+    public static final int FIELDB = 100;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void methodB();
+
+public default void methodBB(){
+    System.out.println(&#34;JDK1.8的新语法，接口也可以定义实现方法。&#34;);
+    System.out.println(&#34;方法声明必须有default关键字。&#34;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;我们来点评一下，它们“定义语法”的特点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;“抽象类”使用的是关键字abstract class；
+   “接口”用的是interface；
+   &lt;strong&gt;说明&lt;/strong&gt;：“抽象类”仍然是一种“类”类型，只是特殊在它能拥有未实现的抽象方法；而“接口”却是一种独立于“类”类型之外的全新的数据类型；可见当初在设计语法的时候，设计人员就默认这是两种本质上完全不同的类型！&lt;/li&gt;
+&lt;li&gt;“抽象类”是有构造方法的，不写也有默认的公共无参构造；
+   “接口”则是完全没有构造方法这一概念的，当然也就不能书写构造；
+   &lt;strong&gt;说明：&lt;/strong&gt;“抽象类”会关心和配合对象的产生，但是“接口”对最终的对象到底是什么完全不在意，那”接口”关注的是什么呢？🤔️&lt;/li&gt;
+&lt;li&gt;“抽象类”可以有各种属性（变量、常量、静态的、非静态的，各种访问修饰符）；
+   “接口”只能拥有公共静态常量属性，就算不写public static final这三个关键字，你定义在“接口”中的属性也自动认为是公共静态常量；
+   &lt;strong&gt;说明：&lt;/strong&gt;相对于“抽象类”，“接口”几乎完全不关心属性的变化性。那么，还是那个问题，“接口”到底关注的是什么呢；🤔🤔&lt;/li&gt;
+&lt;li&gt;“抽象类”可以有实现的方法，也可以有抽象方法；
+   “接口”在Java长达20多年的时间中，都只能拥有抽象方法，直到JDK1.8才能拥有实现的方法（还必须用default关键字修饰）；
+   &lt;strong&gt;说明：&lt;/strong&gt;这里很明显体现出，语法的设计人员认为：“接口”应该关注的是行为，而且只关注这个行为的声明（即有什么行为），而不关注这个行为的实现。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;使用的语法&lt;/h3&gt;
+&lt;p&gt;“接口”和“抽象类”由于都具有抽象方法，也就是其内部都包含不确定的内容，所以它们都不能够直接实例化对象（对象是具体的、实际的存在）。它们都是作为上层类型设计出来，让下层类型（子类，实现类）按照上层的设计意图去完成具体的实现。&lt;/p&gt;
+&lt;p&gt;```java
+//抽象类和接口的使用
+public class ClassA extends AbstractClassA 
+                    implements InterfaceB, InterfaceC{
+    @Override
+    public void methodA(){
+        System.out.println(&#34;重写抽象父类的抽象方法。&#34;);
+    }&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@Override
+public void methodB(){
+    System.out.println(&#34;重写接口的抽象方法。&#34;);     
+}
+
+@Override
+public void methodC(){
+    System.out.println(&#34;重写另一个接口的抽象方法。&#34;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;我们再来点评一下这里使用语法的特点吧😁。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ClassA使用extends关键字绑定的“抽象类”AbstractClassA，这在语法上叫做“继承”。而我们都知道“继承”的含义是：子类是以父类为基础，去完成自己新的扩展。这种扩展包括：添加自己的新属性、新方法以及重写来自于父类的方法。当父类为“抽象类”的时候，这种扩展带有一定程度的强制性，即子类必须实现父类中的抽象方法，否则子类自己也只能是抽象类。
+   &lt;strong&gt;说明：&lt;/strong&gt;“抽象类”和它的“子类”是一种“is-a”的继承关系，所以“抽象类”在设计的意图上更多表现出了一种一脉相承的强绑定关系。简单点说：“抽象类”就是用来定义“子类”到底是什么的，它决定了“子类”的本质。&lt;/li&gt;
+&lt;li&gt;ClassA使用implements关键字绑定“接口”InterfaceB和InterfaceC，这在语法上叫做“实现”。通过实现“接口”，实现类ClassA被要求必须重写来自于”接口“的抽象方法，否则这个实现类也只能是抽象类。
+   &lt;strong&gt;说明：&lt;/strong&gt;“接口”与“实现类”的关系相对于“抽象类”与“子类”而言要弱上一些。简单点说：“接口”就是给“实现类”添加额外方法的，它并不关注这个“实现类”本身是什么，只关注它必须拥要有“接口”提供的附加行为。&lt;/li&gt;
+&lt;li&gt;在Java语法中，“继承”是单继承，“实现”是多实现。即一个类（ClassA）只能有一个父类（AbstractClassA），却同时可以实现多个接口（InterfaceB和InterfaceC）。
+   &lt;strong&gt;说明：&lt;/strong&gt;“单继承”和“多实现”绝对不是数量的多少这么简单。继承就是父子关系，子类再如何设计丰富度但是其本质只能有一个，这是它万变不离其宗的“宗”。“抽象类”设计的意图就是要体现这个根源性，而“万变”的丰富性就交给了“接口”。让各种各样的“接口”来增加子类的表现力，从而能够适应各种场景的变化。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;动态绑定的语法&lt;/h3&gt;
+&lt;p&gt;无论是“抽象类”还是“接口”，都可以达到动态绑定的效果。这是他们的相似性。&lt;/p&gt;
+&lt;p&gt;```java
+//抽象类的引用 指向 子类的对象
+AbstractClassA aca = new ClassA();
+aca.methodA();//只能调用到来自于抽象类的方法或属性&lt;/p&gt;
+&lt;p&gt;//接口的引用 指向 实现类的对象
+InterfaceB ib = new ClassA();
+ib.methodB();//只能调用到来自于接口B的方法
+InterfaceC ic = new ClassA();
+ic.methodC();
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt;前者体现的是只要对象的类型本质是一样的（同一父类），那么都可以进行统一的操作；后者体现的是只要对象具有某些相同的行为（同一接口），那么也可以进行统一的操作。细细品味，它们要表达和对应的问题域还是有细微的不同的。&lt;/p&gt;
+&lt;h2&gt;从一扇“门”，到千扇“门”&lt;/h2&gt;
+&lt;p&gt;在探讨了语法之后，我们最后还是要落脚到实际的使用当中来。假如在某一场景问题域中，我们找到了一些抽象方法。那么，我们到底是把它们设计到抽象类当中呢？还是接口当中呢？关于这个问题，在网络上有一个流传相当广泛也非常经典的例子，那就是：“门”🚪。
+众所周知，门有各种各样的门，门也有很多的功能。比如：有开门关门的行为、开锁的行为、按门铃的行为等等。而不同的门对这些行为的实现又是各有各的方式。普通门、推拉门、卷帘门、旋转门的开关实现各不相同；有用钥匙开锁的、有密码锁的、有指纹锁的，开锁实现也多种多样；按门铃也是如此，电子门铃、拉绳敲钟的、古时候还有用门环叩门的方式呢。那么在上层设计中，这些方法都只能设计为抽象方法了，具体实现交给各个下层类去确定。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public abstract void openDoor();//开门
+public abstract void closeDoor();//关门
+public abstract void lockDoor();//上锁
+public abstract void unlockDoor();//解锁
+public abstract void ringBell();//按门铃&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;那么问题就来了，这些抽象方法我们设计到哪里呢？是设计到抽象类中？还是设计到接口中？或是一些方法设计到抽象类，另一些设计到接口中？&lt;/p&gt;
+&lt;h3&gt;设计抽象类&lt;/h3&gt;
+&lt;p&gt;我们首先确定一下问题域。在这个问题域中是要表现各种各样的门（包括我们已知的，或是未来可能出现的）。那么我们可以很明显的发现，在这5个抽象方法中，开关门的两个方法是与另外三个不同的。因为这两个方法是所有的门都必须具备的，也就是我们常说的“一脉相承、与生俱来”的行为，没有这两个行为就根本上否认了门的本质（做得再像，那也是墙而不是门）。这样的方法，我们就应该设计到父类当中，让所有的门子类都具备！&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public abstract class Door{
+    public abstract void openDoor();//开门
+    public abstract void closeDoor();//关门
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;另外三个方法上锁、解锁和按门铃，不是所有门都具备的，但却可以灵活添加到各种子类门身上，从而满足各种变化的丰富度。这些可以“附属添加”的行为，就要定义在接口当中。
+那么是定义一个大接口拥有这三个方法呢？还是定义多个接口，各自设计一些方法呢？&lt;/p&gt;
+&lt;h3&gt;设计接口&lt;/h3&gt;
+&lt;p&gt;在设计接口的时候，其实是有一个叫做“接口隔离原则”的，也被称之为“最小接口原则”。其含义是在定义接口的时候，尽量不要设计一个庞大的接口拥有一堆抽象方法。因为这样做的话，会导致实现这个接口的实现类，必须具备所有的这一大堆方法。比如：如果我们把上锁、解锁和按门铃这三个方法设计到一个接口中，会导致所有有锁的门都必须有按门铃，所有有按门铃的门都有锁。但是，很明显锁和门铃是可以拆分开的两个功能。场景中是允许出现只有锁功能或只有门功能的门类。分开设计，可以让我们更灵活的想实现谁就实现，不想实现谁就不实现，反正接口的语法可以多实现嘛～～～😊
+但我们也不要简单的理解为一个接口就设计一个方法，因为还有可能有些方法是天生成对出现的。比如本场景当中的上锁和解锁两个功能，它们是在门上同时出现或同时不出现的。那么对于这种情况，我们就可以设计到一个接口当中了。因此，本例接口最后的设计是：&lt;/p&gt;
+&lt;p&gt;```java
+public interface Lockable{
+    public abstract void lockDoor();//上锁
+    public abstract void unlockDoor();//解锁
+}&lt;/p&gt;
+&lt;p&gt;public interface RingBellable{
+    public abstract void ringBell();//按门铃
+}
+```&lt;/p&gt;
+&lt;h3&gt;多样性的体现&lt;/h3&gt;
+&lt;p&gt;你看，这样我们就能表示各种门了✌️&lt;/p&gt;
+&lt;p&gt;```java
+//普通门请直接继承这个Door类
+public abstract class Door{
+    public abstract void openDoor();//开门
+    public abstract void closeDoor();//关门
+}
+//带锁的门请直接继承这个LockDoor类
+public abstract class LockDoor extends Door implements Lockable{&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;//带门铃的门请直接继承这个BellDoor类
+public abstract class BellDoor extends Door implements RingBellable{&lt;/p&gt;
+&lt;p&gt;}&lt;/p&gt;
+&lt;p&gt;//既有锁又有门铃的门请直接继承这个LockBellDoor类
+public abstract class LockBellDoor extends Door 
+                                   implements Lockable,RingBellable{&lt;/p&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;h3&gt;综述一下下&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;抽象方法设计到抽象类还是接口，是要由这个抽象方法的地位所决定的。&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;如果要设计的方法是场景中某个类型“与生俱来、一脉相承”的（无论以后场景如何变化，该方法都肯定会存在于类型当中），那么这样的抽象方法就应该设计到“抽象类”当中。&lt;/li&gt;
+&lt;li&gt;如果要设计的方法并不是场景中某个类型的根本，而是为了满足场景变化的丰富度选择性添加或不添加的，那么这样的抽象方法就应该设计到“接口”当中。&lt;/li&gt;
+&lt;li&gt;设计“接口”的时候，请注意⚠️要满足“接口隔离原则”。不要把可能会分离的方法放到一个大接口当中了，这样的话会造成让实现类拥有了不该有的方法（我们把这种情况叫做：接口污染）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;语法的不同，体现设计意图的不同&lt;/h2&gt;
+&lt;p&gt;通过上面对于“接口”和“抽象类”语法和经典场景的分析，我们最后总结如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;“接口”与“抽象类”虽然都可以定义抽象方法，但是两者的关注点是完全不同的。“抽象类”关注的是继承体系树上一脉相承的根源性，是某一类型家族所有类的本质；“接口”关注的是具有相同行为的一组类，它并不对这些类的本质有任何影响或关注，只要某类型有相同行为即可通过实现接口成为具有某种共性的一个分组。&lt;/li&gt;
+&lt;li&gt;不能因为“单继承”，就说抽象类不好；也不应该因为可以“多实现”就到处都设计为接口。任何一个事物的本质只能有一个（亲爹只能有一个嘛～～～），但是也应该可以后续扩展出更多的变化度（你可以多认几个干爹呀😈）。所以“单继承”和“多实现”本来就是父类和接口的关注度不同所导致的。它不是“抽象类”的原罪，也不是“接口”的强悍！这是这两种类型设计意图的不同，所带来的必然结果！&lt;/li&gt;
+&lt;li&gt;正确的分析出，哪些抽象方法设计到“抽象类”中，哪些抽象方法设计到“接口”中，对于适应场景的变化是非常重要的。只有符合场景的语法，才能跟随场景的变化而变化，这样设计出来的程序才具有业务成长性。👍👍👍&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/</guid>
+      
+    </item>
+    
+    <item>
+      <title>static关键字是什么</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;static这个关键字是很多初学者在编写和阅读代码的时碰到的比较难以理解的关键字，也是很多面试官喜欢问到的问题之一。我们在使用的过程中会发现用它或不用它，对于代码来说有些时候似乎没有什么差异，但有些时候又的确有根本的不同。
+那么接下来，我们就用这篇文章给大家梳理一下关于static的那些事儿。&lt;/p&gt;
+&lt;h2&gt;static到底是干什么的？&lt;/h2&gt;
+&lt;p&gt;static这个关键字是每个Java程序员都一定会碰到的，就算你就只写过一个“Hello World”，你也遇到了它，因为它就在main方法的声明语法中🤷‍♂️。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public static void main(String[] args){...}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;只是在一开始学习的时候大家没有关注它的具体含义，仅仅只是把它当作了main方法固定语法的一部分，原封不动的照写照背了而已；
+然后，我们就到了编程基础课程。在学习方法（函数）的时候，由于那个阶段我们还没有学习任何类和对象的概念，所以在Java这门面向对象的语言中我们只有通过给方法加上static修饰，才能让大家直接在main方法中调用到我们自己的自定义函数。&lt;/p&gt;
+&lt;p&gt;```java
+public class Test{
+    //自定义方法
+    public static void func(int a){...}&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public static void main(String[] args){
+    func(5);//main方法调用func方法
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;在这期间，同学们的主要精力都在模块化过程、参数、返回等与方法更直接相关的知识点上，所以static就又不幸被忽略了🙅‍♂️，成了只要声明方法就“无脑”添加的一个关键字；
+真正让我们同学感觉到static不但不是&lt;strong&gt;“无脑”&lt;/strong&gt;😉反而还是&lt;strong&gt;“烧脑”&lt;/strong&gt;🔥，是发生在我们开始学习面向对象的时候。这个时候我们发现：
+1、方法的声明也可以不写static；
+2、写和不写对于这个方法在外部的被调用是有不同的；
+3、写和不写对于这个方法内部的实现也有区别；
+4、再后面发现不仅方法可以选择是否使用static修饰，属性居然也可以选择，并且属性有没有static修饰也有很多现象上的差异。
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20170917/whatHell.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/whatHell.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由于static的应用情况比较多，所以为了帮助大家能够更好的认知它，我们先奉上一个关于它的核心认识：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;凡是用static修饰的类内容，都具有两个共性：
+1、该内容与对象无关；
+2、在加载期有特殊动作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;请大家在下面的学习中，带着这两点去进行理解、归纳和总结。&lt;/p&gt;
+&lt;h2&gt;static修饰属性&lt;/h2&gt;
+&lt;h3&gt;现象&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;java
+public class ClassA{
+    public int fieldA;//普通属性     
+    public static int fieldB;//静态属性
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我们定义了一个叫做ClassA的类，包含两个属性fieldA和fieldB。其中fieldA是没有static修饰的，fieldB是用static修饰的。为了不带入其它知识点，我们把这两个属性设计为public的，能够让它们在类外部被直接访问到。接下来，我们看看使用它们的现象（有条件的同学可以边跟着写代码边学习，这样效果更好）。&lt;/p&gt;
+&lt;p&gt;```java
+public class Test{
+    public static void main(String[] args){
+        ClassA ca = new ClassA();//产生一个ClassA对象&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    System.out.println(ca.fieldA);//编译运行成功
+    System.out.println(ca.fieldB);//编译运行成功
+    System.out.println(ClasA.fieldA);//编译即失败
+    System.out.println(ClassA.fieldB);//编译运行成功
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这段测试代码说明：
+1、普通属性（fieldA）只能通过对象进行访问，这说明普通属性是绑定在对象身上的（必须先产生对象，对象才有这个属性）；
+2、静态属性（fieldB）既可以通过对象进行访问，也能通过类名直接访问（就算没有对象，这个属性也已经存在）。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同样ClasA类不变，再来看一个测试：&lt;/p&gt;
+&lt;p&gt;```java
+public class Test{
+    public static void main(String[] args){
+        //产生两个ClassA对象
+        ClassA ca0 = new ClassA();
+        ClassA ca1 = new ClassA();
+        //测试普通属性
+        ca0.fieldA = 100;
+        ca1.fieldA = 200;
+        System.out.println(ca0.fieldA);//控制台打印结果：100
+        System.out.println(ca1.fieldA);//控制台打印结果：200
+        //测试静态属性
+        ca0.fieldB = 300；
+        ca1.fieldB = 400;
+        System.out.println(ca0.fieldB);//控制台打印结果：400
+        System.out.println(ca1.fieldB);//控制台打印结果：400&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这段测试代码说明：
+1、普通属性是每个对象都拥有一个单独的存储，相互之间并不影响；
+2、静态属性是所有对象共享了一个值，只要有一个对象改动了这个属性的值，该类型所有对象的这个值都被修改了。&lt;/strong&gt;
+我们修改之前的代码：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+ca0.fieldB = 300；
+ca1.fieldB = 400;
+ClassA.fieldB = 500;//增加代码
+System.out.println(ca0.fieldB);//控制台打印结果：500
+System.out.println(ca1.fieldB);//控制台打印结果：500
+ClassA ca2 = new ClassA();//产生一个新对象
+System.out.println(ca2.fieldB);//控制台打印结果：500&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我们还能够更清楚的发现，&lt;strong&gt;静态属性真的是整个ClassA类（包括该类已经产生的对象，和以后产生的对象）只有一个fieldB变量！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;原理&lt;/h3&gt;
+&lt;p&gt;去死记各种现象，不如学会原理，以后就可以通过原理来分析各种变化的现象了。这就是&lt;strong&gt;“以不变应万变”😤&lt;/strong&gt;。
+造成以上现象的根本原因是，JVM（Java虚拟机）针对静态属性和普通属性在产生的时机和存放的方式上是完全不同的。
+&lt;strong&gt;静态属性：&lt;/strong&gt;在程序运行运行之前，JVM加载该类时就会在内存中产生它。为该属性分配空间进行初始化，并且只会产生一个；在后续运行过程中，无论是用该类直接访问该属性，还是用这个类的某个对象访问该属性，那么都是操作的同一个。
+&lt;strong&gt;普通属性：&lt;/strong&gt;在程序运行起来以后，每当执行到产生一个对象的时候，才会为该对象在内存中分配空间；而普通属性也就是在这个时候才会被划分到该对象自己的空间当中。因此，该类的每一个对象都有一个该属性，各自独立，各有各的值！&lt;/p&gt;
+&lt;p&gt;回头对应一下，我们一开始给的所有static修饰都会有的两点共性（与对象无关 和 加载期搞事情），看是不是这样？✌️&lt;/p&gt;
+&lt;h3&gt;根据场景使用&lt;/h3&gt;
+&lt;p&gt;了解了现象，知道了原理，我们就别再“无脑”使用static了。我们要掌握使用的原则：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1、常量属性可以统统设计为static的；
+2、变量属性，绝大部分都是非static的，除非真的分析出全类共享一个值，才能设计为static。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;说明：
+常量属性:
+这种属性的值是在声明的时候就确定了，不可更改！所以每个对象该属性的值都一摸一样，因此没有必要在每个对象身上存放一份，设计为static全类共享一个值即可。
+变量属性:
+如果该类任意一个对象的该属性值可以与别的对象不同，那么这个属性就不能定义为static，必须保证每个对象各自拥有独立的该属性。比如：学生类的姓名、年龄、性别、身高等等；
+除非确定这个属性的值是所有对象都一模一样，谁改了大家都得改动。这个就要看具体的问题域分析了，比如：学生类有一个属性是所属班级。如果问题域就是一个班级，所有学生对象只有可能是这一个班级的，这个属性才能设计为static（遇到需要修改班级名称的业务也没有必要一个对象一个对象的去改动了）；如果问题域本身就涉及到多个班级，学生对象有可能是不同班级的，那么就绝不能把这个班级属性设计为static的了，否则就会出大问题（只会保留最后一个赋值的班级名称）。很明显，一个类中能满足这种要求的变量属性是很少的。&lt;/p&gt;
+&lt;h2&gt;static修饰方法&lt;/h2&gt;
+&lt;h3&gt;现象&lt;/h3&gt;
+&lt;p&gt;```java
+public class ClassA{
+    public int fieldA;//普通属性   &lt;br&gt;
+    public static int fieldB;//静态属性&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void methodA(){...} //普通方法
+public static void methodB(){...} //静态方法
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;我们在上例的ClassA类中增加两个方法methodA和methodB。其中methodA是没有static修饰的普通方法，methodB是用static修饰的静态方法。接下来，我们看看使用它们的现象。&lt;/p&gt;
+&lt;p&gt;```java
+public class Test{
+    public static void main(String[] args){
+        ClassA ca = new ClassA();//产生一个ClassA对象&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    ca.methodA();//编译运行成功
+    ca.methodB();//编译运行成功
+    ClassA.methodA();//编译即失败
+    ClassA.methodB();//编译运行成功
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这段测试代码说明：
+1、普通方法（methodA）只能通过对象进行访问，这说明普通方法是绑定在对象身上的，即与对象相关；
+2、静态方法（methodB）既可以通过对象进行访问，也能通过类名直接访问，也就是说有没有执行对象无所谓，即与对象无关。&lt;/strong&gt;
+这个测试体现了普通方法和静态方法在调用时候的差异性，两种方法在实现的时候也有差异性。我们接下来看下面的代码：&lt;/p&gt;
+&lt;p&gt;```java
+public class ClassA{
+    public int fieldA;//普通属性   &lt;br&gt;
+    public static int fieldB;//静态属性&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public void methodA(){...}//普通方法
+
+public static void methodB(){...}//静态方法
+//普通方法
+public void methodAA(){
+    System.out.println(fieldA);//编译运行成功
+    System.out.println(fieldB);//编译运行成功
+    methodA();//编译运行成功
+    methodB();//编译运行成功
+}
+//静态方法
+public static void methodBB(){
+    System.out.println(fieldA);//编译报错
+    System.out.println(fieldB);//编译运行成功
+    methodA();//编译报错
+    methodB();//编译运行成功
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这段测试代码说明：
+普通方法和静态方法的区别不仅仅是在外部调用的地方，更多体现在方法内部的实现当中。
+1、普通方法能够访问本类的所有属性和调用本类自身的所有方法；
+2、静态方法只能够访问本类的静态属性和调用本类的静态方法。&lt;/strong&gt;
+我们再把methodBB方法改动一下：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public static void methodBB(){
+    System.out.println(this);//编译报错
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这说明：
+在静态方法中，连this对象都不能访问。这点到好理解，因为静态方法完全可以用类名直接访问，这个时候根本没有当前对象嘛。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;原理&lt;/h3&gt;
+&lt;p&gt;为什么静态方法不能操作到本类的非静态属性或非静态方法呢？我们可以从两个角度去分析这个问题。
+1、从JVM的加载机制上看，静态方法是随着所属类被加载的时候就首先被加载了的；而普通方法是产生对象的时候才被加载的。所以先加载的静态方法根本不知道后加载的普通方法，如何调用呢？🤔️
+2、从设计意图上，静态方法是可以在没有对象的时候被调用的。那么这个时候它去调用一个跟当前对象相关的普通方法是没有道理的（此时压根儿根本没有当前对象嘛）。其实，最后一个例子就是表明了这个情况，没有this，当然更没有super❗️❗️❗️&lt;/p&gt;
+&lt;p&gt;再回头对应一下我们给出的static修饰都会有的两点共性：与对象无关和加载期搞事情。👍&lt;/p&gt;
+&lt;h3&gt;根据场景使用&lt;/h3&gt;
+&lt;p&gt;那么什么时候我们把方法设计为普通方法，什么时候设计为静态方法呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1、当方法的调用是绑定到本类的某个对象身上的。也就是说描述的对应场景一定是调用该类不同的对象去执行这个行为，在执行的效果上会产生差异，或是执行效果对执行对象本身的相关状态会产生影响。那么这个方法就只能是普通方法！
+2、当方法的调用与由本类的任何一个对象来执行都无关。也就是说描述的场景一定是无论用该类的任何一个对象去执行这个行为都无任何差异，也不会对执行对象的相关状态产生任何影响。那么这个方法就应该设计为静态方法。这样的方法也被称之为：“工具方法”。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果觉得上述说明太过于枯燥了，我们再来举个例子。比如：有一个类叫做Friend（朋友），该类中有一个方法是帮忙买烟。如果这个买烟方法在场景中，需要操作到谁（对象）去买（哪个朋友对象执行了这个方法，要增加该对象的友好度属性）。那么这个方法就是一个跟Friend类对象相关的方法，不能设计为static。如果场景中，这个买烟方法只是完成买烟功能，不在乎谁买的，执行的对象也不会被操作到。那么这个方法就是个完成功能的工具而已，就应该设计为static的。
+大家可以模仿这个例子再举一些类似的场景，并完成实现。😊&lt;/p&gt;
+&lt;h2&gt;static修饰初始化块&lt;/h2&gt;
+&lt;h3&gt;现象&lt;/h3&gt;
+&lt;p&gt;static还常常用来修饰类当中的代码块，也叫“初始化块”。&lt;/p&gt;
+&lt;p&gt;```java
+public class ClassA{
+    {
+        System.out.println(&#34;实例初始化块&#34;);
+    }&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;static{
+    System.out.println(&#34;静态初始化块&#34;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;“初始化块”就像是一个没有方法声明的方法块一样，它就是一段代码集合，可以书写各种需要执行的语句和逻辑。由于没有方法声明，所以它不能像方法一样，想在什么时候执行就在什么时候调用；而是在某个特殊时间点被自动执行。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public class Test{
+    public static void main(String[] args){
+        ClassA ca0 = new ClassA();
+        ClassA ca1 = new ClassA();
+    }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这段代码执行的效果如下：
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20170917/Console.png&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/Console.png&#34;&gt;&lt;/a&gt;
+&lt;strong&gt;这段代码说明：
+1、实例初始化块在每次产生对象的时候就被执行了一次；
+2、静态初始化块只被执行一次，而且是在产生对象之前。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;原理&lt;/h3&gt;
+&lt;p&gt;静态初始化块是在JVM在加载ClassA类的时候被自动执行，一个类只被加载一次就可以在运行期被反复使用了。所以它只执行一次，且是先执行。
+实例初始化块是在每次产生对象的时候，在给对象分配空间、初始化属性之后，执行构造方法内部代码之前，被自动调用。所以每产生一个对象就会被执行一次。
+😊，还是那句话：static修饰的，与对象无关且加载期搞事情。&lt;/p&gt;
+&lt;h3&gt;根据场景使用&lt;/h3&gt;
+&lt;p&gt;在实际使用中，静态初始化块在项目中常常出现。我们可以把一些项目中需要做的预准备动作放到当中，让它在加载期就完成准备工作，运行期就只管直接操作即可；而实例初始化块使用的并不多，因为它的效果和执行的时机其实是与构造方法有重复的，完全可以就直接写在类的构造方法当中。&lt;/p&gt;
+&lt;h2&gt;static修饰构造&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;java
+public class ClassA{
+    public ClassA(){...}//正确的构造方法
+    public static ClassA(){...}//编译马上报错
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;static不能修饰构造方法！！！这是为什么呢？
+构造方法是干嘛的？产生对象！
+static代表什么？与对象无关！
+这就不需要多说了吧……😓&lt;/p&gt;
+&lt;h2&gt;static修饰成员内部类&lt;/h2&gt;
+&lt;p&gt;类的内容当中除了初始化块、属性、构造、方法这4种以外，还有一种更复杂的情况。这就是类当中还包含一个类（内部类）。而内部类也是有静态和非静态之分的：&lt;/p&gt;
+&lt;p&gt;```java
+public class ClassA{
+    public class InnerClassA{
+        //内部类的属性、构造、方法
+    }&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public static class InnerClassB{
+    //内部类的属性、构造、方法
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;其实static修饰内部类之后，其效果还是之前我们总结的那几点，只是在表现形式上要结合内部类的语法和使用场景来认知。比如：静态内部类与外部类对象无关，所以它完全可以看成是一个隐藏在外部类当中的独立类，这样就可以给我们带来更多的惊喜。😺&lt;/p&gt;
+&lt;h3&gt;实现更好的封装性&lt;/h3&gt;
+&lt;p&gt;```java
+public class Person{ &lt;br&gt;
+    private String name;//姓名   &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;private Home home; //家庭
+
+public Person(String _name){  
+     name = _name;  
+}
+
+public String getName() {
+    return name;
+}
+
+public void setName(String name) {
+    this.name = name;
+}
+
+public String getHome() {
+    return home.toString();
+}
+
+public void setHome(String address,String tel) {
+    this.home = new Home(address,tel);
+}
+//静态内部类Home
+private static class Home{  
+     private String address; //家庭地址
+
+     private String tel; //家庭电话
+
+     public Home(String address,String tel){  
+       this.address = address;  
+       this.tel = tel;  
+     }
+
+     public String toString(){
+        return &#34;住址：&#34; + this.address + &#34;，电话：&#34; + this.tel;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;当我们这样设计Person和Home的时候，我们会发现Home被封装在Person类中，仅仅被Person使用，外部甚至不知到它的存在。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public class TestMain {
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        Person p = new Person(&#34;张三&#34;);
+        p.setHome(&#34;人民南路110号&#34;, &#34;13312345678&#34;);
+        System.out.println(p.getHome());
+    }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;实现单列模式&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;java
+public class Singleton {  
+    private static class SingletonHolder {  
+        private static final Singleton INSTANCE = new Singleton();  
+    }  
+    private Singleton (){}  
+    public static final Singleton getInstance() {  
+        return SingletonHolder.INSTANCE; 
+    }  
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;相对于我们常见的三种单列模式的写法，这种第四种写法其实是我个人最为推荐的。
+首先，由于SingletonHolder是私有的，除了Singleton的getInstance()之外没有办法访问它。因此只有在调用这个方法的时候才会加载SingletonHolder类，也才会产生单列对象，所以它是懒汉式的；
+其次，它的对象是在加载期间就被产生了，所以无论多少个线程调用getInstatnce()，都是返回的同一对象，所以没有线程不安全性；
+再其次，同时读取实例的多个线程不会进行同步（没有使用synchronized加锁），所以没有损失性能，支持高并发；
+最后，与双锁机制不同，这段代码实现不依赖JDK版本。&lt;/p&gt;
+&lt;h2&gt;静态导包&lt;/h2&gt;
+&lt;p&gt;这估计就是一个比较生冷的知识点了😏。我们见惯了&lt;strong&gt;“import”&lt;/strong&gt;语句，但是你见过&lt;strong&gt;“import static”&lt;/strong&gt;吗？😤要知道它可是在JDK1.5当中就已经被加入的特性。
+一般我们导入一个类都用 import 包名.类名的方式;而静态导入是这样的：import static 包名.类名.&lt;em&gt;;这里的多了个static，还有就是类名后面多了个.&lt;/em&gt; ，意思是导入这个类里的静态成员。当然，也可以只导入某个静态方法，只要把 .* 换成静态方法名就行了。然后在这个类中，就可以直接用方法名调用静态方法，而不必用类名.方法名的方式来调用。
+比如:
+在静态导入之前：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+public class TestStatic {
+    public static void main(String[] args) {
+        int maxVal = Integer.MAX_VALUE;
+        String hexStr = Integer.toHexString(38));
+    }
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在静态导入之后：&lt;/p&gt;
+&lt;p&gt;```java
+import static java.lang.Integer.*;&lt;/p&gt;
+&lt;p&gt;public class TestStaticImport {
+    public static void main(String[] args) {
+        int maxVal = MAX_VALUE;//直接访问Integer的静态属性
+        String hexStr = toHexString(38));//直接调用Integer的静态方法
+    }
+}
+```&lt;/p&gt;
+&lt;p&gt;关于静态导包，我们要多说几句话：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;必须使用import static， 不能写成static import；&lt;/li&gt;
+&lt;li&gt;由于缺少前缀，所以遇到同名方法要小心；&lt;/li&gt;
+&lt;li&gt;虽然少敲了几下键盘，可能损失的是代码的可读性。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;⚠️把它作为一个知识点知道就可以了，至于你用不用这种语法，还是…..谨慎吧……😊&lt;/p&gt;
+&lt;h2&gt;最后的话&lt;/h2&gt;
+&lt;p&gt;static的认知,是面向对象中“类”和“对象”概念的进一步深化。绝不能简单的去背各种语法特性和各种情况的执行效果。这是“一叶障目，不见泰山”的方法。要想正确无误、灵活自如的使用它，请一定要建立它在面向对象中的意义。请反复咀嚼、体会别人的设计和自己要操作的场景，这才是“事倍功半”的方式。
+㊗️大家成功！🏁&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/</guid>
+      
+    </item>
+    
+    <item>
+      <title>类图中各个类之间的关系</title>
+      
+      
+      
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文主要介绍 UML 图中，类与类之间的关系表示。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下类图使用 &lt;a href=&#34;https://www.planttext.com/&#34;&gt;PlantUML在新窗口打开&lt;/a&gt; 绘制，更多语法及使用请参考: http://plantuml.com/ 。&lt;/p&gt;
+&lt;h2&gt;泛化关系（Generalization）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用来描述继承关系，在 Java 中使用 extends 关键字。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;泛化关系（Generalization）&#34; src=&#34;https://www.planttext.com/api/plantuml/png/SoWkIImgAStDuU8goIp9ILLmJyrBBKhCoQnABCdCp-FYIiv9B2vM24lDo4nEp87od1EBeAoGejBaR2ukgBI2JOskBbWMHG2go24rBmLe4G00&#34;&gt;&lt;/p&gt;
+&lt;p&gt;```sh
+@startuml&lt;/p&gt;
+&lt;p&gt;title Generalization&lt;/p&gt;
+&lt;p&gt;class Vehical
+class Car
+class Truck&lt;/p&gt;
+&lt;p&gt;Vehical &amp;lt;|-- Car
+Vehical &amp;lt;|-- Truck&lt;/p&gt;
+&lt;p&gt;@enduml
+```&lt;/p&gt;
+&lt;h2&gt;实现关系（Realization）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用来实现一个接口，在 Java 中使用 implements 关键字。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;实现关系（Realization）&#34; src=&#34;http://img.mgd2008.com/image-20230130144002343.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;```sh
+@startuml&lt;/p&gt;
+&lt;p&gt;title Realization&lt;/p&gt;
+&lt;p&gt;interface MoveBehavior&lt;/p&gt;
+&lt;p&gt;class Fly
+class Run&lt;/p&gt;
+&lt;p&gt;MoveBehavior &amp;lt;|.. Fly
+MoveBehavior &amp;lt;|.. Run&lt;/p&gt;
+&lt;p&gt;@enduml
+```&lt;/p&gt;
+&lt;h2&gt;聚合关系（Aggregation）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;表示整体由部分组成，但是整体和部分不是强依赖的，整体不存在了部分还是会存在的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;聚合关系（Aggregation）&#34; src=&#34;http://img.mgd2008.com/54ddc67aed1d95ee44659f1b0c5005e7_SoWkIImgAStDuU8goIp9ILLmJ4ylIarFBCdCp-FYIiv9B2vMSCxFBIWjIIs2yRrJAvFo4ujIe5pV_DBYL2WxEBaeDHMe4QP58LzN5w4UHHIY3KK8fjiXDIy5w2G0.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;```sh
+@startuml&lt;/p&gt;
+&lt;p&gt;title Aggregation&lt;/p&gt;
+&lt;p&gt;class Computer&lt;/p&gt;
+&lt;p&gt;class Keyboard
+class Mouse
+class Screen&lt;/p&gt;
+&lt;p&gt;Computer o-- Keyboard
+Computer o-- Mouse
+Computer o-- Screen&lt;/p&gt;
+&lt;p&gt;@enduml
+```&lt;/p&gt;
+&lt;h2&gt;组合关系（Composition）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;和聚合关系不同，组合中整体和部分是强依赖的，整体不存在了部分也不存在了。比如公司没了部门就不存在了。但是公司和员工就属于聚合关系了，因为公司没了员工还在。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;组合关系（Composition）&#34; src=&#34;http://img.mgd2008.com/50db8bf50f6cff3b22be76c34bf6f4a7_SoWkIImgAStDuU8goIp9ILLmpiyjo2_EBCdCp-FYIiv9B2u62oNcLSAuBga5G2svgNabZXWYJbnSKDKAMhgwA4gnYmCrEAJcfG0T0000.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;```sh
+@startuml&lt;/p&gt;
+&lt;p&gt;title Composition&lt;/p&gt;
+&lt;p&gt;class Company&lt;/p&gt;
+&lt;p&gt;class DepartmentA
+class DepartmentB&lt;/p&gt;
+&lt;p&gt;Company &lt;em&gt;-- DepartmentA
+Company &lt;/em&gt;-- DepartmentB&lt;/p&gt;
+&lt;p&gt;@enduml
+```&lt;/p&gt;
+&lt;h2&gt;关联关系（Association）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;表示不同对象之间有关联，这是一种静态关系，和运行过程的状态无关，在最开始就确定。因此也可以用1对1、多对1、多对多这种关联关系来表示。比如学生和学校就是一种关联关系，一个学校可以有很多学生、但是一个学生只属于一个学校，因此这是一种多对一的关系，在运行开始之前就可以确定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;关联关系（Association）&#34; src=&#34;http://img.mgd2008.com/5d8ea7e50fa10f6dd64944c24067dead_SoWkIImgAStDuU8goIp9ILLmB2xEJyvCBCdCp-FYIiv9B2vM24xEoC_FWN5AIbDIyqguk22Y2ag6IWgw2afvIWWPXzIy5A290000.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;```sh
+@startuml&lt;/p&gt;
+&lt;p&gt;title Association&lt;/p&gt;
+&lt;p&gt;class School
+class Student&lt;/p&gt;
+&lt;p&gt;School &#34;1&#34; - &#34;n&#34; Student&lt;/p&gt;
+&lt;p&gt;@enduml
+```&lt;/p&gt;
+&lt;h2&gt;依赖关系（Dependeny）&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;和关联关系不同的是，依赖关系是在运行过程中起作用的。A 类和 B 类是依赖关系的主要有三种形式：
+- A 类是 B 类中（某个方法的）局部变量；
+- A 类是 B 类方法中的一个参数；
+- A 类向 B 类发送消息，从而影响 B 类发生变化；&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;依赖关系（Dependeny）&#34; src=&#34;http://img.mgd2008.com/e17b69a28d90ed85d1784408dc018da4_LOun2W9134Nxd29ifSqSGHQnrT8-Z5ysC3iZCt515kzkL8GnHPhtVlB7PbBjFYSYKqlW0sx85-Jue9YaDJxhfD71IkmpbmMRewyz9bcqr2qzYJGRwbKYk4TzvAFbOk2XLy8N3YoDJqI_No7i_YxrvEsDNj4xlm00.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;```sh
+@startuml&lt;/p&gt;
+&lt;p&gt;title Dependency
+class Vihicle {
+    move(MoveBehavior)
+}&lt;/p&gt;
+&lt;p&gt;interface MoveBehavior {
+    move()
+}&lt;/p&gt;
+&lt;p&gt;note &#34;MoveBehavior.move()&#34; as N&lt;/p&gt;
+&lt;p&gt;Vihicle ..&amp;gt; MoveBehavior&lt;/p&gt;
+&lt;p&gt;Vihicle .. N&lt;/p&gt;
+&lt;p&gt;@enduml
+```&lt;/p&gt;
+&lt;h2&gt;参考文档&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html&#34;&gt;图说设计模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/shanyou/archive/2009/09/21/1570716.html&#34;&gt;面向对象设计的SOLID原则&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/jianyuerensheng/article/details/51602015&#34;&gt;面向对象编程三大特性 ------ 封装、继承、多态&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/ywqu/archive/2009/12/22/1629426.html&#34;&gt;UML建模之时序图（Sequence Diagram）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
       
     </item>
     
@@ -1008,7 +3873,7 @@
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</guid>
@@ -1021,12 +3886,200 @@
       
       
       
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
       <description>&lt;p&gt;本文件于 2023-07-19 21:51:59 自动生成！&lt;/p&gt;</description>
       <link>https://doc.mgd2008.com/css/</link>
-      <pubDate>Thu, 02 Nov 2023 10:18:54 +0000</pubDate>
+      <pubDate>Fri, 03 Nov 2023 10:08:01 +0000</pubDate>
       <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
       
       <guid isPermaLink="true">https://doc.mgd2008.com/css/</guid>
+      
+    </item>
+    
+    <item>
+      <title>SpringBoot 中 WebMvcConfigurationSupport、WebMvcConfigurationAdapter 区别</title>
+      
+      
+        
+      <author>byronlau</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;```java
+1、springboot默认可以访问以下路径文件(见ResourceProperties)：
+    classpath:/static
+    classpath:/public
+    classpath:/resources
+    classpath:/META-INF/resources
+   当使用了@EnableWebMvc时，默认的静态资源访问无效了因为默认情况下mvc使用的配置是WebMvcAutoConfiguration，加入该配置变成了WebMvcConfigurationSupport&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/blog/2023/11/03/springboot-webmvcconfigurationsupportwebmvcconfigurationadapter/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/03/springboot-webmvcconfigurationsupportwebmvcconfigurationadapter/</guid>
+      
+    </item>
+    
+    <item>
+      <title>面向对象 - 封装</title>
+      
+      
+        
+      <author>橘涂拾捌</author>
+        
+      
+      
+      
+      <description>&lt;p&gt;搞编程的人，只要提到面向对象（OO），肯定就会想到面向对象的三大特征。&lt;strong&gt;”封装、继承、多态“&lt;/strong&gt;几乎成了面试中必须要提到的问题，连朗沃的小卖部大妈都知道这三个东东了😊。
+可是知道是一回事情，但真要让我们把这三个东西说的清清楚楚、明明白白就又是另一回事情了😖。因为这三个概念实在是太抽象了😡，既涉及到编程语法，又上升到设计思想；既好像在代码中随处可见，又似乎隐藏在设计的思维中；让人好不头疼！所以，本博准备开一个专题，来聊聊这让人又爱又恨的“三大特征”。
+今天，我们就先来看看第一个特征&lt;strong&gt;“封装”&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;“封装、继承、多态”&lt;/strong&gt;，我们念成了口头禅，这个顺序还真不是可以随便改的。&lt;strong&gt;“封装”&lt;/strong&gt;是整个面向对象的基础，没有封装性的话，后面两个特性也就白搭。对，封装就是这么🐂13！
+但是，很多人只要一提到封装就想到信息隐藏，一提到信息隐藏脑子里就只有一个private修饰符了，这也实在是太片面化和简单化了。那么，&lt;/p&gt;
+&lt;h2&gt;什么是封装&lt;/h2&gt;
+&lt;p&gt;作为普通人，一想到“封装”这个词，脑子里面浮现的是什么？
+&lt;a href=&#34;https://hyktech.gitee.io/javatech/img/20170816/1.jpg&#34;&gt;&lt;img alt=&#34;img&#34; src=&#34;http://img.mgd2008.com/1.jpg&#34;&gt;&lt;/a&gt;
+没错！就是这样！一个封装包裹的过程。
+在这样的一个过程中，我们能够明确感受到：封装，封装。“封”是形容“装”的，这是两个动作，先装再封。“装”的目的是为了把散的东西统一在一起，是为了方便处理和使用；而“封”的目的才是为了信息隐藏，但信息隐藏也绝对不是说藏的严严实实，也可以是分各种级别的。比如说：上图中的箱子，如果换成一个透明的玻璃箱，可以不？还不是一样的叫“封装”呀。&lt;/p&gt;
+&lt;p&gt;接下来，我们就结合一下编程思想和语法，来讲讲面向对象编程中的这两个动作“装”和“封”，帮助大家再次理解一下。&lt;/p&gt;
+&lt;h2&gt;如何理解“装”&lt;/h2&gt;
+&lt;h3&gt;面向对象中“类”的定义就是“装”&lt;/h3&gt;
+&lt;p&gt;其实在计算机语言的发展过程，很多内容都是一步一步发展到今天这个程度的。&lt;/p&gt;
+&lt;p&gt;早期的计算机，由于主要处理的问题域的限制（当时主要是科研用途🔬），导致当时处理的数据主要都是数字呀，字符呀这些，所以在编程语言中都会有现成的整数类型、实数类型、字符类型。使用这些基本的数据类型，我们就足够在计算机中保存和处理科学计算问题所需要的数据了。&lt;/p&gt;
+&lt;p&gt;后来随着发展，计算机开始进入我们的生活了，那么编程人员要写软件满足大家在生活中的需求。那么他们所遇到的问题域也越来越复杂了，比如：大家要玩游戏🎮，里面有一种数据叫：“武器🔪”。可是用什么数据类型来表示武器呢？武器有名字，有等级，有攻击力等等一大堆内容组成。而以前的数据类型（基本数据类型）只能表示”武器”的某一个方面呀，不能表示“武器”这种东西的整体。更何况，类似于这样的情况在各个问题环境中比比皆是，银行系统需要“用户”类型、酒店系统需要“房间”类型、空管系统需要“航班”类型，太多太多了……咋办呢？干脆让编程语言提供一种可以让程序员“自定义”的复杂类型吧。你们（程序员们）可以根据自己的需要来定义这种复杂类型，把各种需要的数据都装入到这种类型中，然后自己起一个名字来表示就行了呗。C语言就提供了大名鼎鼎的“结构体”语法来干这件事情：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+struct weapon{
+    char weaponName[20];  //武器名称
+    int weaponLevel;      //武器等级
+    int weaponATK;        //攻击力
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;再后来，编程人员发现很多这种复杂类型其实除了装“数据”以外，还提供了很多功能呢。比如刚才说的“武器”，它还有攻击功能，发大招功能，升级功能等等，所以单一的仅仅只能装入数据的类型设计语法已经不能满足我们了（傲娇～～～）。因此，到了面向对象的编程语言，就提供了“类”这个新东东。即让“武器类”这个类型可以装入武器的所有数据，又能装入“武器类”的所有功能，把所有属于“武器”的内容都装入到里面。&lt;/p&gt;
+&lt;p&gt;```java
+class Weapon{
+    String weaponName;
+    int weaponLevel;
+    int weaponATK;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;void attack(){
+    //攻击的实现
+}
+
+void specialAttack(){
+    //特效攻击的实现
+}
+
+void levelUp(){
+    //升级的实现
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;这样一个武器的变量，既可以保存武器的全部属性数据，又可以操作到它的行为。你说，“类”的定义是不是就是一种“装”？！😤&lt;/p&gt;
+&lt;h3&gt;语法中出现{…}就是“装”&lt;/h3&gt;
+&lt;p&gt;如果我们再把眼光放开一点，我们会发现“装”这个动作，在编程当中其实是很多的，绝不仅仅是类的设计定义上。
+比如：循环语句块。这个语法中不就是把一堆代码作为一个整体（“装“在一起），每次循环就执行一次吗？&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+for(int i = 0; i &amp;lt; 100; i++){
+    //循环语句块
+」&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;再比如：方法块；不也是把一系列的语句作为一个整体，每次调用方法就把这些语句块执行一次吗？&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+void method(int param){
+    //方法实现的语句块
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;甚至不仅仅是语句块，下面这个语法不也是把一堆int数据”装”到一个数组集合中统一处理吗？&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;java
+new int[]{13,24,56,-12,7};&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;所以，我们说编程语言中&lt;strong&gt;{…}&lt;/strong&gt;这个语法的设计目的，就是把它里面的内容当成一个整体，以便于进行统一的操作使用。这不是“装”是什么？！这是在模块化编程中就已经出现的、自然的、普遍的概念，到了面向对象编程阶段仍然还在延用而已。
+&lt;strong&gt;只是说，在面向对象编程以前没有“封”的语法，所有“装”好的内容，都可以被随意访问到而已。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;如何理解“封”&lt;/h2&gt;
+&lt;h3&gt;为什么要“封”&lt;/h3&gt;
+&lt;p&gt;总有很多刚开始接触编程的同学，对为什么要进行“封”这个动作很不理解。他们在写代码的时候，总觉得&lt;strong&gt;不方便&lt;/strong&gt;。比如JavaBean的规范设计，明明就可以直接用“.”操作符操作到的属性，却偏偏要求写成private（私有）的。然后再添一对get／set（访问器／修改器）方法，简直是“脱了裤子放屁—多此一举”😏。难道真是如此吗？&lt;/p&gt;
+&lt;p&gt;是的，就是如此😂😂😂！！！&lt;strong&gt;“封”就是为了对外部访问进行有效的控制！&lt;/strong&gt;生活中，把已经”装”好的东西“封”起来，不就是为了限制里面的内容不被外面的人随意看到或获取到吗？难道你会因为怕麻烦，就让快递不把你在某宝上买的那些不可见人的东西封箱？因为怕麻烦就把家里的贵重物品到处放，而不是装到柜子抽屉里，甚至锁上？（少年，你要么太年轻；要么你是真.傻X）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“封”当然不是为了方便，它是为了数据的安全性、有效性，为了维护设计者的意图，保证程序的正确性。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;“封”体现在哪里&lt;/h3&gt;
+&lt;p&gt;在本文一开始的时候，我提到很多面试者被问到“封装”就回答“信息隐藏”，针对这种说法我举双手同意🙆！但如果你认为信息隐藏仅仅只是private或者仅仅是访问修饰符，那我坚决举五肢反对🙅！！“封装”是一种思想，在使用上的体现可以是非常灵活，把它仅仅绑定为某一种语法法或是几个关键字，确实太简单化了。&lt;/p&gt;
+&lt;h4&gt;访问修饰符肯定是“封装”的体现&lt;/h4&gt;
+&lt;p&gt;这点毋庸置疑！它们就是为了“封装”而生的，这点从“访问修饰符”这个名字也能看出来。“封装”绝不是“封死”，它也是有范围和级别的呀。所以才有各种访问修饰符来针对不同的情况。&lt;/p&gt;
+&lt;p&gt;| 访问修饰符 | 封装范围 | 容易理解的场景                             |
+| :--------- | :------- | :----------------------------------------- |
+| private    | 私有     | 你的私房钱，只能你用。                     |
+| 默认       | 同包     | 你的家门钥匙，只要住在你家的人都可以使用。 |
+| protected  | 受保护   | 你的遗产，只能分配给你的家里人或子女。     |
+| public     | 公共     | 除了卫生纸，你能有多大方？                 |&lt;/p&gt;
+&lt;h4&gt;get/set方法也是“封装”的体现&lt;/h4&gt;
+&lt;p&gt;1.比如我们针对某个属性只提供get方法，那么这个属性对外部来说就是只读属性。&lt;/p&gt;
+&lt;p&gt;```java
+public class User{
+    private int age = 18;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public int getAge(){
+    return this.age;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;2.我们也可以在set方法中添加限制，让外部的调用者不能把垃圾数据放入对象当中。&lt;/p&gt;
+&lt;p&gt;```java
+public class User{
+    private int age = 18;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public int getAge(){
+    return this.age;
+}
+
+public void setAge(int age){
+    if(age &amp;gt;= 18 &amp;amp;&amp;amp; age &amp;lt;= 80){
+        this.age = age;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;p&gt;3.让外部使用者无法知道类内部保存数据的方式和格式。&lt;/p&gt;
+&lt;p&gt;```java
+public class User{
+    private int year;
+    private int month;
+    private int day;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;public String getBirthday(){
+    return year + &#34;-&#34; + month + &#34;-&#34; + day;
+}
+
+public void setBirthday(String birthday){
+    String[] values = birthday.split(&#34;[-]&#34;);
+    this.year = Integer.parseInt(values[0]);
+    this.month = Integer.parseInt(values[1]);
+    this.day = Integer.parseInt(values[2]);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;}
+```&lt;/p&gt;
+&lt;h4&gt;我们调用的API或使用的框架同样是“封装”&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;java
+ArrayList&amp;lt;Integer&amp;gt; lst = new ArrayList&amp;lt;&amp;gt;();
+lst.add(15);&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;当我们使用ArrayList装数据的时候，我们完全不需要去考虑它的具体实现细节（数据结构是咋样的，增加元素空间怎么相应变大变小的），也看不到它内部的实现。这是为什么？“先人”给我们写好了呀，把所有的细节都封装在了ArrayList当中，你只管用就OK了。&lt;/p&gt;
+&lt;p&gt;框架也是如此呀。Hibernate框架不就是把大家写起来很烦的ORM映射给封装了吗？在用这个框架前，我们要自己去循环数据查询结果集，自己去匹配哪个表对应哪个Bean类，哪个字段对应哪个属性，大家的时间精力都花在上面了。用了Hibernate以后呢？这些细节，你不用考虑了，只要配置一下对应关系，其它的都由Hibernate自己去做了，它把实现的细节给你封装好了。😊😊😊&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;综上，“封装”是面向对象思想中基本的一个特征。在之前的编程思维中，更多的考虑是“装”，是为了能够让计算机有更好的表现数据的方式，以及更好的代码复用效果。现在到了面向对象，有了“封”的思想和语法，就能更好的保障数据的安全性、有效性、准确性，并能够在此基础上进一步维护设计人员的意图，从而达到设计层面在代码级别对实现层面进行管理控制，降低整个开发风险和成本。&lt;/p&gt;</description>
+      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <source url="https://doc.mgd2008.com/feed_rss_updated.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/</guid>
       
     </item>
     
