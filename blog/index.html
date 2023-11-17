@@ -2785,43 +2785,7 @@ setclasspath.sh:4:export<span class="w"> </span><span class="nv">JRE_HOME</span>
 </code></pre></div>
 进入 <code>setclasspath.sh</code> 果然发现前两行写着
 经过注释重启服务，服务 正常启动</p>
-<p>&lt;&ndash; more &ndash;&gt;</p>
-<h3 id="gpt"><a class="toclink" href="2023/11/17/tomcat/#gpt">GPT 给的提示如下</a></h3>
-<p><code>bin/catalina.sh: 1: eval: /projects/middleware/jdk/jre/bin/java: not found</code></p>
-<p>这个错误提示表明你在尝试运行Apache Tomcat时遇到了问题。具体的错误原因是找不到你指定的JDK路径下的java可执行文件。</p>
-<p>你可以按照以下步骤排查并解决这个问题：</p>
-<ol>
-<li>首先确认你的JDK是否正确安装，并且java可执行文件位于你所指定的路径下。你可以通过打开终端并输入which java或where java（Windows系统下）查看当前系统的默认Java解释器的位置。
-如果上述步骤中的结果并不是你期望的结果，请修改Tomcat的配置文件catalina.sh或setclasspath.bat（Windows系统下），使其指向正确的Java路径。 在Unix/Linux系统中，你需要找到如下代码段：
-<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
-<span class="w">    </span><span class="nv">CATALINA_HOME</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PRGDIR</span><span class="s2">&quot;</span>
-<span class="k">fi</span>
 
-<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span>/bin/setenv.sh<span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
-<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Cannot find </span><span class="nv">$CATALINA_HOME</span><span class="s2">/bin/setenv.sh&quot;</span>
-<span class="w">    </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
-<span class="k">fi</span>
-.<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span>/bin/setenv.sh
-<span class="nb">exec</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$_RUNJAVA</span><span class="s2">&quot;</span><span class="w"> </span><span class="nv">$JAVA_OPTS</span><span class="w"> </span>-Djava.endorsed.dirs<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$JAVA_ENDORSED_DIRS</span><span class="s2">&quot;</span><span class="w"> </span>-classpath<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CLASSPATH</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>-Dcatalina.base<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_BASE</span><span class="s2">&quot;</span><span class="w"> </span>-Dcatalina.home<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>-Djava.io.tmpdir<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_TMPDIR</span><span class="s2">&quot;</span><span class="w"> </span>org.apache.catalina.startup.Bootstrap<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$@</span><span class="s2">&quot;</span><span class="w"> </span>start
-</code></pre></div></li>
-<li>然后修改$_RUNJAVA为你实际的Java路径，例如：/usr/local/jdk/bin/java。</li>
-<li>再次运行Apache Tomcat，看看问题是否得到解决。</li>
-</ol>
-<script src="https://giscus.app/client.js"
-    data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKkfaDQ"
-    data-mapping="number"
-    data-term="70"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    crossorigin="anonymous"
-    async>
-</script>
     <nav class="md-post__action">
       <a href="2023/11/17/tomcat/">
         继续阅读
