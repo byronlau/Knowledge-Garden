@@ -4,8 +4,8 @@ number: 70
 url: https://github.com/byronlau/Knowledge-Garden/discussions/70
 date: 2023-11-17
 createdAt: 2023-11-17T10:13:34Z
-lastEditedAt: 2023-11-17T10:14:05Z
-updatedAt: 2023-11-17T10:14:05Z
+lastEditedAt: 2023-11-17T10:37:01Z
+updatedAt: 2023-11-17T10:37:01Z
 authors: [byronlau]
 categories: 
   - Java
@@ -29,7 +29,7 @@ setclasspath.sh:4:export JRE_HOME=/projects/middleware/jdk/jre
 经过注释重启服务，服务 正常启动
 
 
-<-- more -->
+<!-- more -->
 ## GPT 给的提示如下
 
 `bin/catalina.sh: 1: eval: /projects/middleware/jdk/jre/bin/java: not found`
