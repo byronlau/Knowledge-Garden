@@ -25,7 +25,7 @@
         <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
@@ -2757,6 +2757,56 @@
           <li class="md-meta__item">
             分类于
             
+              <a href="../../category/python/" class="md-meta__link">Python</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 2 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="redistemplatestringredistemplate"><a class="toclink" href="../../2023/11/02/redistemplatestringredistemplate/">RedisTemplate与StringRedisTemplate的区别</a></h2>
+<p>RedisTemplate和StringRedisTemplate的区别如下：</p>
+<ul>
+<li>两者的关系：StringRedisTemplate继承自RedisTemplate。</li>
+<li>两者的数据不共通：StringRedisTemplate只能管理StringRedisTemplate里面的数据，RedisTemplate只能管理RedisTemplate中的数据。</li>
+<li>默认的序列化策略：SDR（即Simple Data Replication，简单数据复制）有两种默认的序列化策略，一种是String的序列化策略，一种是JDK的序列化策略。StringRedisTemplate默认采用的是String的序列化策略，保存的key和value都是采用此策略序列化保存的。而RedisTemplate默认采用的是JDK的序列化策略，保存的key和value都是采用此策略序列化保存的。</li>
+</ul>
+
+    <nav class="md-post__action">
+      <a href="../../2023/11/02/redistemplatestringredistemplate/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
               <a href="../../category/java/" class="md-meta__link">Java</a></li>
         
         
@@ -2982,51 +3032,6 @@ spring Boot 对静态资源访问提供了很好的支持，基本使用默认�
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../category/java/" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 4 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="quartz"><a class="toclink" href="../../2023/11/02/springboot-quartz/">Quartz 的简单介绍和使用</a></h2>
-<p><code>Quartz</code> 是一个开源的 <code>Java</code> 调度框架，可以用来实现在指定的时间或时间间隔触发任务执行的功能。以下是使用 <code>Quartz</code> 的主要方式和基本概念。</p>
-
-    <nav class="md-post__action">
-      <a href="../../2023/11/02/springboot-quartz/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
       
         
           
@@ -3135,7 +3140,7 @@ spring Boot 对静态资源访问提供了很好的支持，基本使用默认�
     <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
       

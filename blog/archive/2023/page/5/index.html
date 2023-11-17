@@ -23,7 +23,7 @@
         <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../../../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
@@ -2767,6 +2767,86 @@
           <li class="md-meta__item">
             分类于
             
+              <a href="../../../../category/sundry/" class="md-meta__link">Sundry</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="nginxuri"><a class="toclink" href="../../../../2023/11/02/nginxuri/">使用Nginx对URI进行分别访问</a></h2>
+<h3 id="_1"><a class="toclink" href="../../../../2023/11/02/nginxuri/#_1">问题</a></h3>
+<p>公司做了两套系统 PC 端和移动端网站，最近做了<code>Nginx</code>根据设备标识是否是手机进行 pc 域名 <code>www</code> 跳转 移动端域名 m ，配置切换后，导致一些资源丢失，经过排查出现这个问题的原因如下</p>
+<h3 id="_2"><a class="toclink" href="../../../../2023/11/02/nginxuri/#_2">原因</a></h3>
+<p>因为手机端适配 PC 页面，有些页面没有开发，移动端内直接使用<code>www</code> 进行访问， 在切换设配标识配置后，多次重定向，最终 使用移动端域名访问了没有适配的 URI，因为没有适配，资源访问出现<code>404</code>。</p>
+<h3 id="_3"><a class="toclink" href="../../../../2023/11/02/nginxuri/#_3">解决方法</a></h3>
+<ol>
+<li><code>www</code> 根据设备标识跳转<code>m</code> 保留</li>
+<li>因为接口数据来源可以使用<code>www</code>PC 端，因此<code>m</code> 中加入根据<code>URI</code> 进行逻辑判断，未做适配的走<code>www</code> 的 IP:port 访问，其余的走<code>m</code> 的 IP:port 访问，具体实施如下</li>
+</ol>
+<p><strong>ww.conf</strong></p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="s">(</span><span class="nv">$http_user_agent</span><span class="w"> </span><span class="p">~</span><span class="sr">*</span><span class="w"> </span><span class="s">(mobile|nokia|iphone|ipad|android|samsung|htc|blackberry))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">     </span><span class="kn">rewrite</span><span class="w">  </span><span class="s">^(.*)</span><span class="w">    </span><span class="s">http://m.byron.com</span><span class="nv">$1</span><span class="w"> </span><span class="s">permanent</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><strong>m.conf</strong></p>
+<div class="highlight"><pre><span></span><code><span class="k">location</span><span class="w"> </span><span class="s">/</span><span class="w"> </span><span class="p">{</span><span class="w">  </span>
+<span class="w">    </span><span class="kn">if</span><span class="w"> </span><span class="s">(</span><span class="nv">$uri</span><span class="w"> </span><span class="s">!~</span><span class="w"> </span><span class="s">^/</span><span class="nv">$|^/a/b\?c=d$|^/e$|^/f/g$|^/h/.+</span><span class="s">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
+<span class="w">        </span><span class="kn">proxy_pass</span><span class="w"> </span><span class="s">http://127.0.0.1:8000</span><span class="p">;</span><span class="w">  </span>
+<span class="w">        </span><span class="kn">break</span><span class="p">;</span><span class="w">  </span>
+<span class="w">    </span><span class="p">}</span><span class="w">    </span>
+<span class="w">    </span><span class="kn">proxy_pass</span><span class="w"> </span><span class="s">http://http://127.0.0.1:8008</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>临时性的解决方法，最终还是要把工程完善，才对。</p>
+<script src="https://giscus.app/client.js"
+    data-repo="byronlau/Knowledge-Garden"
+    data-repo-id="R_kgDOKkfaDQ"
+    data-mapping="number"
+    data-term="51"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
+</script>
+    <nav class="md-post__action">
+      <a href="../../../../2023/11/02/nginxuri/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
               <a href="../../../../category/java/" class="md-meta__link">Java</a></li>
         
         
@@ -2948,64 +3028,6 @@
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../../../category/java/" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 2 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="springbootstarterboot-inf"><a class="toclink" href="../../../../2023/11/02/springbootstarterboot-inf/">引入自定义springboot的starter后却找不到相关的类（BOOT-INF文件夹的坑）</a></h2>
-<ul>
-<li>
-<p>自定义的starter是不能有启动入口的！即：只能作为工具类！类似jdk！  </p>
-</li>
-<li>
-<p>不要把自定义的pom写成了一个可启动的项目哈！  </p>
-</li>
-<li>
-<p>不然install后是引用不到自定义的starter里面的类的！！！  </p>
-</li>
-<li>
-<p>可对比install后的web项目 和 install后的工具类pom ， 生成的jar文件的目录结构是不同的哈！！！  </p>
-</li>
-</ul>
-
-    <nav class="md-post__action">
-      <a href="../../../../2023/11/02/springbootstarterboot-inf/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
       
         
           
@@ -3098,7 +3120,7 @@
     <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
       

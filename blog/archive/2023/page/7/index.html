@@ -23,7 +23,7 @@
         <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../../../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
@@ -2767,6 +2767,95 @@
           <li class="md-meta__item">
             分类于
             
+              <a href="../../../../category/java/" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="_1"><a class="toclink" href="../../../../2023/11/01/androidstudiosdk/">前言</a></h2>
+<p>公司最近要搞一个安卓的SDK，需要我这边搞一下，由于之前没接触过安卓和Gradle，所以过程中遇到了需要问题，因此记录，总结经验。</p>
+<h2 id="1-sdk"><a class="toclink" href="../../../../2023/11/01/androidstudiosdk/#1-sdk">1. 关于SDK的打包类型的一些介绍</a></h2>
+<p>对于SDK来说，其实就是一个辅助工具库，我们可以打成 jar，或者打包成 aar，</p>
+<ul>
+<li>jar: 包只包含了classes文件，不包含资源文件；</li>
+<li>aar: 不仅包含了classes文件，还包含资源文件,并且，aar的这个可以发布到maven库，然后使用者直接通过更改版本号就可以获取到最新的aar文件</li>
+</ul>
+<p>打包之后生成的文件地址：</p>
+<ul>
+<li>*.jar 通常生成的目录如下位置，但又不是绝对，我的项目就不是，现在没有考究这个问题</li>
+</ul>
+<div class="highlight"><pre><span></span><code>/build/intermediates/bundles/debug<span class="o">(</span>release<span class="o">)</span>/classes.jar
+</code></pre></div>
+<p>*.aar 目录一般就在如下目录</p>
+<div class="highlight"><pre><span></span><code>/build/outputs/aar/libraryname.aar
+</code></pre></div>
+<h2 id="2-sdk"><a class="toclink" href="../../../../2023/11/01/androidstudiosdk/#2-sdk">2. 开始创建SDK工程</a></h2>
+<h4 id="211-appsdk"><a class="toclink" href="../../../../2023/11/01/androidstudiosdk/#211-appsdk">2.1.1. app应用也可以直接打包成SDK，可以参考文章</a></h4>
+<p>https://blog.csdn.net/u012556114/article/details/107453116</p>
+<h4 id="212-sdk"><a class="toclink" href="../../../../2023/11/01/androidstudiosdk/#212-sdk">2.1.2. 开始创建SDK工程</a></h4>
+<ol>
+<li>正常情况下，是使用新建module开始创建SDK
+<img alt="image-20231101153628527" src="https://fastly.jsdelivr.net/gh/byronlau/imgs/doc/image-20231101153628527.png" /></li>
+</ol>
+<p><img alt="img" src="https://cdn.nlark.com/yuque/0/2023/png/28895228/1686040861082-290c991f-35d6-4f95-ae6c-4d3cf01dd030.png" /></p>
+<p>创建后的项目结构如下</p>
+<p><img alt="img" src="https://cdn.nlark.com/yuque/0/2023/png/28895228/1686041222104-17ba40f3-a6fc-4506-aa01-108dd39a2c2d.png" /></p>
+<ul>
+<li>libs: 存放第三方依赖的位置</li>
+<li>src/java: 工程代码目录</li>
+<li>AnddroidManifest.xml : 是 Android 应用程序的清单文件，它位于应用程序的根目录下。清单文件用于描述应用程序的整体结构和特性，以及声明应用程序所需的权限、组件、服务、权限等信息。</li>
+<li>build.gradle: </li>
+</ul>
+<script src="https://giscus.app/client.js"
+    data-repo="byronlau/Knowledge-Garden"
+    data-repo-id="R_kgDOKkfaDQ"
+    data-mapping="number"
+    data-term="7"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
+</script>
+    <nav class="md-post__action">
+      <a href="../../../../2023/11/01/androidstudiosdk/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
               <a href="../../../../category/sundry/" class="md-meta__link">Sundry</a></li>
         
         
@@ -3022,70 +3111,6 @@
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="../../../../category/sundry/" class="md-meta__link">Sundry</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="ip"><a class="toclink" href="../../../../2023/11/01/ip/">IP代理池的使用</a></h2>
-<p style="text-align: left;"><strong style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; user-select: auto !important;">校验代理是否生效的方法</strong></p>
-<p style="text-align: left;"><a href="https://icanhazip.com/" _src="https://icanhazip.com/">https://icanhazip.com/</a></p>
-<p style="text-align: left;"><span style="text-wrap: wrap;"><a href="https://myip.ipip.net/" _src="https://myip.ipip.net/">https://myip.ipip.net/</a> </span></p>
-<p style="text-align: left;"><a href="http://ip.3322.net/" _src="http://ip.3322.net/">http://ip.3322.net/</a> </p>
-<p style="-webkit-font-smoothing: antialiased; font-family: -apple-system, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;WenQuanYi Micro Hei&quot;, &quot;Microsoft Yahei&quot;, sans-serif; margin-top: 0px; margin-bottom: 0px; padding: 0px; overflow-wrap: break-word; color: rgb(23, 35, 63); font-size: 16px; text-wrap: wrap; background-color: rgb(255, 255, 255); user-select: auto !important; text-align: left;"><strong style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; user-select: auto !important;">免费ip代理商：</strong></p>
-<div style="-webkit-font-smoothing: antialiased; font-family: -apple-system, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;WenQuanYi Micro Hei&quot;, &quot;Microsoft Yahei&quot;, sans-serif; margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-size: 16px; text-wrap: wrap; background-color: rgb(255, 255, 255); width: 1184px; overflow-y: auto; user-select: auto !important; text-align: left;"><table><tbody style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; user-select: auto !important;"><tr style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; user-select: auto !important;" class="firstRow"><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="137">ip提供商</td><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="71">url</td></tr><tr style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; background: rgb(247, 247, 247); user-select: auto !important;"><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="127">快代理</td><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="71"><a rel="nofollow" href="https://www.kuaidaili.com/free/inha" style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; color: rgb(66, 133, 244); user-select: auto !important;"><span style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; font-size: inherit; font-family: iconblog !important; user-select: auto !important;"></span>&nbsp;https://www.kuaidaili.com/free/inha</a></td></tr><tr style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; user-select: auto !important;"><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="127">89免费代理</td><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="311"><a rel="nofollow" href="https://www.89ip.cn/index_1.html" style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; color: rgb(66, 133, 244); text-decoration-line: none; user-select: auto !important;"><span style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; font-size: inherit; font-family: iconblog !important; user-select: auto !important;"></span>&nbsp;https://www.89ip.cn/index_1.html</a></td></tr><tr style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; background: rgb(247, 247, 247); user-select: auto !important;"><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="127">高可用全球免费代理ip库</td><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="71"><a rel="nofollow" href="https://ip.jiangxianli.com/" style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; color: rgb(66, 133, 244); text-decoration-line: none; user-select: auto !important;"><span style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; font-size: inherit; font-family: iconblog !important; user-select: auto !important;"></span>&nbsp;https://ip.jiangxianli.com/</a></td></tr><tr style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; user-select: auto !important;"><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="127">66代理</td><td style="-webkit-font-smoothing: antialiased; margin: 0px; padding-right: 5px; padding-left: 5px; vertical-align: top; user-select: auto !important; min-width: 1.8rem !important;" width="71"><a rel="nofollow" href="http://www.66ip.cn/2.html" style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; color: rgb(66, 133, 244); text-decoration-line: none; user-select: auto !important;"><span style="-webkit-font-smoothing: antialiased; margin: 0px; padding: 0px; font-size: inherit; font-family: iconblog !important; user-select: auto !important;"></span>&nbsp;http://www.66ip.cn/2.html</a></td></tr></tbody></table></div>
-<p><a href="https://github.com/jhao104/proxy_pool" _src="https://github.com/jhao104/proxy_pool">https://github.com/jhao104/proxy_pool</a> </p>
-<p><br/></p>
-<script src="https://giscus.app/client.js"
-    data-repo="byronlau/Knowledge-Garden"
-    data-repo-id="R_kgDOKkfaDQ"
-    data-mapping="number"
-    data-term="13"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    crossorigin="anonymous"
-    async>
-</script>
-    <nav class="md-post__action">
-      <a href="../../../../2023/11/01/ip/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
       
         
           
@@ -3178,7 +3203,7 @@
     <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
       

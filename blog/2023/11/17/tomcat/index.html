@@ -12,31 +12,29 @@
         <meta name="author" content="Byron Lau">
       
       
-        <link rel="canonical" href="https://doc.mgd2008.com/blog/category/frontend/">
+        <link rel="canonical" href="https://doc.mgd2008.com/blog/2023/11/17/tomcat/">
       
       
-        <link rel="prev" href="../go/">
+        <link rel="prev" href="../../03/springboot-webmvcconfigurationsupportwebmvcconfigurationadapter/">
       
       
-        <link rel="next" href="../nodb/">
       
+        <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../../../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../../../../feed_rss_updated.xml">
       
-        <link rel="alternate" type="application/rss+xml" title="RSS 订阅" href="../../../feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../../feed_rss_updated.xml">
-      
-      <link rel="icon" href="../../../assets/logo.png">
+      <link rel="icon" href="../../../../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
-        <title>Frontend - 橘涂拾捌的知识花园</title>
+        <title>新的服务器直接移植旧的tomcat 包，启动程序报错 - 橘涂拾捌的知识花园</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.4b4a2bd9.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.4b4a2bd9.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -55,11 +53,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/extra.css">
+      <link rel="stylesheet" href="../../../../../css/extra.css">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -68,7 +66,7 @@
     
     <meta name="referrer" content="no-referrer">
 
-   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
@@ -79,7 +77,7 @@
             body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
             body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
             body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+            </style> <script src="../../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -101,7 +99,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#frontend" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -135,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Frontend
+              新的服务器直接移植旧的tomcat 包，启动程序报错
             
           </span>
         </div>
@@ -239,7 +237,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../../../../.." class="md-tabs__link">
         
   
     
@@ -258,7 +256,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../cookbook/" class="md-tabs__link">
+        <a href="../../../../../cookbook/" class="md-tabs__link">
           
   
     
@@ -278,7 +276,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../notebook/" class="md-tabs__link">
+        <a href="../../../../../notebook/" class="md-tabs__link">
           
   
     
@@ -296,7 +294,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../YUQUE/" class="md-tabs__link">
+      <a href="../../../../../YUQUE/" class="md-tabs__link">
         
   
     
@@ -334,7 +332,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../" class="md-tabs__link">
+        <a href="../../../../" class="md-tabs__link">
           
   
     
@@ -358,7 +356,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -398,7 +398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -450,7 +450,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/" class="md-nav__link ">
+            <a href="../../../../../cookbook/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -513,7 +513,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -567,7 +567,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -599,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -647,7 +647,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -702,7 +702,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -757,7 +757,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -833,7 +833,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -885,7 +885,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -940,7 +940,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1013,7 +1013,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1045,7 +1045,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1065,7 +1065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1085,7 +1085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1105,7 +1105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1125,7 +1125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1145,7 +1145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1165,7 +1165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1185,7 +1185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1205,7 +1205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1253,7 +1253,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1308,7 +1308,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1384,7 +1384,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1436,7 +1436,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1491,7 +1491,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1546,7 +1546,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1601,7 +1601,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1656,7 +1656,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1732,7 +1732,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1786,7 +1786,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1818,7 +1818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1866,7 +1866,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1921,7 +1921,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1976,7 +1976,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2053,7 +2053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2073,7 +2073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/" class="md-nav__link">
+      <a href="../../../../../cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2132,7 +2132,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/" class="md-nav__link ">
+            <a href="../../../../../cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2201,7 +2201,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../notebook/" class="md-nav__link ">
+            <a href="../../../../../notebook/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2276,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/" class="md-nav__link">
+      <a href="../../../../../notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2304,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../notebook/travel" class="md-nav__link">
+      <a href="../../../../../notebook/travel" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2331,7 +2331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../YUQUE/" class="md-nav__link">
+      <a href="../../../../../YUQUE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2398,7 +2398,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2473,7 +2473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2023/" class="md-nav__link">
+      <a href="../../../../archive/2023/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2499,8 +2499,6 @@
                 
   
   
-    
-  
   
     
     
@@ -2526,12 +2524,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
         
           
           <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
@@ -2545,7 +2543,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
             分类
@@ -2558,7 +2556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../java/" class="md-nav__link">
+      <a href="../../../../category/java/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2578,7 +2576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sundry/" class="md-nav__link">
+      <a href="../../../../category/sundry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2598,7 +2596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../db/" class="md-nav__link">
+      <a href="../../../../category/db/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2618,7 +2616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../python/" class="md-nav__link">
+      <a href="../../../../category/python/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2638,7 +2636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../go/" class="md-nav__link">
+      <a href="../../../../category/go/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2656,18 +2654,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../../category/frontend/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2676,7 +2665,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -2688,7 +2676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../nodb/" class="md-nav__link">
+      <a href="../../../../category/nodb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2725,6 +2713,8 @@
             
             
               
+                
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -2734,8 +2724,28 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    背景
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpt" class="md-nav__link">
+    GPT 给的提示如下
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2744,73 +2754,148 @@
             
           
           
-  <div class="md-content" data-md-component="content">
-    <div class="md-content__inner">
-      <header class="md-typeset">
-        <h1 id="frontend">Frontend<a class="headerlink" href="#frontend" title="Permanent link">&para;</a></h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-01 00:00:00">2023年11月1日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+                  <span class="md-ellipsis">
+                    回到主页
+                  </span>
+                </a>
+              </div>
+            </div>
             
-              <a href="./" class="md-meta__link">Frontend</a></li>
-        
-        
+              <div class="md-post__authors md-typeset">
+                
+                  <div class="md-profile md-post__profile">
+                    <span class="md-author md-author--long">
+                      <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+                    </span>
+                    <span class="md-profile__description">
+                      <strong>Byron Lau</strong><br>
+                      Creator
+                    </span>
+                  </div>
+                
+              </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    元数据
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
+                        <time datetime="2023-11-17 00:00:00" class="md-ellipsis">2023年11月17日</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3H9m3 2 4 13 3-1-4-13-3 1M5 5v13h3V5H5M3 19v2h18v-2H3Z"/></svg>
+                          <span class="md-ellipsis">
+                            分类于
+                            
+                              <a href="../../../../category/java/">Java</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              需要 1 分钟阅读时间
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </nav>
           
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
+        </div>
+      </div>
     </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="javascript"><a class="toclink" href="../../2023/11/01/javascript/">JavaScript获取时间戳与时间戳转化</a></h2>
-<p><ne-clipboard data="%7B%22type%22%3A%22fragment%22%2C%22name%22%3A%22%23fragment%22%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22RMcMW%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22ubbcf8bad%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%7D%2C%22data%22%3A%22Javascript%20%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%88%B3%EF%BC%88%E6%AF%AB%E7%A7%92%E7%BA%A7%E5%88%AB%EF%BC%89%EF%BC%9A%5Cn%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u9112ad35%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22TbC6r%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22var%20timestamp1%20%3D%20Date.parse(%20new%20Date())%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uabce9a7a%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u3fbbfe94%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u616871c1%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%BB%93%E6%9E%9C%EF%BC%9A1470220594000%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc22dd360%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22udad28501%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u416d9d51%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22mMm5s%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22var%20timestamp2%20%3D%20(%20new%20Date()).valueOf()%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub97faa85%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uf2825c09%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u95efa70d%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%BB%93%E6%9E%9C%EF%BC%9A1470220608533%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ub67a7742%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u1a5b594b%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%AC%AC%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uab486b08%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22PLyUW%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22var%20timestamp3%20%3D%20new%20Date().getTime()%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u0b90e1e1%22%2C%22name%22%3A%22quote%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ue0f18803%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u21c58f40%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%BB%93%E6%9E%9C%EF%BC%9A1470220608533%22%7D%5D%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22ufc788ee3%22%2C%22name%22%3A%22p%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u2cebbaff%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%2C%22bgColor%22%3A%22%23FA541C%22%2C%22fontsize%22%3A16%7D%2C%22data%22%3A%22%E7%AC%AC%E4%B8%80%E7%A7%8D%E8%8E%B7%E5%8F%96%E7%9A%84%E6%97%B6%E9%97%B4%E6%88%B3%E6%98%AF%E7%B2%BE%E7%A1%AE%E5%88%B0%E7%A7%92%EF%BC%8C%E7%AC%AC%E4%BA%8C%E7%A7%8D%E5%92%8C%E7%AC%AC%E4%B8%89%E7%A7%8D%E6%98%AF%E8%8E%B7%E5%8F%96%E7%9A%84%E6%97%B6%E9%97%B4%E6%88%B3%E7%B2%BE%E7%A1%AE%E5%88%B0%E6%AF%AB%E7%A7%92%E3%80%82%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22NmDe0%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u5871b737%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%7D%2C%22data%22%3A%22%E8%8E%B7%E5%8F%96%E6%8C%87%E5%AE%9A%E6%97%B6%E9%97%B4%E7%9A%84%E6%97%B6%E9%97%B4%E6%88%B3%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22uc81e0712%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22Duzdn%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22new%20Date(%5C%222016-08-03%2000%3A00%3A00%5C%22)%3B%20%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22KPnmj%22%2C%22name%22%3A%22h3%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22text%22%2C%22id%22%3A%22u737179da%22%2C%22name%22%3A%22%23text%22%2C%22attrs%22%3A%7B%22color%22%3A%22rgb(33%2C%2037%2C%2041)%22%7D%2C%22data%22%3A%22%E6%97%B6%E9%97%B4%E6%88%B3%E8%BD%AC%E5%8C%96%E6%88%90%E6%97%B6%E9%97%B4%EF%BC%9A%22%7D%5D%7D%2C%7B%22type%22%3A%22element%22%2C%22id%22%3A%22u827a64c4%22%2C%22name%22%3A%22hole%22%2C%22attrs%22%3A%7B%7D%2C%22children%22%3A%5B%7B%22type%22%3A%22card%22%2C%22id%22%3A%22G352V%22%2C%22name%22%3A%22codeblock%22%2C%22attrs%22%3A%7B%22value%22%3A%7B%22mode%22%3A%22javascript%22%2C%22code%22%3A%22function%20timetrans(date)%7B%20%20%5Cn%20%20var%20date%20%3D%20new%20Date(date*1000)%3B%2F%2F%E5%A6%82%E6%9E%9Cdate%E4%B8%BA13%E4%BD%8D%E4%B8%8D%E9%9C%80%E8%A6%81%E4%B9%981000%20%5Cn%20%20var%20Y%20%3D%20date.getFullYear()%20%2B%20&#39;-&#39;%3B%20%20%20%5Cn%20%20var%20M%20%3D%20(date.getMonth()%2B1%20%3C%2010%20%3F%20&#39;0&#39;%2B(date.getMonth()%2B1)%20%3A%20date.getMonth()%2B1)%20%2B%20&#39;-&#39;%3B%20%20%20%20%20%5Cn%20%20var%20D%20%3D%20(date.getDate()%20%3C%2010%20%3F%20&#39;0&#39;%20%2B%20(date.getDate())%20%3A%20date.getDate())%20%2B%20&#39;%20&#39;%3B%20%20%20%20%20%5Cn%20%20var%20h%20%3D%20(date.getHours()%20%3C%2010%20%3F%20&#39;0&#39;%20%2B%20date.getHours()%20%3A%20date.getHours())%20%2B%20&#39;%3A&#39;%3B%20%20%20%20%20%5Cn%20%20var%20m%20%3D%20(date.getMinutes()%20%3C10%20%3F%20&#39;0&#39;%20%2B%20date.getMinutes()%20%3A%20date.getMinutes())%20%2B%20&#39;%3A&#39;%3B%20%20%20%20%20%5Cn%20%20var%20s%20%3D%20(date.getSeconds()%20%3C10%20%3F%20&#39;0&#39;%20%2B%20date.getSeconds()%20%3A%20date.getSeconds())%3B%20%20%20%20%20%5Cn%20%20return%20Y%2BM%2BD%2Bh%2Bm%2Bs%3B%5Cn%7D%22%2C%22autoWrap%22%3Afalse%2C%22lineNumbers%22%3Atrue%2C%22heightLimit%22%3Atrue%2C%22collapsed%22%3Afalse%2C%22hideToolbar%22%3Afalse%2C%22name%22%3A%22%22%2C%22tabSize%22%3Anull%2C%22indentWithTab%22%3Afalse%2C%22lightLines%22%3A%5B%5D%2C%22foldLines%22%3A%5B%5D%2C%22theme%22%3A%22One%20Dark%20Pro%22%2C%22__spacing%22%3A%22both%22%7D%2C%22cardType%22%3A%22block%22%7D%2C%22cardType%22%3A%22block%22%7D%5D%7D%5D%2C%22attrs%22%3A%7B%7D%7D"></ne-clipboard></p>
-<div class="lake-content" typography="classic"><h3 id="RMcMW" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text" style="color: #212529">Javascript 获取当前时间戳（毫秒级别）：<br/>第一种方法：</span></h3><pre data-language="javascript" id="TbC6r" class="ne-codeblock language-javascript" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">var&nbsp;timestamp1&nbsp;=&nbsp;Date.parse(&nbsp;new&nbsp;Date());</pre><div class="ne-quote" style="margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee"><p id="u3fbbfe94" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text" style="color: #212529; font-size: 16px">结果：1470220594000</span></p></div><p id="uc22dd360" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text" style="color: #212529; font-size: 16px">第二种方法：</span></p><pre data-language="javascript" id="mMm5s" class="ne-codeblock language-javascript" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">var&nbsp;timestamp2&nbsp;=&nbsp;(&nbsp;new&nbsp;Date()).valueOf();</pre><div class="ne-quote" style="margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee"><p id="uf2825c09" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text" style="color: #212529; font-size: 16px">结果：1470220608533</span></p></div><p id="ub67a7742" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text" style="color: #212529; font-size: 16px">第三种方法：</span></p><pre data-language="javascript" id="PLyUW" class="ne-codeblock language-javascript" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">var&nbsp;timestamp3&nbsp;=&nbsp;new&nbsp;Date().getTime();</pre><div class="ne-quote" style="margin: 5px 0; padding-left: 1em; border-left: 3px solid #eeeeee"><p id="ue0f18803" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text" style="color: #212529; font-size: 16px">结果：1470220608533</span></p></div><p id="ufc788ee3" class="ne-p" style="margin-top: 0px; margin-bottom: 0px; padding: 0px; min-height: 24px;"><span class="ne-text" style="color: #212529; background-color: #FA541C; font-size: 16px">第一种获取的时间戳是精确到秒，第二种和第三种是获取的时间戳精确到毫秒。</span></p><h3 id="NmDe0" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text" style="color: #212529">获取指定时间的时间戳：</span></h3><pre data-language="javascript" id="Duzdn" class="ne-codeblock language-javascript" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">new&nbsp;Date(&quot;2016-08-03&nbsp;00:00:00&quot;);</pre><h3 id="KPnmj" style="font-size: 20; line-height: 28px; margin: 16px 0 5px 0"><span class="ne-text" style="color: #212529">时间戳转化成时间：</span></h3><pre data-language="javascript" id="G352V" class="ne-codeblock language-javascript" style="border: 1px solid rgb(232, 232, 232); border-radius: 2px; background-color: rgb(249, 249, 249); padding: 16px; font-size: 13px; color: rgb(89, 89, 89);">function&nbsp;timetrans(date){&nbsp;&nbsp;
+    <article class="md-content__inner md-typeset">
+      
+        
 
-&nbsp;&nbsp;var&nbsp;date&nbsp;=&nbsp;new&nbsp;Date(date*1000);//如果date为13位不需要乘1000&nbsp;
+  
+    <a href="https://github.com/byronlau/Knowledge-Garden/edit/main/docs/blog/posts/新的服务器直接移植旧的tomcat-包-启动程序报错.md" title="编辑此页" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/byronlau/Knowledge-Garden/raw/main/docs/blog/posts/新的服务器直接移植旧的tomcat-包-启动程序报错.md" title="查看本页的源代码" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
+    </a>
+  
 
-&nbsp;&nbsp;var&nbsp;Y&nbsp;=&nbsp;date.getFullYear()&nbsp;+&nbsp;&#39;-&#39;;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;var&nbsp;M&nbsp;=&nbsp;(date.getMonth()+1&nbsp;&lt;&nbsp;10&nbsp;?&nbsp;&#39;0&#39;+(date.getMonth()+1)&nbsp;:&nbsp;date.getMonth()+1)&nbsp;+&nbsp;&#39;-&#39;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h1>新的服务器直接移植旧的tomcat 包，启动程序报错</h1>
 
-&nbsp;&nbsp;var&nbsp;D&nbsp;=&nbsp;(date.getDate()&nbsp;&lt;&nbsp;10&nbsp;?&nbsp;&#39;0&#39;&nbsp;+&nbsp;(date.getDate())&nbsp;:&nbsp;date.getDate())&nbsp;+&nbsp;&#39;&nbsp;&#39;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h2 id="_1">背景<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>最近测试环境网络异常，运维建议迁移一台新的，有个服务在启动tomcat的时候，启动失败 <code>catalina.sh: 1: eval: /projects/middleware/jdk/jre/bin/java: not found</code>，因为整个tomcat都是从就服务器拷贝过来的，理应没问题，但现在报错，而且报错 java 环境找不到，找不到的java 环境路径，正是旧服务上的，并且因为新服务器上的java 环境我是直接用 apt  命令安装的，整个路径根本就不存在，因为是catalina.sh 第一行报错，但是进入脚本中根本未发现和 /projects/middleware/ 有关的信息，因此通过命令行</p>
+<p><div class="highlight"><pre><span></span><code>grep<span class="w"> </span>-rnw<span class="w">  </span>-e<span class="w">  </span><span class="s1">&#39;/projects/middleware&#39;</span>
+</code></pre></div>
+查找结果如下
+<div class="highlight"><pre><span></span><code>root@ubuntu:/projects/apps/mall/tomcat-mall-web/bin#<span class="w"> </span>grep<span class="w"> </span>-rnw<span class="w">  </span>-e<span class="w">  </span><span class="s1">&#39;/projects/middleware&#39;</span>
+setclasspath.sh:3:export<span class="w"> </span><span class="nv">JAVA_HOME</span><span class="o">=</span>/projects/middleware/jdk
+setclasspath.sh:4:export<span class="w"> </span><span class="nv">JRE_HOME</span><span class="o">=</span>/projects/middleware/jdk/jre
+</code></pre></div>
+进入 <code>setclasspath.sh</code> 果然发现前两行写着
+经过注释重启服务，服务 正常启动</p>
+<p>&lt;&ndash; more &ndash;&gt;</p>
+<h2 id="gpt">GPT 给的提示如下<a class="headerlink" href="#gpt" title="Permanent link">&para;</a></h2>
+<p><code>bin/catalina.sh: 1: eval: /projects/middleware/jdk/jre/bin/java: not found</code></p>
+<p>这个错误提示表明你在尝试运行Apache Tomcat时遇到了问题。具体的错误原因是找不到你指定的JDK路径下的java可执行文件。</p>
+<p>你可以按照以下步骤排查并解决这个问题：</p>
+<ol>
+<li>首先确认你的JDK是否正确安装，并且java可执行文件位于你所指定的路径下。你可以通过打开终端并输入which java或where java（Windows系统下）查看当前系统的默认Java解释器的位置。
+如果上述步骤中的结果并不是你期望的结果，请修改Tomcat的配置文件catalina.sh或setclasspath.bat（Windows系统下），使其指向正确的Java路径。 在Unix/Linux系统中，你需要找到如下代码段：
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">    </span><span class="nv">CATALINA_HOME</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PRGDIR</span><span class="s2">&quot;</span>
+<span class="k">fi</span>
 
-&nbsp;&nbsp;var&nbsp;h&nbsp;=&nbsp;(date.getHours()&nbsp;&lt;&nbsp;10&nbsp;?&nbsp;&#39;0&#39;&nbsp;+&nbsp;date.getHours()&nbsp;:&nbsp;date.getHours())&nbsp;+&nbsp;&#39;:&#39;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-&nbsp;&nbsp;var&nbsp;m&nbsp;=&nbsp;(date.getMinutes()&nbsp;&lt;10&nbsp;?&nbsp;&#39;0&#39;&nbsp;+&nbsp;date.getMinutes()&nbsp;:&nbsp;date.getMinutes())&nbsp;+&nbsp;&#39;:&#39;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;(date.getSeconds()&nbsp;&lt;10&nbsp;?&nbsp;&#39;0&#39;&nbsp;+&nbsp;date.getSeconds()&nbsp;:&nbsp;date.getSeconds());&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-&nbsp;&nbsp;return&nbsp;Y+M+D+h+m+s;
-
-}</pre></div>
-<p><br/></p>
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span>/bin/setenv.sh<span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Cannot find </span><span class="nv">$CATALINA_HOME</span><span class="s2">/bin/setenv.sh&quot;</span>
+<span class="w">    </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<span class="k">fi</span>
+.<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span>/bin/setenv.sh
+<span class="nb">exec</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$_RUNJAVA</span><span class="s2">&quot;</span><span class="w"> </span><span class="nv">$JAVA_OPTS</span><span class="w"> </span>-Djava.endorsed.dirs<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$JAVA_ENDORSED_DIRS</span><span class="s2">&quot;</span><span class="w"> </span>-classpath<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CLASSPATH</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>-Dcatalina.base<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_BASE</span><span class="s2">&quot;</span><span class="w"> </span>-Dcatalina.home<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>-Djava.io.tmpdir<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_TMPDIR</span><span class="s2">&quot;</span><span class="w"> </span>org.apache.catalina.startup.Bootstrap<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$@</span><span class="s2">&quot;</span><span class="w"> </span>start
+</code></pre></div></li>
+<li>然后修改$_RUNJAVA为你实际的Java路径，例如：/usr/local/jdk/bin/java。</li>
+<li>再次运行Apache Tomcat，看看问题是否得到解决。</li>
+</ol>
 <script src="https://giscus.app/client.js"
     data-repo="byronlau/Knowledge-Garden"
     data-repo-id="R_kgDOKkfaDQ"
     data-mapping="number"
-    data-term="15"
+    data-term="70"
     data-reactions-enabled="1"
     data-emit-metadata="0"
     data-input-position="bottom"
@@ -2819,26 +2904,26 @@
     crossorigin="anonymous"
     async>
 </script>
-    <nav class="md-post__action">
-      <a href="../../2023/11/01/javascript/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      最后更新:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-11-17</span>
       
-      
-        
-          
+    
+  </small>
+</div>
 
 
 
-<nav class="md-pagination">
   
-</nav>
-        
+
+
+
       
-    </div>
+    </article>
   </div>
 
           
@@ -2856,10 +2941,12 @@
   
     
       
+        
+      
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../go/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Go">
+          <a href="../../03/springboot-webmvcconfigurationsupportwebmvcconfigurationadapter/" class="md-footer__link md-footer__link--prev" aria-label="上一页: SpringBoot 中 WebMvcConfigurationSupport、WebMvcConfigurationAdapter 区别">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2869,27 +2956,11 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                Go
+                SpringBoot 中 WebMvcConfigurationSupport、WebMvcConfigurationAdapter 区别
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../nodb/" class="md-footer__link md-footer__link--next" aria-label="下一页: NoDB">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                下一页
-              </span>
-              <div class="md-ellipsis">
-                NoDB
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
@@ -2932,10 +3003,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.81fa17fe.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
       

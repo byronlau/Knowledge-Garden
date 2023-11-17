@@ -25,7 +25,7 @@
         <link rel="alternate" type="application/rss+xml" title="已更新内容的 RSS 订阅" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
     
     
       
@@ -2764,6 +2764,97 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2023-11-17 00:00:00">2023年11月17日</time></li>
+        
+          <li class="md-meta__item">
+            分类于
+            
+              <a href="./" class="md-meta__link">Java</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              需要 1 分钟阅读时间
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="tomcat"><a class="toclink" href="../../2023/11/17/tomcat/">新的服务器直接移植旧的tomcat 包，启动程序报错</a></h2>
+<h3 id="_1"><a class="toclink" href="../../2023/11/17/tomcat/#_1">背景</a></h3>
+<p>最近测试环境网络异常，运维建议迁移一台新的，有个服务在启动tomcat的时候，启动失败 <code>catalina.sh: 1: eval: /projects/middleware/jdk/jre/bin/java: not found</code>，因为整个tomcat都是从就服务器拷贝过来的，理应没问题，但现在报错，而且报错 java 环境找不到，找不到的java 环境路径，正是旧服务上的，并且因为新服务器上的java 环境我是直接用 apt  命令安装的，整个路径根本就不存在，因为是catalina.sh 第一行报错，但是进入脚本中根本未发现和 /projects/middleware/ 有关的信息，因此通过命令行</p>
+<p><div class="highlight"><pre><span></span><code>grep<span class="w"> </span>-rnw<span class="w">  </span>-e<span class="w">  </span><span class="s1">&#39;/projects/middleware&#39;</span>
+</code></pre></div>
+查找结果如下
+<div class="highlight"><pre><span></span><code>root@ubuntu:/projects/apps/mall/tomcat-mall-web/bin#<span class="w"> </span>grep<span class="w"> </span>-rnw<span class="w">  </span>-e<span class="w">  </span><span class="s1">&#39;/projects/middleware&#39;</span>
+setclasspath.sh:3:export<span class="w"> </span><span class="nv">JAVA_HOME</span><span class="o">=</span>/projects/middleware/jdk
+setclasspath.sh:4:export<span class="w"> </span><span class="nv">JRE_HOME</span><span class="o">=</span>/projects/middleware/jdk/jre
+</code></pre></div>
+进入 <code>setclasspath.sh</code> 果然发现前两行写着
+经过注释重启服务，服务 正常启动</p>
+<p>&lt;&ndash; more &ndash;&gt;</p>
+<h3 id="gpt"><a class="toclink" href="../../2023/11/17/tomcat/#gpt">GPT 给的提示如下</a></h3>
+<p><code>bin/catalina.sh: 1: eval: /projects/middleware/jdk/jre/bin/java: not found</code></p>
+<p>这个错误提示表明你在尝试运行Apache Tomcat时遇到了问题。具体的错误原因是找不到你指定的JDK路径下的java可执行文件。</p>
+<p>你可以按照以下步骤排查并解决这个问题：</p>
+<ol>
+<li>首先确认你的JDK是否正确安装，并且java可执行文件位于你所指定的路径下。你可以通过打开终端并输入which java或where java（Windows系统下）查看当前系统的默认Java解释器的位置。
+如果上述步骤中的结果并不是你期望的结果，请修改Tomcat的配置文件catalina.sh或setclasspath.bat（Windows系统下），使其指向正确的Java路径。 在Unix/Linux系统中，你需要找到如下代码段：
+<div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-z<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">    </span><span class="nv">CATALINA_HOME</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PRGDIR</span><span class="s2">&quot;</span>
+<span class="k">fi</span>
+
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>!<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span>/bin/setenv.sh<span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Cannot find </span><span class="nv">$CATALINA_HOME</span><span class="s2">/bin/setenv.sh&quot;</span>
+<span class="w">    </span><span class="nb">exit</span><span class="w"> </span><span class="m">1</span>
+<span class="k">fi</span>
+.<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span>/bin/setenv.sh
+<span class="nb">exec</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$_RUNJAVA</span><span class="s2">&quot;</span><span class="w"> </span><span class="nv">$JAVA_OPTS</span><span class="w"> </span>-Djava.endorsed.dirs<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$JAVA_ENDORSED_DIRS</span><span class="s2">&quot;</span><span class="w"> </span>-classpath<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$CLASSPATH</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>-Dcatalina.base<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_BASE</span><span class="s2">&quot;</span><span class="w"> </span>-Dcatalina.home<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_HOME</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>-Djava.io.tmpdir<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CATALINA_TMPDIR</span><span class="s2">&quot;</span><span class="w"> </span>org.apache.catalina.startup.Bootstrap<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$@</span><span class="s2">&quot;</span><span class="w"> </span>start
+</code></pre></div></li>
+<li>然后修改$_RUNJAVA为你实际的Java路径，例如：/usr/local/jdk/bin/java。</li>
+<li>再次运行Apache Tomcat，看看问题是否得到解决。</li>
+</ol>
+<script src="https://giscus.app/client.js"
+    data-repo="byronlau/Knowledge-Garden"
+    data-repo-id="R_kgDOKkfaDQ"
+    data-mapping="number"
+    data-term="70"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
+    crossorigin="anonymous"
+    async>
+</script>
+    <nav class="md-post__action">
+      <a href="../../2023/11/17/tomcat/">
+        继续阅读
+      </a>
+    </nav>
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2023-11-03 00:00:00">2023年11月3日</time></li>
         
           <li class="md-meta__item">
@@ -3057,54 +3148,6 @@
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-      <nav class="md-post__authors md-typeset">
-        
-          <span class="md-author">
-            <img src="https://avatars.githubusercontent.com/u/148879922" alt="Byron Lau">
-          </span>
-        
-      </nav>
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2023-11-02 00:00:00">2023年11月2日</time></li>
-        
-          <li class="md-meta__item">
-            分类于
-            
-              <a href="./" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              需要 1 分钟阅读时间
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="springboot"><a class="toclink" href="../../2023/11/02/springboot/">SpringBoot静态资源处理</a></h2>
-<p>在web开发中，静态资源的访问是必不可少的，如：图片、js、css 等资源的访问。
-spring Boot 对静态资源访问提供了很好的支持，基本使用默认配置就能满足开发需求。</p>
-<h3 id="_1"><a class="toclink" href="../../2023/11/02/springboot/#_1">一、默认静态资源映射</a></h3>
-<p>Spring Boot 对静态资源映射提供了默认配置</p>
-
-    <nav class="md-post__action">
-      <a href="../../2023/11/02/springboot/">
-        继续阅读
-      </a>
-    </nav>
-  </div>
-</article>
-      
       
         
           
@@ -3213,7 +3256,7 @@ spring Boot 对静态资源访问提供了很好的支持，基本使用默认�
     <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "navigation.path", "content.action.edit", "content.action.view", "content.code.copy", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.81fa17fe.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
       
