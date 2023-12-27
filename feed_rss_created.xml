@@ -4,8 +4,8 @@
     
     <title>橘涂拾捌的知识花园</title>
     <description>记录工作遇到的问题、学习中总结的知识、生活中遇到的趣事。</description>
-    <link>https://doc.mgd2008.com/</link>
-    <atom:link href="https://doc.mgd2008.com/feed_rss_created.xml" rel="self" type="application/rss+xml" />
+    <link>https://1218.fun/</link>
+    <atom:link href="https://1218.fun/feed_rss_created.xml" rel="self" type="application/rss+xml" />
 
     
     <managingEditor>Byron Lau</managingEditor>
@@ -13,8 +13,8 @@
     <language>zh</language>
 
     
-    <pubDate>Wed, 27 Dec 2023 05:47:41 -0000</pubDate>
-    <lastBuildDate>Wed, 27 Dec 2023 05:47:41 -0000</lastBuildDate>
+    <pubDate>Wed, 27 Dec 2023 05:49:20 -0000</pubDate>
+    <lastBuildDate>Wed, 27 Dec 2023 05:49:20 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -25,7 +25,7 @@
     <image>
       <url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png</url>
       <title>橘涂拾捌的知识花园</title>
-      <link>https://doc.mgd2008.com/</link>
+      <link>https://1218.fun/</link>
     </image>
     
 
@@ -38,26 +38,11 @@
       
       
       <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/sundry/page/4/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/sundry/page/4/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Sundry</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/sundry/page/3/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/3/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/sundry/page/4/</guid>
       
     </item>
     
@@ -68,11 +53,26 @@
       
       
       <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/sundry/page/2/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/sundry/page/3/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/page/2/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/sundry/page/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Sundry</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/category/sundry/page/2/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/category/sundry/page/2/</guid>
       
     </item>
     
@@ -83,26 +83,11 @@
       
       
       <description>&lt;h1&gt;Python&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/python/page/2/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/python/page/2/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/python/page/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Java</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/5/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/5/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/python/page/2/</guid>
       
     </item>
     
@@ -113,26 +98,11 @@
       
       
       <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/4/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/java/page/5/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Java</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/3/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/3/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/java/page/5/</guid>
       
     </item>
     
@@ -143,11 +113,41 @@
       
       
       <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/page/2/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/java/page/4/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/page/2/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/java/page/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/category/java/page/3/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/category/java/page/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Java</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/category/java/page/2/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/category/java/page/2/</guid>
       
     </item>
     
@@ -158,26 +158,11 @@
       
       
       <description>&lt;h1&gt;DB&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/db/page/2/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/db/page/2/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/db/page/2/</guid>
-      
-    </item>
-    
-    <item>
-      <title>2023</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/12/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/12/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/db/page/2/</guid>
       
     </item>
     
@@ -188,26 +173,11 @@
       
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/11/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/archive/2023/page/12/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/11/</guid>
-      
-    </item>
-    
-    <item>
-      <title>2023</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/10/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/10/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/12/</guid>
       
     </item>
     
@@ -218,26 +188,11 @@
       
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/9/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/archive/2023/page/11/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/9/</guid>
-      
-    </item>
-    
-    <item>
-      <title>2023</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/8/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/8/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/11/</guid>
       
     </item>
     
@@ -248,26 +203,11 @@
       
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/7/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/archive/2023/page/10/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/7/</guid>
-      
-    </item>
-    
-    <item>
-      <title>2023</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/6/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/6/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/10/</guid>
       
     </item>
     
@@ -278,26 +218,11 @@
       
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/5/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/archive/2023/page/9/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/5/</guid>
-      
-    </item>
-    
-    <item>
-      <title>2023</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/4/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/4/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/9/</guid>
       
     </item>
     
@@ -308,11 +233,11 @@
       
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/3/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/archive/2023/page/8/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/3/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/8/</guid>
       
     </item>
     
@@ -323,11 +248,86 @@
       
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/page/2/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/archive/2023/page/7/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/page/2/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/7/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/archive/2023/page/6/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/6/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/archive/2023/page/5/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/archive/2023/page/4/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/archive/2023/page/3/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>2023</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/archive/2023/page/2/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/page/2/</guid>
       
     </item>
     
@@ -338,26 +338,11 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/12/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/page/12/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/12/</guid>
-      
-    </item>
-    
-    <item>
-      <title>博客文章</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/11/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/11/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/page/12/</guid>
       
     </item>
     
@@ -368,26 +353,11 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/10/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/page/11/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/10/</guid>
-      
-    </item>
-    
-    <item>
-      <title>博客文章</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/9/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/9/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/page/11/</guid>
       
     </item>
     
@@ -398,26 +368,11 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/8/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/page/10/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/8/</guid>
-      
-    </item>
-    
-    <item>
-      <title>博客文章</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/7/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/7/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/page/10/</guid>
       
     </item>
     
@@ -428,26 +383,11 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/6/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/page/9/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:23 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/6/</guid>
-      
-    </item>
-    
-    <item>
-      <title>博客文章</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/5/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/5/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/page/9/</guid>
       
     </item>
     
@@ -458,26 +398,11 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/4/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/page/8/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/4/</guid>
-      
-    </item>
-    
-    <item>
-      <title>博客文章</title>
-      
-      
-      
-      
-      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/3/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/3/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/page/8/</guid>
       
     </item>
     
@@ -488,11 +413,86 @@
       
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/page/2/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/page/7/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/page/2/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/page/7/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/page/6/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/page/6/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/page/5/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/page/5/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/page/4/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/page/4/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/page/3/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/page/3/</guid>
+      
+    </item>
+    
+    <item>
+      <title>博客文章</title>
+      
+      
+      
+      
+      <description>&lt;h1&gt;博客文章&lt;/h1&gt;</description>
+      <link>https://1218.fun/blog/page/2/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/blog/page/2/</guid>
       
     </item>
     
@@ -503,11 +503,11 @@
       
       
       <description>&lt;h1&gt;NoDB&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/nodb/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/nodb/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/nodb/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/nodb/</guid>
       
     </item>
     
@@ -518,11 +518,11 @@
       
       
       <description>&lt;h1&gt;Frontend&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/frontend/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/frontend/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/frontend/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/frontend/</guid>
       
     </item>
     
@@ -533,11 +533,11 @@
       
       
       <description>&lt;h1&gt;Go&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/go/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/go/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/go/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/go/</guid>
       
     </item>
     
@@ -548,11 +548,11 @@
       
       
       <description>&lt;h1&gt;Python&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/python/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/python/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/python/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/python/</guid>
       
     </item>
     
@@ -563,11 +563,11 @@
       
       
       <description>&lt;h1&gt;Java&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/java/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/java/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/java/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/java/</guid>
       
     </item>
     
@@ -578,11 +578,11 @@
       
       
       <description>&lt;h1&gt;DB&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/db/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/db/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/db/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/db/</guid>
       
     </item>
     
@@ -593,11 +593,11 @@
       
       
       <description>&lt;h1&gt;Sundry&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/category/sundry/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/category/sundry/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/category/sundry/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/category/sundry/</guid>
       
     </item>
     
@@ -608,11 +608,11 @@
       
       
       <description>&lt;h1&gt;2023&lt;/h1&gt;</description>
-      <link>https://doc.mgd2008.com/blog/archive/2023/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:44 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/archive/2023/</link>
+      <pubDate>Wed, 27 Dec 2023 05:49:22 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/archive/2023/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/archive/2023/</guid>
       
     </item>
     
@@ -674,11 +674,11 @@
 &lt;figure markdown&gt;
 &lt;figcaption&gt;Random acts of kindness.&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
-      <link>https://doc.mgd2008.com/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/</guid>
+      <guid isPermaLink="true">https://1218.fun/</guid>
       
     </item>
     
@@ -690,11 +690,11 @@
       
       <description>&lt;p&gt;语雀，是一个非常优秀的文档和知识库工具，也曾经是个人知识和文档记录的一个非常重要的平台。但由于工作和其他的一些原因，逐渐从语雀转移到了 GitHub，作为历史文章的一个备份，你可以通过下面的链接访问我的语雀花园主页，感谢你的支持，我们一定会越来越好！&lt;/p&gt;
 &lt;p align=center&gt;&lt;b&gt;&lt;a href=&#34;https://www.yuque.com/byronlau&#34; target=&#34;_blank&#34;&gt;www.yuque.com/byronlau&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/YUQUE/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/YUQUE/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/YUQUE/</guid>
+      <guid isPermaLink="true">https://1218.fun/YUQUE/</guid>
       
     </item>
     
@@ -706,11 +706,11 @@
       
       <description>&lt;h1&gt;博客文章&lt;/h1&gt;
 &lt;p&gt;这是首发于 GitHub Discussion/Issues，并定期同步更新至 Material for MkDocs 上的博客文章。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/blog/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/</guid>
       
     </item>
     
@@ -721,11 +721,11 @@
       
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/</guid>
       
     </item>
     
@@ -736,11 +736,11 @@
       
       
       <description></description>
-      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/</guid>
       
     </item>
     
@@ -833,26 +833,11 @@
 &lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/72_Spring事务：遗漏的细节，BeanFactoryTransactionAttri.png&#34;&gt;72_Spring事务：遗漏的细节，BeanFactoryTransactionAttri&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://fastly.jsdelivr.net/gh/byronlau/imgs/spring5.2.6/73_面试题：有哪些场景会导致Spring事务失效？.png&#34;&gt;73_面试题：有哪些场景会导致Spring事务失效？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/Spring-%E7%B3%BB%E5%88%97/Spring%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/</guid>
       
     </item>
     
@@ -863,11 +848,11 @@
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringBoot-%E7%B3%BB%E5%88%97/</guid>
       
     </item>
     
@@ -878,11 +863,26 @@
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/SpringCloudAlibaba-%E7%B3%BB%E5%88%97/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E4%B8%93%E6%A0%8F%E4%B8%BB%E9%A2%98/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%B3%BB%E5%88%97/</guid>
       
     </item>
     
@@ -893,11 +893,11 @@
       
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/</guid>
       
     </item>
     
@@ -908,11 +908,11 @@
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/</guid>
       
     </item>
     
@@ -1842,26 +1842,11 @@ docker run -id --name diytomcat  -p 8080:8080 -v /usr/local/diy_tomcat/logs/:/us
 &lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://img.mgd2008.com/static/img/cc6561fc8b4de802b65b4140a5228335_watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ZhbmppYW5oYWk=,size_16,color_FFFFFF,t_70#pic_center.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;&#34; src=&#34;http://img.mgd2008.com/static/img/fa8a5f4aa8aa798c3d90abd9322f6da7_watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ZhbmppYW5oYWk=,size_16,color_FFFFFF,t_70#pic_center.png&#34;&gt;&lt;/p&gt;
 &lt;h3&gt;Docker网络&lt;/h3&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/Docker/Ubuntu%E5%AE%89%E8%A3%85Docker/</guid>
       
     </item>
     
@@ -1872,11 +1857,11 @@ docker run -id --name diytomcat  -p 8080:8080 -v /usr/local/diy_tomcat/logs/:/us
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/IDE-%E7%BC%96%E8%BE%91%E5%99%A8/</guid>
       
     </item>
     
@@ -1887,11 +1872,26 @@ docker run -id --name diytomcat  -p 8080:8080 -v /usr/local/diy_tomcat/logs/:/us
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
       
     </item>
     
@@ -2007,11 +2007,11 @@ fi&lt;/p&gt;
     echo &#34;Expired backup data delete complete!&#34;
 fi&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BDMysq%E4%B8%80%E4%B8%AA%E5%BA%93%E5%A4%9A%E4%B8%AA%E8%A1%A8/</guid>
       
     </item>
     
@@ -2071,11 +2071,11 @@ fi&lt;/p&gt;
     echo &#34;Expired backup data delete complete!&#34;
 fi&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4/%E8%84%9A%E6%9C%AC/Shell%20%E5%A4%87%E4%BB%BD%E4%B8%80%E4%B8%AA%E5%BA%93%E5%85%A8%E8%A1%A8%E7%BB%93%E6%9E%84/</guid>
       
     </item>
     
@@ -2086,26 +2086,11 @@ fi&lt;/p&gt;
       
       
       <description>&lt;p&gt;本文件于 2023-10-28 00:37:42 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       
     </item>
     
@@ -2116,26 +2101,11 @@ fi&lt;/p&gt;
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ClickHouse/</guid>
       
     </item>
     
@@ -2146,26 +2116,11 @@ fi&lt;/p&gt;
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/ES/</guid>
       
     </item>
     
@@ -2176,26 +2131,11 @@ fi&lt;/p&gt;
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/MongoDB/</guid>
       
     </item>
     
@@ -2206,26 +2146,11 @@ fi&lt;/p&gt;
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Mysql/</guid>
       
     </item>
     
@@ -2236,11 +2161,86 @@ fi&lt;/p&gt;
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%9F%A5%E8%AF%86%E6%9D%82%E9%A1%B9/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Bash-Shell/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Go/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/</guid>
       
     </item>
     
@@ -2513,11 +2513,11 @@ fi&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;oop-polymorphism.md&#34;&gt;多态&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/01%20Java%20%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB/</guid>
       
     </item>
     
@@ -2598,11 +2598,11 @@ fi&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Java 中可以使用访问控制修饰符来保护对类、变量、方法和构造方法的访问。Java支持4中不同的访问权限。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/02%20%E6%A0%B8%E5%BF%83%E8%AF%AD%E8%A8%80%E7%89%B9%E6%80%A7/</guid>
       
     </item>
     
@@ -2829,11 +2829,11 @@ public class Girl{
 &lt;blockquote&gt;
 &lt;p&gt;继承：是面向对象中的一种类与类之间的关系。当多个类具备一脉相承的“is-a”关系的时候，使用继承。这就能够让这些类进行正确的关联绑定，子类自动具备来自于的父类的属性和行为，做到代码的复用和设计的分离。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/04%20oop-inheritance/</guid>
       
     </item>
     
@@ -3009,11 +3009,11 @@ public class Test{
 用final修饰的方法，同样由于赋予不变特性，所以子类就不能再重写该方法了；
 用final修饰的类，是给这个类赋予不变特性，所以这个类不能再生成子类（子类完全可以看成是对父类的扩展和变化）。
 🤔思考一下：为啥final不能修饰构造方法呢❓&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/05%20oop-inheritance-details/</guid>
       
     </item>
     
@@ -3207,11 +3207,11 @@ public abstract class Gun{
 &lt;li&gt;桥梁模式、装饰器模式、策略模式等常见设计模式；&lt;/li&gt;
 &lt;li&gt;聚合组合原则、依赖倒转原则等常见设计原则。&lt;/li&gt;
 &lt;/ol&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/07%20oop-polymorphism/</guid>
       
     </item>
     
@@ -3383,11 +3383,11 @@ public abstract class LockBellDoor extends Door
 &lt;li&gt;正确的分析出，哪些抽象方法设计到“抽象类”中，哪些抽象方法设计到“接口”中，对于适应场景的变化是非常重要的。只有符合场景的语法，才能跟随场景的变化而变化，这样设计出来的程序才具有业务成长性。👍👍👍&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/08%20interface%26%26abstract-class/</guid>
       
     </item>
     
@@ -3734,11 +3734,11 @@ import static java.lang.Integer.*;&lt;/p&gt;
 &lt;h2&gt;最后的话&lt;/h2&gt;
 &lt;p&gt;static的认知,是面向对象中“类”和“对象”概念的进一步深化。绝不能简单的去背各种语法特性和各种情况的执行效果。这是“一叶障目，不见泰山”的方法。要想正确无误、灵活自如的使用它，请一定要建立它在面向对象中的意义。请反复咀嚼、体会别人的设计和自己要操作的场景，这才是“事倍功半”的方式。
 ㊗️大家成功！🏁&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/09%20static/</guid>
       
     </item>
     
@@ -3856,26 +3856,11 @@ class Vihicle {
 &lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/jianyuerensheng/article/details/51602015&#34;&gt;面向对象编程三大特性 ------ 封装、继承、多态&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/ywqu/archive/2009/12/22/1629426.html&#34;&gt;UML建模之时序图（Sequence Diagram）&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
-      
-    </item>
-    
-    <item>
-      <title>Index</title>
-      
-      
-      
-      
-      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
-      
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/10%20%E7%B1%BB%E5%9B%BE%E4%B8%AD%E5%90%84%E4%B8%AA%E7%B1%BB%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
       
     </item>
     
@@ -3886,11 +3871,26 @@ class Vihicle {
       
       
       <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Python/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Index</title>
+      
+      
+      
+      
+      <description>&lt;p&gt;本文件于 2023-07-20 02:03:16 自动生成！&lt;/p&gt;</description>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/</guid>
       
     </item>
     
@@ -3906,11 +3906,11 @@ class Vihicle {
 &lt;li&gt;&lt;a href=&#34;https://zh.javascript.info/getting-started&#34;&gt;zh.javascript.info&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript&#34;&gt;developer.mozilla.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</guid>
       
     </item>
     
@@ -3921,11 +3921,11 @@ class Vihicle {
       
       
       <description>&lt;p&gt;本文件于 2023-07-19 21:51:59 自动生成！&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/css/</link>
-      <pubDate>Wed, 27 Dec 2023 05:47:06 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <link>https://1218.fun/css/</link>
+      <pubDate>Wed, 27 Dec 2023 05:48:37 +0000</pubDate>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/css/</guid>
+      <guid isPermaLink="true">https://1218.fun/css/</guid>
       
     </item>
     
@@ -3964,11 +3964,11 @@ https://www.processon.com/view/link/5ac64532e4b00dc8a02f05eb&lt;/p&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/12/15/k8s-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</link>
+      <link>https://1218.fun/blog/2023/12/15/k8s-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/12/15/k8s-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/12/15/k8s-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</guid>
       
     </item>
     
@@ -4000,11 +4000,11 @@ mysqladmin -h 127.0.0.1 -u root -p flush-hosts&lt;/code&gt;&lt;/p&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/29/khost-1921688157-is-blocked-because-of-many-connection-errors-unblock-with-mysqladmin-flush-hostsconnection-closed-by-foreign-host/</link>
+      <link>https://1218.fun/blog/2023/11/29/khost-1921688157-is-blocked-because-of-many-connection-errors-unblock-with-mysqladmin-flush-hostsconnection-closed-by-foreign-host/</link>
       <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/29/khost-1921688157-is-blocked-because-of-many-connection-errors-unblock-with-mysqladmin-flush-hostsconnection-closed-by-foreign-host/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/29/khost-1921688157-is-blocked-because-of-many-connection-errors-unblock-with-mysqladmin-flush-hostsconnection-closed-by-foreign-host/</guid>
       
     </item>
     
@@ -4029,11 +4029,11 @@ setclasspath.sh:3:export JAVA_HOME=/projects/middleware/jdk
 setclasspath.sh:4:export JRE_HOME=/projects/middleware/jdk/jre&lt;/code&gt;
 进入 &lt;code&gt;setclasspath.sh&lt;/code&gt; 果然发现前两行写着
 经过注释重启服务，服务 正常启动&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/17/%E6%96%B0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B4%E6%8E%A5%E7%A7%BB%E6%A4%8D%E6%97%A7%E7%9A%84tomcat-%E5%8C%85%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F%E6%8A%A5%E9%94%99/</link>
+      <link>https://1218.fun/blog/2023/11/17/%E6%96%B0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B4%E6%8E%A5%E7%A7%BB%E6%A4%8D%E6%97%A7%E7%9A%84tomcat-%E5%8C%85%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F%E6%8A%A5%E9%94%99/</link>
       <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/17/%E6%96%B0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B4%E6%8E%A5%E7%A7%BB%E6%A4%8D%E6%97%A7%E7%9A%84tomcat-%E5%8C%85%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F%E6%8A%A5%E9%94%99/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/17/%E6%96%B0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B4%E6%8E%A5%E7%A7%BB%E6%A4%8D%E6%97%A7%E7%9A%84tomcat-%E5%8C%85%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F%E6%8A%A5%E9%94%99/</guid>
       
     </item>
     
@@ -4054,11 +4054,11 @@ setclasspath.sh:4:export JRE_HOME=/projects/middleware/jdk/jre&lt;/code&gt;
     classpath:/resources
     classpath:/META-INF/resources
    当使用了@EnableWebMvc时，默认的静态资源访问无效了因为默认情况下mvc使用的配置是WebMvcAutoConfiguration，加入该配置变成了WebMvcConfigurationSupport&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/03/springboot-%E4%B8%AD-webmvcconfigurationsupportwebmvcconfigurationadapter-%E5%8C%BA%E5%88%AB/</link>
+      <link>https://1218.fun/blog/2023/11/03/springboot-%E4%B8%AD-webmvcconfigurationsupportwebmvcconfigurationadapter-%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/03/springboot-%E4%B8%AD-webmvcconfigurationsupportwebmvcconfigurationadapter-%E5%8C%BA%E5%88%AB/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/03/springboot-%E4%B8%AD-webmvcconfigurationsupportwebmvcconfigurationadapter-%E5%8C%BA%E5%88%AB/</guid>
       
     </item>
     
@@ -4202,11 +4202,11 @@ lst.add(15);&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;框架也是如此呀。Hibernate框架不就是把大家写起来很烦的ORM映射给封装了吗？在用这个框架前，我们要自己去循环数据查询结果集，自己去匹配哪个表对应哪个Bean类，哪个字段对应哪个属性，大家的时间精力都花在上面了。用了Hibernate以后呢？这些细节，你不用考虑了，只要配置一下对应关系，其它的都由Hibernate自己去做了，它把实现的细节给你封装好了。😊😊😊&lt;/p&gt;
 &lt;h2&gt;总结&lt;/h2&gt;
 &lt;p&gt;综上，“封装”是面向对象思想中基本的一个特征。在之前的编程思维中，更多的考虑是“装”，是为了能够让计算机有更好的表现数据的方式，以及更好的代码复用效果。现在到了面向对象，有了“封”的思想和语法，就能更好的保障数据的安全性、有效性、准确性，并能够在此基础上进一步维护设计人员的意图，从而达到设计层面在代码级别对实现层面进行管理控制，降低整个开发风险和成本。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/</link>
+      <link>https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/</link>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Java/03%20oop-encapsulation/</guid>
       
     </item>
     
@@ -4228,11 +4228,11 @@ location / {
   index  index.html index.htm;  
   try_files $uri $uri/ /index.html;
 }&lt;/code&gt;&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/nginx-try_files%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
+      <link>https://1218.fun/blog/2023/11/02/nginx-try_files%E7%9A%84%E4%BD%9C%E7%94%A8/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/nginx-try_files%E7%9A%84%E4%BD%9C%E7%94%A8/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/nginx-try_files%E7%9A%84%E4%BD%9C%E7%94%A8/</guid>
       
     </item>
     
@@ -4287,11 +4287,11 @@ create or replace function inet_aton(ip text) returns int8 as $$&lt;/p&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/postgresql%E5%AF%B9%E5%BA%94mysql%E4%B8%AD%E5%AF%B9ip%E8%BF%9B%E8%A1%8C%E8%BD%AC%E5%8C%96%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+      <link>https://1218.fun/blog/2023/11/02/postgresql%E5%AF%B9%E5%BA%94mysql%E4%B8%AD%E5%AF%B9ip%E8%BF%9B%E8%A1%8C%E8%BD%AC%E5%8C%96%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/postgresql%E5%AF%B9%E5%BA%94mysql%E4%B8%AD%E5%AF%B9ip%E8%BF%9B%E8%A1%8C%E8%BD%AC%E5%8C%96%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/postgresql%E5%AF%B9%E5%BA%94mysql%E4%B8%AD%E5%AF%B9ip%E8%BF%9B%E8%A1%8C%E8%BD%AC%E5%8C%96%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
       
     </item>
     
@@ -4307,11 +4307,11 @@ create or replace function inet_aton(ip text) returns int8 as $$&lt;/p&gt;
       
       <description>&lt;p&gt;&lt;strong&gt;报错如下:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&#34;color: red;&#34;&gt;requests.exceptions.SSLError: HTTPSConnectionPool(host=‘www.baidu.com’, port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, u’[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:581)’),))&lt;/span&gt;&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/python%E4%BD%BF%E7%94%A8requests%E6%97%B6%E6%8A%A5%E9%94%99requestsexceptionssslerrorhttpsconnectionpoolmd/</link>
+      <link>https://1218.fun/blog/2023/11/02/python%E4%BD%BF%E7%94%A8requests%E6%97%B6%E6%8A%A5%E9%94%99requestsexceptionssslerrorhttpsconnectionpoolmd/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/python%E4%BD%BF%E7%94%A8requests%E6%97%B6%E6%8A%A5%E9%94%99requestsexceptionssslerrorhttpsconnectionpoolmd/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/python%E4%BD%BF%E7%94%A8requests%E6%97%B6%E6%8A%A5%E9%94%99requestsexceptionssslerrorhttpsconnectionpoolmd/</guid>
       
     </item>
     
@@ -4331,11 +4331,11 @@ create or replace function inet_aton(ip text) returns int8 as $$&lt;/p&gt;
 &lt;li&gt;两者的数据不共通：StringRedisTemplate只能管理StringRedisTemplate里面的数据，RedisTemplate只能管理RedisTemplate中的数据。&lt;/li&gt;
 &lt;li&gt;默认的序列化策略：SDR（即Simple Data Replication，简单数据复制）有两种默认的序列化策略，一种是String的序列化策略，一种是JDK的序列化策略。StringRedisTemplate默认采用的是String的序列化策略，保存的key和value都是采用此策略序列化保存的。而RedisTemplate默认采用的是JDK的序列化策略，保存的key和value都是采用此策略序列化保存的。&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/redistemplate%E4%B8%8Estringredistemplate%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://1218.fun/blog/2023/11/02/redistemplate%E4%B8%8Estringredistemplate%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/redistemplate%E4%B8%8Estringredistemplate%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/redistemplate%E4%B8%8Estringredistemplate%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       
     </item>
     
@@ -4350,11 +4350,11 @@ create or replace function inet_aton(ip text) returns int8 as $$&lt;/p&gt;
       
       
       <description>&lt;p&gt;Java 版本的Redis 工具类&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/redis%E5%B7%A5%E5%85%B7%E7%B1%BB/</link>
+      <link>https://1218.fun/blog/2023/11/02/redis%E5%B7%A5%E5%85%B7%E7%B1%BB/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/redis%E5%B7%A5%E5%85%B7%E7%B1%BB/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/redis%E5%B7%A5%E5%85%B7%E7%B1%BB/</guid>
       
     </item>
     
@@ -4371,11 +4371,11 @@ create or replace function inet_aton(ip text) returns int8 as $$&lt;/p&gt;
       <description>&lt;h2&gt;@PropertySource 加载 properties配置文件&lt;/h2&gt;
 &lt;p&gt;1、通过《Spring Boot  @ConfigurationProperties 、@Value 注值》知道使用“@Value”与“@ConfigurationProperties”可以从全局配置文件“application.properties”或者“application.yml”中取值，然后为需要的属性赋值。&lt;/p&gt;
 &lt;p&gt;2、当应用比较大的时候，如果所有的内容都当在一个配置文件中，就会显得比较臃肿，同时也不太好理解和维护，此时可以将一个文件拆分为多个，使用 @PropertySource 注解加载指定的配置文件，注解常用属性如下：&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/springbootpropertysource%E5%8A%A0%E8%BD%BD%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6importresource%E5%AF%BC%E5%85%A5spring%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
+      <link>https://1218.fun/blog/2023/11/02/springbootpropertysource%E5%8A%A0%E8%BD%BD%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6importresource%E5%AF%BC%E5%85%A5spring%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springbootpropertysource%E5%8A%A0%E8%BD%BD%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6importresource%E5%AF%BC%E5%85%A5spring%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/springbootpropertysource%E5%8A%A0%E8%BD%BD%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6importresource%E5%AF%BC%E5%85%A5spring%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</guid>
       
     </item>
     
@@ -4450,11 +4450,11 @@ import org.springframework.web.reactive.function.client.WebClient;&lt;/p&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot%E8%87%AA%E5%B8%A6%E4%BA%86%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84http%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%B7%A5%E5%85%B7/</link>
+      <link>https://1218.fun/blog/2023/11/02/springboot%E8%87%AA%E5%B8%A6%E4%BA%86%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84http%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot%E8%87%AA%E5%B8%A6%E4%BA%86%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84http%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%B7%A5%E5%85%B7/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/springboot%E8%87%AA%E5%B8%A6%E4%BA%86%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84http%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%B7%A5%E5%85%B7/</guid>
       
     </item>
     
@@ -4472,11 +4472,11 @@ import org.springframework.web.reactive.function.client.WebClient;&lt;/p&gt;
 spring Boot 对静态资源访问提供了很好的支持，基本使用默认配置就能满足开发需求。&lt;/p&gt;
 &lt;h2&gt;一、默认静态资源映射&lt;/h2&gt;
 &lt;p&gt;Spring Boot 对静态资源映射提供了默认配置&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%A4%84%E7%90%86/</link>
+      <link>https://1218.fun/blog/2023/11/02/springboot%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%A4%84%E7%90%86/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%A4%84%E7%90%86/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/springboot%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E5%A4%84%E7%90%86/</guid>
       
     </item>
     
@@ -4492,11 +4492,11 @@ spring Boot 对静态资源访问提供了很好的支持，基本使用默认�
       
       <description>&lt;h1&gt;Quartz 的简单介绍和使用&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;Quartz&lt;/code&gt; 是一个开源的 &lt;code&gt;Java&lt;/code&gt; 调度框架，可以用来实现在指定的时间或时间间隔触发任务执行的功能。以下是使用 &lt;code&gt;Quartz&lt;/code&gt; 的主要方式和基本概念。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot-%E4%BD%BF%E7%94%A8-quartz-%E5%AF%B9%E4%BB%BB%E5%8A%A1%E8%BF%9B%E8%A1%8C%E7%AE%80%E5%8D%95%E8%B0%83%E5%BA%A6/</link>
+      <link>https://1218.fun/blog/2023/11/02/springboot-%E4%BD%BF%E7%94%A8-quartz-%E5%AF%B9%E4%BB%BB%E5%8A%A1%E8%BF%9B%E8%A1%8C%E7%AE%80%E5%8D%95%E8%B0%83%E5%BA%A6/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot-%E4%BD%BF%E7%94%A8-quartz-%E5%AF%B9%E4%BB%BB%E5%8A%A1%E8%BF%9B%E8%A1%8C%E7%AE%80%E5%8D%95%E8%B0%83%E5%BA%A6/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/springboot-%E4%BD%BF%E7%94%A8-quartz-%E5%AF%B9%E4%BB%BB%E5%8A%A1%E8%BF%9B%E8%A1%8C%E7%AE%80%E5%8D%95%E8%B0%83%E5%BA%A6/</guid>
       
     </item>
     
@@ -4516,11 +4516,11 @@ spring Boot 对静态资源访问提供了很好的支持，基本使用默认�
 public int isUserExists(String username,String password);&lt;/code&gt;
 查阅资料发现如下问题&lt;/p&gt;
 &lt;p&gt;mybatis从3.4.1开始支持java 8 的反射获取入参名了，所以入参不再是arg0，arg1了，不过仍然可以使用param1，param2的这种形式，在java8 编译时指定 -parameters 选项，可以直接使用#{username} #{password}，而不用改变你的接口入参&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot%E4%BC%A0%E5%80%BC%E6%8A%A5%E9%94%99parameterarg0notfoundavailableparametersareusernameparam1param2/</link>
+      <link>https://1218.fun/blog/2023/11/02/springboot%E4%BC%A0%E5%80%BC%E6%8A%A5%E9%94%99parameterarg0notfoundavailableparametersareusernameparam1param2/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot%E4%BC%A0%E5%80%BC%E6%8A%A5%E9%94%99parameterarg0notfoundavailableparametersareusernameparam1param2/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/springboot%E4%BC%A0%E5%80%BC%E6%8A%A5%E9%94%99parameterarg0notfoundavailableparametersareusernameparam1param2/</guid>
       
     </item>
     
@@ -4538,11 +4538,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
 &lt;p&gt;&lt;code&gt;spring:
   mvc:    static-path-pattern: /static/&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;项目中application.yml配置文件中，存在如上配置项时，访问静态资源文件要加static才行，当把这个配置项除掉时，不用加static作为前缀亦可进行正常访问。&lt;img alt=&#34;image (https://fastly.jsdelivr.net/gh/byronlau/imgs/doc/202307091688879498890392.png).png&#34; src=&#34;https://blog.mgd2008.com/zb_users/upload/2023/07/202307091688879498890392.png&#34;&gt;当spring boot自动装配 org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration，当执行到org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#addResourceHandlers方法时，类org.springframework.boot.autoconfigure.web.WebMvcProperties#staticPathPattern的默认值为 &#34;/&lt;/strong&gt;&#34;。如果配置项文件中存在spring.mvc.static-path-pattern 配置项，默认的配置项将会被覆盖。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%ADspringmvcstatic-path-pattern%E9%85%8D%E7%BD%AE%E9%A1%B9/</link>
+      <link>https://1218.fun/blog/2023/11/02/springboot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%ADspringmvcstatic-path-pattern%E9%85%8D%E7%BD%AE%E9%A1%B9/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%ADspringmvcstatic-path-pattern%E9%85%8D%E7%BD%AE%E9%A1%B9/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/springboot%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%ADspringmvcstatic-path-pattern%E9%85%8D%E7%BD%AE%E9%A1%B9/</guid>
       
     </item>
     
@@ -4557,11 +4557,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
       
       
       <description>&lt;p&gt;今天我的Ubuntu Linux 笔记本突然别人ssh 无法登录，查看防火墙是关闭状态，并且端口我也开放22了，但就是连不上。后边我突发奇想使用宝塔登录进去看一下，结果宝塔报错如下。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/ubuntussh%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</link>
+      <link>https://1218.fun/blog/2023/11/02/ubuntussh%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/ubuntussh%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/ubuntussh%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</guid>
       
     </item>
     
@@ -4578,11 +4578,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
       <description>&lt;h2&gt;什么是protobuf&lt;/h2&gt;
 &lt;p&gt;它是一个灵活、高效、结构化的序列化数据结构，它与传统的XML、JSON等相比，它更小、更快、更简单。&lt;/p&gt;
 &lt;p&gt;ProtoBuf是由Google开发的一种数据序列化协议（类似于XML、JSON、hessian）。ProtoBuf能够将数据进行序列化，并广泛应用在数据存储、通信协议等方面。protobuf压缩和传输效率高，语法简单，表达力强。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/protobuf%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+      <link>https://1218.fun/blog/2023/11/02/protobuf%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/protobuf%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/protobuf%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
       
     </item>
     
@@ -4603,11 +4603,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
 &lt;p&gt;。于是, 连接池就发挥作用了&lt;/p&gt;
 &lt;p&gt;连接池的原理是, 通过预先创建多个连接, 当进行 redis 操作时, 直接获取已经创建的连接进行操作, 而且操作完成后, 不会释放, 用于后续的其它 redis 操作&lt;/p&gt;
 &lt;p&gt;这样就达到了避免频繁的 redis 连接创建和释放的目的, 从而提高性能了&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/pythonredis%E4%B9%8B%E8%BF%9E%E6%8E%A5%E6%B1%A0%E7%9A%84%E5%8E%9F%E7%90%86md/</link>
+      <link>https://1218.fun/blog/2023/11/02/pythonredis%E4%B9%8B%E8%BF%9E%E6%8E%A5%E6%B1%A0%E7%9A%84%E5%8E%9F%E7%90%86md/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/pythonredis%E4%B9%8B%E8%BF%9E%E6%8E%A5%E6%B1%A0%E7%9A%84%E5%8E%9F%E7%90%86md/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/pythonredis%E4%B9%8B%E8%BF%9E%E6%8E%A5%E6%B1%A0%E7%9A%84%E5%8E%9F%E7%90%86md/</guid>
       
     </item>
     
@@ -4622,11 +4622,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
       
       
       <description>&lt;p&gt;Java 版本的基于Jedis 的 Redis 分布式锁实现&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+      <link>https://1218.fun/blog/2023/11/02/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
       
     </item>
     
@@ -4655,11 +4655,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/springboot%E6%9C%80%E5%A4%9A%E8%83%BD%E6%8E%A5%E5%8F%97%E5%A4%9A%E5%B0%91%E8%AF%B7%E6%B1%82/</link>
+      <link>https://1218.fun/blog/2023/11/02/springboot%E6%9C%80%E5%A4%9A%E8%83%BD%E6%8E%A5%E5%8F%97%E5%A4%9A%E5%B0%91%E8%AF%B7%E6%B1%82/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/springboot%E6%9C%80%E5%A4%9A%E8%83%BD%E6%8E%A5%E5%8F%97%E5%A4%9A%E5%B0%91%E8%AF%B7%E6%B1%82/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/springboot%E6%9C%80%E5%A4%9A%E8%83%BD%E6%8E%A5%E5%8F%97%E5%A4%9A%E5%B0%91%E8%AF%B7%E6%B1%82/</guid>
       
     </item>
     
@@ -4687,11 +4687,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%92%E6%8B%A8ip/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%92%E6%8B%A8ip/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%92%E6%8B%A8ip/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%92%E6%8B%A8ip/</guid>
       
     </item>
     
@@ -4707,11 +4707,11 @@ public int isUserExists(String username,String password);&lt;/code&gt;
       
       <description>&lt;h2&gt;问题背景&lt;/h2&gt;
 &lt;p&gt;在实际应用中，我们可能需要获取用户的ip地址，比如做异地登陆的判断，或者统计ip访问次数等，通常情况下我们使用request.getRemoteAddr()就可以获取到客户端ip，但是当我们使用了nginx作为反向代理后，使用request.getRemoteAddr()获取到的就一直是nginx服务器的ip的地址，那这时应该怎么办？&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%90%8E%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7ip%E4%BB%A5%E5%8F%8A%E9%98%B2%E6%AD%A2%E4%BC%AA%E9%80%A0ip/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%90%8E%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7ip%E4%BB%A5%E5%8F%8A%E9%98%B2%E6%AD%A2%E4%BC%AA%E9%80%A0ip/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%90%8E%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7ip%E4%BB%A5%E5%8F%8A%E9%98%B2%E6%AD%A2%E4%BC%AA%E9%80%A0ip/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%90%8E%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7ip%E4%BB%A5%E5%8F%8A%E9%98%B2%E6%AD%A2%E4%BC%AA%E9%80%A0ip/</guid>
       
     </item>
     
@@ -4762,11 +4762,11 @@ location / {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%AF%B9uri%E8%BF%9B%E8%A1%8C%E5%88%86%E5%88%AB%E8%AE%BF%E9%97%AE/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%AF%B9uri%E8%BF%9B%E8%A1%8C%E5%88%86%E5%88%AB%E8%AE%BF%E9%97%AE/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%AF%B9uri%E8%BF%9B%E8%A1%8C%E5%88%86%E5%88%AB%E8%AE%BF%E9%97%AE/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8nginx%E5%AF%B9uri%E8%BF%9B%E8%A1%8C%E5%88%86%E5%88%AB%E8%AE%BF%E9%97%AE/</guid>
       
     </item>
     
@@ -4781,11 +4781,11 @@ location / {
       
       
       <description>&lt;p&gt;&lt;code&gt;Collectors.toMap(CallCenterInfo::getType, Function.identity(), (existing, replacement) -&amp;gt; existing)&lt;/code&gt; 是使用 Java 8 中的流式操作的 &lt;code&gt;Collectors&lt;/code&gt; 类的一个静态方法，用于将流中的元素映射到一个 &lt;code&gt;Map&lt;/code&gt; 对象中。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8stream-%E4%B8%AD%E7%9A%84collectorstomap-%E8%BF%9B%E8%A1%8C%E5%88%86%E7%BB%84/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8stream-%E4%B8%AD%E7%9A%84collectorstomap-%E8%BF%9B%E8%A1%8C%E5%88%86%E7%BB%84/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8stream-%E4%B8%AD%E7%9A%84collectorstomap-%E8%BF%9B%E8%A1%8C%E5%88%86%E7%BB%84/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8stream-%E4%B8%AD%E7%9A%84collectorstomap-%E8%BF%9B%E8%A1%8C%E5%88%86%E7%BB%84/</guid>
       
     </item>
     
@@ -4813,11 +4813,11 @@ location / {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8python%E5%AE%9E%E7%8E%B0%E9%92%89%E9%92%89%E7%BE%A4%E5%91%8A%E8%AD%A6%E9%80%9A%E7%9F%A5md/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8python%E5%AE%9E%E7%8E%B0%E9%92%89%E9%92%89%E7%BE%A4%E5%91%8A%E8%AD%A6%E9%80%9A%E7%9F%A5md/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8python%E5%AE%9E%E7%8E%B0%E9%92%89%E9%92%89%E7%BE%A4%E5%91%8A%E8%AD%A6%E9%80%9A%E7%9F%A5md/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8python%E5%AE%9E%E7%8E%B0%E9%92%89%E9%92%89%E7%BE%A4%E5%91%8A%E8%AD%A6%E9%80%9A%E7%9F%A5md/</guid>
       
     </item>
     
@@ -4838,11 +4838,11 @@ rename &#39;s/特定字符串/ /g&#39; *&lt;/code&gt;
 将文件名中的特定字符串替换为其他字符串:
 &lt;code&gt;bash
 rename &#39;s/特定字符串/替换字符串/g&#39; *&lt;/code&gt;&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8rename%E5%91%BD%E4%BB%A4%E6%9D%A5%E5%AE%9E%E7%8E%B0%E6%89%B9%E9%87%8F%E6%9B%BF%E6%8D%A2%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E6%9F%90%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8rename%E5%91%BD%E4%BB%A4%E6%9D%A5%E5%AE%9E%E7%8E%B0%E6%89%B9%E9%87%8F%E6%9B%BF%E6%8D%A2%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E6%9F%90%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E4%BD%BF%E7%94%A8rename%E5%91%BD%E4%BB%A4%E6%9D%A5%E5%AE%9E%E7%8E%B0%E6%89%B9%E9%87%8F%E6%9B%BF%E6%8D%A2%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E6%9F%90%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E4%BD%BF%E7%94%A8rename%E5%91%BD%E4%BB%A4%E6%9D%A5%E5%AE%9E%E7%8E%B0%E6%89%B9%E9%87%8F%E6%9B%BF%E6%8D%A2%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%96%87%E4%BB%B6%E5%90%8D%E4%B8%AD%E7%9A%84%E6%9F%90%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
       
     </item>
     
@@ -4859,11 +4859,11 @@ rename &#39;s/特定字符串/替换字符串/g&#39; *&lt;/code&gt;&lt;/p&gt;</d
       <description>&lt;p&gt;如果 &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; 标签中包含了样式（style）属性，并且你想要去除这些样式。&lt;/p&gt;
 &lt;p&gt;首先，我们需要将正则表达式模式修改为匹配包含 style 属性的标签。可以使用&lt;code&gt;&amp;lt;p.*?&amp;gt;&lt;/code&gt; 和 &lt;code&gt;&amp;lt;span.*?&amp;gt;&lt;/code&gt; 这样就能匹配到带有样式属性的标签了。&lt;/p&gt;
 &lt;p&gt;其次，在处理文本片段之前，我们需要将样式属性从标签中移除。可以使用正则表达式的 replaceAll 方法，并传入 style=&#34;[^&#34;]*&#34; 作为要替换的模式。这个模式将匹配到 style=&#34; 开头，紧接着是零个或多个非双引号字符（样式属性值），最后以 &#34; 结尾的字符串。将它们替换为空字符串即可移除样式属性。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E5%8E%BB%E9%99%A4html%E7%9A%84p%E5%92%8C%E5%85%B6%E5%AE%83%E6%A0%87%E7%AD%BE%E8%8E%B7%E5%8F%96%E7%BA%AF%E6%96%87%E6%9C%AC/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E5%8E%BB%E9%99%A4html%E7%9A%84p%E5%92%8C%E5%85%B6%E5%AE%83%E6%A0%87%E7%AD%BE%E8%8E%B7%E5%8F%96%E7%BA%AF%E6%96%87%E6%9C%AC/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E5%8E%BB%E9%99%A4html%E7%9A%84p%E5%92%8C%E5%85%B6%E5%AE%83%E6%A0%87%E7%AD%BE%E8%8E%B7%E5%8F%96%E7%BA%AF%E6%96%87%E6%9C%AC/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E5%8E%BB%E9%99%A4html%E7%9A%84p%E5%92%8C%E5%85%B6%E5%AE%83%E6%A0%87%E7%AD%BE%E8%8E%B7%E5%8F%96%E7%BA%AF%E6%96%87%E6%9C%AC/</guid>
       
     </item>
     
@@ -4891,11 +4891,11 @@ rename &#39;s/特定字符串/替换字符串/g&#39; *&lt;/code&gt;&lt;/p&gt;</d
 &lt;p&gt;可对比install后的web项目 和 install后的工具类pom ， 生成的jar文件的目录结构是不同的哈！！！  &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E5%BC%95%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89springboot%E7%9A%84starter%E5%90%8E%E5%8D%B4%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9B%B8%E5%85%B3%E7%9A%84%E7%B1%BBboot-inf%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%9D%91/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E5%BC%95%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89springboot%E7%9A%84starter%E5%90%8E%E5%8D%B4%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9B%B8%E5%85%B3%E7%9A%84%E7%B1%BBboot-inf%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%9D%91/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E5%BC%95%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89springboot%E7%9A%84starter%E5%90%8E%E5%8D%B4%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9B%B8%E5%85%B3%E7%9A%84%E7%B1%BBboot-inf%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%9D%91/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E5%BC%95%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89springboot%E7%9A%84starter%E5%90%8E%E5%8D%B4%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9B%B8%E5%85%B3%E7%9A%84%E7%B1%BBboot-inf%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%9D%91/</guid>
       
     </item>
     
@@ -4910,11 +4910,11 @@ rename &#39;s/特定字符串/替换字符串/g&#39; *&lt;/code&gt;&lt;/p&gt;</d
       
       
       <description>&lt;p&gt;排序是一个很常见的功能，有根据大小正排序，也有逆排序，但有时候需要根据自定义的字段顺序进行排序，下边就是一中方法。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E5%88%97%E8%A1%A8%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%E5%AD%97%E6%AE%B5%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E5%88%97%E8%A1%A8%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%E5%AD%97%E6%AE%B5%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E5%88%97%E8%A1%A8%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%E5%AD%97%E6%AE%B5%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E5%88%97%E8%A1%A8%E4%B8%AD%E8%AE%BE%E7%BD%AE%E7%9A%84%E5%AD%97%E6%AE%B5%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F/</guid>
       
     </item>
     
@@ -4938,11 +4938,11 @@ rename &#39;s/特定字符串/替换字符串/g&#39; *&lt;/code&gt;&lt;/p&gt;</d
 &lt;p&gt;&lt;code&gt;python
 import yaml
 a = [&#39;item 1&#39;,&#39;item 2&#39;,&#39;item 3&#39;,&#39;item 4&#39;]yaml.dump(a, explicit_start=True, default_flow_style=False)&lt;/code&gt;&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E7%BC%96%E5%86%99pythonyaml%E5%92%8Cjson%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E7%BC%96%E5%86%99pythonyaml%E5%92%8Cjson%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E7%BC%96%E5%86%99pythonyaml%E5%92%8Cjson%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E7%BC%96%E5%86%99pythonyaml%E5%92%8Cjson%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       
     </item>
     
@@ -4962,11 +4962,11 @@ dependencies {
     implementation fileTree(dir: &#39;libs&#39;,includes: [&#39;.jar&#39;,&#39;.aar&#39;])
 }&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;Android 异常 android.os.NetworkOnMainThreadException&lt;/h2&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E8%AE%B0%E4%B8%80%E6%AC%A1androidsdk%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E8%AE%B0%E4%B8%80%E6%AC%A1androidsdk%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E8%AE%B0%E4%B8%80%E6%AC%A1androidsdk%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E8%AE%B0%E4%B8%80%E6%AC%A1androidsdk%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C/</guid>
       
     </item>
     
@@ -4982,11 +4982,11 @@ dependencies {
       
       <description>&lt;p&gt;在一次使用 &lt;strong&gt;jackson&lt;/strong&gt; 进行对象转JSON字符串的过程中，发现JSON每次都是空，即空的JSON对象 &lt;code&gt;{}&lt;/code&gt;，经过排查是由于之前在使用的时候没有给对象添加set方法:&lt;/p&gt;
 &lt;p&gt;字段的访问器方法不符合Java Bean 规范：&lt;code&gt;ObjectMapper&lt;/code&gt;默认使用Java Bean 规范来访问对象的字段和属性。简单来说，实体类对象要有get、set 方法。&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1jackson%E6%98%A0%E5%B0%84%E5%AE%9E%E4%BD%93%E7%B1%BB%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>https://1218.fun/blog/2023/11/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1jackson%E6%98%A0%E5%B0%84%E5%AE%9E%E4%BD%93%E7%B1%BB%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1jackson%E6%98%A0%E5%B0%84%E5%AE%9E%E4%BD%93%E7%B1%BB%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/02/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1jackson%E6%98%A0%E5%B0%84%E5%AE%9E%E4%BD%93%E7%B1%BB%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       
     </item>
     
@@ -5047,11 +5047,11 @@ dependencies {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/androidstudio%E6%89%93%E5%8C%85sdk/</link>
+      <link>https://1218.fun/blog/2023/11/01/androidstudio%E6%89%93%E5%8C%85sdk/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/androidstudio%E6%89%93%E5%8C%85sdk/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/androidstudio%E6%89%93%E5%8C%85sdk/</guid>
       
     </item>
     
@@ -5107,11 +5107,11 @@ dependencies {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/cdn%E5%8A%A0%E9%80%9F%E5%8E%9F%E7%90%86%E4%BB%A5%E5%8F%8A%E4%B8%8A%E7%BA%BF%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</link>
+      <link>https://1218.fun/blog/2023/11/01/cdn%E5%8A%A0%E9%80%9F%E5%8E%9F%E7%90%86%E4%BB%A5%E5%8F%8A%E4%B8%8A%E7%BA%BF%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/cdn%E5%8A%A0%E9%80%9F%E5%8E%9F%E7%90%86%E4%BB%A5%E5%8F%8A%E4%B8%8A%E7%BA%BF%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/cdn%E5%8A%A0%E9%80%9F%E5%8E%9F%E7%90%86%E4%BB%A5%E5%8F%8A%E4%B8%8A%E7%BA%BF%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/</guid>
       
     </item>
     
@@ -5143,11 +5143,11 @@ dependencies {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/doris%E8%A7%A3%E6%9E%90json/</link>
+      <link>https://1218.fun/blog/2023/11/01/doris%E8%A7%A3%E6%9E%90json/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/doris%E8%A7%A3%E6%9E%90json/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/doris%E8%A7%A3%E6%9E%90json/</guid>
       
     </item>
     
@@ -5176,11 +5176,11 @@ dependencies {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/goiota%E7%9A%84%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86/</link>
+      <link>https://1218.fun/blog/2023/11/01/goiota%E7%9A%84%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/goiota%E7%9A%84%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/goiota%E7%9A%84%E5%88%9D%E6%AD%A5%E8%AE%A4%E8%AF%86/</guid>
       
     </item>
     
@@ -5221,11 +5221,11 @@ dependencies {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/go%E6%8C%87%E9%92%88%E7%9A%84%E4%BD%9C%E7%94%A8%E5%92%8Cjava%E4%B8%AD%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E6%9C%89%E7%94%A8%E5%88%B0%E6%8C%87%E9%92%88/</link>
+      <link>https://1218.fun/blog/2023/11/01/go%E6%8C%87%E9%92%88%E7%9A%84%E4%BD%9C%E7%94%A8%E5%92%8Cjava%E4%B8%AD%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E6%9C%89%E7%94%A8%E5%88%B0%E6%8C%87%E9%92%88/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/go%E6%8C%87%E9%92%88%E7%9A%84%E4%BD%9C%E7%94%A8%E5%92%8Cjava%E4%B8%AD%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E6%9C%89%E7%94%A8%E5%88%B0%E6%8C%87%E9%92%88/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/go%E6%8C%87%E9%92%88%E7%9A%84%E4%BD%9C%E7%94%A8%E5%92%8Cjava%E4%B8%AD%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E6%9C%89%E7%94%A8%E5%88%B0%E6%8C%87%E9%92%88/</guid>
       
     </item>
     
@@ -5260,11 +5260,11 @@ dependencies {
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/ip%E4%BB%A3%E7%90%86%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <link>https://1218.fun/blog/2023/11/01/ip%E4%BB%A3%E7%90%86%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/ip%E4%BB%A3%E7%90%86%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/ip%E4%BB%A3%E7%90%86%E6%B1%A0%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
       
     </item>
     
@@ -5357,11 +5357,11 @@ public&amp;nbsp;class&amp;nbsp;IPRange&amp;nbsp;{
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/ip%E6%AE%B5%E5%88%92%E5%88%86%E5%92%8Cip%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81/</link>
+      <link>https://1218.fun/blog/2023/11/01/ip%E6%AE%B5%E5%88%92%E5%88%86%E5%92%8Cip%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/ip%E6%AE%B5%E5%88%92%E5%88%86%E5%92%8Cip%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/ip%E6%AE%B5%E5%88%92%E5%88%86%E5%92%8Cip%E5%AD%90%E7%BD%91%E6%8E%A9%E7%A0%81/</guid>
       
     </item>
     
@@ -5409,11 +5409,11 @@ public&amp;nbsp;class&amp;nbsp;IPRange&amp;nbsp;{
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/javascript%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E6%88%B3%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E8%BD%AC%E5%8C%96/</link>
+      <link>https://1218.fun/blog/2023/11/01/javascript%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E6%88%B3%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E8%BD%AC%E5%8C%96/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/javascript%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E6%88%B3%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E8%BD%AC%E5%8C%96/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/javascript%E8%8E%B7%E5%8F%96%E6%97%B6%E9%97%B4%E6%88%B3%E4%B8%8E%E6%97%B6%E9%97%B4%E6%88%B3%E8%BD%AC%E5%8C%96/</guid>
       
     </item>
     
@@ -5714,11 +5714,11 @@ lst.add(15);
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/</link>
+      <link>https://1218.fun/blog/2023/11/01/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85/</guid>
       
     </item>
     
@@ -6146,11 +6146,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/linux%E4%B8%8B%E5%AE%9E%E7%8E%B0mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%95%B0%E6%8D%AE%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%B9%B6%E5%AE%9A%E6%9C%9F%E5%88%A0%E9%99%A4%E4%BB%A5%E5%89%8D%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6/</link>
+      <link>https://1218.fun/blog/2023/11/01/linux%E4%B8%8B%E5%AE%9E%E7%8E%B0mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%95%B0%E6%8D%AE%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%B9%B6%E5%AE%9A%E6%9C%9F%E5%88%A0%E9%99%A4%E4%BB%A5%E5%89%8D%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/linux%E4%B8%8B%E5%AE%9E%E7%8E%B0mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%95%B0%E6%8D%AE%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%B9%B6%E5%AE%9A%E6%9C%9F%E5%88%A0%E9%99%A4%E4%BB%A5%E5%89%8D%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/linux%E4%B8%8B%E5%AE%9E%E7%8E%B0mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%95%B0%E6%8D%AE%E8%87%AA%E5%8A%A8%E5%A4%87%E4%BB%BD%E5%B9%B6%E5%AE%9A%E6%9C%9F%E5%88%A0%E9%99%A4%E4%BB%A5%E5%89%8D%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6/</guid>
       
     </item>
     
@@ -6180,11 +6180,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/linux%E4%B8%AD%E5%88%A9%E7%94%A8crontab%E5%81%9A%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%AF%A6%E8%A7%A3/</link>
+      <link>https://1218.fun/blog/2023/11/01/linux%E4%B8%AD%E5%88%A9%E7%94%A8crontab%E5%81%9A%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%AF%A6%E8%A7%A3/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/linux%E4%B8%AD%E5%88%A9%E7%94%A8crontab%E5%81%9A%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%AF%A6%E8%A7%A3/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/linux%E4%B8%AD%E5%88%A9%E7%94%A8crontab%E5%81%9A%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%AF%A6%E8%A7%A3/</guid>
       
     </item>
     
@@ -6216,11 +6216,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/modulenotfounderrornomodulenamedredis/</link>
+      <link>https://1218.fun/blog/2023/11/01/modulenotfounderrornomodulenamedredis/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/modulenotfounderrornomodulenamedredis/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/modulenotfounderrornomodulenamedredis/</guid>
       
     </item>
     
@@ -6251,11 +6251,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mysql%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</link>
+      <link>https://1218.fun/blog/2023/11/01/mysql%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mysql%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mysql%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%92%E5%BA%8F%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</guid>
       
     </item>
     
@@ -6348,11 +6348,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mybatis%E6%89%B9%E9%87%8F%E6%93%8D%E4%BD%9C/</link>
+      <link>https://1218.fun/blog/2023/11/01/mybatis%E6%89%B9%E9%87%8F%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mybatis%E6%89%B9%E9%87%8F%E6%93%8D%E4%BD%9C/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mybatis%E6%89%B9%E9%87%8F%E6%93%8D%E4%BD%9C/</guid>
       
     </item>
     
@@ -6381,11 +6381,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mysql%E4%BA%8B%E5%8A%A1/</link>
+      <link>https://1218.fun/blog/2023/11/01/mysql%E4%BA%8B%E5%8A%A1/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mysql%E4%BA%8B%E5%8A%A1/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mysql%E4%BA%8B%E5%8A%A1/</guid>
       
     </item>
     
@@ -6413,11 +6413,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mysql%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84/</link>
+      <link>https://1218.fun/blog/2023/11/01/mysql%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mysql%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mysql%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84/</guid>
       
     </item>
     
@@ -6446,11 +6446,11 @@ service&amp;nbsp;crond&amp;nbsp;status&amp;nbsp;//&amp;nbsp;crontab服务状态&
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mysql%E8%BF%98%E5%8E%9Fsql%E6%96%87%E4%BB%B6%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <link>https://1218.fun/blog/2023/11/01/mysql%E8%BF%98%E5%8E%9Fsql%E6%96%87%E4%BB%B6%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mysql%E8%BF%98%E5%8E%9Fsql%E6%96%87%E4%BB%B6%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mysql%E8%BF%98%E5%8E%9Fsql%E6%96%87%E4%BB%B6%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       
     </item>
     
@@ -6488,11 +6488,11 @@ add_header&amp;nbsp;&amp;#39;Access-Control-Allow-Methods&amp;#39;&amp;nbsp;&amp
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/nginx%E6%8C%87%E4%BB%A4add_header%E5%92%8Cproxy_set_header%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://1218.fun/blog/2023/11/01/nginx%E6%8C%87%E4%BB%A4add_header%E5%92%8Cproxy_set_header%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/nginx%E6%8C%87%E4%BB%A4add_header%E5%92%8Cproxy_set_header%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/nginx%E6%8C%87%E4%BB%A4add_header%E5%92%8Cproxy_set_header%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       
     </item>
     
@@ -6702,11 +6702,11 @@ transaction.del(&#34;key3&#34;);
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/jedismulti%E7%9A%84%E7%94%A8%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BD%9C%E7%94%A8/</link>
+      <link>https://1218.fun/blog/2023/11/01/jedismulti%E7%9A%84%E7%94%A8%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BD%9C%E7%94%A8/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/jedismulti%E7%9A%84%E7%94%A8%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BD%9C%E7%94%A8/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/jedismulti%E7%9A%84%E7%94%A8%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BD%9C%E7%94%A8/</guid>
       
     </item>
     
@@ -6724,11 +6724,11 @@ transaction.del(&#34;key3&#34;);
 &lt;p&gt;在实际开发过程中，增删改查操作都要涉及到请求参数的传递，今天这节就集中讲下在mybatis中传递参数的7中方法&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;单个参数的传递很简单没有什么好将的，这里主要说下多个参数的传递&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mybatis%E4%BC%A0%E5%8F%82%E7%9A%84%E4%B8%83%E7%A7%8D%E6%96%B9%E5%BC%8F/</link>
+      <link>https://1218.fun/blog/2023/11/01/mybatis%E4%BC%A0%E5%8F%82%E7%9A%84%E4%B8%83%E7%A7%8D%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mybatis%E4%BC%A0%E5%8F%82%E7%9A%84%E4%B8%83%E7%A7%8D%E6%96%B9%E5%BC%8F/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mybatis%E4%BC%A0%E5%8F%82%E7%9A%84%E4%B8%83%E7%A7%8D%E6%96%B9%E5%BC%8F/</guid>
       
     </item>
     
@@ -6763,11 +6763,11 @@ select&amp;nbsp;*&amp;nbsp;from&amp;nbsp;table1&amp;nbsp;where&amp;nbsp;name&amp
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mysqlnotlike%E4%B8%8D%E8%83%BD%E5%B0%86%E6%95%B0%E6%8D%AE%E5%AE%8C%E5%85%A8%E6%9F%A5%E5%87%BA%E6%9D%A5/</link>
+      <link>https://1218.fun/blog/2023/11/01/mysqlnotlike%E4%B8%8D%E8%83%BD%E5%B0%86%E6%95%B0%E6%8D%AE%E5%AE%8C%E5%85%A8%E6%9F%A5%E5%87%BA%E6%9D%A5/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mysqlnotlike%E4%B8%8D%E8%83%BD%E5%B0%86%E6%95%B0%E6%8D%AE%E5%AE%8C%E5%85%A8%E6%9F%A5%E5%87%BA%E6%9D%A5/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mysqlnotlike%E4%B8%8D%E8%83%BD%E5%B0%86%E6%95%B0%E6%8D%AE%E5%AE%8C%E5%85%A8%E6%9F%A5%E5%87%BA%E6%9D%A5/</guid>
       
     </item>
     
@@ -6850,11 +6850,11 @@ FROM
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/mysql%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E6%B7%BB%E5%8A%A0%E8%A1%8C%E5%8F%B7/</link>
+      <link>https://1218.fun/blog/2023/11/01/mysql%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E6%B7%BB%E5%8A%A0%E8%A1%8C%E5%8F%B7/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/mysql%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E6%B7%BB%E5%8A%A0%E8%A1%8C%E5%8F%B7/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/mysql%E6%9F%A5%E8%AF%A2%E7%BB%93%E6%9E%9C%E6%B7%BB%E5%8A%A0%E8%A1%8C%E5%8F%B7/</guid>
       
     </item>
     
@@ -6934,11 +6934,11 @@ nginx 支持在location块中使用if表达式，然后上述写法就可以简�
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/nginx-proxy_pass-%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>https://1218.fun/blog/2023/11/01/nginx-proxy_pass-%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/nginx-proxy_pass-%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/nginx-proxy_pass-%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       
     </item>
     
@@ -7061,11 +7061,11 @@ location&amp;nbsp;/ip/geo/v1/district/&amp;nbsp;{
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/nginxproxy_pass%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>https://1218.fun/blog/2023/11/01/nginxproxy_pass%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/nginxproxy_pass%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/nginxproxy_pass%E5%90%8Ehost%E6%8D%A2%E6%88%90%E5%8F%98%E9%87%8F%E5%90%8E%E5%8F%82%E6%95%B0%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       
     </item>
     
@@ -7102,11 +7102,11 @@ location&amp;nbsp;/ip/geo/v1/district/&amp;nbsp;{
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/11/01/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxy_passurl%E5%90%8E%E5%8A%A0%E5%92%8C%E4%B8%8D%E5%8A%A0%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://1218.fun/blog/2023/11/01/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxy_passurl%E5%90%8E%E5%8A%A0%E5%92%8C%E4%B8%8D%E5%8A%A0%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/11/01/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxy_passurl%E5%90%8E%E5%8A%A0%E5%92%8C%E4%B8%8D%E5%8A%A0%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/11/01/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxy_passurl%E5%90%8E%E5%8A%A0%E5%92%8C%E4%B8%8D%E5%8A%A0%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       
     </item>
     
@@ -7141,11 +7141,11 @@ location&amp;nbsp;/ip/geo/v1/district/&amp;nbsp;{
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/10/31/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84pc%E6%A8%A1%E5%BC%8F%E5%92%8C%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%A8%A1%E5%BC%8F%E9%92%88%E5%AF%B9%E4%BA%8E%E8%B7%A8%E5%9F%9F%E8%AE%BF%E9%97%AE%E6%9C%89%E5%95%A5%E4%B8%8D%E5%90%8C/</link>
+      <link>https://1218.fun/blog/2023/10/31/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84pc%E6%A8%A1%E5%BC%8F%E5%92%8C%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%A8%A1%E5%BC%8F%E9%92%88%E5%AF%B9%E4%BA%8E%E8%B7%A8%E5%9F%9F%E8%AE%BF%E9%97%AE%E6%9C%89%E5%95%A5%E4%B8%8D%E5%90%8C/</link>
       <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/10/31/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84pc%E6%A8%A1%E5%BC%8F%E5%92%8C%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%A8%A1%E5%BC%8F%E9%92%88%E5%AF%B9%E4%BA%8E%E8%B7%A8%E5%9F%9F%E8%AE%BF%E9%97%AE%E6%9C%89%E5%95%A5%E4%B8%8D%E5%90%8C/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/10/31/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84pc%E6%A8%A1%E5%BC%8F%E5%92%8C%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%A8%A1%E5%BC%8F%E9%92%88%E5%AF%B9%E4%BA%8E%E8%B7%A8%E5%9F%9F%E8%AE%BF%E9%97%AE%E6%9C%89%E5%95%A5%E4%B8%8D%E5%90%8C/</guid>
       
     </item>
     
@@ -7245,11 +7245,11 @@ return pageInfo;&lt;/code&gt;&lt;/p&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/blog/2023/10/30/%E4%BD%BF%E7%94%A8pagehelper%E5%9C%A8%E5%AF%B9%E6%95%B0%E6%8D%AE%E8%BF%9B%E8%A1%8C%E5%AF%B9%E8%B1%A1%E8%BD%AC%E6%8D%A2%E6%88%96%E8%80%85%E4%BD%BF%E7%94%A8stream%E6%93%8D%E4%BD%9C%E4%B9%8B%E5%90%8E%E5%88%86%E9%A1%B5%E5%A4%B1%E6%95%88/</link>
+      <link>https://1218.fun/blog/2023/10/30/%E4%BD%BF%E7%94%A8pagehelper%E5%9C%A8%E5%AF%B9%E6%95%B0%E6%8D%AE%E8%BF%9B%E8%A1%8C%E5%AF%B9%E8%B1%A1%E8%BD%AC%E6%8D%A2%E6%88%96%E8%80%85%E4%BD%BF%E7%94%A8stream%E6%93%8D%E4%BD%9C%E4%B9%8B%E5%90%8E%E5%88%86%E9%A1%B5%E5%A4%B1%E6%95%88/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/blog/2023/10/30/%E4%BD%BF%E7%94%A8pagehelper%E5%9C%A8%E5%AF%B9%E6%95%B0%E6%8D%AE%E8%BF%9B%E8%A1%8C%E5%AF%B9%E8%B1%A1%E8%BD%AC%E6%8D%A2%E6%88%96%E8%80%85%E4%BD%BF%E7%94%A8stream%E6%93%8D%E4%BD%9C%E4%B9%8B%E5%90%8E%E5%88%86%E9%A1%B5%E5%A4%B1%E6%95%88/</guid>
+      <guid isPermaLink="true">https://1218.fun/blog/2023/10/30/%E4%BD%BF%E7%94%A8pagehelper%E5%9C%A8%E5%AF%B9%E6%95%B0%E6%8D%AE%E8%BF%9B%E8%A1%8C%E5%AF%B9%E8%B1%A1%E8%BD%AC%E6%8D%A2%E6%88%96%E8%80%85%E4%BD%BF%E7%94%A8stream%E6%93%8D%E4%BD%9C%E4%B9%8B%E5%90%8E%E5%88%86%E9%A1%B5%E5%A4%B1%E6%95%88/</guid>
       
     </item>
     
@@ -7446,11 +7446,11 @@ return pageInfo;&lt;/code&gt;&lt;/p&gt;
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;</description>
-      <link>https://doc.mgd2008.com/notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/</link>
+      <link>https://1218.fun/notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/</link>
       <pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/</guid>
+      <guid isPermaLink="true">https://1218.fun/notebook/culture/%E9%81%93%E5%BE%B7%E7%BB%8F-81%E7%AF%87/</guid>
       
     </item>
     
@@ -7470,11 +7470,11 @@ return pageInfo;&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这是作者关于互联网 IT、运维开发、软件测评使用等相关的文章集，大部分为原创。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;cookbook image&#34; src=&#34;https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/yq-cookbook-cover.jpg&#34;&gt;&lt;/p&gt;</description>
-      <link>https://doc.mgd2008.com/cookbook/</link>
+      <link>https://1218.fun/cookbook/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/cookbook/</guid>
+      <guid isPermaLink="true">https://1218.fun/cookbook/</guid>
       
     </item>
     
@@ -7493,11 +7493,11 @@ return pageInfo;&lt;/code&gt;&lt;/p&gt;
 ![Welcome To My Notebook](https://shub-1251708715.cos.ap-guangzhou.myqcloud.com/mkdocs/yq-notebook-cover.jpg)
 &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
-      <link>https://doc.mgd2008.com/notebook/</link>
+      <link>https://1218.fun/notebook/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <source url="https://doc.mgd2008.com/feed_rss_created.xml">橘涂拾捌的知识花园</source>
+      <source url="https://1218.fun/feed_rss_created.xml">橘涂拾捌的知识花园</source>
       
-      <guid isPermaLink="true">https://doc.mgd2008.com/notebook/</guid>
+      <guid isPermaLink="true">https://1218.fun/notebook/</guid>
       
     </item>
     
